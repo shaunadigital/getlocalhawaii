@@ -1,27 +1,22 @@
 import type { Metadata, Viewport } from "next";
-import { Bricolage_Grotesque, IBM_Plex_Mono, IBM_Plex_Sans } from "next/font/google";
+import { Figtree, Playwrite_NG_Modern } from "next/font/google";
+
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 
-const bricolage = Bricolage_Grotesque({
-  variable: "--font-bricolage",
-  subsets: ["latin"],
-  weight: ["400", "600", "800"],
+// Two fonts only: Figtree for everything people read, Playwrite for the logo,
+// the byline greeting and small human touches. Figtree replaced LINE Seed JP,
+// whose macrons land on the following letter (Pīkake read as "Pik̄ake").
+const sans = Figtree({
+  variable: "--font-sans-face",
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "700", "800"],
   display: "swap",
 });
 
-const plexSans = IBM_Plex_Sans({
-  variable: "--font-plex-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
-
-const plexMono = IBM_Plex_Mono({
-  variable: "--font-plex-mono",
-  subsets: ["latin"],
-  weight: ["500", "600"],
+const playwrite = Playwrite_NG_Modern({
+  variable: "--font-playwrite",
   display: "swap",
 });
 
@@ -29,11 +24,11 @@ export const metadata: Metadata = {
   // Every canonical and Open Graph URL on the site resolves against this.
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME}: lei stands, markets and local produce`,
+    default: `Honolulu Airport Lei and Sending a Lei | ${SITE_NAME}`,
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "A directory of Hawaiʻi lei stands and local food sellers, built from public listings, with each listing showing where its information came from and when it was last checked.",
+    "Where to buy a lei at the Honolulu airport and how to send a fresh lei to the mainland, from someone born and raised on Oahu. Every page says when it was checked.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
@@ -44,21 +39,16 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0a2e33",
+  themeColor: "#15181b",
+  colorScheme: "light",
   width: "device-width",
   initialScale: 1,
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${bricolage.variable} ${plexSans.variable} ${plexMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+    <html lang="en" className={`${sans.variable} ${playwrite.variable}`}>
+      <body className="flex min-h-dvh flex-col antialiased">{children}</body>
     </html>
   );
 }

@@ -39,7 +39,7 @@ export const LEI_TYPES: LeiType[] = [
       "Pīkake is Arabian jasmine, and the Hawaiian name means peacock. It is usually traced to Princess Kaʻiulani, who kept peacocks at ʻĀinahau in Waikīkī and was fond of the flower. The lei is made from unopened buds rather than open blooms, strung tightly so the strand looks like a rope of small white beads. A single lei takes a great many buds, which is most of why pīkake costs more than an orchid or plumeria lei of the same length.",
       "The scent is the point. Pīkake is one of the most strongly perfumed lei you can buy in Honolulu, and it carries. Because the buds open and brown quickly once strung, pīkake is a same-day lei: order it for the day you need it, keep it in the refrigerator in a closed bag or container until you leave, and expect it to be at its best for that day rather than the week.",
       "Supply follows the weather. The plant flowers most heavily in the warm months, so pīkake is easiest to find and cheapest from late spring through autumn, and thinner and dearer in winter. Around graduation season and May Day, demand climbs fast and shops sell through what they have strung. If you need pīkake for a particular date, especially a double or triple strand, call ahead rather than turning up and hoping.",
-      "Several Chinatown shops list pīkake among their regular lei. Shops that post no product list at all may still make it to order, and the listings below say which is which.",
+      "Several Chinatown shops list pīkake among their regular lei. Shops that post no product list at all may still make it to order, and the listings above say which is which.",
     ],
   },
   {
@@ -55,7 +55,7 @@ export const LEI_TYPES: LeiType[] = [
       "The name means ten-cent flower, from what a single blossom or a strand of them is said to have cost when the name stuck. The flower is a long, narrow trumpet that opens creamy white in the evening, deepens to yellow through the following day, and finishes a warm orange-gold. A lei often carries blossoms at several stages at once, which is why a fresh puakenikeni strand shades from white through to amber along its length.",
       "It is strung whole rather than as buds, so the lei is bulkier and more sculptural than pīkake and reads from further away. The scent is heavy and sweet, closer to gardenia than to jasmine, and a single lei is generous on a warm day.",
       "Puakenikeni is a lei to order rather than to pick up. The blossoms bruise where they are handled and discolour where they are pressed, so shops that make them tend to string them close to the time you collect them rather than keep a rail of them ready. Trees in Hawaiʻi flower over much of the year with a summer peak, but individual shops get their flowers from particular growers or from a tree in someone's yard, so availability is far more shop-by-shop than it is for commercially grown orchid or carnation.",
-      "No listing on this site currently names puakenikeni in its posted product list. That does not mean nobody makes it; it means no source we have read says so. If you know a shop that strings it, tell us and we will add it.",
+      "No listing on this site currently names puakenikeni in its posted product list. That does not mean nobody makes it; it means no source I have read says so. If you know a shop that strings it, tell me and I will add it.",
     ],
   },
   {
@@ -70,7 +70,7 @@ export const LEI_TYPES: LeiType[] = [
       "Maile is not a flower lei. It is made from the glossy leaves and slim stems of a native forest vine, twisted or braided into a rope, and it is traditionally worn open: draped over the shoulders with both ends hanging loose rather than joined into a circle. That open form is part of why it turns up at weddings, blessings, graduations and store openings, and why it is the lei most often given to men.",
       "The smell is green rather than sweet, something between fresh-cut vine and vanilla, and it strengthens as the leaves are worked. Maile is frequently combined with other material, most often ti leaf, and a ti leaf maile is a common request at Honolulu shops.",
       "Two practical things matter when buying it. First, maile is gathered rather than grown on any scale, and a large share of what is sold in Honolulu arrives from the Cook Islands or Sāmoa rather than from Oʻahu forest. Supply therefore depends on shipments, not on a local season. Second, and following from that, maile is an order-ahead lei almost everywhere. Two days of notice is a common ask, and more than that around graduation. Turning up on the day and expecting maile on the rail is the one reliable way to be disappointed.",
-      "Shops below that name maile in their posted products are the place to start, and it is worth calling to confirm length and lead time.",
+      "Shops above that name maile in their posted products are the place to start, and it is worth calling to confirm length and lead time.",
     ],
   },
   {

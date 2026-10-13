@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
-import { ListingPage } from "@/components/ListingPage";
+import { ListingPage, type ListingPageProps } from "@/components/ListingPage";
 import { AREA_PAGES, DELIVERY, type PageCopy } from "@/content/pages";
 import { findLeiType } from "@/content/lei-types";
 import { getCategoryListing, getSlugSets } from "@/lib/queries";
@@ -19,6 +19,29 @@ import type { VendorSummary } from "@/lib/types";
  */
 
 export const dynamic = "force-dynamic";
+
+/** Photo and menu highlight for the pages that have them. */
+const PAGE_EXTRAS: Record<string, Partial<ListingPageProps>> = {
+  airport: {
+    heading: "Honolulu airport lei",
+    current: "/oahu/lei/airport",
+    image: {
+      src: "/images/plumeria-lei-greeting.jpg",
+      alt: "Hands placing a yellow plumeria lei over someone\u2019s shoulders",
+      position: "center 35%",
+    },
+  },
+  delivery: {
+    heading: "Send a lei to the mainland",
+    current: "/oahu/lei/delivery",
+    image: {
+      src: "/images/orchid-lei-stringing.jpg",
+      alt: "Hands stringing a purple and white orchid lei",
+      position: "center 45%",
+    },
+    proseTitle: "Before you order",
+  },
+};
 
 type Resolved = {
   copy: PageCopy;
@@ -41,7 +64,7 @@ function resolve(three: string): Resolved | null {
       // A shop qualifies when its own posted product list names the flower.
       filter: (vendor) =>
         vendor.productLabels.some((label) => asciiSlug(label) === type.slug),
-      emptyMessage: `No listing on this site names ${type.name.toLowerCase()} in its posted products yet. That does not mean nobody strings it, only that no source we have read says so. If you know a shop that does, tell us.`,
+      emptyMessage: `No listing on this site names ${type.name.toLowerCase()} in its posted products yet. That does not mean nobody strings it, only that no source I have read says so. If you know a shop that does, tell me.`,
     };
   }
 
@@ -111,19 +134,20 @@ export default async function CapturePage({
   const page = await load(one, two, three);
   if (!page) notFound();
 
+  const path = `/${one}/${two}/${three}`;
+  const extra = PAGE_EXTRAS[three] ?? {};
+
   return (
     <ListingPage
       heading={page.copy.heading}
+      {...extra}
       intro={page.copy.intro}
       body={page.copy.body}
       vendors={page.vendors}
-      now={new Date()}
-      path={`/${one}/${two}/${three}`}
-      back={{ href: `/${one}/${two}`, label: "All lei" }}
+      path={path}
       breadcrumbs={[
         { name: "Home", path: "/" },
-        { name: "Lei on Oʻahu", path: `/${one}/${two}` },
-        { name: page.copy.heading, path: `/${one}/${two}/${three}` },
+        { name: page.copy.heading, path },
       ]}
       emptyMessage={page.emptyMessage}
     />

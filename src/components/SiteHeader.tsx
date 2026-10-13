@@ -1,105 +1,55 @@
 import Link from "next/link";
 
-import { cn } from "@/lib/cn";
-import { mailto } from "@/lib/site";
+import { Logo } from "@/components/Logo";
+import { MenuIcon } from "@/components/Icons";
+import { NAV_LINKS } from "@/lib/site";
 
 /**
- * Dark teal chrome at the top of every page: wordmark, inline nav on desktop,
- * and the clock stamp. The clock is passed in rather than read here, so the
- * whole page renders against one instant in Hawaii.
- *
- * Each page supplies its own hero as children, because the four heroes differ
- * enough that a shared set of title props would fight every one of them.
+ * Logo and menu. Sits over the hero photo, so everything here is white.
+ * The phone menu is a <details> element: it works without JavaScript.
  */
-
-/**
- * Nav points only at pages meant to be found. The market calendar used to sit
- * here pointing at a noindexed placeholder; it comes back now that there are
- * seventeen sourced markets behind it, and it points at the listing rather
- * than at a second calendar page, because the listing is the calendar.
- *
- * Chinatown came out to make room. It is an area page one level down and is
- * still linked from the BY AREA block on /oahu/lei, which is where someone
- * looking for it would be.
- */
-export const NAV_LINKS = [
-  { href: "/oahu/lei", label: "All lei shops" },
-  { href: "/oahu/farmers-markets", label: "Farmers markets" },
-  { href: "/guides/graduation-lei", label: "Graduation" },
-  { href: "/oahu/lei/delivery", label: "Delivery" },
-  { href: mailto("Add a listing"), label: "Add a listing" },
-];
-
-export function NavLink({ href, label, className }: { href: string; label: string; className?: string }) {
-  const classes = cn("text-[13.5px] font-medium text-cream-muted hover:text-cream", className);
-  return href.startsWith("mailto:") ? (
-    <a href={href} className={classes}>
-      {label}
-    </a>
-  ) : (
-    <Link href={href} className={classes}>
-      {label}
-    </Link>
-  );
-}
-
-export interface SiteHeaderProps {
-  /** "WED AUG 19 · 9:41A", from clockLabel. */
-  clock?: string;
-  /** Back link shown under the wordmark on inner pages. */
-  back?: { href: string; label: string };
-  /** Share and save affordances, opposite the back link. */
-  actions?: React.ReactNode;
-  /** The page's hero. */
-  children?: React.ReactNode;
-  /** Widen the inner shell to the 940px desktop frame. */
-  wide?: boolean;
-  className?: string;
-}
-
-export function SiteHeader({ clock, back, actions, children, wide = true, className }: SiteHeaderProps) {
+export function SiteHeader({ current }: { current?: string }) {
   return (
-    <header className={cn("bg-kai-800 px-5 pt-4 pb-5 md:px-8 md:pt-[18px] md:pb-[30px]", className)}>
-      <div
-        className={cn(
-          "mx-auto max-w-(--container-column)",
-          wide && "md:max-w-(--container-shell)",
-        )}
-      >
-        <div className="flex items-center justify-between gap-4">
+    <div className="relative z-10 mx-auto flex w-full max-w-(--container-page) items-start justify-between gap-6 px-4 md:px-8">
+      <Logo />
+
+      <nav aria-label="Site" className="mt-[30px] hidden flex-wrap gap-x-7 gap-y-1 md:flex">
+        {NAV_LINKS.map((link) => (
           <Link
-            href="/"
-            className="font-display text-[19px] leading-none font-extrabold whitespace-nowrap text-cream hover:text-cream"
+            key={link.href}
+            href={link.href}
+            aria-current={link.href === current ? "page" : undefined}
+            className={`py-2 text-[15px] font-bold text-white no-underline [text-shadow:0_1px_8px_rgba(0,0,0,0.5)] hover:text-white ${
+              link.href === current ? "border-b-[3px] border-orchid" : ""
+            }`}
           >
-            GET LOCAL <span className="text-coral-light">HAWAIʻI</span>
+            {link.label}
           </Link>
+        ))}
+      </nav>
 
-          {/* Inline on desktop; on a phone the footer carries the same links. */}
-          <nav className="hidden items-center gap-5 md:flex">
-            {NAV_LINKS.map((link) => (
-              <NavLink key={link.href} {...link} />
-            ))}
-          </nav>
-
-          {clock ? <span className="mono-label text-mint md:hidden">{clock}</span> : null}
-        </div>
-
-        {back || actions ? (
-          <div className="mt-4 flex items-center justify-between gap-4 md:mt-5">
-            {back ? (
-              <Link href={back.href} className="text-[13px] font-medium text-cream-muted hover:text-cream">
-                <span aria-hidden="true">‹ </span>
-                {back.label}
-              </Link>
-            ) : (
-              <span />
-            )}
-            {actions}
-          </div>
-        ) : null}
-
-        {children ? <div className="mt-3.5 md:mt-[26px]">{children}</div> : null}
-      </div>
-    </header>
+      <details className="group relative mt-3.5 md:hidden">
+        <summary
+          aria-label="Open menu"
+          className="flex size-11 cursor-pointer list-none items-center justify-center rounded-lg border border-white/35 bg-ink/55 text-white [&::-webkit-details-marker]:hidden"
+        >
+          <MenuIcon />
+        </summary>
+        <nav
+          aria-label="Site"
+          className="absolute top-13 right-0 flex w-56 flex-col rounded-xl bg-ink p-2 shadow-[0_16px_40px_rgba(0,0,0,0.35)]"
+        >
+          {NAV_LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="rounded-lg px-3 py-3 text-[16px] font-bold text-white no-underline hover:bg-white/10 hover:text-white"
+            >
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+      </details>
+    </div>
   );
 }

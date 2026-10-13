@@ -87,7 +87,8 @@ export function itemListSchema(
     itemListElement: vendors.map((vendor, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      url: absoluteUrl(`/${vendor.categorySlug}/${vendor.slug}`),
+      // Shop pages are paused, so each item points at its card on this page.
+      url: absoluteUrl(`${options.path}#${vendor.slug}`),
       name: vendor.name,
     })),
   });

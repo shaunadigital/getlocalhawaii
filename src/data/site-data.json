@@ -1,0 +1,4014 @@
+{
+ "exported_at": "2026-10-11T23:23:11.882596+00:00",
+ "islands": [
+  {
+   "id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "name": "Oʻahu",
+   "slug": "oahu"
+  },
+  {
+   "id": "3c8b4927-a94b-49eb-a0e3-655c4f2cb9d1",
+   "name": "Maui",
+   "slug": "maui"
+  },
+  {
+   "id": "34234316-eb46-4d96-a56f-380d4a582e43",
+   "name": "Hawaiʻi Island",
+   "slug": "hawaii"
+  },
+  {
+   "id": "99e90ac0-ee07-4849-9fda-96ce04729ee2",
+   "name": "Kauaʻi",
+   "slug": "kauai"
+  },
+  {
+   "id": "1e706ad0-e2bd-429d-b7da-afb4505366a6",
+   "name": "Molokaʻi",
+   "slug": "molokai"
+  },
+  {
+   "id": "ac4b0a69-c9c9-49ba-8de7-587331979997",
+   "name": "Lānaʻi",
+   "slug": "lanai"
+  }
+ ],
+ "categories": [
+  {
+   "id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "name": "Lei",
+   "slug": "lei"
+  },
+  {
+   "id": "64531f51-7997-423f-aec9-9ea272940db6",
+   "name": "Poi",
+   "slug": "poi"
+  },
+  {
+   "id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "name": "Fish",
+   "slug": "fish"
+  },
+  {
+   "id": "4bbb846b-1d33-415a-871d-fcc5dda2f2e2",
+   "name": "Produce",
+   "slug": "produce"
+  },
+  {
+   "id": "78d893e0-987e-4902-b6f6-d3c9565b9837",
+   "name": "Farmers markets",
+   "slug": "farmers-markets"
+  }
+ ],
+ "vendors": [
+  {
+   "id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "slug": "hookipa-kalo-farm",
+   "name": "Hoʻokipa Kalo Farm",
+   "category_id": "64531f51-7997-423f-aec9-9ea272940db6",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kaimukī",
+   "description": "Poi, kalo, lūʻau leaf",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": 5.4,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": "cash only",
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-19T22:14:10.302465+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": null,
+   "source_url": null
+  },
+  {
+   "id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "slug": "kahuku-mango-bros",
+   "name": "Kahuku Mango Bros",
+   "category_id": "4bbb846b-1d33-415a-871d-fcc5dda2f2e2",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kahuku",
+   "description": "Mango, lychee, papaya",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": 5.4,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-19T22:14:10.302465+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": null,
+   "source_url": null
+  },
+  {
+   "id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "slug": "nalo-greens",
+   "name": "Nalo Greens",
+   "category_id": "4bbb846b-1d33-415a-871d-fcc5dda2f2e2",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waimānalo",
+   "description": "Salad greens, herbs, tomatoes",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": 5.4,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-19T22:14:10.302465+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": null,
+   "source_url": null
+  },
+  {
+   "id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "slug": "windward-fish-guy",
+   "name": "Windward Fish Guy",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kāneʻohe",
+   "description": "ʻAhi, aku",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": 5.4,
+   "phone": null,
+   "contact_method": "text",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-19T22:14:10.302465+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": null,
+   "source_url": null
+  },
+  {
+   "id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "slug": "cindys-lei-shoppe",
+   "name": "Cindy's Lei Shoppe",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Pīkake, maile, plumeria and haku lei, made to order",
+   "story": "A family business on Maunakea Street since 1959, and the Star-Advertiser readers' pick for best lei stand in twelve of the last thirteen years.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 536-6538",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Curbside pickup: call when you reach Maunakea and Beretania and they bring the order out to the car. Ships fresh lei to all fifty states.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "1034 Maunakea St, Honolulu, HI 96817",
+   "website": "https://www.cindysleishoppe.com",
+   "ships_mainland": true,
+   "source_url": "https://www.cindysleishoppe.com"
+  },
+  {
+   "id": "a7c78e1a-b9d2-48d2-a0da-34cbd43c3b39",
+   "slug": "shirleys-flowers",
+   "name": "Shirley's Flowers",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 536-2218",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "1176-C Maunakea St, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.hawaii-guide.com/blog/where-to-buy-fresh-flower-lei-oahu-visitor-guide"
+  },
+  {
+   "id": "79174193-2a39-47c5-8a55-bc3cf34373cb",
+   "slug": "nitas-leis",
+   "name": "Nita's Leis & Flower Shoppe",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 521-9065",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "59 N Beretania St, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.hawaii-guide.com/blog/where-to-buy-fresh-flower-lei-oahu-visitor-guide"
+  },
+  {
+   "id": "590b85de-1653-4afe-9e57-b0a36c3bf170",
+   "slug": "island-gifts-flowers",
+   "name": "Island Gifts & Flowers",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 537-5347",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "69 N Beretania St, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.hawaii-guide.com/blog/where-to-buy-fresh-flower-lei-oahu-visitor-guide"
+  },
+  {
+   "id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "slug": "mp-lei-shop",
+   "name": "M P Lei Shop",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 531-3206",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "1145 Maunakea St #2, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "http://hichinatown.com/shopping/mpleishop"
+  },
+  {
+   "id": "1ef69d6d-254c-4b0c-ab04-ff2fe0c041f3",
+   "slug": "pauahi-leis",
+   "name": "Pauahi Leis",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": "A small shop run by Lilia and her daughter Lenny.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On Pauahi Street. The exact address and phone number are not confirmed.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": false,
+   "source_url": "https://alohawithlove.com/shopping/best-fresh-lei-shops-in-oahu/"
+  },
+  {
+   "id": "905d29d7-1fea-4e24-96e8-2b65e5dc1c16",
+   "slug": "maunakea-florist",
+   "name": "Maunakea Florist",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On Maunakea Street. The exact address and phone number are not confirmed.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": null,
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "http://www.hawaiiforvisitors.com/islands/oahu-island/towns/chinatown/attractions/lei-shops.htm"
+  },
+  {
+   "id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "slug": "harriets-lei-stand",
+   "name": "Harriet's Lei Stand",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Airport",
+   "description": "Fresh flower lei at the airport lei stands",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Stall 1 on the airport lei road, before Terminal 1. The state airports page lists the lei stands as generally open 6a to 10p; this stand does not post its own hours.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "300 Rodgers Blvd Stall 1, Honolulu, HI 96819",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://airports.hawaii.gov/hnl/services-amenities/lei-greeting/"
+  },
+  {
+   "id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "slug": "rachels-lei-stand",
+   "name": "Rachel's Lei Stand",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Airport",
+   "description": "Fresh flower lei and arrangements",
+   "story": "Family owned and run for more than ninety years, per the Native Hawaiian Business Directory.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On the airport lei road; the stall number is not confirmed. The state airports page lists the lei stands as generally open 6a to 10p.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "300 Rodgers Blvd, Honolulu, HI 96819",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://kanakaeconomy.com/listing/rachels-lei-stand/"
+  },
+  {
+   "id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "slug": "dorothys-lei-stand",
+   "name": "Dorothy's Lei Stand",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Airport",
+   "description": null,
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On the airport lei road; the stall number is not confirmed. The state airports page lists the lei stands as generally open 6a to 10p.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "300 Rodgers Blvd, Honolulu, HI 96819",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://thehawaiivacationguide.com/best-lei-greeting-honolulu-airport/"
+  },
+  {
+   "id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "slug": "gladys-lei-stand",
+   "name": "Gladys' Lei Stand",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Airport",
+   "description": null,
+   "story": "Opened by Moana Umi, whose mother Rachel Aanana sold lei on the waterfront and on Maunakea Street. The family stand has been on Lagoon Drive since 1948.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On the airport lei road; the stall number is not confirmed. The state airports page lists the lei stands as generally open 6a to 10p.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "300 Rodgers Blvd, Honolulu, HI 96819",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.hawaiipublicradio.org/local-news/2023-04-28/women-behind-honolulu-airports-lei-stands-adorning-hawaii"
+  },
+  {
+   "id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "slug": "mailes-lei-stand",
+   "name": "Maile's Lei Stand",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Airport",
+   "description": null,
+   "story": "A family lei stand since 1945, when it worked out of a truck on Lagoon Drive. It took the name Maile's in 1962, when Maile Lee inherited it.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On the airport lei road; the stall number is not confirmed. The state airports page lists the lei stands as generally open 6a to 10p.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "300 Rodgers Blvd, Honolulu, HI 96819",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.hawaiipublicradio.org/local-news/2023-04-28/women-behind-honolulu-airports-lei-stands-adorning-hawaii"
+  },
+  {
+   "id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "slug": "watanabe-floral",
+   "name": "Watanabe Floral",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kalihi",
+   "description": "Florist with a lei department, island-wide delivery",
+   "story": "A full-service florist with its own lei department, taking orders online and delivering island-wide.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "On Nimitz between Kalihi Street and Waikamilo Road.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "1618 N Nimitz Hwy, Honolulu, HI 96817",
+   "website": "https://watanabefloral.com",
+   "ships_mainland": true,
+   "source_url": "https://watanabefloral.com/lei-from-hawaii/"
+  },
+  {
+   "id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "slug": "lins-lei-shop",
+   "name": "Lin's Lei Shop",
+   "category_id": "ebffa981-08fa-45a0-8650-0c93da40fad9",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Fresh flower lei made to order, plus arrangements and wedding bouquets",
+   "story": "A family owned and operated shop on Maunakea Street, voted best lei stand in the 2017 and 2018 Best of hiChinatown awards.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 537-4112",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Their own website is offline, so the list of what they make comes from an archived copy of it from January 2021 and may have changed. The hours come from their hiChinatown listing.",
+   "is_active": true,
+   "created_at": "2026-08-20T02:31:49.790699+00:00",
+   "address": "1017 Maunakea St, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "http://hichinatown.com/shopping/linsleishop"
+  },
+  {
+   "id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "slug": "nicos-pier-38-fish-market",
+   "name": "Nico's Pier 38 Fish Market",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Pier 38",
+   "description": "Auction-fresh fillets, poke and smoked seafood",
+   "story": "Founded by chef Nico Chaize next door to the Honolulu Fish Auction, which is where the fish counter buys each morning.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 983-1263",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "The sit-down restaurant at the same address is a separate operation with its own phone and later hours; this listing is the retail fish market. Prepared-food counters inside the market keep shorter hours than the market itself.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "1129 N Nimitz Hwy, Honolulu, HI 96817",
+   "website": "https://nicospier38.com/fish-market/",
+   "ships_mainland": null,
+   "source_url": "https://nicospier38.com/fish-market/"
+  },
+  {
+   "id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "slug": "pier-38-fish-market",
+   "name": "Pier 38 Fish Market",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Pier 38",
+   "description": "Fresh fillets, sashimi platters and poke kits",
+   "story": "The retail arm of Fresh Island Fish Co., a wholesale distributor since 1977 sourcing from the Hawaii Longline Association. It says it is Hawaiʻi's first and only MSC-certified fish market, and sold wholesale only until the pandemic.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 784-4988",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Two fish markets sit side by side at Pier 38; Nico's next door at 1129 is a different business. Online orders for local pickup at shop.pier38fishmarket.com.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "1135 N Nimitz Hwy, Honolulu, HI 96817",
+   "website": "https://pier38fishmarket.com",
+   "ships_mainland": null,
+   "source_url": "https://pier38fishmarket.com"
+  },
+  {
+   "id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "slug": "alicias-market",
+   "name": "Alicia's Market",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kalihi",
+   "description": "Kalihi corner market with a poke case about 18 varieties deep",
+   "story": "Founded in 1949 by Alicia and Raymond Kam and now run by their grandsons Chris and Brad. A 2018 fire destroyed the kitchen; the store reopened in the rebuilt original location in late 2022.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 841-1921",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Hours are as reported by Honolulu Magazine; the store's own site does not post them.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "267 Mokauea St, Honolulu, HI 96819",
+   "website": "https://aliciasmarket.com",
+   "ships_mainland": null,
+   "source_url": "https://www.honolulumagazine.com/alicias-market-just-moved-back-into-its-original-kalihi-location/"
+  },
+  {
+   "id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "slug": "poke-by-the-pound",
+   "name": "Poke by the Pound",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kalihi",
+   "description": "Poke and sashimi by the pound",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 744-1222",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "The shop says all its fish is sourced locally and never frozen.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "322 Kalihi St, Honolulu, HI 96819",
+   "website": "https://www.pokebythepound.com",
+   "ships_mainland": null,
+   "source_url": "https://www.pokebythepound.com"
+  },
+  {
+   "id": "19c951fb-dc1a-4f03-a1e0-8415df8346c6",
+   "slug": "honolulu-fish-company",
+   "name": "Honolulu Fish Company",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kalihi",
+   "description": "Sashimi-grade fish shipped overnight anywhere in the US",
+   "story": "Founded in 1995 by marine biologist Wayne Samiere, buying hand-selected fish at the Honolulu Fish Auction each morning. No net-caught fish and no immature fish.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Primarily an online and wholesale business; whether walk-in retail exists at Gulick Avenue is not stated anywhere, so call before visiting. Consumer orders at honolulufishmarket.com ship overnight in a cold-chain box.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "824 Gulick Ave, Honolulu, HI 96819",
+   "website": "https://honolulufish.com",
+   "ships_mainland": true,
+   "source_url": "https://honolulufish.com/pages/contact-us"
+  },
+  {
+   "id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "slug": "maguro-brothers-chinatown",
+   "name": "Maguro Brothers Hawaii",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Sashimi and poke bowls from the morning fish auction",
+   "story": "Run by brothers Junichiro and Ryojiro Tsuchiya, who opened in Kekaulike Market in 2014 and later moved to Maunakea Marketplace. The fish is bought directly from the Honolulu fish auction.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Inside Maunakea Marketplace. Sells bowls, cups and platters rather than fillets by the pound; custom sashimi platters can be preordered online.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "1120 Maunakea St, Honolulu, HI 96817",
+   "website": "https://magurobrothershawaii.com",
+   "ships_mainland": false,
+   "source_url": "https://magurobrothershawaii.com"
+  },
+  {
+   "id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "slug": "maguro-brothers-waikiki",
+   "name": "Maguro Brothers Hawaii Waikīkī",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waikīkī",
+   "description": "Evening sashimi and poke bowls",
+   "story": "The evening location of the Chinatown stand, opened in 2016 and later moved to Kalākaua Avenue.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Open evenings only. Same auction-sourced fish as the Chinatown location.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "2250 Kalākaua Ave, Honolulu, HI 96815",
+   "website": "https://magurobrothershawaii.com",
+   "ships_mainland": false,
+   "source_url": "https://magurobrothershawaii.com"
+  },
+  {
+   "id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "slug": "morning-catch",
+   "name": "Morning Catch",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Poke by the pound inside Oʻahu Market",
+   "story": "Opened in March 2021 inside Oʻahu Market, with fish from the 88 Fresh Fish stall next door, sauced to order.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 840-7155",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Hours are as reported by Honolulu Magazine in 2024. A second counter in Kekaulike Market facing Hotel Street opened in 2023.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "145 N King St #12, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.honolulumagazine.com/morning-catch/"
+  },
+  {
+   "id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "slug": "88-fresh-fish",
+   "name": "88 Fresh Fish",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Fresh whole fish daily inside Oʻahu Market",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 524-6988",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Hours are as listed in the Slow Food Oʻahu guide. Cleaning and filleting are free. Supplies the Morning Catch poke counter next door.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "145 N King St #23, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://slowfoodoahu.com/articles/buy-local-fish-on-oahu.html"
+  },
+  {
+   "id": "0b6d3a30-1b92-4aff-a4f0-b2b9808155f6",
+   "slug": "blue-seafood-company",
+   "name": "Blue Seafood Company",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Chinatown",
+   "description": "Daily-changing fresh fish and poke in Maunakea Marketplace",
+   "story": "Opened in February 2025 with a fresh fish counter and a food-court stall that will cook your purchase.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Published sources conflict on both the phone number and the exact hours, so neither is listed here; the market side has been reported open roughly 7a to 3:30p daily.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "1120 Maunakea St Ste 168, Honolulu, HI 96817",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://alohastatedaily.com/2025/02/28/new-seafood-market-swims-into-honolulus-chinatown/"
+  },
+  {
+   "id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "slug": "yamas-fish-market",
+   "name": "Yama's Fish Market",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Mōʻiliʻili",
+   "description": "Poke and Hawaiian food, takeout only",
+   "story": "Family-run since 1980, growing from a neighborhood fish market into a Hawaiian food institution. The ʻahi comes from the daily Honolulu fish auction and the limu poke is the signature.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 941-9994",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Takeout only, no seating, with seven parking stalls on site. The site posts a full holiday-hours schedule each year.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "2332 Young St, Honolulu, HI 96826",
+   "website": "https://yamasfishmarket.com",
+   "ships_mainland": null,
+   "source_url": "https://yamasfishmarket.com/contact"
+  },
+  {
+   "id": "56679393-4653-4991-abe9-a7b51a42a0cf",
+   "slug": "ono-seafood",
+   "name": "Ono Seafood",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kapahulu",
+   "description": "Made-to-order poke by the pound",
+   "story": "The Kapahulu original opened in 2006; a second location followed in Kalama Valley in 2019.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 732-4806",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "No working website; the old domain is parked and several lookalike sites are unofficial. Posted hours could not be confirmed from a current source, so call ahead.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "747 Kapahulu Ave, Honolulu, HI 96816",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://onolicioushawaii.com/ono-seafood/"
+  },
+  {
+   "id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "slug": "fresh-catch-kapahulu",
+   "name": "Fresh Catch",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kapahulu",
+   "description": "Poke, sashimi platters and plate lunches",
+   "story": "Chef and owner Reno Henriques buys off the Honolulu auction block. First place in Hawaiʻi's Best 2023.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 735-7653",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Takeout deli format, not a sit-down restaurant. A Sand Island food truck also runs Fridays 10a to 1p.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "1113 Kapahulu Ave, Honolulu, HI 96816",
+   "website": "https://www.freshcatch808.com",
+   "ships_mainland": null,
+   "source_url": "https://www.freshcatch808.com"
+  },
+  {
+   "id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "slug": "fresh-catch-kaneohe",
+   "name": "Fresh Catch Kāneʻohe",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kāneʻohe",
+   "description": "Poke, sashimi platters and plate lunches, windward side",
+   "story": "The windward location of Fresh Catch, Chef Reno Henriques' takeout seafood deli.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 235-7653",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Closes an hour later than the Kapahulu shop on Tuesday through Saturday.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "45-1002 Kamehameha Hwy, Kāneʻohe, HI 96744",
+   "website": "https://www.freshcatch808.com",
+   "ships_mainland": null,
+   "source_url": "https://www.freshcatch808.com"
+  },
+  {
+   "id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "slug": "off-the-hook-poke-market",
+   "name": "Off the Hook Poke Market",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Mānoa",
+   "description": "ʻAhi poke by the pound from the daily auction",
+   "story": "Opened in 2018; its Cold Ginger ʻAhi with ginger scallion sauce is the signature. All ʻahi comes fresh from the Honolulu Fish Auction daily.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 800-6865",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": null,
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "2908 E Mānoa Rd, Honolulu, HI 96822",
+   "website": "https://www.offthehookpokemarket.com",
+   "ships_mainland": null,
+   "source_url": "https://www.offthehookpokemarket.com"
+  },
+  {
+   "id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "slug": "tamuras-waialae",
+   "name": "Tamura's Fine Wine & Liquors Waiʻalae",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kaimukī",
+   "description": "Poke bar inside the wine shop",
+   "story": "Four generations of the Tamura family; the wine shops date to 1995 and every location runs a poke bar made fresh daily.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 735-7100",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Takeout only; the poke can sell out by afternoon.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "3496 Waiʻalae Ave, Honolulu, HI 96816",
+   "website": "https://www.tamurasfinewine.com",
+   "ships_mainland": null,
+   "source_url": "https://www.tamurasfinewine.com/poke"
+  },
+  {
+   "id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "slug": "tamuras-pearlridge",
+   "name": "Tamura's Fine Wine & Liquors Pearlridge",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Aiea",
+   "description": "Poke bar inside the wine shop",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 488-7444",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Takeout only; the poke can sell out by afternoon.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "98-129 Kaonohi St Ste 6003, Aiea, HI 96701",
+   "website": "https://www.tamurasfinewine.com",
+   "ships_mainland": null,
+   "source_url": "https://www.tamurasfinewine.com/poke"
+  },
+  {
+   "id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "slug": "tamuras-aikahi",
+   "name": "Tamura's Fine Wine & Liquors Aikahi",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kailua",
+   "description": "Poke bar inside the wine shop",
+   "story": null,
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 254-2000",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Takeout only; the poke can sell out by afternoon.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "25 Kaneohe Bay Dr #106, Kailua, HI 96734",
+   "website": "https://www.tamurasfinewine.com",
+   "ships_mainland": null,
+   "source_url": "https://www.tamurasfinewine.com/poke"
+  },
+  {
+   "id": "649dce42-1ab6-4179-90cb-22c761ac9ae0",
+   "slug": "kbay-bros-fish-and-ice",
+   "name": "K.Bay Bros Fish & Ice",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kāneʻohe",
+   "description": "20-plus poke varieties daily, plus bagged ice",
+   "story": "Opened in September 2021 across from Windward Mall by the four Koki brothers, who grew up fishing off Heʻeia. The name honors Kāneʻohe Bay.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": null,
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "The fish is a mix of fresh and frozen from local fishermen and suppliers. Posted hours could not be confirmed from a current source, so check before driving over.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "46-028 Kawa St, Kāneʻohe, HI 96744",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://www.honolulumagazine.com/kaneohes-new-poke-shop-has-more-than-20-varieties-daily/"
+  },
+  {
+   "id": "a78ed1b7-e37f-4c3e-a0d7-b366ae0b847e",
+   "slug": "kahuku-superette",
+   "name": "Kahuku Superette",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kahuku",
+   "description": "Famous poke counter at the back of a country store",
+   "story": "A plain convenience store with a poke counter that made it a required stop on round-island drives. The shoyu poke is the signature.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 293-9878",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Published sources conflict on the hours and the store posts none online, so call ahead.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "56-505 Kamehameha Hwy, Kahuku, HI 96731",
+   "website": null,
+   "ships_mainland": null,
+   "source_url": "https://migrationology.com/hawaiian-poke-bowl-kahuku-superette/"
+  },
+  {
+   "id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "slug": "taniokas",
+   "name": "Tanioka's Seafoods & Catering",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waipahu",
+   "description": "Poke, sashimi and okazuya since 1978",
+   "story": "Founded in 1978 by Mel and Lynn Tanioka, growing from one rented retail stall into its own building. Their children Jasmine and Justin run it today.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 671-3779",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Online ordering for pickup. Merchandise ships to the mainland but the food does not.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "94-903 Farrington Hwy, Waipahu, HI 96797",
+   "website": "https://taniokas.com",
+   "ships_mainland": false,
+   "source_url": "https://taniokas.getbento.com/location/taniokas-seafoods-catering/"
+  },
+  {
+   "id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "slug": "waianae-store",
+   "name": "Waiʻanae Store",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waiʻanae",
+   "description": "Supermarket with fresh poke on the Waiʻanae coast",
+   "story": "A family-owned supermarket since 1949, operated by Okimoto Corp, and the largest food store on the coast between Kapolei and Mākaha.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 696-3131",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "The store advertises fresh poke and a meat and fish counter but does not list fish types.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "85-863 Farrington Hwy, Waiʻanae, HI 96792",
+   "website": "https://www.waianaestore.com",
+   "ships_mainland": null,
+   "source_url": "https://www.waianaestore.com"
+  },
+  {
+   "id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "slug": "local-ia",
+   "name": "Local Iʻa",
+   "category_id": "7e2ce1e6-4c2e-4302-94aa-feacd367d833",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kaimukī",
+   "description": "Community supported fishery with weekly island fish shares",
+   "story": "Hawaiʻi's first community supported fishery, built around loko iʻa and supporting lawaiʻa who fish with pono practices. Fish is island-local, line- or spear-caught and sashimi-grade.",
+   "lat": null,
+   "lng": null,
+   "distance_mi": null,
+   "phone": "(808) 492-8331",
+   "contact_method": "call",
+   "payment_notes": null,
+   "good_to_know": "Retail hours are as listed in the Slow Food Oʻahu guide; the Kaimukī outlet opens Friday and Saturday only, and a Sunday morning stand runs at the Mililani Farmers Market. Weekly CSF shares pick up at locations across the island.",
+   "is_active": true,
+   "created_at": "2026-08-27T07:23:10.097077+00:00",
+   "address": "3458 Waiʻalae Ave, Honolulu, HI 96816",
+   "website": "https://www.localiahawaii.com",
+   "ships_mainland": null,
+   "source_url": "https://slowfoodoahu.com/articles/buy-local-fish-on-oahu.html"
+  }
+ ],
+ "vendor_hours": [
+  {
+   "id": "19f0b0f9-a088-4dc3-b899-74e694daa125",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "12:00:00"
+  },
+  {
+   "id": "81ddb46e-bb1a-453a-91a3-27fd40f829e2",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "day_of_week": 3,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "5f421c20-83c8-429d-9944-3b5988bf7574",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "day_of_week": 1,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "7203e193-ce62-4b5f-b025-665f44b9281e",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "12:00:00"
+  },
+  {
+   "id": "805ec522-9be5-46dd-b00c-00d1df329408",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "day_of_week": 3,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "0428b94d-d936-45dd-85a4-4d2e00060101",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "day_of_week": 1,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "fc7ef834-3422-4c52-ae89-bd1b46d84f3a",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "12:00:00"
+  },
+  {
+   "id": "cc1277af-f814-48a0-b1be-a5d8e678105d",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "day_of_week": 3,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "7a7995ff-005e-453d-ac1e-3576d8830bf8",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "day_of_week": 1,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "da35aab5-94fc-44b9-a2f3-4ae9a7b64dc0",
+   "vendor_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "12:00:00"
+  },
+  {
+   "id": "711b741e-dfa9-40a4-af9a-5b96afcb7dbf",
+   "vendor_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "day_of_week": 3,
+   "opens": "06:30:00",
+   "closes": "11:00:00"
+  },
+  {
+   "id": "27c65e2a-ecce-4289-91ea-f0126413fcc8",
+   "vendor_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "day_of_week": 5,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "d26edc07-1f68-492c-8f7f-171afc90e02b",
+   "vendor_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "day_of_week": 4,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "abd8ecc1-7ade-4f7d-85c2-5c877dbb5c6c",
+   "vendor_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "day_of_week": 3,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "43a6eda4-8dc6-4b45-a780-b99366732c94",
+   "vendor_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "day_of_week": 2,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "16e3adbd-9703-41e5-a8ea-7fe65dfbd585",
+   "vendor_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "day_of_week": 1,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "95987d25-177f-4d7b-8093-e92f13021c35",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "8c17f66b-0ef0-4665-953a-25efedc81bf9",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "2d69ee72-bed3-4cbf-95c3-1f2e326fa536",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "a5f4ec7d-59ee-4bbb-96d1-1435898ea143",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "9fe79c0d-12ae-4336-8053-db6d90aa2a2d",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "abf4c12a-f0af-48ec-b03d-6ce9b2177b38",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "day_of_week": 1,
+   "opens": "09:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "82759772-1de0-4369-8331-6e483247a13a",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 0,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "d8f63570-7e0d-4012-808a-b4a1a4f2ab81",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 0,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "f505f03e-3728-485f-b529-3bc47d12c487",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 0,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "e2be82bc-7fa5-4441-a812-502232fdf650",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 0,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "8ae8992e-eeac-4b8a-a148-a26f95f7d397",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 0,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "3cbe3059-5ae1-4401-8691-9717fe074ace",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 1,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "089d3a21-b795-4ccc-bbdd-ddde4ae204a7",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 1,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "70822aa4-3840-48ca-8a1a-601256d88cfc",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 1,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "24312898-ede8-4d72-a907-b44fccfcb527",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 1,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "953c54c5-e404-4220-a368-a36f7c9c71c7",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 1,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "b503b2da-4fa6-4187-9e6e-f9157cde99c6",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 2,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "04d1edf0-ea42-4de0-96dd-64bd3dccca3c",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 2,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "e423eecd-f330-415d-a129-2d9f86c510e2",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 2,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "753be439-1b03-474e-9fe2-10102164f58c",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 2,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "7027c86a-0a90-4bdb-aa37-2543b0d31957",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 2,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "ade0e750-4845-4964-a48c-847d135b1426",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 3,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "34b2759b-650a-49f5-98e9-70eefa9c4801",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 3,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "69d5f5c9-bede-47df-97fc-dc50284f4ea3",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 3,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "3358062d-f4b6-4676-8115-45ce63f6478c",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 3,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "a853b2c1-020c-4357-90ae-f8a8f258a1cc",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 3,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "98f78490-8745-4f44-ae4b-4b12485027c1",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 4,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "62b1aa80-2ca6-4282-9c5d-8da9b4e7b62c",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 4,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "64eaaa63-ca44-4461-890f-9653617b8caf",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 4,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "acde5d21-acb2-4891-bc0c-41994d63743f",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 4,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "601d6753-289f-4255-9652-5a1c9e81f383",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 4,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "16ca425c-2b1d-4105-846a-2c726652e1fb",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 5,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "1139b671-5d5a-4c95-87c1-e22a71e1ba24",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 5,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "37c25251-136f-4759-be6d-b832360e2682",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 5,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "e6dd40c0-16ad-4663-9710-3e68ad5e6f01",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 5,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "86b53736-3fe8-40da-92ee-5e5dbacf3510",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 5,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "b7266fb8-d699-48fa-920d-ca07dc5fde8f",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "d03f7f58-7cec-4774-999c-ca392253f725",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "08cf5e8b-2d2a-4c0a-8c5f-470e7d917360",
+   "vendor_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "9cfe863b-eb90-4405-b5e0-06c71eef53ba",
+   "vendor_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "51696337-1966-495e-a5e8-14cbf6952a1f",
+   "vendor_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "day_of_week": 6,
+   "opens": "06:00:00",
+   "closes": "22:00:00"
+  },
+  {
+   "id": "5450f5c7-13d5-4b8a-a977-83fe0094f259",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 0,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "3ded5bb6-dcf2-4acd-8f2a-e1223ce3e388",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 1,
+   "opens": "07:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "9da714dc-5110-4d52-bf31-5be58ecdadd1",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 2,
+   "opens": "07:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "fc895f3f-58d8-41da-9462-b39214bcb39c",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 3,
+   "opens": "07:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "afa3dc86-c678-4799-a93a-fac907dcaf66",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 4,
+   "opens": "07:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "73bc7526-b426-4cf2-a0ec-cadcab36a8ce",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 5,
+   "opens": "07:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "258bfe27-e836-4f1e-97bb-15b47c7e218a",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "day_of_week": 6,
+   "opens": "07:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "c2f87150-0dfc-4cc5-a82e-15fd13919a62",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 0,
+   "opens": "10:00:00",
+   "closes": "16:00:00"
+  },
+  {
+   "id": "963cfeb6-d5a5-4ad3-a585-d4251b9dd18b",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 1,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "a4a25281-4d28-413f-895a-4b422efcef4e",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 2,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "6c9e121d-ac00-4979-8d16-73a9c9a4a5fb",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 3,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "6c0b7d5f-83c4-4dbb-b544-67fce51e3bbf",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 4,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "233ac01f-bd12-4380-95dc-ef1b18f9c696",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 5,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "584ef422-543d-4e48-a826-c968be64e103",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "day_of_week": 6,
+   "opens": "06:30:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "5ea8b119-5b1a-4a3e-9a05-bc1793b1d700",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "16:30:00"
+  },
+  {
+   "id": "00ad9fb9-1bd0-4964-bdc8-281fce987204",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "16:30:00"
+  },
+  {
+   "id": "537207ce-239d-410e-9237-19a2d76b75b6",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "16:30:00"
+  },
+  {
+   "id": "2d5acabf-9547-4036-9ab2-31bc6c3809e4",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "16:30:00"
+  },
+  {
+   "id": "c827b26b-f0b2-4cae-b1cb-76b54d3d0c55",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "16:30:00"
+  },
+  {
+   "id": "fc0a3136-3318-405d-b606-5c4019ea3f66",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 1,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "8cad33b6-09a3-4f65-bd3d-91192bb9599f",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 2,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "1b4b3bc2-ecc8-47a4-b8ec-b97ff7ffee2b",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 3,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "4920e204-61d5-48f5-94e1-afa020acf42b",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 4,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "75f45122-5e8d-4cb6-b518-5e5eb6c06681",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 5,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "baa1e0f5-4421-4938-b734-3ae48ab57aa3",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "day_of_week": 6,
+   "opens": "10:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "3fb64750-f912-42a2-96b3-7ee69fb1a24b",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 0,
+   "opens": "09:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "7ad596f7-8240-4168-999f-398be0fbf469",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 1,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "552270df-edf4-4426-8fca-0e68f0e391e3",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "3592621c-a46a-49f4-8d56-c02e207a26db",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "ba648d62-9dc8-4377-a560-5d137c78d283",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "2848babd-36c2-4211-a062-114ff30e5d34",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "a89abcbb-3059-4380-add8-44fb6e8fa5fa",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "e909404a-5481-4f6a-92b7-25328d24166d",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 1,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "437fcc7a-178e-4de0-a70a-8fdecbc238ce",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "6cb9025b-1006-43bf-898d-296ff218ea40",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "8b9a30eb-0574-47dc-a5f0-733ec110c7c5",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "578b359d-4f21-4768-9910-edf0b023d715",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "e1972509-f6bd-4493-af7e-6b143f4e8568",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "062f3f76-af7f-415a-acf2-1e1d82feb3a9",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 1,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "32743404-28a2-484d-a488-5a26f6af5a55",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 2,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "7e92b7bd-2d43-493d-98a8-f328fc7450f4",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 3,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "248b4970-c735-410c-b2a9-192837050d16",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 4,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "c814cac3-a840-4df9-bfc3-fa5f7797615d",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 5,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "2c9e072d-30de-4d27-8004-da6b40052189",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "day_of_week": 6,
+   "opens": "17:00:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "05d7e6ed-038c-4548-a4d4-ff19399d4bb4",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 0,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "9085b078-7565-4242-a0f0-b1aafb5d9dfb",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 1,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "a0e22266-f4e9-446d-9a6b-b60fa98c2938",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "3127eee7-0e0f-4343-999d-973582e18178",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "067f99c3-4d03-4348-aac4-fbb3ad14aef7",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "2f01e7db-b5bb-448a-a4a8-06094eb73bd0",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "b0cdaa4e-c0f3-4c1a-a823-541af7d3f3ec",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "52a106c5-d42f-428e-9793-7e5d0c916f52",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 0,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "38605265-1b8f-4c88-aa58-1773593a1b19",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 1,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "a5b99b6c-b575-46b8-8cba-6f7d27893a52",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 2,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "c5b434ac-691a-466b-94c1-6c628ccc967d",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 3,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "48ad8429-d2ea-47c8-9db6-f1b934c97937",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 4,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "df7445ee-3b71-4746-81e5-a4ed1a5ccca0",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 5,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "8da514f1-d4f2-43bc-8406-69ade91f9b7d",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "day_of_week": 6,
+   "opens": "08:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "6dbc346a-4552-48ce-a911-071aef99f2f1",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 0,
+   "opens": "09:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "c24be597-d9f5-4dca-aefb-2ce18e542e5a",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 2,
+   "opens": "09:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "6938b836-8acd-4c48-a024-a695f2a5e043",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "1e8543be-9118-4bdc-99c4-2c44acd7e76e",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "74d15dc9-fc90-4435-820b-9f63509194b3",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "2180b9bb-b336-43b6-9caf-94355f18eb40",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "2c6a7bf6-d9e5-4efa-94e0-c643b468bae0",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 0,
+   "opens": "10:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "8aa6b32c-48c9-4d27-8305-8a786d5fa04b",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 2,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "ba7e4a2b-cfe3-4c1d-8864-5c24414c86c8",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 3,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "595f27fa-332a-46e6-912c-61d57ab86557",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 4,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "7d0a8261-c89e-489d-84c2-5b76fc94f391",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 5,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "caab4292-3a22-4fa2-b475-a5b84a2f525f",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "day_of_week": 6,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "160ce1a0-089e-472a-8117-560268266262",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 0,
+   "opens": "10:00:00",
+   "closes": "17:00:00"
+  },
+  {
+   "id": "96b12722-51a4-4c42-a63a-d629b4e8f6ce",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 2,
+   "opens": "10:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "f7393913-c0c2-46b1-b532-52925c7c768d",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 3,
+   "opens": "10:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "6259d36f-0ebc-47db-a111-77874432b454",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 4,
+   "opens": "10:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "1d20a6ee-4a91-4682-b33c-a003b7e762f5",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 5,
+   "opens": "10:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "aea7dd52-510b-40fd-8805-a12c6787b463",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "day_of_week": 6,
+   "opens": "10:00:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "d4dba5e8-d500-4e5b-a870-5862c9b4de3f",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 1,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "6146f84e-5795-4f8f-9ea4-64f21988e30b",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 2,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "0328bbf0-9664-4176-9160-f645431394f1",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 3,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "3b0bbd30-c636-4b90-81a7-11cdc9ad4f0e",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 4,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "53b377bc-f378-4052-a2dd-633422aa2886",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 5,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "73691d12-ac70-4724-bf29-584da3218013",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "day_of_week": 6,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "ea11ed8a-5023-47f3-939a-85091fe2ce0b",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 0,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "9bbbd6bb-e6ef-4452-840a-c84fc93f0650",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 1,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "2d5beec4-b074-4bff-b802-102f8c234100",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 2,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "d48b3786-8873-4dfb-80fc-bac1f785e41b",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 3,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "0dbe518e-6234-43d7-b130-106b808b3f78",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 4,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "c552aa9f-5ea7-4eb0-951f-729bbe8445f6",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 5,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "4ae1d6d8-5bbb-48be-a398-bd498662de8b",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "day_of_week": 6,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "4a1416d4-7042-4c36-84d3-83beb28ca65c",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 0,
+   "opens": "09:30:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "5d59732d-5dde-4378-b68f-d01216699e1c",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 1,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "5527a0de-f012-4323-93ab-024ccae8700d",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 2,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "92acc3dc-2691-4f58-a443-2f5963de99e6",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 3,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "194ba0d3-cb39-4338-813e-9592d03be234",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 4,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "50cdb0d5-e6ba-4d3c-96ae-18885f56bf91",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 5,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "7747fb8f-525a-4181-a960-e675a2764fcd",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "day_of_week": 6,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "25d7e1ce-7efe-4df5-ae8b-aeb7524019f3",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 0,
+   "opens": "09:30:00",
+   "closes": "19:00:00"
+  },
+  {
+   "id": "0282b626-dc25-4c8a-ae0e-f2de2f555c53",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 1,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "0531cbb1-5308-49c6-b0fd-1de7e4919ed2",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 2,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "fcd9e4c5-6eb8-4389-b1bf-ccedc23bb173",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 3,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "b2b7048d-689b-485f-b933-fbbd7f39d41a",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 4,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "a90a26d4-b3f1-4617-8537-016945fb53f3",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 5,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "81439019-61a4-4f44-ba53-6e711d57df68",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "day_of_week": 6,
+   "opens": "09:30:00",
+   "closes": "20:00:00"
+  },
+  {
+   "id": "a088d62e-9664-454d-89bd-9ef4286df78d",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "day_of_week": 0,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "75b43f4d-f8a3-4c7c-b9f7-2e9de713454e",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "day_of_week": 3,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "258a4641-9abb-47cb-8c77-f0150caf7e5d",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "day_of_week": 4,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "35989239-4855-45d8-a21d-f764913998b8",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "day_of_week": 5,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "3c468b91-4206-4cb4-9217-3cf9a3009ae0",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "day_of_week": 6,
+   "opens": "09:00:00",
+   "closes": "14:00:00"
+  },
+  {
+   "id": "0527ffdd-4d3c-4121-aa27-1f14493a871c",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 0,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "33a1440b-b78d-407b-b2ef-c62b3eb8ff5d",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 1,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "c4f5eb1b-82ab-4671-9b11-581105fad65d",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 2,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "77a424b2-4c25-4966-af00-739372a7f70a",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 3,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "3201b351-5c1b-4324-bce5-d584d03cfd9a",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 4,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "5a294634-272e-426f-8b4c-8a96e3f0f3b5",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 5,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "33732fbe-3f5d-4dd0-86f9-88d5c48e1ce1",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "day_of_week": 6,
+   "opens": "07:00:00",
+   "closes": "21:00:00"
+  },
+  {
+   "id": "8cf71e86-86d9-471b-9601-ca04c12fb2b0",
+   "vendor_id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "day_of_week": 5,
+   "opens": "10:00:00",
+   "closes": "18:00:00"
+  },
+  {
+   "id": "82fbc6de-2bc4-4881-a933-8cd8e1b626bc",
+   "vendor_id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "day_of_week": 6,
+   "opens": "10:00:00",
+   "closes": "15:00:00"
+  }
+ ],
+ "vendor_products": [
+  {
+   "id": "dbaf8cbb-a25f-4a73-b408-4720c227651f",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "label": "Lūʻau leaf",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "c3c5124d-91bd-454b-8863-38dcecc3665e",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "label": "Kalo",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "f5974706-f57c-414d-8095-de3185fbc959",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "label": "Poi",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "bd0f6110-aa03-4ee2-b1bc-7a3185594420",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "label": "Papaya",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "19ea0cd0-3aaf-4916-9b3f-14034aaa594e",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "label": "Lychee",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "ff5bb5b2-7d98-4d24-8cec-006d33258954",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "label": "Mango",
+   "note": null,
+   "in_season_until": "2026-09-30",
+   "sort_order": 1
+  },
+  {
+   "id": "890b03ce-134c-45fe-b421-2f2b44274d45",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "label": "Tomatoes",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "d56c914a-ce18-4669-a72f-48b4db6079a7",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "label": "Herbs",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "6aceb18c-07da-4daa-9d16-a5efb5228878",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "label": "Salad greens",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "02f59799-9ab2-47eb-a076-21dfb046acfd",
+   "vendor_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "label": "Aku",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "878d84b6-9a05-40c6-a99d-9c53af7bf4ba",
+   "vendor_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "label": "ʻAhi",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "e9327acc-bd43-4aa1-b487-eba1f959352f",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Money lei",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 13
+  },
+  {
+   "id": "54f00e9a-7815-4d31-9a5a-8e0c1e43224d",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Haku lei",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 12
+  },
+  {
+   "id": "aba5e35f-dbd5-47a8-bc30-be59f95ccd0f",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Ti leaf",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 11
+  },
+  {
+   "id": "448ab187-d3ad-41b8-a343-e9942c4e4b7e",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Lokelani rose",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 10
+  },
+  {
+   "id": "4fcfcc60-1766-4ab1-91d2-ef1f5186ab3e",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Hala",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 9
+  },
+  {
+   "id": "c445b122-6c98-469f-8a89-27e96a7929ef",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Ginger",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 8
+  },
+  {
+   "id": "532fd885-c85b-45bc-98ec-cc2f6ed7addd",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Carnation",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 7
+  },
+  {
+   "id": "e8ae7d9d-28a9-4eda-8254-ab23ba0e1b59",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Plumeria",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 6
+  },
+  {
+   "id": "0d1ffa21-9b95-4218-86bf-3e18464fa931",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Orchid",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 5
+  },
+  {
+   "id": "a6168d83-fa6e-4ea6-89e0-291246e76085",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Tuberose",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "bef484c5-ad0b-48de-ad7e-ffda4fe4cc4f",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Maile",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "f734e951-f7e4-462e-98d6-95933705a981",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Pakalana",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "87c2a0ec-7083-4b95-b864-ba92cb94ec39",
+   "vendor_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "label": "Pīkake",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "ba4ebba3-3b8f-45c7-a70d-aeab10c0b78d",
+   "vendor_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "label": "Fresh flower lei",
+   "note": "selection varies daily",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "7d1d8d56-6a57-4a74-ba13-2552857080a7",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "label": "Flower arrangements",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "8c2ad069-1359-47e5-8a56-83329dd4b576",
+   "vendor_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "label": "Fresh flower lei",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "805ccccd-10a9-4a11-aeff-8284d691aa70",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "label": "Flower arrangements",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "5872702c-9331-4b83-bb13-230d2ac48312",
+   "vendor_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "label": "Fresh flower lei",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "aef41d8b-c67c-4872-90bd-acdd4d42f7ad",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "label": "Fresh flower lei",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "db1eabff-9835-49de-8334-865793968074",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "label": "Custom lei to order",
+   "note": "one of a kind, for any occasion",
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "84edf6c0-ed6d-4e61-9dda-a0473c05f001",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "label": "Flower arrangements",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "6bc60003-da34-46e3-a6e9-122b7daa1fae",
+   "vendor_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "label": "Wedding bouquets",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "dd1ed9e0-2765-4d79-af6e-86bcc8082b44",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "label": "Sashimi platters",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "101a2da6-8feb-4b86-bb7f-b214e17a27a8",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "label": "Smoked seafood",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "b5f46b3a-b103-472d-9a20-080304d133d3",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "label": "Poke",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "30f2d533-fc5d-41da-a7d4-c3fc4b3a36ca",
+   "vendor_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "label": "Fresh fillets",
+   "note": "auction-fresh, bought next door",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "8e71e096-7a57-4bef-9cda-e20ade7db509",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "label": "Uni and roe",
+   "note": "uni, ikura, tobiko",
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "d5154991-7398-4647-aad0-906a46f48705",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "label": "Poke and poke kits",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "a36417b6-58d6-4283-86da-36b0e85cac6e",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "label": "Sashimi platters",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "8da04a9e-9be4-4877-97bf-0331e079251d",
+   "vendor_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "label": "Fresh fillets",
+   "note": "ʻahi, swordfish, mahi mahi, marlin, ono, opah",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "9d47c216-ac41-4785-a5bd-ed97a1fb21d5",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "label": "Dried aku",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "936cee19-ff7d-4861-8ae9-a60a9f1f6de5",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "label": "Hawaiian plates",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "e48cce92-3447-4e5b-95cb-c75105b8a891",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "label": "Chinese roast meats",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "2aaae81c-45aa-4583-a395-af069f17bf77",
+   "vendor_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "label": "Poke",
+   "note": "about 18 varieties in the case",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "95bbeebd-1e72-4e03-8043-26896a3d7a5e",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "label": "ʻAhi plates",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "25d77716-9dae-4eaa-ab07-a26e679a3259",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "label": "Sashimi by the pound",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "c7426e39-d79f-4ae3-b102-75269eaada97",
+   "vendor_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "label": "Poke by the pound",
+   "note": "shoyu onion, limu kukui nut, spicy tuna, tako, marlin",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "8dea9959-9ff7-40bb-818e-4f57d8e9d50c",
+   "vendor_id": "19c951fb-dc1a-4f03-a1e0-8415df8346c6",
+   "label": "Sashimi-grade fillets",
+   "note": "30+ Pacific species, shipped overnight",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "e50cafc5-98ec-4491-a804-11bb13ee7462",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "label": "Grilled fish plates",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "628f4d46-ac6d-4eee-bfc5-1f58951ce5ad",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "label": "Custom sashimi platters",
+   "note": "preorder online",
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "4cdcf8fe-1678-4852-a7ac-14a480b43283",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "label": "Poke bowls and cups",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "a2078e20-ebab-4828-99e8-965bce8bd706",
+   "vendor_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "label": "Sashimi bowls",
+   "note": "ʻahi, chūtoro, king salmon, hamachi, tako",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "31e07fdd-3c9f-4716-b403-884e15ac598f",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "label": "Poke bowls and cups",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "d00c7150-9698-427f-ab53-58ce74defb61",
+   "vendor_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "label": "Sashimi bowls",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "99c5e265-468b-46cb-9a78-b95424e4e370",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "label": "Poke bowls",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "236fd3b4-0357-4755-a9cc-5e6052569383",
+   "vendor_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "label": "Poke by the pound",
+   "note": "ʻahi, king salmon, hamachi, tako",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "69b544e5-1f03-4b69-a7cf-b134b70dfd68",
+   "vendor_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "label": "Fresh whole fish",
+   "note": "free cleaning and filleting",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "03589008-3432-4660-82db-922b057f2a28",
+   "vendor_id": "0b6d3a30-1b92-4aff-a4f0-b2b9808155f6",
+   "label": "Poke by the half pound",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "90478f44-0032-45f6-a33f-15afd3a8c1b1",
+   "vendor_id": "0b6d3a30-1b92-4aff-a4f0-b2b9808155f6",
+   "label": "Fresh fish",
+   "note": "daily-changing selection",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "d173fde2-b25e-4193-83a6-b34ea3ae2504",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "label": "Haupia",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 5
+  },
+  {
+   "id": "0709d3f8-f646-4732-a775-03ceebe344b3",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "label": "Plate lunches",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "b9cc06bb-d6d8-4c9e-bab2-23fe3253bde3",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "label": "Kalua pig",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "69f6ea77-3d40-4929-bcd4-78da5429ee77",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "label": "Lau lau",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "47ae77cc-8153-43c8-a106-6aff70354292",
+   "vendor_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "label": "Poke",
+   "note": "ʻahi limu is the signature",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "99af8d8a-1b94-4256-8ae3-5f8ac8bca78a",
+   "vendor_id": "56679393-4653-4991-abe9-a7b51a42a0cf",
+   "label": "Sashimi trays",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "95fe6b87-c3f9-407c-be5c-39bf6f5a2d7c",
+   "vendor_id": "56679393-4653-4991-abe9-a7b51a42a0cf",
+   "label": "Poke by the pound",
+   "note": "ʻahi, tako and salmon, made to order",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "b30679b3-8bb6-40df-94f3-96d1ce9824b6",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "label": "Plate lunches",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "557e8ef0-a8b4-4c3a-a8b2-4c4769f23149",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "label": "Sashimi and poke platters",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "06c3ff77-bc9f-4398-a56b-ed3d32b84a0b",
+   "vendor_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "label": "Poke",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "735071b9-39b9-4d4a-a7c7-88314280a78f",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "label": "Plate lunches",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "85854b98-ecc1-4888-b2b0-6984e9117a22",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "label": "Sashimi and poke platters",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "b2f09c76-a1ea-4d2f-8829-17ccb8d4dcff",
+   "vendor_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "label": "Poke",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "5ed13cc8-96b8-42cf-ab60-24b023744cfc",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "label": "Poke bowls",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "f35b7436-814b-461b-a1cd-99673336abdd",
+   "vendor_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "label": "ʻAhi poke by the pound",
+   "note": "Cold Ginger ʻAhi is the signature",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "3bc966c3-1fac-4250-813d-ef870b67699b",
+   "vendor_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "label": "Poke bar",
+   "note": "made fresh daily",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "16d72beb-9d05-4358-94bf-c83a44668eb2",
+   "vendor_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "label": "Poke bar",
+   "note": "made fresh daily",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "34e116e8-bb26-443b-98b6-f866f89a781e",
+   "vendor_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "label": "Poke bar",
+   "note": "made fresh daily",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "7e88285a-229c-4db8-8719-888c7e6b3e29",
+   "vendor_id": "649dce42-1ab6-4179-90cb-22c761ac9ae0",
+   "label": "Bagged ice",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "d7784a2f-6300-40f8-a1dd-e748c2f38252",
+   "vendor_id": "649dce42-1ab6-4179-90cb-22c761ac9ae0",
+   "label": "Poke bowls",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "65d2aa4e-cd08-42d2-ab98-de1447ac5a50",
+   "vendor_id": "649dce42-1ab6-4179-90cb-22c761ac9ae0",
+   "label": "Poke",
+   "note": "20+ varieties daily",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "b1773aeb-de80-498c-91eb-c5ce965f693d",
+   "vendor_id": "a78ed1b7-e37f-4c3e-a0d7-b366ae0b847e",
+   "label": "Poke bowls",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "8628d018-fdc9-460a-9b32-4ca4714ddc6c",
+   "vendor_id": "a78ed1b7-e37f-4c3e-a0d7-b366ae0b847e",
+   "label": "Shoyu poke",
+   "note": "the signature",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "c5a50b4c-ca3f-4f81-8ff8-674829e88ba4",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "label": "Plate lunches",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 5
+  },
+  {
+   "id": "02385744-9e5f-46ce-a8d2-eb6205b2f6d4",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "label": "Bentos",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 4
+  },
+  {
+   "id": "80e46feb-6fa8-428d-8b24-675659ad5971",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "label": "Maki and inari sushi",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 3
+  },
+  {
+   "id": "f057673b-41dc-4050-813c-de9c034714e5",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "label": "Sashimi",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "3dc3be07-c440-4bca-8184-6aeaf130ce48",
+   "vendor_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "label": "Poke",
+   "note": "limu poke, spicy ʻahi, ʻalae salt ʻahi",
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "d514a1fe-3670-45bf-ad0c-28845bf27bfc",
+   "vendor_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "label": "Fresh poke",
+   "note": null,
+   "in_season_until": null,
+   "sort_order": 1
+  },
+  {
+   "id": "1c3ea668-cffb-4b0b-a5e0-bbb9532a21c8",
+   "vendor_id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "label": "Sashimi-grade local fish",
+   "note": "line- or spear-caught",
+   "in_season_until": null,
+   "sort_order": 2
+  },
+  {
+   "id": "82bc38ce-6117-4ba0-8ea7-704688dd36fa",
+   "vendor_id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "label": "CSF fish shares",
+   "note": "weekly pickups across the island",
+   "in_season_until": null,
+   "sort_order": 1
+  }
+ ],
+ "markets": [
+  {
+   "id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "slug": "kaimuki-neighborhood",
+   "name": "Kaimukī Neighborhood Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kaimukī",
+   "description": "Mon, Wed and Sat mornings behind the community center on Koko Head Ave. 14 vendors today, mostly produce and poi. Small lot, easier to park on the side street.",
+   "location_notes": "Koko Head Ave, behind the community center",
+   "instagram": "kaimukimarket",
+   "getting_there": "Lot fills by 7a. Route 9 stops one block makai. Bring your own bags and small bills.",
+   "distance_mi": 5.4,
+   "is_active": true,
+   "created_at": "2026-08-19T22:14:10.302465+00:00",
+   "lat": null,
+   "lng": null,
+   "operator": null,
+   "ebt_tokens": null,
+   "source_url": null
+  },
+  {
+   "id": "37530c78-8d87-44f4-9f3a-f0835ed801e1",
+   "slug": "waiau-peoples-open-market",
+   "name": "Waiau People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Pearl City",
+   "description": "First stop on the Tuesday Central Oʻahu route, open for one hour.",
+   "location_notes": "Waiau District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.402201,
+   "lng": -157.952694,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "49660cd3-6ac6-4fb4-860d-646c0aa7ea44",
+   "slug": "waipahu-peoples-open-market",
+   "name": "Waipahū People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waipahū",
+   "description": "Second stop on the Tuesday Central Oʻahu route, with EBT tokens on site.",
+   "location_notes": "Bill Balfour Jr. Waipahū District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.38764,
+   "lng": -157.999258,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": true,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "dfc15af3-ef79-4991-8924-158a091afd29",
+   "slug": "wahiawa-peoples-open-market",
+   "name": "Wahiawā People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Wahiawā",
+   "description": "Third stop on the Tuesday Central Oʻahu route, with EBT tokens on site.",
+   "location_notes": "George F. Wright Wahiawā District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.498905,
+   "lng": -158.023407,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": true,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "56c3d912-d496-4aa8-a188-022336f94c09",
+   "slug": "mililani-peoples-open-market",
+   "name": "Mililani People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Mililani",
+   "description": "Last stop on the Tuesday Central Oʻahu route, 45 minutes at midday.",
+   "location_notes": "Mililani District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.440703,
+   "lng": -158.01821,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "fe3dee16-35e1-4f91-b64f-761a5daec5ee",
+   "slug": "kapiolani-peoples-open-market",
+   "name": "Kapiʻolani Park People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waikīkī",
+   "description": "The only Wednesday market on the City route, one hour in the park.",
+   "location_notes": "Kapiʻolani Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.268828,
+   "lng": -157.816739,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "98296af6-75be-4767-919c-caa182abc576",
+   "slug": "kailua-peoples-open-market",
+   "name": "Kailua People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kailua",
+   "description": "First of the two Thursday windward stops, open for one hour.",
+   "location_notes": "Kailua District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.39573,
+   "lng": -157.737737,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "882b8290-aba0-451d-8f2b-8dd7b482562a",
+   "slug": "kaneohe-peoples-open-market",
+   "name": "Kāneʻohe People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kāneʻohe",
+   "description": "Second Thursday windward stop, one hour late morning.",
+   "location_notes": "Kāneʻohe District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.409845,
+   "lng": -157.810072,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "71ba3077-566f-4875-ab21-6e8b9bb92a61",
+   "slug": "halawa-peoples-open-market",
+   "name": "Hālawa People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Hālawa",
+   "description": "First Friday stop, an hour early in the morning.",
+   "location_notes": "Hālawa District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.373482,
+   "lng": -157.914791,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "532ea46b-21a8-441b-930e-a6cd5b300ace",
+   "slug": "ewa-beach-peoples-open-market",
+   "name": "ʻEwa Beach People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "ʻEwa Beach",
+   "description": "Second Friday stop, open for one hour.",
+   "location_notes": "ʻEwa Beach Community Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.313868,
+   "lng": -158.008425,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "fc14f45e-e12f-409c-bec4-69b182417f34",
+   "slug": "kalakaua-peoples-open-market",
+   "name": "Kalākaua People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kalihi",
+   "description": "The Saturday Kalihi market, and at three hours the longest City session of the week. EBT tokens on site.",
+   "location_notes": "Kalākaua District Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.327712,
+   "lng": -157.878309,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": true,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "fa9707c4-3932-4a9f-b3ec-00eea43691f3",
+   "slug": "kapolei-peoples-open-market",
+   "name": "Kapolei People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kapolei",
+   "description": "First stop on the Sunday leeward route, 90 minutes.",
+   "location_notes": "Kapolei Community Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.333772,
+   "lng": -158.067025,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "fe606daa-4f22-46f9-becc-86b6d9ff0115",
+   "slug": "royal-kunia-peoples-open-market",
+   "name": "Royal Kunia People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Royal Kunia",
+   "description": "Second stop on the Sunday leeward route, at the park-n-ride.",
+   "location_notes": "Royal Kunia Park-n-Ride",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.389536,
+   "lng": -158.031678,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "3fd8e6ee-6352-4130-b90b-983752129ab9",
+   "slug": "waikele-peoples-open-market",
+   "name": "Waikele People's Open Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Waikele",
+   "description": "Last stop on the Sunday leeward route, an hour at midday.",
+   "location_notes": "Waikele Community Park",
+   "instagram": null,
+   "getting_there": null,
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": 21.401601,
+   "lng": -158.003062,
+   "operator": "City and County of Honolulu Department of Parks and Recreation",
+   "ebt_tokens": false,
+   "source_url": "https://www.honolulu.gov/dpr/peoples-open-markets/"
+  },
+  {
+   "id": "f2ce876f-92c1-46e7-ba30-1127f892a7a0",
+   "slug": "kcc-farmers-market",
+   "name": "KCC Farmers Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Diamond Head",
+   "description": "Saturday mornings at Kapiʻolani Community College.",
+   "location_notes": "Kapiʻolani Community College",
+   "instagram": null,
+   "getting_there": "Ample free parking in Parking Lot C.",
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": null,
+   "lng": null,
+   "operator": "Hawaii Farm Bureau",
+   "ebt_tokens": null,
+   "source_url": "https://hfbf.org/farmers-markets/oahu/"
+  },
+  {
+   "id": "c713928b-db53-45dd-83cc-10e66df5b9ef",
+   "slug": "mililani-farmers-market",
+   "name": "Mililani Farmers Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Mililani",
+   "description": "Sunday mornings at Mililani High School.",
+   "location_notes": "Mililani High School",
+   "instagram": null,
+   "getting_there": "Free ample parking.",
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": null,
+   "lng": null,
+   "operator": "Hawaii Farm Bureau",
+   "ebt_tokens": null,
+   "source_url": "https://hfbf.org/farmers-markets/oahu/"
+  },
+  {
+   "id": "22b444af-37ed-45d6-9c80-5d19c3707797",
+   "slug": "honolulu-farmers-market",
+   "name": "Honolulu Farmers Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kakaʻako",
+   "description": "Wednesday evenings at the Neal S. Blaisdell Center.",
+   "location_notes": "Neal S. Blaisdell Center",
+   "instagram": null,
+   "getting_there": "Ample free parking.",
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": null,
+   "lng": null,
+   "operator": "Hawaii Farm Bureau",
+   "ebt_tokens": null,
+   "source_url": "https://hfbf.org/farmers-markets/oahu/"
+  },
+  {
+   "id": "3a479bf1-3a56-4ca8-b785-4edab0e6a8d3",
+   "slug": "kailua-town-farmers-market",
+   "name": "Kailua Town Farmers Market",
+   "island_id": "c3369734-98ae-4ba7-8826-e3ab5d7acdd4",
+   "area": "Kailua",
+   "description": "Thursday evenings at Kailua Town Center.",
+   "location_notes": "Kailua Town Center",
+   "instagram": null,
+   "getting_there": "Ample free parking.",
+   "distance_mi": null,
+   "is_active": true,
+   "created_at": "2026-08-28T02:51:13.81736+00:00",
+   "lat": null,
+   "lng": null,
+   "operator": "Hawaii Farm Bureau",
+   "ebt_tokens": null,
+   "source_url": "https://hfbf.org/farmers-markets/oahu/"
+  }
+ ],
+ "market_sessions": [
+  {
+   "id": "191c12f6-50af-4e7f-953c-ea1c77513d5f",
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "day_of_week": 1,
+   "starts": "06:30:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "f8deb31b-fe53-4e9e-9379-6312f14330ca",
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "day_of_week": 3,
+   "starts": "06:30:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "ab28d589-b748-4abb-9f89-dd98037b1ab4",
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "day_of_week": 6,
+   "starts": "06:00:00",
+   "ends": "12:00:00"
+  },
+  {
+   "id": "37f443f9-ed68-4df5-bfd8-618967e083c9",
+   "market_id": "37530c78-8d87-44f4-9f3a-f0835ed801e1",
+   "day_of_week": 2,
+   "starts": "06:30:00",
+   "ends": "07:30:00"
+  },
+  {
+   "id": "8685c46d-6601-45bd-a960-eeeafa7abea1",
+   "market_id": "49660cd3-6ac6-4fb4-860d-646c0aa7ea44",
+   "day_of_week": 2,
+   "starts": "08:15:00",
+   "ends": "09:15:00"
+  },
+  {
+   "id": "cc107b11-bafd-4f29-9b42-0e19d951cb16",
+   "market_id": "dfc15af3-ef79-4991-8924-158a091afd29",
+   "day_of_week": 2,
+   "starts": "10:00:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "b9a3b0b2-474d-498b-b497-50a5ad6a3a2c",
+   "market_id": "56c3d912-d496-4aa8-a188-022336f94c09",
+   "day_of_week": 2,
+   "starts": "11:45:00",
+   "ends": "12:30:00"
+  },
+  {
+   "id": "cd30e5aa-eefa-4a7c-a83b-1a49b2d6a996",
+   "market_id": "fe3dee16-35e1-4f91-b64f-761a5daec5ee",
+   "day_of_week": 3,
+   "starts": "10:00:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "b70be416-4139-48f2-a2d8-3c14c6303279",
+   "market_id": "98296af6-75be-4767-919c-caa182abc576",
+   "day_of_week": 4,
+   "starts": "09:00:00",
+   "ends": "10:00:00"
+  },
+  {
+   "id": "4d196b33-6f4f-4622-9df4-610f7f79ef86",
+   "market_id": "882b8290-aba0-451d-8f2b-8dd7b482562a",
+   "day_of_week": 4,
+   "starts": "10:45:00",
+   "ends": "11:45:00"
+  },
+  {
+   "id": "6da32749-ad61-4e9e-9be1-adf1b313e001",
+   "market_id": "71ba3077-566f-4875-ab21-6e8b9bb92a61",
+   "day_of_week": 5,
+   "starts": "07:00:00",
+   "ends": "08:00:00"
+  },
+  {
+   "id": "6fc21c3a-dd6c-4248-bef1-e54906dd9c22",
+   "market_id": "532ea46b-21a8-441b-930e-a6cd5b300ace",
+   "day_of_week": 5,
+   "starts": "09:00:00",
+   "ends": "10:00:00"
+  },
+  {
+   "id": "70f92e86-31c6-4477-909b-841b6b840ff5",
+   "market_id": "fc14f45e-e12f-409c-bec4-69b182417f34",
+   "day_of_week": 6,
+   "starts": "06:30:00",
+   "ends": "09:30:00"
+  },
+  {
+   "id": "f705934a-f75a-4e21-8b35-1e8b8397957f",
+   "market_id": "fa9707c4-3932-4a9f-b3ec-00eea43691f3",
+   "day_of_week": 0,
+   "starts": "07:00:00",
+   "ends": "08:30:00"
+  },
+  {
+   "id": "1df02aff-9527-4de7-8bb1-6030bdcf88f5",
+   "market_id": "fe606daa-4f22-46f9-becc-86b6d9ff0115",
+   "day_of_week": 0,
+   "starts": "09:30:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "44ba640b-068c-480f-a08e-09f4bc616a45",
+   "market_id": "3fd8e6ee-6352-4130-b90b-983752129ab9",
+   "day_of_week": 0,
+   "starts": "11:30:00",
+   "ends": "12:30:00"
+  },
+  {
+   "id": "75134f9e-0ab3-453e-803c-917f8519977d",
+   "market_id": "f2ce876f-92c1-46e7-ba30-1127f892a7a0",
+   "day_of_week": 6,
+   "starts": "07:30:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "5addb323-9937-4165-bc1d-e04c9890da74",
+   "market_id": "c713928b-db53-45dd-83cc-10e66df5b9ef",
+   "day_of_week": 0,
+   "starts": "08:00:00",
+   "ends": "11:00:00"
+  },
+  {
+   "id": "c95b3673-91d3-4109-8156-fdee69c8a151",
+   "market_id": "22b444af-37ed-45d6-9c80-5d19c3707797",
+   "day_of_week": 3,
+   "starts": "16:00:00",
+   "ends": "19:00:00"
+  },
+  {
+   "id": "979ae276-ac98-4b0d-82bd-62c267857403",
+   "market_id": "3a479bf1-3a56-4ca8-b785-4edab0e6a8d3",
+   "day_of_week": 4,
+   "starts": "16:00:00",
+   "ends": "19:00:00"
+  }
+ ],
+ "market_vendors": [
+  {
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "stall": "stall 4",
+   "usual_days": "Mon, Wed and Sat",
+   "confirmed_at": "2026-08-19T17:02:00+00:00",
+   "sort_order": 1
+  },
+  {
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "vendor_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "stall": "stall 9",
+   "usual_days": "Mon, Wed and Sat",
+   "confirmed_at": "2026-08-19T17:02:00+00:00",
+   "sort_order": 2
+  },
+  {
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "vendor_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "stall": "stall 12",
+   "usual_days": "Mon, Wed and Sat",
+   "confirmed_at": "2026-08-19T17:02:00+00:00",
+   "sort_order": 3
+  },
+  {
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "vendor_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "stall": null,
+   "usual_days": "Wed and Sat",
+   "confirmed_at": null,
+   "sort_order": 4
+  }
+ ],
+ "popups": [
+  {
+   "id": "a050390f-f1ef-4afb-983e-8452c84c2d63",
+   "name": "Kalo & Poi pop-up",
+   "vendor_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "market_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "starts_at": "2026-08-26T02:00:00+00:00",
+   "ends_at": "2026-08-26T05:00:00+00:00",
+   "location_note": "Kaimukī parking lot",
+   "status": "verified"
+  },
+  {
+   "id": "a07eac60-ac9a-484d-acc7-6eedba08a63a",
+   "name": "Kakaʻako fish drop",
+   "vendor_id": null,
+   "market_id": null,
+   "starts_at": "2026-08-22T16:00:00+00:00",
+   "ends_at": "2026-08-22T18:00:00+00:00",
+   "location_note": "Waiʻanae Fish Co-op, sells out by 8a",
+   "status": "verified"
+  }
+ ],
+ "verification_events": [
+  {
+   "id": "34128e43-18ea-4f6a-a6bf-0c4e8b650546",
+   "subject_type": "vendor",
+   "subject_id": "97698268-8cc6-4f09-8bab-0ecc85bd75f8",
+   "verified_at": "2026-08-19T17:02:00+00:00",
+   "method": "visited",
+   "note": "at the market"
+  },
+  {
+   "id": "61cb7c58-c665-4ddd-ab73-1f723f00b7a4",
+   "subject_type": "vendor",
+   "subject_id": "6b6b34f1-0e05-4fe4-8cf6-8966a47e8103",
+   "verified_at": "2026-08-19T17:02:00+00:00",
+   "method": "visited",
+   "note": "at the market"
+  },
+  {
+   "id": "f42ea53d-ed82-4112-91c6-dbd3b365452d",
+   "subject_type": "vendor",
+   "subject_id": "349ca1a5-37c6-4476-89f4-16663cae0bec",
+   "verified_at": "2026-08-19T17:02:00+00:00",
+   "method": "visited",
+   "note": "at the market"
+  },
+  {
+   "id": "94487888-86a8-4414-be05-3847ef4889f8",
+   "subject_type": "vendor",
+   "subject_id": "3ac5714b-1903-4936-a4f0-715f152c9e21",
+   "verified_at": "2026-08-15T17:10:00+00:00",
+   "method": "visited",
+   "note": "at the market"
+  },
+  {
+   "id": "62b7d799-50e3-44f5-af36-452e8f46402d",
+   "subject_type": "market",
+   "subject_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "verified_at": "2026-08-19T17:02:00+00:00",
+   "method": "visited",
+   "note": "vendor list walked on site"
+  },
+  {
+   "id": "96721ca6-4467-425d-aeba-253b9d5d2172",
+   "subject_type": "market",
+   "subject_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "verified_at": "2026-08-18T00:20:00+00:00",
+   "method": "organizer_confirmed",
+   "note": "organizer confirmed hours"
+  },
+  {
+   "id": "e4d685e9-b171-4a5b-8849-8034338963bd",
+   "subject_type": "market",
+   "subject_id": "9779589b-7490-4efa-a2c0-37410a8649ec",
+   "verified_at": "2026-08-10T17:15:00+00:00",
+   "method": "visited",
+   "note": "vendor list walked on site"
+  },
+  {
+   "id": "ef48f282-fcb5-4437-abd9-f0e1491b9518",
+   "subject_type": "popup",
+   "subject_id": "a050390f-f1ef-4afb-983e-8452c84c2d63",
+   "verified_at": "2026-08-18T21:00:00+00:00",
+   "method": "called",
+   "note": "confirmed with the farm"
+  },
+  {
+   "id": "3a2ca607-e074-4c6f-87e0-c3c5af0194e2",
+   "subject_type": "popup",
+   "subject_id": "a07eac60-ac9a-484d-acc7-6eedba08a63a",
+   "verified_at": "2026-08-16T23:40:00+00:00",
+   "method": "called",
+   "note": "co-op confirmed the drop"
+  },
+  {
+   "id": "f49af27e-9269-4f81-92f2-c4436982c684",
+   "subject_type": "vendor",
+   "subject_id": "47533581-eace-4bff-9a74-54eb6e550a74",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "d7c4b82e-672a-417d-8ac9-067b8e9ee8fd",
+   "subject_type": "vendor",
+   "subject_id": "a7c78e1a-b9d2-48d2-a0da-34cbd43c3b39",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "09f4449d-2f08-4d98-98cd-672d12e1c448",
+   "subject_type": "vendor",
+   "subject_id": "79174193-2a39-47c5-8a55-bc3cf34373cb",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "f3b1bdee-2544-4bcb-9078-d4bce140daa7",
+   "subject_type": "vendor",
+   "subject_id": "590b85de-1653-4afe-9e57-b0a36c3bf170",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "49e909f4-610e-4054-b082-8cc32396d86a",
+   "subject_type": "vendor",
+   "subject_id": "27dadced-2026-4811-8b78-42abdd97ff67",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "1f7efe3f-816c-46d0-b460-3bdb6985bb87",
+   "subject_type": "vendor",
+   "subject_id": "1ef69d6d-254c-4b0c-ab04-ff2fe0c041f3",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "81aa2f0e-3fbb-4467-96cd-0992f1ae025f",
+   "subject_type": "vendor",
+   "subject_id": "905d29d7-1fea-4e24-96e8-2b65e5dc1c16",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "dbce9e76-e116-44c7-afa2-4c74434e3187",
+   "subject_type": "vendor",
+   "subject_id": "ffd58783-44e1-4665-9f00-6cf448912d88",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "f0b25902-ac74-448f-99ec-beac9819fed5",
+   "subject_type": "vendor",
+   "subject_id": "fb1734a1-aa08-4260-aa8c-1253d6e05751",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "e11d4b14-76a8-4d10-b74a-06485f4de794",
+   "subject_type": "vendor",
+   "subject_id": "7ac4b8c5-b703-46e5-bd92-174aeb6bcb40",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "9f9bd09f-2c7e-4f3e-af03-15cc001dba1f",
+   "subject_type": "vendor",
+   "subject_id": "339706ba-fb9e-430b-bcfa-41816d15c2c3",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "996f6669-f4e2-407a-befe-948141835412",
+   "subject_type": "vendor",
+   "subject_id": "bd763c9d-3d76-48b1-9e7f-378c81b6a34a",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "ecae1f53-5003-4d86-8601-b98fba6cf47e",
+   "subject_type": "vendor",
+   "subject_id": "fd67adf7-3b6f-471f-928c-12ffede0ea27",
+   "verified_at": "2026-08-19T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "59774973-ea61-4f14-ae88-e0589c2e75cb",
+   "subject_type": "vendor",
+   "subject_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "verified_at": "2026-08-20T03:00:00+00:00",
+   "method": "source_check",
+   "note": "checked their hiChinatown listing for hours and address"
+  },
+  {
+   "id": "c3cd9314-4936-40ac-b004-d9ff2801ef9c",
+   "subject_type": "vendor",
+   "subject_id": "6b51940b-4a8f-448c-8294-bbeac4ece70f",
+   "verified_at": "2021-01-25T10:00:00+00:00",
+   "method": "source_check",
+   "note": "read an archived copy of their own site, which is now offline"
+  },
+  {
+   "id": "75a23675-7d8b-4bd9-98ca-26f457a250ec",
+   "subject_type": "vendor",
+   "subject_id": "83090b5a-c53e-4f93-973e-8cf40f53d44f",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "33c271fd-a632-4c92-86f4-da573a88c8b4",
+   "subject_type": "vendor",
+   "subject_id": "2ca98bfc-1daa-4ce0-9235-c44a824e20b1",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "c2189516-dcfb-45fc-a4df-f9f494984925",
+   "subject_type": "vendor",
+   "subject_id": "3e9b5424-9192-4bc0-90b9-acfd02978881",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "e67b33ef-9ea7-4519-88eb-5310a2b115a6",
+   "subject_type": "vendor",
+   "subject_id": "d62b8b73-0994-46cd-8212-aa52d89d5b2d",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "93e9d7d0-742c-4c01-b008-4e24ca9f4b4d",
+   "subject_type": "vendor",
+   "subject_id": "19c951fb-dc1a-4f03-a1e0-8415df8346c6",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "7d9e684c-5671-47ae-a91b-9a8d03885928",
+   "subject_type": "vendor",
+   "subject_id": "ae4936d0-3289-49db-b724-f040c3ec7614",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "bcbe9fb8-9a84-4cbc-812d-ff391bbebc5e",
+   "subject_type": "vendor",
+   "subject_id": "0779428c-2fb9-4897-b1ce-bc5345a8783c",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "2b7f5091-70c7-45b9-a197-f42b0c1c9ca1",
+   "subject_type": "vendor",
+   "subject_id": "fafe4765-bfef-4388-b5be-1e998806f158",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "ff137b54-2654-450e-ae6f-c8313b39a7fa",
+   "subject_type": "vendor",
+   "subject_id": "7d33843b-c309-4168-90e9-8f62a668a9fb",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "981ce676-9666-4fce-b288-4d78c9c5e579",
+   "subject_type": "vendor",
+   "subject_id": "0b6d3a30-1b92-4aff-a4f0-b2b9808155f6",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "edeb0ce7-4de2-4f55-82b8-b7443a600356",
+   "subject_type": "vendor",
+   "subject_id": "dd70a1a9-3f2b-482e-b723-953ba3d74218",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "625c7561-bddd-4918-9419-4c3d98ab8f18",
+   "subject_type": "vendor",
+   "subject_id": "56679393-4653-4991-abe9-a7b51a42a0cf",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "ee8145ee-9237-4d4e-a7d1-feb7b3cb345e",
+   "subject_type": "vendor",
+   "subject_id": "4000ef06-589c-4eb1-9f91-3a5a849c6224",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "18928431-d73f-43f9-8559-d8a772525908",
+   "subject_type": "vendor",
+   "subject_id": "2ad4ed7e-f8f7-483a-aa68-f7a9f713b49a",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "12ed073e-a3b1-4e39-82c9-aea3d9b3c48b",
+   "subject_type": "vendor",
+   "subject_id": "21cb099f-ac06-477a-a9c6-b71aaa3704ba",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "92a56d1a-2897-427c-88dc-f52e947cc421",
+   "subject_type": "vendor",
+   "subject_id": "aa2225f5-87ed-4705-9035-05692a7a5f01",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "e1ce05bc-967c-4e6d-85d5-7bd1eab9b205",
+   "subject_type": "vendor",
+   "subject_id": "b7535664-264d-448a-8bca-f38c110e571b",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "787d4b06-f74e-4ef7-bcdd-56c3c7aec388",
+   "subject_type": "vendor",
+   "subject_id": "f17bfc4d-9b1a-487d-961f-dd30098f43ab",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "48ed2612-d12f-4335-8735-4be47e3ce9eb",
+   "subject_type": "vendor",
+   "subject_id": "649dce42-1ab6-4179-90cb-22c761ac9ae0",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "badccf91-0074-44a9-a57f-f43f6c3293bc",
+   "subject_type": "vendor",
+   "subject_id": "a78ed1b7-e37f-4c3e-a0d7-b366ae0b847e",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "2f440a47-d95c-4a27-a862-4b0b4e4bb8be",
+   "subject_type": "vendor",
+   "subject_id": "365cf837-87a4-4f2b-b2d3-44a576495b40",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "091dad8f-6cc1-4500-968b-c494e7f6d344",
+   "subject_type": "vendor",
+   "subject_id": "52d00c33-fa23-48d7-b0c7-2e2f3ef59ac2",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "a437e7e7-3c19-4295-8fe0-384e2396bdcd",
+   "subject_type": "vendor",
+   "subject_id": "2f30784e-5d39-4419-bdb7-392b2ce7417f",
+   "verified_at": "2026-08-26T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the vendor's posted information"
+  },
+  {
+   "id": "de9ba238-dcaa-4c62-bc0f-6710107f8b86",
+   "subject_type": "market",
+   "subject_id": "37530c78-8d87-44f4-9f3a-f0835ed801e1",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "2a2002f5-f41f-4fa8-ae2c-617cf005e29e",
+   "subject_type": "market",
+   "subject_id": "49660cd3-6ac6-4fb4-860d-646c0aa7ea44",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "23879c62-f037-419b-9851-74a61143663b",
+   "subject_type": "market",
+   "subject_id": "dfc15af3-ef79-4991-8924-158a091afd29",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "58be76bf-9115-46cc-ae70-f335aa2ec776",
+   "subject_type": "market",
+   "subject_id": "56c3d912-d496-4aa8-a188-022336f94c09",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "f6232a03-fb0a-4df1-9c1c-6fd39d3e4a96",
+   "subject_type": "market",
+   "subject_id": "fe3dee16-35e1-4f91-b64f-761a5daec5ee",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "46431dfc-8200-4259-b4f7-d31eefdadf9f",
+   "subject_type": "market",
+   "subject_id": "98296af6-75be-4767-919c-caa182abc576",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "f961f49c-1a25-41a1-9040-6b041983b6d3",
+   "subject_type": "market",
+   "subject_id": "882b8290-aba0-451d-8f2b-8dd7b482562a",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "3d8db13e-97b7-488b-81d8-0188daf9cb98",
+   "subject_type": "market",
+   "subject_id": "71ba3077-566f-4875-ab21-6e8b9bb92a61",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "11299d8a-bfd6-4b2b-a6a2-b1ae8a2724bc",
+   "subject_type": "market",
+   "subject_id": "532ea46b-21a8-441b-930e-a6cd5b300ace",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "e35d770f-e274-49a8-9099-550185961b25",
+   "subject_type": "market",
+   "subject_id": "fc14f45e-e12f-409c-bec4-69b182417f34",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "466f02f3-a66d-46b4-8fab-20abec560229",
+   "subject_type": "market",
+   "subject_id": "fa9707c4-3932-4a9f-b3ec-00eea43691f3",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "573ec894-3dfb-4c83-955f-d9bcc32016f3",
+   "subject_type": "market",
+   "subject_id": "fe606daa-4f22-46f9-becc-86b6d9ff0115",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "657ead50-8441-4fe6-9a88-739c3abcaa78",
+   "subject_type": "market",
+   "subject_id": "3fd8e6ee-6352-4130-b90b-983752129ab9",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "d7409bb7-324a-4c56-b970-395fde1555e8",
+   "subject_type": "market",
+   "subject_id": "f2ce876f-92c1-46e7-ba30-1127f892a7a0",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "7ad3eef1-b419-4dd1-a139-4e89a5712428",
+   "subject_type": "market",
+   "subject_id": "c713928b-db53-45dd-83cc-10e66df5b9ef",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "c814d975-809c-4d67-bc56-b75f2ce7b049",
+   "subject_type": "market",
+   "subject_id": "22b444af-37ed-45d6-9c80-5d19c3707797",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  },
+  {
+   "id": "fa2a0afe-b8a3-41d3-bc34-4be06613ad79",
+   "subject_type": "market",
+   "subject_id": "3a479bf1-3a56-4ca8-b785-4edab0e6a8d3",
+   "verified_at": "2026-08-27T19:00:00+00:00",
+   "method": "source_check",
+   "note": "checked the operator's posted schedule"
+  }
+ ],
+ "reports": []
+}

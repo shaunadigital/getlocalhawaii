@@ -1,90 +1,58 @@
 @import "tailwindcss";
 
+/* Palette and type from docs/STRATEGY.md, Design section. One accent, orchid,
+   on charcoal and white, with warm sand as the only light fill. */
 @theme {
-  /* Palette - see docs/BUILD_SPEC.md section 3 */
-  --color-kai-900: #061d21;
-  --color-kai-800: #0a2e33;
-  --color-cream: #fbf6e9;
-  --color-sand: #e9e4d7;
-  --color-coral: #c2402c;
-  --color-coral-dark: #8e2a19;
-  --color-coral-light: #ff8a6b;
-  --color-coral-tint: #faddd3;
-  --color-green-700: #0b5b3e;
-  --color-green-500: #157a4e;
-  --color-mint: #7fd9be;
-  --color-mint-tint: #d8efe4;
-  --color-gold: #c98a1e;
-  --color-gold-dark: #8a5b0c;
-  --color-gold-tint: #fcebcb;
-  --color-slate: #5c716f;
-  --color-slate-light: #7e8d8b;
+  --color-ink: #15181b;
+  --color-ink-soft: #4a5158;
+  --color-mute: #5b6268;
+  --color-line: #dcddd8;
+  --color-line-soft: #ecece8;
+  --color-sand: #f5f0e8;
+  --color-orchid: #8a3f9e;
+  --color-orchid-dark: #6f2f80;
+  --color-orchid-light: #e6d6f5;
+  --color-mist: #eef0f2;
+  --color-open: #4ade80;
+  --color-foot: #d9dcdf;
+  --color-foot-mute: #aeb4ba;
 
-  /* Derived surfaces, taken from the mockups */
-  --color-hairline: rgba(10, 46, 51, 0.14);
-  --color-hairline-soft: rgba(10, 46, 51, 0.1);
-  --color-kai-tint: rgba(10, 46, 51, 0.08);
-  --color-cream-dim: rgba(251, 246, 233, 0.72);
-  --color-cream-muted: rgba(251, 246, 233, 0.82);
-  --color-mint-line: rgba(120, 199, 190, 0.42);
-  --color-cream-panel: rgba(251, 246, 233, 0.12);
-  --color-mint-rule: rgba(120, 199, 190, 0.3);
+  /* Smoked glass behind text on photos. 70% keeps text above 4.5:1 even
+     over a pale plumeria or pikake photo. */
+  --color-glass: rgba(21, 24, 27, 0.7);
 
-  /* Dark text set down on a light chip, from the 940px frames */
-  --color-mint-ink: #04231a;
-  --color-gold-ink: #6e4708;
-  --color-coral-ink: #2a0c05;
-
-  /* Two shells: the 390px phone column, and the 940px desktop frame */
-  --container-column: 430px;
-  --container-shell: 940px;
+  --container-page: 1160px;
 }
 
-/* Inline so the next/font variables, which live on <body>, resolve at the
-   element using the utility instead of at :root where they do not exist. */
+/* Inline so the next/font variables, which live on <html>, resolve where the
+   utility is used. */
 @theme inline {
-  --font-display: var(--font-bricolage), ui-sans-serif, system-ui, sans-serif;
-  --font-sans: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-plex-mono), ui-monospace, monospace;
+  --font-sans: var(--font-sans-face), ui-sans-serif, system-ui, sans-serif;
+  --font-script: var(--font-playwrite), cursive;
 }
 
 @layer base {
+  :root {
+    color-scheme: light;
+  }
+
   html {
     -webkit-text-size-adjust: 100%;
   }
 
   body {
-    background-color: var(--color-cream);
-    color: var(--color-kai-800);
-    font-family: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+    background-color: #ffffff;
+    color: var(--color-ink);
+    font-family: var(--font-sans-face), ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
 
   a {
-    color: var(--color-coral);
+    color: var(--color-ink);
   }
 
   a:hover {
-    color: var(--color-coral-dark);
+    color: #3a4047;
   }
-}
-
-/* Section rules are letter-spaced in the frames. */
-@utility mono-label {
-  font-family: var(--font-plex-mono), ui-monospace, monospace;
-  font-weight: 600;
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-/* Chips are not: the frames set them plain, and the extra tracking is what
-   pushes a status and a timestamp past the width of a card. */
-@utility mono-chip {
-  font-family: var(--font-plex-mono), ui-monospace, monospace;
-  font-weight: 600;
-  font-size: 11px;
-  text-transform: uppercase;
-  white-space: nowrap;
 }

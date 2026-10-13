@@ -1,166 +1,132 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
-import { AnswerCard } from "@/components/AnswerCard";
-import { SearchPrompt } from "@/components/SearchPrompt";
+import { Byline } from "@/components/Byline";
+import { Door } from "@/components/Door";
+import { Hero } from "@/components/Hero";
+import { ArrowRight } from "@/components/Icons";
+import { Sign } from "@/components/Sign";
+import { SignupForm } from "@/components/SignupForm";
 import { SiteFooter } from "@/components/SiteFooter";
-import { SiteHeader } from "@/components/SiteHeader";
-import { TypeLinks } from "@/components/TypeLinks";
-import { findLeiType } from "@/content/lei-types";
-import { type QueryMatch, getAnswers } from "@/lib/queries";
-import { mailto } from "@/lib/site";
-import { clockLabel } from "@/lib/time";
+import { LEI_TYPES } from "@/content/lei-types";
+import { formatDay, latestCheck } from "@/lib/checked";
+import { getCategoryListing } from "@/lib/queries";
+import { showSignup } from "@/lib/site";
 
-// Status is computed against the current time, so nothing here can be cached.
+// The checked dates on the doors come from the data, so nothing is cached.
 export const dynamic = "force-dynamic";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string; near?: string; when?: string }>;
-}) {
-  const { q, near, when } = await searchParams;
+export const metadata: Metadata = {
+  title: { absolute: "Honolulu Airport Lei and Sending a Lei | Get Local Hawaii" },
+};
 
-  const now = new Date();
-  const { vendors, stats, match, areas, subjects } = await getAnswers({ q, near, when }, now);
+/**
+ * The lightweight home: doors only to pages that are live, the lūʻau guide
+ * as an email signup until it exists, and the lei type pages. A door is
+ * added here when its page goes live; there are no "coming soon" tiles.
+ */
+export default async function Home() {
+  const listing = await getCategoryListing("oahu", "lei", new Date());
+  const vendors = listing?.vendors ?? [];
 
-  const areaName = areas.find((area) => area.slug === near)?.name;
+  const checked = (items: typeof vendors) => {
+    const date = latestCheck(items);
+    return date ? `Checked ${formatDay(date)}` : null;
+  };
 
   return (
-    // The desktop frame is dark all the way down, with the results floating on
-    // it as a cream panel. On a phone the panel becomes the page.
-    <div className="md:min-h-dvh md:bg-kai-800">
-      <SiteHeader clock={clockLabel(now)}>
-        <div className="md:mt-[52px]">
-          <SearchPrompt
-            subject={q?.trim() ?? ""}
-            near={near}
-            when={when}
-            areas={areas}
-            subjects={subjects}
-          />
-        </div>
-      </SiteHeader>
+    <>
+      <Hero
+        title="Get the lei of the land"
+        sub="Honolulu airport lei stands and sending a lei to the mainland, from someone born and raised on Oʻahu."
+        image={{ src: "/images/lei-rows.jpg", alt: "Rows of fresh flower lei", position: "30% center" }}
+      />
 
-      <main className="mx-auto max-w-(--container-column) px-4 md:max-w-(--container-shell) md:px-8">
-        <div className="md:mt-[46px] md:rounded-[18px] md:bg-cream md:px-7 md:py-6">
-          {/* A markets query is answered by a link, not by cards, so the count
-              and the sort note would both be describing nothing. */}
-          {match.kind === "markets" ? null : (
-            <>
-              <div className="flex items-baseline justify-between gap-4 pt-4 pb-2 md:border-b md:border-hairline md:pt-0 md:pb-3.5">
-                <h2 className="text-[13.5px] font-semibold text-kai-800 md:text-[15px]">
-                  {stats.total} {stats.total === 1 ? "answer" : "answers"} · {stats.openNow} open
-                  now
-                </h2>
-                <p className="mono-label hidden text-slate-light md:block md:text-[12px]">
-                  Sorted by open, then distance
-                </p>
-              </div>
-              <p className="mono-label pb-3 text-slate-light md:hidden">
-                Sorted by open, then distance
+      <main className="mx-auto flex w-full max-w-(--container-page) flex-col px-4 md:px-8">
+        <section className="flex flex-col gap-4 pt-7 md:gap-5 md:pt-14">
+          <Sign title="What do you need?" />
+          <div className="grid gap-3 md:grid-cols-2 md:gap-4">
+            <Door
+              href="/oahu/lei/airport"
+              kicker="AT THE AIRPORT NOW"
+              title="Honolulu airport lei"
+              checked={checked(vendors.filter((vendor) => vendor.area === "Airport"))}
+              image={{
+                src: "/images/plumeria-lei-greeting.jpg",
+                alt: "Hands placing a yellow plumeria lei over someone’s shoulders",
+                position: "center 35%",
+              }}
+            />
+            <Door
+              href="/oahu/lei/delivery"
+              kicker="SENDING A LEI"
+              title="Send a lei to the mainland"
+              checked={checked(vendors.filter((vendor) => vendor.shipsMainland))}
+              image={{
+                src: "/images/orchid-lei-stringing.jpg",
+                alt: "Hands stringing a purple and white orchid lei",
+                position: "center 45%",
+              }}
+            />
+          </div>
+        </section>
+
+        {showSignup() ? (
+        <section className="pt-7 md:pt-12">
+          <div className="flex flex-col gap-3 rounded-2xl bg-sand px-4 py-5 md:flex-row md:flex-wrap md:items-end md:justify-between md:gap-x-12 md:gap-y-6 md:rounded-[18px] md:px-9 md:py-8">
+            <div className="flex flex-col gap-3 md:flex-[1_1_420px] md:gap-3.5">
+              <Sign title="Coming next" tag="Lūʻau guide" />
+              <p className="m-0 max-w-[520px] text-[17px] leading-[1.5] md:text-[19px]">
+                Every Oʻahu lūʻau compared for 2026: price, place and who each one suits. Get it by
+                email when it is up.
               </p>
-            </>
-          )}
-
-          <GuideLink match={match} />
-
-          {match.kind === "markets" ? (
-            <MarketsLink />
-          ) : vendors.length === 0 ? (
-            <EmptyState match={match} areaName={areaName} openOnly={when === "open"} />
-          ) : (
-            <div className="flex flex-col gap-2.5 md:mt-[18px] md:grid md:grid-cols-3 md:gap-3.5">
-              {vendors.map((vendor) => (
-                <AnswerCard key={vendor.slug} vendor={vendor} />
-              ))}
             </div>
-          )}
+            <div className="flex flex-col gap-2 md:flex-[1_1_380px]">
+              <SignupForm
+                id="luau-email"
+                label="Your email"
+                button="Send it to me"
+                tag="luau-guide"
+                tone="light"
+              />
+              <span className="text-[13px] text-ink-soft md:text-[14px]">
+                Plus Lei Day and graduation reminders. A few emails a year, and you can unsubscribe
+                anytime.
+              </span>
+            </div>
+          </div>
+        </section>
+        ) : null}
 
-          <TypeLinks className="mt-8 border-t border-hairline pt-6" />
-        </div>
+        <section id="lei-by-flower" className="flex scroll-mt-6 flex-col gap-4 pt-8 md:gap-5 md:pt-12">
+          <Sign title="Lei by flower" tag={`${LEI_TYPES.length} lei`} />
+          <ul className="m-0 flex list-none flex-wrap gap-2 p-0 md:gap-3">
+            {LEI_TYPES.map((type) => (
+              <li key={type.slug}>
+                <Link
+                  href={`/oahu/lei/${type.slug}`}
+                  className="flex min-h-11 items-center rounded-full border border-[#c9cbc5] bg-white px-4 text-[15px] font-bold no-underline hover:border-ink md:text-[16px]"
+                >
+                  {type.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link
+            href="/guides/graduation-lei"
+            className="group flex min-h-11 items-center gap-2 self-start font-bold no-underline md:text-[17px]"
+          >
+            Graduation lei: what to buy and when to order
+            <span className="flex size-7 shrink-0 items-center justify-center rounded-md bg-orchid text-white">
+              <ArrowRight size={18} className="transition-transform group-hover:translate-x-[3px]" />
+            </span>
+          </Link>
+        </section>
+
+        <Byline />
       </main>
 
-      <div className="md:h-11" />
-      <SiteFooter />
-    </div>
-  );
-}
-
-/**
- * When the search lands on something we have written about, say so. The
- * results still render here, per the rule that the home page answers in
- * place, but the reader should not have to discover the guide by accident.
- */
-function GuideLink({ match }: { match: QueryMatch }) {
-  if (match.kind !== "leiType") return null;
-  const type = findLeiType(match.slug);
-  if (!type) return null;
-
-  return (
-    <p className="mt-3 rounded-xl bg-sand px-3.5 py-3 text-[13.5px] leading-[1.5] text-kai-800 md:mt-[18px]">
-      We have written about {type.name.toLowerCase()} lei: when it is in season, how long it
-      lasts and how far ahead to order.{" "}
-      <Link href={`/oahu/lei/${type.slug}`} className="font-semibold">
-        Read the {type.name.toLowerCase()} guide →
-      </Link>
-    </p>
-  );
-}
-
-/**
- * Markets are not vendors, so the search underneath this page cannot answer a
- * market query in place. Without this it fell through to "we do not have
- * anything listed for farmers market", which is the opposite of the truth.
- */
-function MarketsLink() {
-  return (
-    <div className="mt-4 rounded-2xl border border-hairline bg-white p-4 md:mt-[18px]">
-      <p className="text-[14px] leading-[1.55] text-kai-800">
-        Farmers markets keep a weekly schedule rather than daily hours, so they have their own
-        page laid out as the week.
-      </p>
-      <Link
-        href="/oahu/farmers-markets"
-        className="mt-3 inline-block rounded-[10px] bg-kai-800 px-4 py-2.5 text-[13.5px] font-semibold text-cream"
-      >
-        See this week&rsquo;s markets →
-      </Link>
-    </div>
-  );
-}
-
-function EmptyState({
-  match,
-  areaName,
-  openOnly,
-}: {
-  match: QueryMatch;
-  areaName?: string;
-  openOnly: boolean;
-}) {
-  // An unrecognised subject is a different answer from a recognised one that
-  // no listing happens to match, and conflating them is what made the old
-  // search look like it was ignoring you.
-  const reason =
-    match.kind === "none"
-      ? `We do not have anything listed for "${match.term}" yet.`
-      : areaName
-        ? `Nothing listed in ${areaName}${openOnly ? " is open right now" : ""}.`
-        : openOnly
-          ? "Nothing on that list is open right now."
-          : "Nothing matches that yet.";
-
-  return (
-    <div className="mt-4 rounded-2xl border border-hairline bg-white p-4">
-      <p className="text-[14px] leading-[1.55] text-kai-800">{reason}</p>
-      <p className="mt-2 text-[13.5px] leading-[1.55] text-slate">
-        This directory covers Oʻahu lei sellers so far. Try a flower below, widen the location,
-        or{" "}
-        <a href={mailto("Missing listing")} className="font-medium">
-          tell us what we are missing
-        </a>
-        .
-      </p>
-    </div>
+      <SiteFooter signup={false} />
+    </>
   );
 }

@@ -20,8 +20,7 @@ export const metadata: Metadata = {
 };
 
 export default async function GraduationGuide() {
-  const now = new Date();
-  const listing = await getCategoryListing("oahu", "lei", now);
+  const listing = await getCategoryListing("oahu", "lei", new Date());
 
   return (
     <ListingPage
@@ -29,15 +28,14 @@ export default async function GraduationGuide() {
       intro={GRADUATION.intro}
       body={GRADUATION.body}
       vendors={listing?.vendors ?? []}
-      now={now}
       path={PATH}
-      back={{ href: "/oahu/lei", label: "All lei" }}
       breadcrumbs={[
         { name: "Home", path: "/" },
-        { name: "Guides", path: "/guides/graduation-lei" },
         { name: GRADUATION.heading, path: PATH },
       ]}
       emptyMessage="No lei shops are listed yet."
+      proseTitle="What to buy and when"
+      proseFirst
     />
   );
 }
