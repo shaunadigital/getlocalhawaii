@@ -9,16 +9,17 @@ Content site about lei and lūʻau on Oʻahu for visitors and for people sending
 - `docs/BUILD_SPEC.md` - build spec for the original directory: data model and status logic still apply; its page inventory and design tokens are superseded by STRATEGY.md.
 - `docs/SEO_TARGETS.md` - keyword targets from Shauna's Keyword Planner data; drives which pages exist.
 - `data/lei-vendors-oahu.csv` - real vendor dataset from public sources, each row carries source URLs and a confidence rating.
+- `src/data/site-data.json` - all listings (vendors, hours, products, markets, checks), bundled with the build. `src/lib/db.ts` joins it.
 - `src/lib/status.ts` - all status, freshness and countdown logic. `src/lib/time.ts` - all Hawaii clock math. `src/lib/queries.ts` - data access, returns objects with status already attached.
 - `src/content/` - page prose for the lei type, area, delivery and guide pages. `src/lib/schema.ts` - JSON-LD builders. `src/lib/site.ts` - origin, site name, contact address.
 
 ## Stack
 
 - Next.js 16 (App Router, TypeScript, Tailwind v4), Vitest for unit tests.
-- Supabase (Postgres) project `getlocalhawaii`, ref `aqizthcpjohxsepbemjm`. Public read via RLS, anon key only, no writes from the app.
+- No database. Listings live in `src/data/site-data.json`; edit it and push to change one. `supabase/migrations/` is kept only as the schema record.
 - Repo https://github.com/shaunagits/getlocalhawaii.git, deployed on Vercel from `main`.
 - Live at https://getlocalhawaii.com (and www). Vercel temp domain: getlocalhawaii.vercel.app.
-- Env: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` in `.env.local`, see `.env.example`.
+- Env: none required. Optional `NEXT_PUBLIC_BUTTONDOWN_USERNAME` turns on the email signup in production.
 
 ## Conventions
 

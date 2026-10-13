@@ -117,3 +117,4 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-09: The airport and delivery pages are titled "Honolulu airport lei" and "Send a lei to the mainland", matching their Home doors; shop pages are restyled before the full airport and send-a-lei designs are built.
 2026-10-09: Email signup forms render on previews but stay off production until the Buttondown username is set - a form that posts nowhere is worse than none.
 2026-10-09: The Home hero is concept A, the stand sign: the headline on a white sign hung on its own, centered in the photo and clear of the logo - chosen over big type, an arrivals board and a curved headline; it echoes the airport stand row without crowding the logo.
+2026-10-13: Listings ship as a JSON file in the repo instead of a Supabase database - the database was deleted, the data is a few hundred hand-edited read-only rows, and a file has no keys, cost or outage to manage.
