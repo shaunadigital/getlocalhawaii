@@ -24,46 +24,9 @@ import {
 } from "./status";
 import { type QueryMatch, MARKETS_CATEGORY, resolveQuery } from "./search";
 import { asciiSlug } from "./slug";
-import { supabase } from "./supabase";
+import { type VendorRow, data, marketRows, vendorRows } from "./db";
 import { hawaiiClock, hawaiiDaysBetween, isSameHawaiiDay, minutesFromTime, toDate } from "./time";
 import type { ContactMethod, VendorSummary } from "./types";
-
-const VENDOR_FIELDS = `
-  id, slug, name, area, description, story, distance_mi, phone,
-  contact_method, payment_notes, good_to_know,
-  address, website, ships_mainland, source_url,
-  categories ( slug, name ),
-  islands ( slug, name ),
-  vendor_hours ( day_of_week, opens, closes ),
-  vendor_products ( label, note, in_season_until, sort_order )
-`;
-
-interface VendorRow {
-  id: string;
-  slug: string;
-  name: string;
-  area: string;
-  description: string | null;
-  story: string | null;
-  distance_mi: number | string | null;
-  phone: string | null;
-  contact_method: string;
-  payment_notes: string | null;
-  good_to_know: string | null;
-  address: string | null;
-  website: string | null;
-  ships_mainland: boolean | null;
-  source_url: string | null;
-  categories: { slug: string; name: string } | null;
-  islands: { slug: string; name: string } | null;
-  vendor_hours: { day_of_week: number; opens: string; closes: string }[];
-  vendor_products: {
-    label: string;
-    note: string | null;
-    in_season_until: string | null;
-    sort_order: number;
-  }[];
-}
 
 export interface Product {
   label: string;
@@ -88,7 +51,7 @@ export interface LogEntry {
   note: string | null;
 }
 
-/** numeric columns come back as strings over PostgREST often enough to coerce. */
+/** Numeric fields are coerced defensively in case a hand edit stores a string. */
 function toNumber(value: number | string | null): number | null {
   if (value === null) return null;
   const parsed = Number(value);
@@ -125,16 +88,12 @@ async function verificationsFor(
   const grouped = new Map<string, VerificationEvent[]>();
   if (ids.length === 0) return grouped;
 
-  const { data, error } = await supabase
-    .from("verification_events")
-    .select("subject_id, verified_at, method, note")
-    .eq("subject_type", subjectType)
-    .in("subject_id", ids)
-    .order("verified_at", { ascending: false });
+  const wanted = new Set(ids);
+  const rows = data.verification_events
+    .filter((row) => row.subject_type === subjectType && wanted.has(row.subject_id))
+    .sort((a, b) => toDate(b.verified_at).getTime() - toDate(a.verified_at).getTime());
 
-  if (error) throw error;
-
-  for (const row of data ?? []) {
+  for (const row of rows) {
     const events = grouped.get(row.subject_id) ?? [];
     events.push({
       verifiedAt: row.verified_at,
@@ -153,16 +112,12 @@ async function reportsFor(
   const grouped = new Map<string, Report[]>();
   if (ids.length === 0) return grouped;
 
-  const { data, error } = await supabase
-    .from("reports")
-    .select("subject_id, kind, note, reported_at")
-    .eq("subject_type", subjectType)
-    .in("subject_id", ids)
-    .order("reported_at", { ascending: false });
+  const wanted = new Set(ids);
+  const rows = data.reports
+    .filter((row) => row.subject_type === subjectType && wanted.has(row.subject_id))
+    .sort((a, b) => toDate(b.reported_at).getTime() - toDate(a.reported_at).getTime());
 
-  if (error) throw error;
-
-  for (const row of data ?? []) {
+  for (const row of rows) {
     const reports = grouped.get(row.subject_id) ?? [];
     reports.push({
       kind: row.kind as Report["kind"],
@@ -254,21 +209,11 @@ async function fetchVendors(filter: {
   /** Exclude placeholder listings that carry no source. */
   sourcedOnly?: boolean;
 }): Promise<VendorRow[]> {
-  let query = supabase.from("vendors").select(VENDOR_FIELDS).eq("is_active", true);
-
-  if (filter.categorySlug) query = query.eq("categories.slug", filter.categorySlug);
-  if (filter.islandSlug) query = query.eq("islands.slug", filter.islandSlug);
-  if (filter.sourcedOnly) query = query.not("source_url", "is", null);
-
-  const { data, error } = await query;
-  if (error) throw error;
-
-  // An inner filter on an embedded table nulls the embed rather than dropping
-  // the row, so the non-matching rows are removed here.
-  return (data as unknown as VendorRow[]).filter(
+  return vendorRows.filter(
     (row) =>
       (!filter.categorySlug || row.categories?.slug === filter.categorySlug) &&
-      (!filter.islandSlug || row.islands?.slug === filter.islandSlug),
+      (!filter.islandSlug || row.islands?.slug === filter.islandSlug) &&
+      (!filter.sourcedOnly || row.source_url !== null),
   );
 }
 
@@ -402,15 +347,11 @@ function areaOptions(vendors: VendorSummary[]) {
 }
 
 async function categoryList(): Promise<{ slug: string; name: string }[]> {
-  const { data, error } = await supabase.from("categories").select("slug, name");
-  if (error) throw error;
-  return data ?? [];
+  return data.categories.map(({ slug, name }) => ({ slug, name }));
 }
 
 async function productLabels(): Promise<string[]> {
-  const { data, error } = await supabase.from("vendor_products").select("label");
-  if (error) throw error;
-  return [...new Set((data ?? []).map((row) => row.label))].sort((a, b) => a.localeCompare(b));
+  return [...new Set(data.vendor_products.map((row) => row.label))].sort((a, b) => a.localeCompare(b));
 }
 
 // Vendor detail ---------------------------------------------------------------
@@ -435,17 +376,8 @@ export async function getVendorDetail(
   slug: string,
   now: Date,
 ): Promise<VendorDetail | null> {
-  const { data, error } = await supabase
-    .from("vendors")
-    .select(VENDOR_FIELDS)
-    .eq("slug", slug)
-    .eq("is_active", true)
-    .maybeSingle();
-
-  if (error) throw error;
-  if (!data) return null;
-
-  const row = data as unknown as VendorRow;
+  const row = vendorRows.find((vendor) => vendor.slug === slug);
+  if (!row) return null;
   if (row.categories?.slug !== categorySlug) return null;
 
   const [events, reports] = await Promise.all([
@@ -497,18 +429,12 @@ export async function getVendorDetail(
 export async function getVendorSlugs(
   options: { sourcedOnly?: boolean } = {},
 ): Promise<{ category: string; slug: string }[]> {
-  let query = supabase.from("vendors").select("slug, categories ( slug )").eq("is_active", true);
-
   // A listing without a source is a placeholder, and placeholders stay out of
   // the sitemap for the same reason they are noindexed.
-  if (options.sourcedOnly) query = query.not("source_url", "is", null);
-
-  const { data, error } = await query;
-  if (error) throw error;
-
-  return (data ?? [])
+  return vendorRows
+    .filter((row) => !options.sourcedOnly || row.source_url !== null)
     .map((row) => ({
-      category: (row.categories as unknown as { slug: string } | null)?.slug ?? "",
+      category: row.categories?.slug ?? "",
       slug: row.slug,
     }))
     .filter((entry) => entry.category !== "");
@@ -516,31 +442,7 @@ export async function getVendorSlugs(
 
 // Market listing --------------------------------------------------------------
 
-const MARKET_FIELDS = `
-  id, slug, name, area, description, location_notes, getting_there,
-  instagram, distance_mi, lat, lng, operator, ebt_tokens, source_url,
-  islands ( slug, name ),
-  market_sessions ( day_of_week, starts, ends )
-`;
-
-interface MarketListRow {
-  id: string;
-  slug: string;
-  name: string;
-  area: string;
-  description: string | null;
-  location_notes: string | null;
-  getting_there: string | null;
-  instagram: string | null;
-  distance_mi: number | string | null;
-  lat: number | string | null;
-  lng: number | string | null;
-  operator: string | null;
-  ebt_tokens: boolean | null;
-  source_url: string | null;
-  islands: { slug: string; name: string } | null;
-  market_sessions: { day_of_week: number; starts: string; ends: string }[];
-}
+type MarketListRow = (typeof marketRows)[number];
 
 export interface MarketSummary {
   slug: string;
@@ -620,18 +522,10 @@ export async function getMarketListing(
   islandSlug: string,
   now: Date,
 ): Promise<MarketListing | null> {
-  const { data, error } = await supabase
-    .from("markets")
-    .select(MARKET_FIELDS)
-    .eq("is_active", true)
-    // A market with no source is a placeholder, held to the same bar as the
-    // vendor listings: out of the listing, out of search, out of the sitemap.
-    .not("source_url", "is", null);
-
-  if (error) throw error;
-
-  const rows = (data as unknown as MarketListRow[]).filter(
-    (row) => row.islands?.slug === islandSlug,
+  // A market with no source is a placeholder, held to the same bar as the
+  // vendor listings: out of the listing, out of search, out of the sitemap.
+  const rows = marketRows.filter(
+    (row) => row.source_url !== null && row.islands?.slug === islandSlug,
   );
   if (rows.length === 0) return null;
 
@@ -742,61 +636,8 @@ export interface MarketDetail {
 }
 
 export async function getMarketDetail(slug: string, now: Date): Promise<MarketDetail | null> {
-  const { data, error } = await supabase
-    .from("markets")
-    .select(
-      `id, slug, name, area, description, location_notes, instagram, getting_there, distance_mi,
-       operator, ebt_tokens, lat, lng, source_url,
-       islands ( name ),
-       market_sessions ( day_of_week, starts, ends ),
-       market_vendors (
-         stall, usual_days, confirmed_at, sort_order,
-         vendors ( slug, name, payment_notes, categories ( slug ), vendor_products ( label, note, in_season_until, sort_order ) )
-       )`,
-    )
-    .eq("slug", slug)
-    .eq("is_active", true)
-    .maybeSingle();
-
-  if (error) throw error;
-  if (!data) return null;
-
-  const row = data as unknown as {
-    id: string;
-    slug: string;
-    name: string;
-    area: string;
-    description: string | null;
-    location_notes: string | null;
-    instagram: string | null;
-    getting_there: string | null;
-    distance_mi: number | string | null;
-    operator: string | null;
-    ebt_tokens: boolean | null;
-    lat: number | string | null;
-    lng: number | string | null;
-    source_url: string | null;
-    islands: { name: string } | null;
-    market_sessions: { day_of_week: number; starts: string; ends: string }[];
-    market_vendors: {
-      stall: string | null;
-      usual_days: string | null;
-      confirmed_at: string | null;
-      sort_order: number;
-      vendors: {
-        slug: string;
-        name: string;
-        payment_notes: string | null;
-        categories: { slug: string } | null;
-        vendor_products: {
-          label: string;
-          note: string | null;
-          in_season_until: string | null;
-          sort_order: number;
-        }[];
-      } | null;
-    }[];
-  };
+  const row = marketRows.find((market) => market.slug === slug);
+  if (!row) return null;
 
   const sessions: MarketSession[] = row.market_sessions.map((session) => ({
     dayOfWeek: session.day_of_week,
@@ -871,17 +712,13 @@ export async function getMarketDetail(slug: string, now: Date): Promise<MarketDe
 async function getPopups(marketId: string, now: Date): Promise<Popup[]> {
   const weekOut = new Date(now.getTime() + 7 * 86_400_000);
 
-  const { data, error } = await supabase
-    .from("popups")
-    .select("id, name, location_note, starts_at, ends_at, status")
-    .eq("market_id", marketId)
-    .gte("starts_at", now.toISOString())
-    .lte("starts_at", weekOut.toISOString())
-    .order("starts_at");
-
-  if (error) throw error;
-
-  const rows = data ?? [];
+  const rows = data.popups
+    .filter((popup) => {
+      if (popup.market_id !== marketId) return false;
+      const startsAt = toDate(popup.starts_at).getTime();
+      return startsAt >= now.getTime() && startsAt <= weekOut.getTime();
+    })
+    .sort((a, b) => toDate(a.starts_at).getTime() - toDate(b.starts_at).getTime());
   const events = await verificationsFor(
     "popup",
     rows.map((popup) => popup.id),
@@ -898,12 +735,9 @@ async function getPopups(marketId: string, now: Date): Promise<Popup[]> {
 }
 
 export async function getMarketSlugs(options: { sourcedOnly?: boolean } = {}): Promise<string[]> {
-  let query = supabase.from("markets").select("slug").eq("is_active", true);
-  if (options.sourcedOnly) query = query.not("source_url", "is", null);
-
-  const { data, error } = await query;
-  if (error) throw error;
-  return (data ?? []).map((row) => row.slug);
+  return marketRows
+    .filter((row) => !options.sourcedOnly || row.source_url !== null)
+    .map((row) => row.slug);
 }
 
 export const loadMarket = cache(async (slug: string) => {
@@ -925,25 +759,17 @@ export { MARKETS_CATEGORY };
  * which one it is looking at.
  */
 export async function getSlugSets(): Promise<{ islands: Set<string>; categories: Set<string> }> {
-  const [islands, categories] = await Promise.all([
-    supabase.from("islands").select("slug"),
-    supabase.from("categories").select("slug"),
-  ]);
-
-  if (islands.error) throw islands.error;
-  if (categories.error) throw categories.error;
-
   return {
-    islands: new Set((islands.data ?? []).map((row) => row.slug)),
-    categories: new Set((categories.data ?? []).map((row) => row.slug)),
+    islands: new Set(data.islands.map((row) => row.slug)),
+    categories: new Set(data.categories.map((row) => row.slug)),
   };
 }
 
 /**
  * Request-scoped loaders.
  *
- * generateMetadata and the page body both need the same row, and a Supabase
- * call is not deduplicated the way fetch() is. These memoise per request, and
+ * generateMetadata and the page body both need the same row. These memoise
+ * per request, and
  * they own the `now` they render against so both callers agree on the instant
  * rather than each taking its own clock reading.
  */
