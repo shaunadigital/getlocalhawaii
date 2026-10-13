@@ -111,3 +111,9 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-09: "Open now" counts never show a total and are hidden at zero - the total adds nothing a visitor acts on, and a zero reads as broken.
 2026-10-09: Buttondown is the email tool - simpler than Kit for a few emails a year.
 2026-10-09: Outreach is signed "Get Local Hawaiʻi" from a Cloudflare email alias, with no personal name - the site stays anonymous.
+2026-10-09: The Home headline is "Get the lei of the land" - it extends the "Get" of the sign above it and puts lei in the headline.
+2026-10-09: Figtree replaces LINE Seed JP for all reading text - LINE Seed draws its macrons over the next letter, which breaks Hawaiian spelling, and it has no ō.
+2026-10-09: While the new site is built, old lei shop pages and /oahu/lei redirect temporarily (307) to the page that now lists them; fish and farmers market pages return 404 - lei pages come back in the new design, fish and markets are not part of it.
+2026-10-09: The airport and delivery pages are titled "Honolulu airport lei" and "Send a lei to the mainland", matching their Home doors; shop pages are restyled before the full airport and send-a-lei designs are built.
+2026-10-09: Email signup forms render on previews but stay off production until the Buttondown username is set - a form that posts nowhere is worse than none.
+2026-10-09: The Home hero is concept A, the stand sign: the headline on a white sign hung on its own, centered in the photo and clear of the logo - chosen over big type, an arrivals board and a curved headline; it echoes the airport stand row without crowding the logo.

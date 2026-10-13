@@ -38,8 +38,8 @@ a:hover .wf-arrow-r{transform:translateX(3px)}
 <button aria-label="Open menu" style="margin-top: 14px; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: rgba(21,24,27,0.45); border: 1px solid rgba(255,255,255,0.35); border-radius: 8px; color: #FFFFFF; cursor: pointer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button>
 </div>
 <div style="position: relative; margin-top: 240px; padding: 24px 16px 28px; border-radius: 22px 22px 0 0; background: rgba(21,24,27,0.70); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border-top: 1px solid rgba(255,255,255,0.18); display: flex; flex-direction: column; gap: 12px">
-<h1 style="margin: 0; font-weight: 800; font-size: 36px; line-height: 1.15; letter-spacing: -0.01em">Lei and lūʻau on Oʻahu</h1>
-<p style="margin: 0; font-size: 18px; line-height: 1.45; color: #EEF0F2">Where to get a lei at the Honolulu airport and how to send a lei to the mainland. From someone born and raised here, with every page dated.</p>
+<h1 style="margin: 0; font-weight: 800; font-size: 36px; line-height: 1.15; letter-spacing: -0.01em">Get the lei of the land</h1>
+<p style="margin: 0; font-size: 18px; line-height: 1.45; color: #EEF0F2">Honolulu airport lei stands and sending a lei to the mainland, from someone born and raised on Oʻahu.</p>
 </div>
 </section>
 
@@ -47,7 +47,7 @@ a:hover .wf-arrow-r{transform:translateX(3px)}
 <h2 style="margin: 0; align-self: flex-start; display: flex; align-items: stretch; border-radius: 6px; overflow: hidden; border: 1px solid #15181B; font-weight: 800; font-size: 20px; line-height: 1.25"><span style="flex: none; display: flex; align-items: center; justify-content: center; width: 40px; background: {{accent}}"><svg class="wf-arrow" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3.5h5v8.5h4.5L12 20.5 5 12h4.5z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1.6" stroke-linejoin="round"></path></svg></span><span style="background: #15181B; color: #FFFFFF; padding: 9px 14px">What do you need?</span></h2>
 <sc-for list="{{ doors }}" as="d" hint-placeholder-count="2">
 <a href="{{ d.href }}" style="position: relative; display: block; height: 200px; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; background: {{ d.tone }}">
-<span style="position: absolute; top: 14px; left: 16px; right: 16px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: rgba(255,255,255,0.75)">{{ d.photo }}</span>
+<img src="{{ d.img }}" alt="{{ d.alt }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: {{ d.pos }}">
 <span style="position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 12px; background: rgba(21,24,27,0.70); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,0.18)">
 <span style="flex-grow: 1; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #E6D6F5">{{ d.kicker }}</span><span style="font-weight: 800; font-size: 19px; line-height: 1.25">{{ d.title }}</span><span style="font-size: 13px; color: #EEF0F2">{{ d.checked }}</span></span>
 <span style="flex: none; width: 40px; height: 40px; border-radius: 8px; background: {{accent}}; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg class="wf-arrow-r" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.5h8.5V5l8.5 7-8.5 7v-4.5H3.5z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg></span>
@@ -101,8 +101,8 @@ class Component extends DCLogic {
     return {
       accent: this.props.accent ?? '#8A3F9E',
       doors: [
-        { kicker: 'AT THE AIRPORT NOW', title: 'Honolulu airport lei', checked: 'Checked [DATE]', href: 'MobileV2.dc.html', tone: '#5E4A3F', photo: '[PHOTO: THE AIRPORT LEI STAND ROW]' },
-        { kicker: 'SENDING A LEI', title: 'Send a lei to the mainland', checked: 'Checked [DATE]', href: 'SendLei.dc.html', tone: '#5A3B4A', photo: '[PHOTO: A LEI PACKED IN ITS BOX]' }
+        { kicker: 'AT THE AIRPORT NOW', title: 'Honolulu airport lei', checked: 'Checked [DATE]', href: 'MobileV2.dc.html', tone: '#5E4A3F', img: '/_blob/59d16d726c6bf1dad6f060273d2638c5', alt: 'Hands placing a yellow plumeria lei over someone\u2019s shoulders', pos: 'center 35%' },
+        { kicker: 'SENDING A LEI', title: 'Send a lei to the mainland', checked: 'Checked [DATE]', href: 'SendLei.dc.html', tone: '#5A3B4A', img: '/_blob/44421580e3fb3ab74d8c68db7723e442', alt: 'Hands stringing a purple and white orchid lei', pos: 'center 45%' }
       ],
       leis: ['Pīkake', 'Puakenikeni', 'Maile', 'Plumeria', 'Orchid', 'Carnation']
     };

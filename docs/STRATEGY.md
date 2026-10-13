@@ -74,6 +74,56 @@ Independent comparison of 6 to 8 Hawaiʻi shops that ship: lei price, real shipp
 ### 4. Home, About, Disclosure, Privacy
 ### 5. Lei type page updates, then supporting guides
 
+## Project review, Oct 9 2026 (open, discuss next session)
+
+Shauna questioned whether the site is worth the time. Nothing below is decided; it is the material for that discussion. All money and hour figures are estimates.
+
+### Money and time
+- Earnings per action: lūʻau booking for two about $24 to $36; shop referral about $8 to $15 (if any shop agrees); lei greeting $3 to $12.
+- $100 a month needs about 3 to 4 lūʻau bookings, roughly 500 to 4,000 lūʻau-page visits a month. Today: about 4 search clicks a month (Search Console, Aug 18 to Oct 6).
+- "luau oahu" is held by booking sites and big blogs, and AI answers are taking clicks from guide sites. The real openings are narrow: the 2026 lūʻau changes (Paradise Cove closed, Kaula opened) and the airport stands.
+- Realistic range: $0 to $50 a month by June 2027; maybe $100 to $300 a month in 2028 if it ranks.
+- Full plan cost: about 80 to 120 hours through June 2027, then 2 to 4 hours a month, plus $300 to $1,000 if several lūʻau are attended at full price. Year one likely works out under $5 an hour.
+- Not money: the design system, brand and code are already built; the public repo is part of Shauna's portfolio; the work is a real case study in AI-assisted product building.
+
+### Options
+- A. Stop (1 to 2 h): merge the finished lightweight branch so the public site is clean and needs no upkeep, then stop.
+- B. One bet (about 30 to 40 h): ship the lightweight site, build only the lūʻau guide by mid-December for winter season, apply to affiliates, then watch. Stop if the guide misses the stop rule by March 31.
+- C. Full plan (100+ h): everything above in this file.
+- D. Portfolio piece (about 5 to 10 h): A plus a written case study; earnings are a bonus.
+- Recommendation given: B plus D. Park the airport site visit, shipping comparison, outreach rounds, Pinterest and the full airport page until the lūʻau guide shows a signal.
+
+### If B plus D: what is left
+Decide (Shauna):
+1. Stop rule. Proposed: at March 31, under about 100 lūʻau-guide visits a month, or no top-20 Google ranking for any target search, means the site goes static and work stops.
+2. Case study vs anonymity. A case study under Shauna's name reveals who runs the site. Options: accept it, write about the process without naming the site, or keep it private for client conversations.
+3. Which lūʻau are in the guide. The design has six (Germaine's, Toa, Ka Moana, Polynesian Cultural Center Aliʻi Lūʻau, Chief's, Kaula); Waikīkī hotel lūʻau need checking before claiming "every lūʻau".
+4. Attend in person or sources only. Even one visit makes the guide first-hand.
+5. Analytics: cookie-free (Vercel Web Analytics, matches the privacy page) or GA4 with a cookie notice. Cookie-free recommended.
+6. Still open: email signup as the main action until the guide exists; a "Find your lei" button on the stand sign hero; Figtree as the font.
+
+Design (mostly done):
+- Lūʻau guide boards exist; update to the plain title "Oʻahu lūʻau" and Figtree; drop the island map for v1 and use drive times from Waikīkī.
+- A line near the top of the lūʻau page saying some links earn a commission (the disclosure page promises it).
+- Favicon and share image from the orchid sign (sketched on the Logo Options board).
+- Skip updating canvas boards to Figtree; real site screenshots serve the case study better.
+
+Build (Claude, about 15 to 20 h):
+- Stand sign hero, plus button if wanted (2 to 3 h).
+- Supabase keys in Vercel Preview, review, merge lightweight-home to main (1 h plus review).
+- Connect Buttondown (30 min once the account exists).
+- Cookie-free analytics and outbound click tracking (1 to 2 h).
+- Lūʻau guide at /oahu/luau as a content file: cards, filter chips, dated checks, JSON-LD, sitemap (8 to 12 h), with one central partner link list so affiliate links are a one-file swap.
+- Replace Home's "Coming next" box with a lūʻau door (30 min).
+
+Research and write (about 10 to 15 h): per lūʻau, from the operator's own site, price tiers, location and drive time, food, show, transport, who it suits, each with a checked date; the 2026 changes section; how to choose. Claude drafts from public sources, Shauna fact-checks and adds first-hand notes.
+
+Admin (Shauna): Buttondown account; Cloudflare email alias; after the guide is live, Viator, GetYourGuide and Polynesian Cultural Center (Impact) applications with W-9 and bank details; $20 Hawaiʻi GET license before any commission (confirm with a tax preparer); permission for any operator press photos.
+
+Case study (about 5 to 8 h): draft now (pivot from local directory to visitor site, brand and design system, the font bug, AI-assisted workflow); finish in April with real results, whatever they are.
+
+Timeline: lightweight site live by mid-November; lūʻau guide live and affiliate applications in by mid-December; January to March watch only, about 30 minutes a month in Search Console; March 31 go or stop; April case study finished. Total about 35 to 45 hours, most before mid-December.
+
 ## Getting traffic
 
 1. Google search (main source, 3 to 9 months to rank). Quickest wins: airport stands (no good page exists; Search Console already shows "airport lei stand" searches), 2026 lūʻau update.
@@ -103,13 +153,13 @@ Seasons: Oct to Dec build; Dec to Mar visitor high season; Mar to May graduation
 ## Design (in progress)
 
 Canvas: https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu (copies in docs/designs_100826/). Mobile and desktop boards for airport, home, lūʻau, send a lei.
-- Fonts: LINE Seed JP for body and all headings, headlines at 800; Playwrite NG Modern only for the logo, the byline greeting and small human touches. Two fonts only. LINE Seed JP lacks ō/Ō.
+- Fonts: Figtree for body and all headings, headlines at 800; Playwrite NG Modern only for the logo, the byline greeting and small human touches. Two fonts only. LINE Seed JP was dropped on Oct 9: its macrons land on the following letter (Pīkake renders as "Pik̄ake"), and it has no ō.
 - Colors: one accent, red-violet orchid #8A3F9E (white on it 6.4:1). Charcoal #15181B and white as neutrals, warm sand #F5F0E8 as the one light fill. Light orchid #E6D6F5 for accent text on glass, #D9C2F0 only on solid charcoal. Green #4ADE80 only for the "open" light, on dark, never next to purple. White text and icons on purple. Pages declare color-scheme light.
 - Logo: "Get Local Hawaiʻi" in white Playwrite on an orchid #8A3F9E hanging sign with white cords and a thin white edge, orchid and white only. Title tags and schema keep "Get Local Hawaii". Profile picture and tab icon: orchid square, white lettering.
 - Hero: full-bleed photo with text on a smoked glass panel (charcoal 70% with blur, so text passes over pale lei photos). Mobile panel slides up over the bottom of the photo. Hero status line: glowing green dot + "[N] stands open now" once per-stand hours exist.
 - Names: one plain name per page, the same on the Home door, the page headline and the menu: Oʻahu lūʻau, Honolulu airport lei, Send a lei to the mainland. Title tags carry the longer search version in plain spelling (e.g. "Oahu Luau 2026: Every Luau Compared", "Honolulu Airport Lei Stands: Where They Are, Hours and Prices").
 - Home (after the Oct 9 agency review): doors in order lūʻau, airport, send a lei, each with a "Checked [date]" line; "Lei by flower and style" strip as a sign heading; anonymous byline "Aloha from Oʻahu. Written by someone born and raised here." with no name or photo; one voice ("I") site-wide; footer has the reminder signup, Disclosure and Privacy links.
-- Lightweight home (first build): replaces the live home until the new pages exist. Hero, two doors to live pages (Honolulu airport lei, Send a lei to the mainland), a "Coming next: lūʻau guide" email signup, lei by flower (the six live type pages), graduation guide link, anonymous byline, footer. Doors are added as each new page goes live; never "coming soon" tiles. Inner pages stay live so their search rankings are kept.
+- Lightweight home (first build, on branch lightweight-home): replaces the live home until the new pages exist. Hero "Get the lei of the land" on the stand sign (concept A on the Hero Concepts boards), two photo doors to live pages (Honolulu airport lei, Send a lei to the mainland), a "Coming next: lūʻau guide" email signup, lei by flower (the six live type pages), graduation guide link, anonymous byline, footer. Doors are added as each new page goes live; never "coming soon" tiles. Inner pages stay live so their search rankings are kept.
 - Wayfinding signs: section headings drawn as signs (purple arrow box + charcoal bar + white fact tag such as "The stands | 8 stands"). A tag must carry a real fact or it is left off.
 - Arrow: bold solid wayfinding arrow. Direction has meaning everywhere: down = this page, right = another page on the site, up-right = leaves the site (bookings, shops).
 - One way to jump per page: long pages get an "On this page" directory under the hero; short pages get one hero sign button. Never both.

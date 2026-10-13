@@ -43,8 +43,8 @@ a:hover .wf-arrow-r{transform:translateX(3px)}
 </div>
 <div style="position: relative; max-width: 1160px; width: 100%; margin: auto auto 0; padding: 40px 32px 48px; box-sizing: border-box">
 <div style="max-width: 560px; display: flex; flex-direction: column; gap: 16px; border-radius: 18px; padding: 32px 36px; background: rgba(21,24,27,0.70); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); border: 1px solid rgba(255,255,255,0.18); box-shadow: 0 16px 48px rgba(0,0,0,0.3)">
-<h1 style="margin: 0; font-weight: 800; font-size: 48px; line-height: 1.15; letter-spacing: -0.01em">Lei and lūʻau on Oʻahu</h1>
-<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #EEF0F2">Where to get a lei at the Honolulu airport and how to send a lei to the mainland. From someone born and raised here, with every page dated.</p>
+<h1 style="margin: 0; font-weight: 800; font-size: 48px; line-height: 1.15; letter-spacing: -0.01em">Get the lei of the land</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.5; color: #EEF0F2">Honolulu airport lei stands and sending a lei to the mainland, from someone born and raised on Oʻahu.</p>
 </div>
 </div>
 </section>
@@ -56,7 +56,7 @@ a:hover .wf-arrow-r{transform:translateX(3px)}
 <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px">
 <sc-for list="{{ doors }}" as="d" hint-placeholder-count="2">
 <a href="{{ d.href }}" style="position: relative; display: block; height: 360px; border-radius: 16px; overflow: hidden; text-decoration: none; color: #FFFFFF; background: {{ d.tone }}">
-<span style="position: absolute; top: 16px; left: 18px; right: 18px; font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: rgba(255,255,255,0.75)">{{ d.photo }}</span>
+<img src="{{ d.img }}" alt="{{ d.alt }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; object-position: {{ d.pos }}">
 <span style="position: absolute; left: 14px; right: 14px; bottom: 14px; display: flex; align-items: center; gap: 12px; padding: 14px 16px; border-radius: 12px; background: rgba(21,24,27,0.70); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border: 1px solid rgba(255,255,255,0.18)">
 <span style="flex-grow: 1; display: flex; flex-direction: column"><span style="font-size: 12px; font-weight: 800; letter-spacing: 0.08em; color: #E6D6F5">{{ d.kicker }}</span><span style="font-weight: 800; font-size: 20px; line-height: 1.25">{{ d.title }}</span><span style="font-size: 14px; color: #EEF0F2">{{ d.checked }}</span></span>
 <span style="flex: none; width: 44px; height: 44px; border-radius: 8px; background: {{accent}}; color: #FFFFFF; display: flex; align-items: center; justify-content: center"><svg class="wf-arrow-r" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 9.5h8.5V5l8.5 7-8.5 7v-4.5H3.5z" fill="currentColor" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path></svg></span>
@@ -118,8 +118,8 @@ class Component extends DCLogic {
     return {
       accent: this.props.accent ?? '#8A3F9E',
       doors: [
-        { kicker: 'AT THE AIRPORT NOW', title: 'Honolulu airport lei', checked: 'Checked [DATE]', href: 'DesktopV2.dc.html', tone: '#5E4A3F', photo: '[PHOTO: THE AIRPORT LEI STAND ROW]' },
-        { kicker: 'SENDING A LEI', title: 'Send a lei to the mainland', checked: 'Checked [DATE]', href: 'SendLeiDesktop.dc.html', tone: '#5A3B4A', photo: '[PHOTO: A LEI PACKED IN ITS BOX]' }
+        { kicker: 'AT THE AIRPORT NOW', title: 'Honolulu airport lei', checked: 'Checked [DATE]', href: 'DesktopV2.dc.html', tone: '#5E4A3F', img: '/_blob/59d16d726c6bf1dad6f060273d2638c5', alt: 'Hands placing a yellow plumeria lei over someone\u2019s shoulders', pos: 'center 35%' },
+        { kicker: 'SENDING A LEI', title: 'Send a lei to the mainland', checked: 'Checked [DATE]', href: 'SendLeiDesktop.dc.html', tone: '#5A3B4A', img: '/_blob/44421580e3fb3ab74d8c68db7723e442', alt: 'Hands stringing a purple and white orchid lei', pos: 'center 45%' }
       ],
       leis: ['Pīkake', 'Puakenikeni', 'Maile', 'Plumeria', 'Orchid', 'Carnation']
     };
