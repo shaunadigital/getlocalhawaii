@@ -110,7 +110,7 @@ Design (mostly done):
 
 Build (Claude, about 15 to 20 h):
 - Stand sign hero, plus button if wanted (2 to 3 h).
-- Supabase keys in Vercel Preview, review, merge lightweight-home to main (1 h plus review).
+- Done Oct 13: lightweight site merged to main and live; Supabase replaced by a bundled data file.
 - Connect Buttondown (30 min once the account exists).
 - Cookie-free analytics and outbound click tracking (1 to 2 h).
 - Lūʻau guide at /oahu/luau as a content file: cards, filter chips, dated checks, JSON-LD, sitemap (8 to 12 h), with one central partner link list so affiliate links are a one-file swap.
@@ -122,7 +122,7 @@ Admin (Shauna): Buttondown account; Cloudflare email alias; after the guide is l
 
 Case study (about 5 to 8 h): draft now (pivot from local directory to visitor site, brand and design system, the font bug, AI-assisted workflow); finish in April with real results, whatever they are.
 
-Timeline: lightweight site live by mid-November; lūʻau guide live and affiliate applications in by mid-December; January to March watch only, about 30 minutes a month in Search Console; March 31 go or stop; April case study finished. Total about 35 to 45 hours, most before mid-December.
+Timeline: lightweight site live (done Oct 13); lūʻau guide live and affiliate applications in by mid-December; January to March watch only, about 30 minutes a month in Search Console; March 31 go or stop; April case study finished. Total about 35 to 45 hours, most before mid-December.
 
 ## Getting traffic
 
@@ -159,7 +159,7 @@ Canvas: https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu (copies in docs/design
 - Hero: full-bleed photo with text on a smoked glass panel (charcoal 70% with blur, so text passes over pale lei photos). Mobile panel slides up over the bottom of the photo. Hero status line: glowing green dot + "[N] stands open now" once per-stand hours exist.
 - Names: one plain name per page, the same on the Home door, the page headline and the menu: Oʻahu lūʻau, Honolulu airport lei, Send a lei to the mainland. Title tags carry the longer search version in plain spelling (e.g. "Oahu Luau 2026: Every Luau Compared", "Honolulu Airport Lei Stands: Where They Are, Hours and Prices").
 - Home (after the Oct 9 agency review): doors in order lūʻau, airport, send a lei, each with a "Checked [date]" line; "Lei by flower and style" strip as a sign heading; anonymous byline "Aloha from Oʻahu. Written by someone born and raised here." with no name or photo; one voice ("I") site-wide; footer has the reminder signup, Disclosure and Privacy links.
-- Lightweight home (first build, on branch lightweight-home): replaces the live home until the new pages exist. Hero "Get the lei of the land" on the stand sign (concept A on the Hero Concepts boards), two photo doors to live pages (Honolulu airport lei, Send a lei to the mainland), a "Coming next: lūʻau guide" email signup, lei by flower (the six live type pages), graduation guide link, anonymous byline, footer. Doors are added as each new page goes live; never "coming soon" tiles. Inner pages stay live so their search rankings are kept.
+- Lightweight home (live since Oct 13): replaces the live home until the new pages exist. Hero "Get the lei of the land" on the stand sign (concept A on the Hero Concepts boards), two photo doors to live pages (Honolulu airport lei, Send a lei to the mainland), a "Coming next: lūʻau guide" email signup, lei by flower (the six live type pages), graduation guide link, anonymous byline, footer. Doors are added as each new page goes live; never "coming soon" tiles. Inner pages stay live so their search rankings are kept.
 - Wayfinding signs: section headings drawn as signs (purple arrow box + charcoal bar + white fact tag such as "The stands | 8 stands"). A tag must carry a real fact or it is left off.
 - Arrow: bold solid wayfinding arrow. Direction has meaning everywhere: down = this page, right = another page on the site, up-right = leaves the site (bookings, shops).
 - One way to jump per page: long pages get an "On this page" directory under the hero; short pages get one hero sign button. Never both.

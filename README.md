@@ -10,7 +10,7 @@ Lei and lūʻau on Oʻahu, for visitors and anyone sending a lei to the mainland
 - **Farmers markets as a calendar.** Today's markets first, then the rest of the week, with real map pins from the City's own data.
 - **Hawaiʻi time, always.** All open and closed math runs in `Pacific/Honolulu`.
 
-Built with Next.js (App Router, TypeScript, Tailwind) on Supabase, deployed on Vercel.
+Built with Next.js (App Router, TypeScript, Tailwind), deployed on Vercel. Listings ship as a JSON data file, no database.
 
 ```bash
 npm run dev    # run locally

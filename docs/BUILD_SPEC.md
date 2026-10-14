@@ -1,5 +1,8 @@
 # Get Local Hawaii - Build Spec
 
+
+> Oct 2026: there is no Supabase project any more. The tables in section 6 now live as arrays in `src/data/site-data.json`, joined by `src/lib/db.ts`; the setup steps that mention Supabase are history.
+
 Source of truth for the first build. Derived from the design mockups in `docs/Get Local Hawaii - Home.dc.html` (4 mobile screens at 390px). Goal of the first deploy: all four pages working against Supabase seed data, pushed to GitHub, auto-deployed to a Vercel temp domain.
 
 ## 1. Product concept
