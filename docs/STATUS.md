@@ -7,14 +7,14 @@
 - Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu, copies in docs/designs_100826/. Vendor tracker docs/vendor-tracker.xlsx.
 
 ## In progress
-- PROJECT UNDER REVIEW (Oct 9): options A to D and the B plus D checklist are in STRATEGY.md, "Project review". The lightweight site is live either way (that was option A's first step).
+- Plan decided Oct 14: B plus D (STRATEGY.md, "Project review"). Lūʻau guide live and affiliate applications in by mid-December; case study drafted now, finished in April.
 - Hero still uses the glass panel; concept A (centered stand sign) chosen, not built.
 
 ## Next 3 steps
-1. Pick A, B, C or D; if B plus D, answer its six "Decide" items first.
-2. If go: build the stand sign hero; then the lūʻau guide.
+1. Answer the six "Decide" items in STRATEGY.md (stop rule, case study vs. anonymity, which lūʻau, attend or not, analytics, signup/button/font); tabled to next session.
+2. Build: stand sign hero, cookie-free analytics with click tracking, lūʻau guide at /oahu/luau, lūʻau door on Home.
 3. Shauna: Buttondown account (then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel), Cloudflare email alias.
 
 ## Known issues
 - Canvas boards still use LINE Seed JP, so their macrons render on the wrong letter.
-- Freshness dates are from the Aug 19 source checks; they will read as older over time until listings are rechecked.
+- Freshness dates are from the Aug 19 source checks; they read as older over time until listings are rechecked.

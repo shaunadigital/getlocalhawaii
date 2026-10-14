@@ -74,9 +74,9 @@ Independent comparison of 6 to 8 Hawaiʻi shops that ship: lei price, real shipp
 ### 4. Home, About, Disclosure, Privacy
 ### 5. Lei type page updates, then supporting guides
 
-## Project review, Oct 9 2026 (open, discuss next session)
+## Project review, Oct 9 2026 (decided Oct 14: B plus D)
 
-Shauna questioned whether the site is worth the time. Nothing below is decided; it is the material for that discussion. All money and hour figures are estimates.
+Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. The six "Decide" items below are still open. All money and hour figures are estimates.
 
 ### Money and time
 - Earnings per action: lūʻau booking for two about $24 to $36; shop referral about $8 to $15 (if any shop agrees); lei greeting $3 to $12.
@@ -91,7 +91,7 @@ Shauna questioned whether the site is worth the time. Nothing below is decided; 
 - B. One bet (about 30 to 40 h): ship the lightweight site, build only the lūʻau guide by mid-December for winter season, apply to affiliates, then watch. Stop if the guide misses the stop rule by March 31.
 - C. Full plan (100+ h): everything above in this file.
 - D. Portfolio piece (about 5 to 10 h): A plus a written case study; earnings are a bonus.
-- Recommendation given: B plus D. Park the airport site visit, shipping comparison, outreach rounds, Pinterest and the full airport page until the lūʻau guide shows a signal.
+- Chosen: B plus D. Park the airport site visit, shipping comparison, outreach rounds, Pinterest and the full airport page until the lūʻau guide shows a signal.
 
 ### If B plus D: what is left
 Decide (Shauna):
