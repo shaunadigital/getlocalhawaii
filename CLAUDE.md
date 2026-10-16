@@ -25,7 +25,7 @@ Content site about lei and lūʻau on Oʻahu for visitors and for people sending
 
 - Mobile-first, but every page also has a designed desktop board in the canvas. Build both, breakpoint around 768px.
 - Never use em dashes in any user-facing copy, commit messages, or docs.
-- The site never names or pictures its author; copy speaks as "I", someone born and raised on Oʻahu.
+- The site never names or pictures its author; copy speaks as "I". No byline or "born and raised" lines on any page.
 - Do not credit Claude or AI in commits, code comments, or anywhere in the repo.
 - Hawaiian diacriticals (ʻokina, kahakō) must be preserved exactly: Oʻahu, Kalihi, Waimānalo, Kaimukī, lūʻau, GET LOCAL HAWAIʻI.
 - All status logic (open now, closes 2p, checked today) computed from data in Pacific/Honolulu timezone. Never store a computed status.

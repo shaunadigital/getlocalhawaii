@@ -37,7 +37,7 @@ export default async function Home() {
     <>
       <Hero
         title="Get the lei of the land"
-        sub="Honolulu airport lei stands and sending a lei to the mainland, from someone born and raised on Oʻahu."
+        sub="Honolulu airport lei stands and sending a lei to the mainland."
         image={{ src: "/images/lei-rows.jpg", alt: "Rows of fresh flower lei", position: "30% center" }}
       />
 

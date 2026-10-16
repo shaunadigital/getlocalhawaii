@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-import { Byline } from "@/components/Byline";
 import { Hero } from "@/components/Hero";
 import { ArrowDown } from "@/components/Icons";
 import { JsonLd } from "@/components/JsonLd";
@@ -166,7 +165,6 @@ export function ListingPage({
           </>
         )}
 
-        <Byline />
       </main>
 
       <SiteFooter />

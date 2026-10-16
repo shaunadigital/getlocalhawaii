@@ -6,7 +6,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
 // Two fonts only: Figtree for everything people read, Playwrite for the logo,
-// the byline greeting and small human touches. Figtree replaced LINE Seed JP,
+// and small human touches. Figtree replaced LINE Seed JP,
 // whose macrons land on the following letter (Pīkake read as "Pik̄ake").
 const sans = Figtree({
   variable: "--font-sans-face",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    "Where to buy a lei at the Honolulu airport and how to send a fresh lei to the mainland, from someone born and raised on Oahu. Every page says when it was checked.",
+    "Where to buy a lei at the Honolulu airport and how to send a fresh lei to the mainland.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",

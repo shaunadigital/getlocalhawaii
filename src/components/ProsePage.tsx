@@ -1,4 +1,3 @@
-import { Byline } from "@/components/Byline";
 import { Hero } from "@/components/Hero";
 import { Sign } from "@/components/Sign";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -10,10 +9,9 @@ export interface ProsePageProps {
   updated: string;
   sections: { heading: string; paragraphs: React.ReactNode[] }[];
   current?: string;
-  byline?: boolean;
 }
 
-export function ProsePage({ title, sub, updated, sections, current, byline = false }: ProsePageProps) {
+export function ProsePage({ title, sub, updated, sections, current }: ProsePageProps) {
   return (
     <>
       <Hero title={title} sub={sub} meta={`Updated ${updated}`} current={current} />
@@ -30,7 +28,6 @@ export function ProsePage({ title, sub, updated, sections, current, byline = fal
             </div>
           </section>
         ))}
-        {byline ? <Byline /> : null}
       </main>
       <SiteFooter />
     </>

@@ -6,7 +6,7 @@ import { CONTACT_EMAIL, mailto } from "@/lib/site";
 export const metadata: Metadata = {
   title: "How pages are checked",
   description:
-    "Who writes Get Local Hawaii, where each listing comes from, what the checked dates mean, and how to send a correction.",
+    "Where each listing on Get Local Hawaii comes from, what the checked dates mean, and how to send a correction.",
   alternates: { canonical: "/about" },
 };
 
@@ -14,14 +14,14 @@ export default function About() {
   return (
     <ProsePage
       title="How pages are checked"
-      sub="Who writes this site, where the information comes from, and what the dates on every page mean."
+      sub="Where the information comes from and what the dates on every page mean."
       updated="Oct 9, 2026"
       current="/about"
       sections={[
         {
-          heading: "Who writes this",
+          heading: "About this site",
           paragraphs: [
-            "Someone born and raised on Oʻahu. I am not a lei shop, a tour company or a booking site, and the site does not carry my name: what it asks you to trust is the date on each page and the source behind it, not a person.",
+            "This is not a lei shop, a tour company or a booking site. What it asks you to trust is the date on each page and the source behind it.",
             "It started as a list of lei stands for locals. It is now for visitors and for anyone sending a lei to the mainland: where to buy one at the Honolulu airport, which shops ship, and, next, every lūʻau on the island compared.",
           ],
         },
