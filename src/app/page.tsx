@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-import { Byline } from "@/components/Byline";
 import { Door } from "@/components/Door";
 import { Hero } from "@/components/Hero";
 import { ArrowRight } from "@/components/Icons";
@@ -122,8 +121,6 @@ export default async function Home() {
             </span>
           </Link>
         </section>
-
-        <Byline />
       </main>
 
       <SiteFooter signup={false} />

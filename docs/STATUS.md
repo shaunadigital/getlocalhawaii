@@ -1,7 +1,7 @@
 # Status
 
 ## What works
-- Live (main): the lightweight site at https://getlocalhawaii.com. New Home, About, Disclosure, Privacy; airport, delivery, six lei type, Chinatown and graduation pages. Old shop pages 307 to their new page; fish and markets 404. Search Console set up.
+- Live (main): the lightweight site at https://getlocalhawaii.com. New Home (no byline block since Oct 16), About, Disclosure, Privacy; airport, delivery, six lei type, Chinatown and graduation pages. Old shop pages 307 to their new page; fish and markets 404. Search Console set up.
 - Data: no database. Listings are src/data/site-data.json (export of Oct 11), read by src/lib/db.ts; open now still computed per request. No env vars needed, so preview builds work.
 - 61 tests pass, typecheck, lint and build clean.
 - Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu, copies in docs/designs_100826/. Vendor tracker docs/vendor-tracker.xlsx.
