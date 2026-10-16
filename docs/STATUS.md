@@ -7,11 +7,11 @@
 - Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu, copies in docs/designs_100826/. Vendor tracker docs/vendor-tracker.xlsx.
 
 ## In progress
-- Plan decided Oct 14: B plus D (STRATEGY.md, "Project review"). Lūʻau guide live and affiliate applications in by mid-December; case study drafted now, finished in April.
+- Plan decided Oct 14: B plus D (STRATEGY.md, "Project review"). Stop rule, lūʻau scope, first-hand guide and cookie-free analytics decided Oct 16. Lūʻau guide live and affiliate applications in by mid-December; case study drafted now, finished in April.
 - Hero still uses the glass panel; concept A (centered stand sign) chosen, not built.
 
 ## Next 3 steps
-1. Answer the six "Decide" items in STRATEGY.md (stop rule, case study vs. anonymity, which lūʻau, attend or not, analytics, signup/button/font); tabled to next session.
+1. Research every operating Oʻahu lūʻau (Waikīkī hotels included) from operator sites; Shauna adds first-hand notes. Two items still open in STRATEGY.md: case study vs. anonymity, hero button.
 2. Build: stand sign hero, cookie-free analytics with click tracking, lūʻau guide at /oahu/luau, lūʻau door on Home.
 3. Shauna: Buttondown account (then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel), Cloudflare email alias.
 

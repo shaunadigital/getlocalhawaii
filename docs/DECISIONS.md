@@ -120,3 +120,7 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-13: Listings ship as a JSON file in the repo instead of a Supabase database - the database was deleted, the data is a few hundred hand-edited read-only rows, and a file has no keys, cost or outage to manage.
 2026-10-14: The project goes ahead as option B plus D: the lūʻau guide live by mid-December plus a case study; airport visit, shipping comparison, outreach rounds, Pinterest and the full airport page are parked until the guide shows a signal - one bounded bet of about 35 to 45 hours, judged on March 31.
 2026-10-16: No byline anywhere: the "Aloha from Oʻahu / born and raised / how pages are checked" block and every "born and raised" line are gone from all pages and the meta description - Shauna asked for them removed site-wide.
+2026-10-16: Stop rule adopted: at March 31, under about 100 lūʻau-guide visits a month or no top-20 ranking for any target search, the site goes static - a bounded bet needs a written exit.
+2026-10-16: The lūʻau guide covers every lūʻau operating on Oʻahu, Waikīkī hotel lūʻau included, researched before launch - the page cannot claim "every lūʻau" on six.
+2026-10-16: The lūʻau guide is first-hand; Shauna has attended them, and current prices and details come from operators or dated research - visits carry the trust, dates keep prices honest.
+2026-10-16: Analytics are cookie-free (Vercel Web Analytics), replacing GA4 - matches the privacy page and needs no cookie notice.

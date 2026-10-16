@@ -76,7 +76,7 @@ Independent comparison of 6 to 8 Hawaiʻi shops that ship: lei price, real shipp
 
 ## Project review, Oct 9 2026 (decided Oct 14: B plus D)
 
-Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. The six "Decide" items below are still open. All money and hour figures are estimates.
+Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. Four of the six "Decide" items were answered Oct 16; two remain. All money and hour figures are estimates.
 
 ### Money and time
 - Earnings per action: lūʻau booking for two about $24 to $36; shop referral about $8 to $15 (if any shop agrees); lei greeting $3 to $12.
@@ -94,13 +94,15 @@ Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. 
 - Chosen: B plus D. Park the airport site visit, shipping comparison, outreach rounds, Pinterest and the full airport page until the lūʻau guide shows a signal.
 
 ### If B plus D: what is left
-Decide (Shauna):
-1. Stop rule. Proposed: at March 31, under about 100 lūʻau-guide visits a month, or no top-20 Google ranking for any target search, means the site goes static and work stops.
+Decided Oct 16 (Shauna):
+1. Stop rule: at March 31, under about 100 lūʻau-guide visits a month, or no top-20 Google ranking for any target search, means the site goes static and work stops.
+3. Lūʻau list: research every lūʻau operating on Oʻahu now, Waikīkī hotel lūʻau included, before the page claims "every lūʻau". The design's six are a starting point.
+4. First-hand: Shauna has attended the lūʻau. The guide is written first-hand; gaps and current prices come from the operators or dated research.
+5. Analytics: cookie-free (Vercel Web Analytics), matching the privacy page. Replaces GA4.
+
+Still open:
 2. Case study vs anonymity. A case study under Shauna's name reveals who runs the site. Options: accept it, write about the process without naming the site, or keep it private for client conversations.
-3. Which lūʻau are in the guide. The design has six (Germaine's, Toa, Ka Moana, Polynesian Cultural Center Aliʻi Lūʻau, Chief's, Kaula); Waikīkī hotel lūʻau need checking before claiming "every lūʻau".
-4. Attend in person or sources only. Even one visit makes the guide first-hand.
-5. Analytics: cookie-free (Vercel Web Analytics, matches the privacy page) or GA4 with a cookie notice. Cookie-free recommended.
-6. Still open: email signup as the main action until the guide exists; a "Find your lei" button on the stand sign hero; Figtree as the font.
+6. "Find your lei" button on the stand sign hero. (Figtree and the footer email signup were already decided Oct 9.)
 
 Design (mostly done):
 - Lūʻau guide boards exist; update to the plain title "Oʻahu lūʻau" and Figtree; drop the island map for v1 and use drive times from Waikīkī.
@@ -137,7 +139,7 @@ Seasons: Oct to Dec build; Dec to Mar visitor high season; Mar to May graduation
 
 ## Setup checklist
 
-- [ ] GA4 with outbound click tracking, plus a cookie notice
+- [ ] Cookie-free analytics (Vercel Web Analytics) with outbound click tracking; no cookie notice needed
 - [ ] Confirm aloha@getlocalhawaii.com forwards to hello@shauna.digital (send a test)
 - [ ] Privacy policy and affiliate disclosure pages
 - [ ] Pinterest business account, claim the domain (DNS on Cloudflare)
@@ -147,7 +149,6 @@ Seasons: Oct to Dec build; Dec to Mar visitor high season; Mar to May graduation
 - [ ] Cloudflare email alias for outreach, which is signed "Get Local Hawaiʻi" with no personal name
 - [ ] Hawaiʻi GET license ($20) for commission income; confirm with a tax preparer
 - [ ] Delete the keyword plan "Plan from Oct 8, 2026, 5 PM" in Google Ads (Shauna, optional)
-- [ ] GA4 chosen for analytics; aloha@getlocalhawaii.com is the contact address (confirm it forwards to hello@shauna.digital)
 - [ ] Fix or hide the expired UNCONFIRMED labels on the live directory before applying to affiliate programs
 
 ## Design (in progress)
