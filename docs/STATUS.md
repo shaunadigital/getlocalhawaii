@@ -1,20 +1,20 @@
 # Status
 
 ## What works
-- Live (main): Home is a coming-soon page (since Oct 17); About, Disclosure, Privacy; airport, delivery, six lei type, Chinatown and graduation pages. Old shop pages 307 to their new page; fish and markets 404. Search Console set up. No byline or "born and raised" lines since Oct 16.
-- Data: no database. Listings are src/data/site-data.json (export of Oct 11), read by src/lib/db.ts; open now still computed per request. No env vars needed, so preview builds work.
-- 61 tests pass, typecheck, lint and build clean.
-- Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu, copies in docs/designs_100826/. Vendor tracker docs/vendor-tracker.xlsx.
+- Live (main): Home is a coming-soon page since Oct 17 ("Find your lūʻau. Send some aloha.", sand editorial style, no signup until Buttondown exists). Inner pages stay live: airport, delivery, six lei type, Chinatown, graduation, About, Disclosure, Privacy. Old shop pages 307 to their area page; fish and markets 404.
+- Data: no database. Listings are src/data/site-data.json, read by src/lib/db.ts; open now computed per request. No env vars needed.
+- 61 tests pass; typecheck, lint and build clean. aloha@getlocalhawaii.com forwards to Shauna.
+- Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu. New Oct 17 boards: editorial hero (dark and sand), editorial home on sand (full page), coming-soon home. docs/designs_100826/ predates these.
 
 ## In progress
-- Plan decided Oct 14: B plus D (STRATEGY.md, "Project review"). Stop rule, lūʻau scope, first-hand guide and cookie-free analytics decided Oct 16. Lūʻau guide live and affiliate applications in by mid-December; case study drafted now, finished in April.
-- Hero still uses the glass panel; concept A (centered stand sign) chosen, not built.
+- Plan B plus D: lūʻau guide live and affiliate applications in by mid-December; stop rule checked March 31.
+- Full-site direction: the sand editorial style is the front runner, not yet decided (STRATEGY.md, Design).
 
 ## Next 3 steps
-1. Research every operating Oʻahu lūʻau (Waikīkī hotels included) from operator sites; Shauna adds first-hand notes.
-2. Build: stand sign hero, cookie-free analytics with click tracking, lūʻau guide at /oahu/luau, lūʻau door on Home.
-3. Shauna: Buttondown account (then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel), Cloudflare email alias.
+1. Shauna: Buttondown account (signed up with aloha@), then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel; the coming-soon signup appears on its own.
+2. Decide the full-site direction (dark or sand, sign headings or plain), then design the lūʻau guide in it.
+3. Build the lūʻau guide at /oahu/luau from the Oct 17 lūʻau list in STRATEGY.md, plus cookie-free analytics with click tracking.
 
 ## Known issues
-- Canvas boards still use LINE Seed JP, so their macrons render on the wrong letter.
-- Freshness dates are from the Aug 19 source checks; they read as older over time until listings are rechecked.
+- The six lei type pages have no internal links while Home is the coming-soon page; they are reachable from search and the sitemap only.
+- Freshness dates are from the Aug 19 source checks and read older over time until listings are rechecked.

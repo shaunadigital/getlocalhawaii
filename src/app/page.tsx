@@ -14,9 +14,9 @@ export const metadata: Metadata = {
 /**
  * The coming-soon home. It stands in for the home page while the full site is
  * designed; every inner page stays live at its own URL so its rankings hold.
- * The signup posts to Buttondown once the account exists. Until then the
- * button opens an email instead, so the page never shows a form that goes
- * nowhere.
+ * The signup form appears once the Buttondown account exists; until then the
+ * page says "Coming soon" and asks for nothing, so it never shows a form that
+ * goes nowhere.
  */
 export default function Home() {
   const signup = showSignup();
@@ -40,6 +40,11 @@ export default function Home() {
           <p className="mt-5 mb-0 max-w-[500px] text-[18px] leading-normal text-[#3a4047] md:mt-7 md:text-[20px]">
             Discover places to buy lei, compare lūʻau, and send a lei to someone special. Get Local
             Hawaiʻi is coming soon, starting on Oʻahu.
+          </p>
+
+          <p className="mt-8 mb-0 flex items-center gap-4 text-[30px] leading-none font-extrabold tracking-[-0.02em] text-orchid md:mt-10 md:text-[40px]">
+            <span aria-hidden="true" className="h-[3px] w-10 shrink-0 rounded-full bg-orchid md:w-14" />
+            Coming soon
           </p>
 
           {signup ? (
@@ -67,14 +72,7 @@ export default function Home() {
               </div>
               <span className="text-[13px] text-ink-soft md:text-[14px]">Unsubscribe anytime.</span>
             </form>
-          ) : (
-            <a
-              href={mailto("Let me know when Get Local Hawaii is up")}
-              className="mt-7 flex h-[52px] items-center justify-center self-stretch rounded-[10px] bg-orchid px-6 text-[16px] font-extrabold text-white no-underline hover:bg-orchid-dark hover:text-white md:mt-10 md:h-14 md:self-start md:text-[17px]"
-            >
-              Let me know
-            </a>
-          )}
+          ) : null}
         </div>
 
         <div className="relative flex min-w-0 pb-7 pl-7 md:flex-[1_1_380px] md:pb-10 md:pl-10">

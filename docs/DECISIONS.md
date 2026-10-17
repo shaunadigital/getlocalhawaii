@@ -129,3 +129,5 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-17: The coming-soon button opens an email to the contact address until Buttondown is set up, then becomes the signup form - a form that posts nowhere is worse than none.
 2026-10-17: On a light ground the logo's cords and top pins are charcoal; the sign itself is unchanged - white cords disappear on sand.
 2026-10-17: "Lei guide" leaves the menu while Home is the coming-soon page - it pointed at a Home section that no longer exists.
+2026-10-17: The coming-soon home asks for nothing until Buttondown is set up: the email-link button is gone and a "Coming soon" line takes its place - Shauna's call; the page should read clearly as coming soon, and the signup returns on its own once the username is set.
+2026-10-17: The Home lei section is titled "Lei by type", not "Lei by flower" - maile is a leaf, and styles such as haku are a separate axis to add later.
