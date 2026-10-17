@@ -140,7 +140,7 @@ Seasons: Oct to Dec build; Dec to Mar visitor high season; Mar to May graduation
 ## Setup checklist
 
 - [ ] Cookie-free analytics (Vercel Web Analytics) with outbound click tracking; no cookie notice needed
-- [ ] Confirm aloha@getlocalhawaii.com forwards to hello@shauna.digital (send a test)
+- [x] aloha@getlocalhawaii.com forwards to hello@shauna.digital (confirmed Oct 17)
 - [ ] Privacy policy and affiliate disclosure pages
 - [ ] Pinterest business account, claim the domain (DNS on Cloudflare)
 - [ ] After the lūʻau guide is live: Viator, GetYourGuide, Polynesian Cultural Center (Impact); W-9 and bank details for each
