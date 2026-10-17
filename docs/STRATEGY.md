@@ -108,7 +108,7 @@ The case study (item 2) is Shauna's to manage and is not tracked here.
 Design (mostly done):
 - Lūʻau guide boards exist; update to the plain title "Oʻahu lūʻau" and Figtree; drop the island map for v1 and use drive times from Waikīkī.
 - A line near the top of the lūʻau page saying some links earn a commission (the disclosure page promises it).
-- Favicon and share image from the orchid sign (sketched on the Logo Options board).
+- Favicon done Oct 17: orchid square, white Playwrite "G" (src/app/favicon.ico, icon.png, apple-icon.png). Share image still to do.
 - Skip updating canvas boards to Figtree; real site screenshots serve the case study better.
 
 Build (Claude, about 15 to 20 h):
