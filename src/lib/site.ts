@@ -26,7 +26,6 @@ export function absoluteUrl(path: string): string {
 export const NAV_LINKS: { href: string; label: string }[] = [
   { href: "/oahu/lei/airport", label: "Airport lei" },
   { href: "/oahu/lei/delivery", label: "Send a lei" },
-  { href: "/#lei-by-flower", label: "Lei guide" },
   { href: "/about", label: "About" },
 ];
 

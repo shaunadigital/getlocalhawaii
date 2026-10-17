@@ -125,3 +125,7 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-16: The lūʻau guide is first-hand; Shauna has attended them, and current prices and details come from operators or dated research - visits carry the trust, dates keep prices honest.
 2026-10-16: Analytics are cookie-free (Vercel Web Analytics), replacing GA4 - matches the privacy page and needs no cookie notice.
 2026-10-17: The stand sign hero has no "Find your lei" button - the photo doors directly below it already answer "what do you need".
+2026-10-17: Home is a coming-soon page ("Find your lūʻau. Send some aloha.") while the full site is designed; inner pages stay live at their URLs - Shauna wants more time on the real designs, and keeping inner pages live protects what already ranks.
+2026-10-17: The coming-soon button opens an email to the contact address until Buttondown is set up, then becomes the signup form - a form that posts nowhere is worse than none.
+2026-10-17: On a light ground the logo's cords and top pins are charcoal; the sign itself is unchanged - white cords disappear on sand.
+2026-10-17: "Lei guide" leaves the menu while Home is the coming-soon page - it pointed at a Home section that no longer exists.
