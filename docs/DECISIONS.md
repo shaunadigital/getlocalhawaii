@@ -124,3 +124,4 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-16: The lūʻau guide covers every lūʻau operating on Oʻahu, Waikīkī hotel lūʻau included, researched before launch - the page cannot claim "every lūʻau" on six.
 2026-10-16: The lūʻau guide is first-hand; Shauna has attended them, and current prices and details come from operators or dated research - visits carry the trust, dates keep prices honest.
 2026-10-16: Analytics are cookie-free (Vercel Web Analytics), replacing GA4 - matches the privacy page and needs no cookie notice.
+2026-10-17: The stand sign hero has no "Find your lei" button - the photo doors directly below it already answer "what do you need".

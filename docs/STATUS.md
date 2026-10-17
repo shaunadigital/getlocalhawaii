@@ -11,7 +11,7 @@
 - Hero still uses the glass panel; concept A (centered stand sign) chosen, not built.
 
 ## Next 3 steps
-1. Research every operating Oʻahu lūʻau (Waikīkī hotels included) from operator sites; Shauna adds first-hand notes. Two items still open in STRATEGY.md: case study vs. anonymity, hero button.
+1. Research every operating Oʻahu lūʻau (Waikīkī hotels included) from operator sites; Shauna adds first-hand notes.
 2. Build: stand sign hero, cookie-free analytics with click tracking, lūʻau guide at /oahu/luau, lūʻau door on Home.
 3. Shauna: Buttondown account (then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel), Cloudflare email alias.
 

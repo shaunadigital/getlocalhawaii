@@ -76,7 +76,7 @@ Independent comparison of 6 to 8 Hawaiʻi shops that ship: lei price, real shipp
 
 ## Project review, Oct 9 2026 (decided Oct 14: B plus D)
 
-Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. Four of the six "Decide" items were answered Oct 16; two remain. All money and hour figures are estimates.
+Shauna questioned whether the site is worth the time. Decided Oct 14: B plus D. The "Decide" items were answered Oct 16 and 17. All money and hour figures are estimates.
 
 ### Money and time
 - Earnings per action: lūʻau booking for two about $24 to $36; shop referral about $8 to $15 (if any shop agrees); lei greeting $3 to $12.
@@ -100,9 +100,9 @@ Decided Oct 16 (Shauna):
 4. First-hand: Shauna has attended the lūʻau. The guide is written first-hand; gaps and current prices come from the operators or dated research.
 5. Analytics: cookie-free (Vercel Web Analytics), matching the privacy page. Replaces GA4.
 
-Still open:
-2. Case study vs anonymity. A case study under Shauna's name reveals who runs the site. Options: accept it, write about the process without naming the site, or keep it private for client conversations.
-6. "Find your lei" button on the stand sign hero. (Figtree and the footer email signup were already decided Oct 9.)
+6. Hero: the stand sign ships with no "Find your lei" button; the photo doors below it do that job. Figtree and the footer email signup were decided Oct 9.
+
+The case study (item 2) is Shauna's to manage and is not tracked here.
 
 Design (mostly done):
 - Lūʻau guide boards exist; update to the plain title "Oʻahu lūʻau" and Figtree; drop the island map for v1 and use drive times from Waikīkī.
