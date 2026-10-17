@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { Logo } from "@/components/Logo";
-import { BUTTONDOWN_USERNAME, CONTACT_EMAIL, mailto, showSignup } from "@/lib/site";
+import { ComingSoonSignup } from "@/components/ComingSoonSignup";
+import { CONTACT_EMAIL, mailto } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: { absolute: "Get Local Hawaii: Lei and Luau on Oahu, Coming Soon" },
@@ -14,15 +15,14 @@ export const metadata: Metadata = {
 /**
  * The coming-soon home. It stands in for the home page while the full site is
  * designed; every inner page stays live at its own URL so its rankings hold.
- * The signup form appears once the Buttondown account exists; until then the
- * page says "Coming soon" and asks for nothing, so it never shows a form that
- * goes nowhere.
+ * The email box adds a row to the "Get Local Hawaii signups" Google Sheet
+ * through /api/signup. Until that sheet is connected the page says "Coming
+ * soon" and asks for nothing, so it never shows a form that goes nowhere.
  */
 export default function Home() {
-  const signup = showSignup();
-  const action = BUTTONDOWN_USERNAME
-    ? `https://buttondown.com/api/emails/embed-subscribe/${BUTTONDOWN_USERNAME}`
-    : undefined;
+  // The email box shows once the signups sheet is connected: both Vercel env
+  // vars set, then a redeploy, since this page is built ahead of time.
+  const signup = Boolean(process.env.SIGNUP_SHEET_URL && process.env.SIGNUP_SHEET_SECRET);
 
   return (
     <div className="flex min-h-dvh flex-col bg-sand text-ink">
@@ -47,32 +47,7 @@ export default function Home() {
             Coming soon
           </p>
 
-          {signup ? (
-            <form action={action} method="post" className="mt-7 flex max-w-[560px] flex-col gap-2.5 md:mt-10">
-              <label htmlFor="coming-soon-email" className="sr-only">
-                Your email
-              </label>
-              <div className="flex flex-col gap-2.5 md:flex-row md:gap-2">
-                <input
-                  id="coming-soon-email"
-                  name="email"
-                  type="email"
-                  required
-                  autoComplete="email"
-                  placeholder="you@example.com"
-                  className="h-[52px] min-w-0 grow rounded-[10px] border border-[#8c9196] bg-white px-4 text-[16px] text-ink md:h-14 md:text-[17px]"
-                />
-                <input type="hidden" name="tag" value="coming-soon" />
-                <button
-                  type="submit"
-                  className="h-[52px] shrink-0 cursor-pointer rounded-[10px] bg-orchid px-6 text-[16px] font-extrabold text-white hover:bg-orchid-dark md:h-14 md:text-[17px]"
-                >
-                  Let me know
-                </button>
-              </div>
-              <span className="text-[13px] text-ink-soft md:text-[14px]">Unsubscribe anytime.</span>
-            </form>
-          ) : null}
+          {signup ? <ComingSoonSignup /> : null}
         </div>
 
         <div className="relative flex min-w-0 pb-7 pl-7 md:flex-[1_1_380px] md:pb-10 md:pl-10">

@@ -131,3 +131,5 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-17: "Lei guide" leaves the menu while Home is the coming-soon page - it pointed at a Home section that no longer exists.
 2026-10-17: The coming-soon home asks for nothing until Buttondown is set up: the email-link button is gone and a "Coming soon" line takes its place - Shauna's call; the page should read clearly as coming soon, and the signup returns on its own once the username is set.
 2026-10-17: The Home lei section is titled "Lei by type", not "Lei by flower" - maile is a leaf, and styles such as haku are a separate axis to add later.
+2026-10-17: Coming-soon signups go to the "Get Local Hawaii signups" Google Sheet through /api/signup and an Apps Script web app, not Buttondown - Shauna wants a list, not a newsletter service, until there is something to send; export to an email tool later.
+2026-10-17: The Apps Script URL and its shared secret live only in Vercel env vars (SIGNUP_SHEET_URL, SIGNUP_SHEET_SECRET); the email box renders only when both are set - the sheet cannot be written to from the page, and the page never shows a form that goes nowhere.

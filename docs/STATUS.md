@@ -11,7 +11,7 @@
 - Full-site direction: the sand editorial style is the front runner, not yet decided (STRATEGY.md, Design).
 
 ## Next 3 steps
-1. Shauna: Buttondown account (signed up with aloha@), then set NEXT_PUBLIC_BUTTONDOWN_USERNAME in Vercel; the coming-soon signup appears on its own.
+1. Shauna: deploy the Apps Script on the "Get Local Hawaii signups" sheet, add SIGNUP_SHEET_URL and SIGNUP_SHEET_SECRET in Vercel, redeploy; the coming-soon email box then appears.
 2. Decide the full-site direction (dark or sand, sign headings or plain), then design the lūʻau guide in it.
 3. Build the lūʻau guide at /oahu/luau from the Oct 17 lūʻau list in STRATEGY.md, plus cookie-free analytics with click tracking.
 

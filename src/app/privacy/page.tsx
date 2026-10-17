@@ -14,12 +14,13 @@ export default function Privacy() {
     <ProsePage
       title="Privacy"
       sub="What this site collects, why, and how to have it removed."
-      updated="Oct 9, 2026"
+      updated="Oct 17, 2026"
       sections={[
         {
           heading: "Email signups",
           paragraphs: [
-            "If you sign up for reminders or for the lūʻau guide, your email address is stored with Buttondown, the service that sends the emails. It is used only to send what you signed up for, a few emails a year. Buttondown asks you to confirm before anything is sent.",
+            "If you leave your email on the home page while the site is being built, it is saved to a private spreadsheet that only I can open, with the date you signed up. It is used only to tell you when the site is up and, later, to send a few emails a year. To be removed, email the address below and I will delete it.",
+            "If you sign up for reminders or for the lūʻau guide on a page with a reminders form, your email address is stored with Buttondown, the service that sends the emails. It is used only to send what you signed up for, a few emails a year. Buttondown asks you to confirm before anything is sent.",
             "Every email has an unsubscribe link, and unsubscribing removes you from the list. Your address is never sold or shared with shops or advertisers.",
           ],
         },
