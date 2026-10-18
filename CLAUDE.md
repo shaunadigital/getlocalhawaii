@@ -50,3 +50,7 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 - `npm test` - unit tests (Vitest)
 - `npx tsc --noEmit && npx eslint src --max-warnings=0` - typecheck and lint
 - Deploys happen on push to `main`; no manual deploy step.
+
+## Commits
+
+Commit as Shauna Arnold <8376913+shaunagits@users.noreply.github.com>, never as Claude, and never add Co-Authored-By or "Generated with" lines. Before every push, check `git log -1 --format='%an'`. `.claude/settings.json` sets this automatically.
