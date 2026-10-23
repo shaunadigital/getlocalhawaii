@@ -17,10 +17,10 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 ## Stack
 
 - Next.js 16 (App Router, TypeScript, Tailwind v4), Vitest for unit tests.
-- Listings live in `src/data/site-data.json` until the Supabase project exists; then Supabase is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema; every migration must run clean in order.
+- Listings live in `src/data/site-data.json` until the hosted Postgres database exists (Neon or Supabase, choice pending); then the database is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema in plain Postgres; every migration must run clean in order.
 - Repo https://github.com/shaunadigital/getlocalhawaii.git, deployed on Vercel from `main`.
 - Live at https://getlocalhawaii.com (and www). Vercel temp domain: getlocalhawaii.vercel.app.
-- Env: none required. Optional `NEXT_PUBLIC_BUTTONDOWN_USERNAME` turns on the email signup in production.
+- Env: none required to build. `SIGNUP_SHEET_URL` plus `SIGNUP_SHEET_SECRET` (Vercel only) turn on the coming-soon email box, which posts to /api/signup and the signups Google Sheet. `NEXT_PUBLIC_BUTTONDOWN_USERNAME` still drives the older SignupForm component.
 
 ## Conventions
 
