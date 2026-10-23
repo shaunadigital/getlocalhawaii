@@ -140,3 +140,4 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-23: Supabase returns as the database once a free project slot opens; the data file stays until then - vendor claims and organizer updates need writes a file cannot take.
 2026-10-23: Every listed row carries status (active, uncertain, closed), confidence and publish_status; only published rows are publicly readable - research lands as drafts and is reviewed before it shows.
 2026-10-23: hawaiidogmap.com stays its own site and shares data with the directory (dog-friendly filter here, nearby markets there) - it has its own search presence and audience.
+2026-10-23: Supabase is the database (project getlocalhawaii), not Neon - a free project slot opened and the migrations and owner policy are already written for it.

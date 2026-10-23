@@ -1,20 +1,21 @@
 # Status
 
 ## What works
-- Live (main): coming-soon home plus the older inner pages (airport, delivery, six lei type, Chinatown, graduation, About, Disclosure, Privacy). Listings still come from src/data/site-data.json. 61 tests pass; typecheck, lint clean (Oct 23).
+- Live (main): coming-soon home plus the older inner pages. Listings still come from src/data/site-data.json. 61 tests pass; typecheck, lint clean (Oct 23).
 - Direction (Oct 23): the product is the Oʻahu shop-local directory; lei stands are a vendor category. STRATEGY.md is the superseded Oct 8 plan.
-- Schema: supabase/migrations/20261023000100_directory_schema.sql adds organizers, market kinds, market_dates, vendor claims, status/confidence/publish_status. All migrations run clean in order on local Postgres 16. Not applied anywhere yet.
-- Seed data: Google Sheet "Get Local Hawaii seed data (Oahu)", 155 markets, 304 vendors, 48 organizers, 14 other-island drafts, 23 closed. Every row sourced; all draft.
+- Coming-soon signups: Apps Script web app "Get Local Hawaii signups" (bound to the signups sheet) deployed Oct 23; SIGNUP_SHEET_URL and SIGNUP_SHEET_SECRET set in Vercel Production. Live after the next production deploy.
+- Supabase project getlocalhawaii (ref oejcxjqbipsojbmjpjwb) created Oct 23. Applied: init_schema, seed_data (as part1 and part2).
 
 ## In progress
-- Shauna reviewing the sheet (review column). Bulk-approving high-confidence rows is enough for the first import.
-- Database choice: Neon via Vercel Marketplace (recommended: 100 free projects, no pausing, Better Auth included) or Supabase (Shauna changed ownership in the outside orgs Oct 23, so a free slot may be open).
+- Migrations: still to apply, in order: the seed cleanup (drop gl_seed_ts, gl_seed_next_dow), 20260819170000 lei vendors, 20260819180000 Lins, 20260826090000 fish, 20260827090000 farmers markets, 20261023000100 directory schema. The Supabase connector times out on any destructive statement (its approval prompt never appears), so these run in the dashboard SQL Editor.
+- Until 20260819170000 runs, the database holds the fictional mockup vendors (555 numbers, fake called/visited checks). Nothing reads the database yet.
+- Seed sheet review (Shauna). High confidence: 63 of 155 markets, 41 of 304 vendors.
 
 ## Next 3 steps
-1. Shauna picks Neon or Supabase. Create the database, apply all migrations, import approved sheet rows as drafts.
-2. Point src/lib/db.ts at the database and design the directory pages: map, this week, market page, vendor page.
-3. Vendor claim flow, then organizer outreach from the Organizers tab (outreach_status).
+1. Finish the migrations; check no placeholder rows remain.
+2. Import approved sheet rows as drafts; point src/lib/db.ts at Supabase and replace the Aug 19 NEXT_PUBLIC_SUPABASE_* vars in Vercel (they point at the deleted project).
+3. Design the directory pages: map, this week, market page, vendor page.
 
 ## Known issues
 - Import duplicates: People's Open Market sites are in both site-data.json (keep its City coordinates) and the sheet; sheet rows MKT-018 and MKT-040 are the same Honolulu Night Market.
-- The vendors "owner update" policy uses Supabase auth.uid(); on Neon it must be rewritten for its auth. It also lets an owner change publish_status; restrict the editable columns before the claim flow ships.
+- The vendors "owner update" policy lets an owner change publish_status; restrict the editable columns before the claim flow ships.
