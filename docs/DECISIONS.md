@@ -133,3 +133,10 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-17: The Home lei section is titled "Lei by type", not "Lei by flower" - maile is a leaf, and styles such as haku are a separate axis to add later.
 2026-10-17: Coming-soon signups go to the "Get Local Hawaii signups" Google Sheet through /api/signup and an Apps Script web app, not Buttondown - Shauna wants a list, not a newsletter service, until there is something to send; export to an email tool later.
 2026-10-17: The Apps Script URL and its shared secret live only in Vercel env vars (SIGNUP_SHEET_URL, SIGNUP_SHEET_SECRET); the email box renders only when both are set - the sheet cannot be written to from the page, and the page never shows a form that goes nowhere.
+2026-10-23: The site is a shop-local directory again and replaces the lei and lūʻau content plan as the product - Google Maps does not say where a vendor will be on Saturday, and organizers and vendors have a reason to pay that affiliate links never had.
+2026-10-23: Scope is every Oʻahu place vendors gather (farmers, makers and night markets, truck lots and rallies, farm stands, swap meets, annual fairs) and every vendor type, lei stands included - one vendor table, categories for the rest.
+2026-10-23: Revenue order: organizer tools (vendor applications and booth payments), then vendor subscriptions, then a weekly email with local sponsors; ads last - the people who need to be found pay, not readers.
+2026-10-23: Other islands are researched and stored as drafts, published once an island has enough listings to be useful - Oʻahu first.
+2026-10-23: Supabase returns as the database once a free project slot opens; the data file stays until then - vendor claims and organizer updates need writes a file cannot take.
+2026-10-23: Every listed row carries status (active, uncertain, closed), confidence and publish_status; only published rows are publicly readable - research lands as drafts and is reviewed before it shows.
+2026-10-23: hawaiidogmap.com stays its own site and shares data with the directory (dog-friendly filter here, nearby markets there) - it has its own search presence and audience.

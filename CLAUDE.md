@@ -1,10 +1,11 @@
 # Get Local Hawaii
 
-Content site about lei and lūʻau on Oʻahu for visitors and for people sending a lei to the mainland: airport lei stands, a lūʻau comparison, and a lei shipping comparison. Written anonymously by someone born and raised here; every page shows when it was checked, and "open now" is computed, never hardcoded. The older vendor directory (lei, fish, farmers markets) stays live but is no longer the product.
+Shop-local directory for Oʻahu: farmers markets, makers and night markets, food trucks, farm stands, lei stands and the vendors who sell at them, plus where each vendor will be. Residents first, visitors second. Vendors claim and update their own listings; organizers post vendor applications. Written anonymously; every listing shows when it was checked, and "open now" is computed, never hardcoded. Other islands are collected as drafts and launch later.
 
 ## Key files
 
-- `docs/STRATEGY.md` - direction, audiences, revenue, site map, design system and outreach. Read this before building anything.
+- `docs/STRATEGY.md` - the Oct 8 content-site plan, superseded on Oct 23 by the directory direction (DECISIONS.md). Its design system and lei page notes still apply.
+- Seed data under review: Google Sheet "Get Local Hawaii seed data (Oahu)" (155 markets, 304 vendors, 48 organizers, each row sourced). Approved rows import through a migration.
 - `docs/designs_100826/` - current page designs, copies of the canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu (mobile 390px and desktop 1280px per page). Rebuild as components; do not copy markup.
 - `docs/BUILD_SPEC.md` - build spec for the original directory: data model and status logic still apply; its page inventory and design tokens are superseded by STRATEGY.md.
 - `docs/SEO_TARGETS.md` - keyword targets from Shauna's Keyword Planner data; drives which pages exist.
@@ -16,8 +17,8 @@ Content site about lei and lūʻau on Oʻahu for visitors and for people sending
 ## Stack
 
 - Next.js 16 (App Router, TypeScript, Tailwind v4), Vitest for unit tests.
-- No database. Listings live in `src/data/site-data.json`; edit it and push to change one. `supabase/migrations/` is kept only as the schema record.
-- Repo https://github.com/shaunagits/getlocalhawaii.git, deployed on Vercel from `main`.
+- Listings live in `src/data/site-data.json` until the Supabase project exists; then Supabase is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema; every migration must run clean in order.
+- Repo https://github.com/shaunadigital/getlocalhawaii.git, deployed on Vercel from `main`.
 - Live at https://getlocalhawaii.com (and www). Vercel temp domain: getlocalhawaii.vercel.app.
 - Env: none required. Optional `NEXT_PUBLIC_BUTTONDOWN_USERNAME` turns on the email signup in production.
 

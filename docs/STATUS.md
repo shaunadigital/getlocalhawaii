@@ -1,20 +1,20 @@
 # Status
 
 ## What works
-- Live (main): Home is a coming-soon page since Oct 17 ("Find your lūʻau. Send some aloha.", sand editorial style, no signup until Buttondown exists). Inner pages stay live: airport, delivery, six lei type, Chinatown, graduation, About, Disclosure, Privacy. Old shop pages 307 to their area page; fish and markets 404.
-- Data: no database. Listings are src/data/site-data.json, read by src/lib/db.ts; open now computed per request. No env vars needed.
-- 61 tests pass; typecheck, lint and build clean. aloha@getlocalhawaii.com forwards to Shauna.
-- Designs: canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu. New Oct 17 boards: editorial hero (dark and sand), editorial home on sand (full page), coming-soon home. docs/designs_100826/ predates these.
+- Live (main): coming-soon home plus the older inner pages (airport, delivery, six lei type, Chinatown, graduation, About, Disclosure, Privacy). Listings still come from src/data/site-data.json.
+- Direction changed Oct 23: the product is the Oʻahu shop-local directory (DECISIONS.md). STRATEGY.md is the superseded Oct 8 plan.
+- Schema for the directory is written: supabase/migrations/20261023000100_directory_schema.sql (organizers, market kinds, market_dates, vendor claims, source and publish fields). All migrations run clean in order on a local Postgres 16.
+- Seed research in the Google Sheet "Get Local Hawaii seed data (Oahu)": 155 markets (104 active, 51 uncertain), 304 vendors, 48 organizers, 14 other-island drafts, 23 closed.
 
 ## In progress
-- Plan B plus D: lūʻau guide live and affiliate applications in by mid-December; stop rule checked March 31.
-- Full-site direction: the sand editorial style is the front runner, not yet decided (STRATEGY.md, Design).
+- Shauna reviewing the seed sheet (review column: approve, fix, remove, unsure).
+- Supabase slot: Shauna moving ownership of an outside org so a free project frees up.
 
 ## Next 3 steps
-1. Shauna: deploy the Apps Script on the "Get Local Hawaii signups" sheet, add SIGNUP_SHEET_URL and SIGNUP_SHEET_SECRET in Vercel, redeploy; the coming-soon email box then appears.
-2. Decide the full-site direction (dark or sand, sign headings or plain), then design the lūʻau guide in it.
-3. Build the lūʻau guide at /oahu/luau from the Oct 17 lūʻau list in STRATEGY.md, plus cookie-free analytics with click tracking.
+1. Create the getlocalhawaii Supabase project, apply all migrations, import approved sheet rows as drafts.
+2. Point the site at Supabase and design the directory pages: map, this week, market page, vendor page.
+3. Vendor claim flow and the organizer outreach list (Organizers tab, outreach_status).
 
 ## Known issues
-- The six lei type pages have no internal links while Home is the coming-soon page; they are reachable from search and the sitemap only.
-- Freshness dates are from the Aug 19 source checks and read older over time until listings are rechecked.
+- People's Open Market rows exist twice for now: 13 in site-data.json (with City coordinates) and 13 in the sheet. Merge on import and keep the coordinates.
+- Freshness dates on the old listings are from the Aug 19 checks.
