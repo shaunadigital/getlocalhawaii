@@ -141,3 +141,6 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-23: Every listed row carries status (active, uncertain, closed), confidence and publish_status; only published rows are publicly readable - research lands as drafts and is reviewed before it shows.
 2026-10-23: hawaiidogmap.com stays its own site and shares data with the directory (dog-friendly filter here, nearby markets there) - it has its own search presence and audience.
 2026-10-23: Supabase is the database (project getlocalhawaii), not Neon - a free project slot opened and the migrations and owner policy are already written for it.
+2026-10-23: Seed rows are kept only with a source dated 2025 or later or the organizer's or business's own current page; the rest move to the sheet's Archived tabs with a reason - so later research passes can see what was already ruled out instead of re-adding it.
+2026-10-23: Imported markets get market_sessions only when weekly with stated days and times; every other schedule stays as schedule_text - a monthly or annual market stored as weekly sessions would show "open now" on the wrong days.
+2026-10-23: The seed import SQL is generated from the sheet itself, never retyped, and checked against the database by checksum - 400-plus rows copied by hand would carry errors no one would catch.
