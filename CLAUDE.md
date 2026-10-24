@@ -5,7 +5,7 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 ## Key files
 
 - `docs/STRATEGY.md` - the Oct 8 content-site plan, superseded on Oct 23 by the directory direction (DECISIONS.md). Its design system and lei page notes still apply.
-- Seed data under review: Google Sheet "Get Local Hawaii seed data (Oahu)" (155 markets, 304 vendors, 48 organizers, each row sourced). Approved rows import through a migration.
+- Seed data: Google Sheet "Get Local Hawaii seed data (Oahu)". Approved rows are imported (migration 20261023000400, generated from the sheet); rows without 2025-2026 evidence sit in its Archived tabs. Check those before re-adding anything; rows match the database by `seed_id`.
 - `docs/designs_100826/` - current page designs, copies of the canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu (mobile 390px and desktop 1280px per page). Rebuild as components; do not copy markup.
 - `docs/BUILD_SPEC.md` - build spec for the original directory: data model and status logic still apply; its page inventory and design tokens are superseded by STRATEGY.md.
 - `docs/SEO_TARGETS.md` - keyword targets from Shauna's Keyword Planner data; drives which pages exist.
@@ -17,7 +17,7 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 ## Stack
 
 - Next.js 16 (App Router, TypeScript, Tailwind v4), Vitest for unit tests.
-- Listings live in `src/data/site-data.json` until the site is switched to Supabase (project getlocalhawaii, ref oejcxjqbipsojbmjpjwb); then the database is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema in plain Postgres; every migration must run clean in order.
+- Listings live in `src/data/site-data.json` until the site is switched to Supabase (project getlocalhawaii, ref oejcxjqbipsojbmjpjwb); then the database is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema in plain Postgres; every migration must run clean in order. The Supabase connector applies migrations; destructive statements wait for an approval prompt in the app. `research_notes`, `organizer_name`, `markets_seen_at` and organizer `notes` are internal and never render.
 - Repo https://github.com/shaunadigital/getlocalhawaii.git, deployed on Vercel from `main`.
 - Live at https://getlocalhawaii.com (and www). Vercel temp domain: getlocalhawaii.vercel.app.
 - Env: none required to build. `SIGNUP_SHEET_URL` plus `SIGNUP_SHEET_SECRET` (Vercel only) turn on the coming-soon email box, which posts to /api/signup and the signups Google Sheet. `NEXT_PUBLIC_BUTTONDOWN_USERNAME` still drives the older SignupForm component.
