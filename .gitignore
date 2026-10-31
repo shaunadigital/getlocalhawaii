@@ -15,3 +15,6 @@ yarn-error.log*
 # Local project documents
 get-local-hawaii-mvp-spec.docx
 /.local
+
+# Supabase CLI link state
+supabase/.temp/

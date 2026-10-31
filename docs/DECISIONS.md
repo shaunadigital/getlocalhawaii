@@ -170,3 +170,4 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-31: Markets live at /markets/[slug] for every kind, reversing the Aug 27 /farmers-markets/[slug] shape, which now redirects - markets span 15 kinds and a market's kind can change; the slugs carry the name.
 2026-10-31: Directory status comes from posted hours and dates without the 30-day freshness cutoff; the CHECKED date shows beside it - most checks are from August, and the cutoff would mark every listing unconfirmed.
 2026-10-31: A Vercel build without the Supabase env vars fails - an empty directory must never replace a working deploy.
+2026-10-31: The database moved to its own Supabase account (project clckgomykxqrziefyfyn), rebuilt from the migrations before launch - one key swap now instead of a data move later.
