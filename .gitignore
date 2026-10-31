@@ -18,3 +18,4 @@ get-local-hawaii-mvp-spec.docx
 
 # Supabase CLI link state
 supabase/.temp/
+.claude/settings.local.json
