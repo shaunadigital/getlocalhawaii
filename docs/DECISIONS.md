@@ -165,3 +165,7 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 - New listing types researched with `--events`: festivals, plant and orchid sales, roadside and farm stands, CSAs and farm boxes, flea markets and swap meets. CSAs are a way to buy from a farm, so they import as a `csa` channel on the farm's listing, not as a market.
 - `npm run research:merge` now writes three review files: review-vendors, review-enrichment and review-events. Nothing imports until rows are approved.
 - Spend for the round: about $36 of the promo credit.
+- Cleaning: `npm run research:clean` turns the review files into data/research/clean/*.json with a tier per row (Ready, Needs a look, Low confidence, May be closed). A website that does not load is a flag to check, never a reason to mark a business closed; only a source saying it closed does that.
+- Second look: `--verify vendors|events|existing:OFFSET:COUNT` re-checks rows queued by the cleaner. Its answers replace the first pass instead of only filling blanks.
+- Approvals happen on the Research Review page (an artifact with a saved decisions store), not in CSVs. Ready rows count as approved unless skipped.
+- Total research spend Oct 30 to 31: about $41 of the $58.25 promo credit.

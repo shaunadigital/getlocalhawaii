@@ -1,0 +1,462 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 176929,
+    "out": 23684,
+    "searches": 13
+  },
+  "rows": [
+    {
+      "name": "808 Bow Wow",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Handmade dog treats: jerky, sweetpotato and veggie sticks, duck wing",
+      "products": [
+        "dog treats",
+        "ahi jerky",
+        "beef kabocha and carrot stick",
+        "pork sweetpotato stick",
+        "duck wing"
+      ],
+      "tags": [
+        "dog treats",
+        "pet",
+        "locally grown veggies",
+        "shipping",
+        "Oʻahu delivery"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": "1334 Young St. #107, Honolulu, HI 96814",
+      "website": "https://808bow-wow.com/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/808-bow-wow/",
+      "order_url": "https://808bow-wow.com/",
+      "payment_methods": null,
+      "made_where": "Honolulu, Hawaii (site says made fresh daily)",
+      "source_url": "https://hfbf.org/farmers-markets/808-bow-wow/",
+      "source_date": null,
+      "source_label": "the Hawaiʻi Farm Bureau's market pages and their website",
+      "confidence": "high",
+      "notes": "Active: Farm Bureau KCC page and Mililani vendor page (current pages, undated) list them, and the business's own site gives a Young St. store address. The Farm Bureau page also lists Honolulu (Wednesday) and Kailua (Thursday) markets, but the text does not show which ones they attend, so I kept only KCC and Mililani. The Mililani page confirms Sunday. The site says shipping is available to Oʻahu, outer islands and the mainland, with free Oʻahu delivery on orders of $100 or more. No store hours or phone on their own site. Category kept as makers (pet treats).",
+      "still_active": true
+    },
+    {
+      "name": "Akamai Foods",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Oatcakes and oatcake mixes, natto and tropical juices by Chef Sharon",
+      "products": [
+        "Hawaiian-style oatcakes (ready-made)",
+        "oatcake mixes",
+        "natto",
+        "seasonal tropical juices"
+      ],
+      "tags": [
+        "oatcakes",
+        "natto",
+        "juices",
+        "KCC original vendor",
+        "shipping"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "Saturday, 7:30–11am"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday, 8–11am"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": null,
+      "website": "http://www.akamaifoods.com/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "http://www.akamaifoods.com/",
+      "order_url": "http://www.akamaifoods.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "http://www.akamaifoods.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Active: their own site (current, undated) says the KCC and Mililani markets are open and gives the hours. The Farm Bureau Mililani page also lists them. Category changed from prepared-food to food-producers because their main products are packaged oatcakes and mixes. The Farm Bureau page lists Honolulu (Wednesday) and Kailua (Thursday) markets, but the text does not show whether they attend and their own site names only KCC and Mililani, so I dropped those two. A 2025 blog post (Hawaii Mom Blog, April 2025) also describes them at Mililani. Site says oatcakes and mixes are $12 each. Contact email on Farm Bureau page not captured (no field).",
+      "still_active": true
+    },
+    {
+      "name": "Aloha 3D Printing",
+      "category": "makers",
+      "side": "leeward_ewa",
+      "neighborhood": "Waiʻanae",
+      "description": "3D-printed custom toys, displays and cosplay items; sells at a few shows a year",
+      "products": [
+        "custom toys",
+        "3D-printed creations",
+        "cosplay masks, helmets and armor",
+        "auto parts"
+      ],
+      "tags": [
+        "3D printing",
+        "custom",
+        "cosplay",
+        "craft fairs",
+        "home-based"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": "Dec 13–14, 2025"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://aloha3printing.com/about-us",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Waiʻanae (home-based, per their Eventeny vendor profile)",
+      "source_url": "https://www.khon2.com/living-808/honolulu-holiday-shopping-extravaganza/",
+      "source_date": "2025-12",
+      "source_label": "a KHON2 article on the Mele Kalikimaka Marketplace",
+      "confidence": "medium",
+      "notes": "Confirmed as a Dec 2025 Mele Kalikimaka Marketplace vendor (KHON2 article, about Dec 2025; exact date not shown). The article names founder Sean Tavares. Their Eventeny profile says Waiʻanae-based and home-run, and shows Kawaii Kon 2024. Their YouTube says they are on Oʻahu. The site's about page is signed 'Sean, Owner'; the page has no shows listed. No 2026 appearance found, and they do few shows a year, so still_active is null. The 2026 Mele Kalikimaka Marketplace is listed by an event aggregator for Dec 12–13, 2026, but I found no vendor list for it. No exact address, phone or social account found.",
+      "still_active": null
+    },
+    {
+      "name": "Aloha Smoked",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Small-batch smoked shoyu, smoked salt mix and smoked hot sauce",
+      "products": [
+        "OG Aloha Smoked Shoyu (5 oz and 12 oz refill)",
+        "Spicy Aloha Smoked Shoyu",
+        "smoked salt mix",
+        "smoked hot sauce"
+      ],
+      "tags": [
+        "smoked shoyu",
+        "Native Hawaiian-owned",
+        "small batch",
+        "made in Hawaii",
+        "online shop"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": "Annual, August; 2026: Aug 20–23, booth 1304"
+        },
+        {
+          "name": "Ho’omau Hawai’i Market",
+          "usual_days": "Sat–Sun, 10:30am–4pm (July 12–13, 2025 edition)"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.alohasmoked.com/",
+      "instagram": "https://www.instagram.com/alohasmoked/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.alohasmoked.com/",
+      "order_url": "https://www.alohasmoked.com/shop",
+      "payment_methods": null,
+      "made_where": "Hawaii (site: made in Hawaii with locally sourced ingredients)",
+      "source_url": "https://madeinhawaiifestival.com/wp-content/uploads/2026/07/J4383-2026-DirectoryMap-Booklet-V11-Digital.pdf",
+      "source_date": "2026-07",
+      "source_label": "the Made in Hawaiʻi Festival's 2026 vendor map and their website",
+      "confidence": "high",
+      "notes": "Active: listed on the organizer's 2026 vendor directory map (booth 1304; date taken from the file path), and their own shop is live. Their site's event list still shows only 2025 events (Hoʻomau market Jul 12–13, 2025; Made in Hawaii Festival Aug 15–17, 2025), so it is stale. The Hoʻomau market's own vendor page also lists them. A Honolulu Festival page lists them for the 30th festival (Mar 13–15, 2026), but I did not confirm a booth. The smoked salt mix and hot sauce come from the 2025 Honolulu Magazine festival list; the own shop page shows only the two shoyus, from $10. The site's page metadata shows a Keole Street, Kāneʻohe address; I did not publish it because it is not clearly a public storefront. No retail location stated.",
+      "still_active": true
+    },
+    {
+      "name": "AlohaMade Bites",
+      "category": "food-producers",
+      "side": "central",
+      "neighborhood": "Wahiawā",
+      "description": "Handcrafted macadamia nut pies, tarts and bites, family-owned",
+      "products": [
+        "macadamia nut pies",
+        "tarts",
+        "bites (mini pies)",
+        "O.G. Vanilla Mac",
+        "Choco Mac",
+        "Ube Mac",
+        "Coffee Mac",
+        "Pumpkin Mac",
+        "Kalo (Taro) Mac",
+        "Lilikoi Mac",
+        "bites sampler boxes"
+      ],
+      "tags": [
+        "macadamia nut pie",
+        "family-owned",
+        "small batch",
+        "shipping",
+        "holiday fairs"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Dec 2025 edition"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://alohamadebites.com/",
+      "instagram": "https://www.instagram.com/alohamadebites/",
+      "facebook": "https://www.facebook.com/alohamadebites/",
+      "phone": "(808) 384-2080",
+      "schedule_source_url": null,
+      "order_url": "https://alohamadebites.com/",
+      "payment_methods": null,
+      "made_where": "Oʻahu, small batches (own site: founded in the heart of Oahu)",
+      "source_url": "https://alohamadebites.com/",
+      "source_date": null,
+      "source_label": "their website and Facebook page",
+      "confidence": "high",
+      "notes": "Active: own site is current (undated), advertises shipping and holiday pie specials, and their Instagram is active (648 posts, undated). Phone and Wahiawā location come from their Facebook page, which gives a Kunia Road address. I left the street address out because a third-party directory gives a Kapolei address instead, and the sources conflict. Own site lists seven flavors; the original list had five. The Dec 2025 Hawaii Holiday Craft & Gift Fair vendor list was not re-checked in this pass, and no 2026 fair listing was confirmed. No walk-in hours found.",
+      "still_active": true
+    },
+    {
+      "name": "BE. Kākou",
+      "category": "food-trucks",
+      "side": "leeward_ewa",
+      "neighborhood": "Kapolei",
+      "description": "Mobile cafe: coffee, matcha lattes, māmaki tea and baked goods, west Oʻahu",
+      "products": [
+        "specialty coffees roasted by Chadlou's Coffee Roasters",
+        "espresso lattes",
+        "matcha lattes",
+        "māmaki tea",
+        "WAItalizer coconut water",
+        "baked goods"
+      ],
+      "tags": [
+        "mobile cafe",
+        "coffee",
+        "matcha",
+        "māmaki",
+        "west Oʻahu",
+        "online ordering"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": "Aug 15–17, 2025, booth F-120"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "Kapolei Regional Park (across from Kapolei Library)",
+      "website": "https://www.bekakou.com/",
+      "instagram": "https://www.instagram.com/be.kakou/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.bekakou.com/",
+      "order_url": "https://www.bekakou.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.bekakou.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Active: their site (current, undated) shows Tuesday–Saturday 7:30–noon at Kapolei Regional Park, closed Sunday and Monday, with online ordering. Their site writes the name 'BE. kākou'; I kept the name as given. An Aug 2025 Aloha State Daily article says the trailer's location can change by the week, with Hoʻopili soccer park and Kapolei Regional Park as frequent spots, and that it opened in Sept 2024. Check the site or Instagram for the current spot. Category changed from prepared-food because it is a mobile trailer. The 2025 festival booth is from Honolulu Magazine; I did not check the 2026 festival map for them. The Instagram handle @be.kakou comes from the 2025 Honolulu Magazine festival list.",
+      "still_active": true
+    },
+    {
+      "name": "BoTea Honolulu",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako and Pearlridge (Aiea) markets",
+      "description": "Fresh brown sugar boba teas and grilled cheese and boba sandwiches",
+      "products": [
+        "brown sugar boba tea",
+        "loose-leaf teas (black, green, Thai, hibiscus)",
+        "coffee with boba",
+        "grilled cheese and boba sandwich"
+      ],
+      "tags": [
+        "boba",
+        "tea",
+        "farmers market",
+        "catering",
+        "made fresh"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Market at Kakaʻako",
+          "usual_days": "Saturday, 8am–12pm"
+        },
+        {
+          "name": "FarmLovers Market at Pearlridge",
+          "usual_days": "Saturday, 8am–12pm"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "919 Ala Moana Blvd, Honolulu, HI 96814 (Kakaʻako market site, as on their website)",
+      "website": "https://www.boteahonolulu.com/about",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/home-1-1",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Boba made on site at the market each morning (their Nextdoor business page)",
+      "source_url": "https://www.boteahonolulu.com/about",
+      "source_date": null,
+      "source_label": "their website and the FarmLovers Markets schedule",
+      "confidence": "medium",
+      "notes": "Their own site lists Saturday 8am–noon at the Pearlridge and Kakaʻako FarmLovers markets and also advertises catering. The FarmLovers schedule gives Saturday 8am–12pm for both markets. The Pearlridge market is at 98-180 Kamehameha Hwy, Aiea (Wai Makai, near Zippys). Status is uncertain: the site's other posts look like late 2025 (a Honolulu City Lights opening-night booth and a benefits-card free drink offer), and a Nextdoor business post thanks customers for support 'this past year' with no clear date, which could be an end-of-season message. HI Now (Aug 2025, sponsored by FarmLovers) confirms Saturdays at both markets. I found no FarmLovers vendor list confirming 2026. Check with the markets before sending people. The 919 Ala Moana Blvd address is the Kakaʻako market site, not a store. Third-party listings give a phone number, which I did not use.",
+      "still_active": null
+    },
+    {
+      "name": "Café Kana",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": "Kakaʻako and Pearlridge (Aiea) markets",
+      "description": "Coconut yogurt smoothies at FarmLovers Kakaʻako and Pearlridge markets",
+      "products": [
+        "coconut yogurt smoothies",
+        "cold-pressed fruit juice smoothies"
+      ],
+      "tags": [
+        "smoothies",
+        "organic",
+        "vegan",
+        "no added sugar",
+        "FarmLovers exclusive"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Market at Kakaʻako",
+          "usual_days": "Saturday, 8am–12pm"
+        },
+        {
+          "name": "FarmLovers Market at Pearlridge",
+          "usual_days": "Saturday, 8am–12pm"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hinowdaily.com/2025/07/01/find-fresh-coconut-yogurt-smoothies-by-caf-kana/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/07/01/find-fresh-coconut-yogurt-smoothies-by-caf-kana/",
+      "source_date": "2025-07-01",
+      "source_label": "a HI Now article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Corrected: the article body names only Kakaʻako and Pearlridge; the Haleʻiwa Thursday market came from a generic FarmLovers schedule block listing all their markets, so I removed it. FarmLovers' own Haleʻiwa page says Thursday 3–7 PM at a new location, so I found no pause. Saturday 8am–12pm is from that block. Article names ingredients as Koko Kai Coconut Yogurt and Kino's Honey from Oʻahu and says most items are organic and vegan. The name is 'Café Kana' in the headline and 'Cafe Kana' in the body. No own website, social account or 2026 source found, so still_active is null. Side left null because the two markets are in different areas.",
+      "still_active": null
+    },
+    {
+      "name": "Curbside Cravings",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor on the Koʻolau Night Market lineup; products not stated",
+      "products": [],
+      "tags": [
+        "night market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the organizer's Koʻolau Night Market vendor lineup",
+      "confidence": "medium",
+      "notes": "Listed in the organizer's participating-businesses list on the June 12, 2026 event page (Island Craft Fairs). I could not verify a Nov 13 lineup, so last confirmed June 2026. The market is at the Windward Mall parking lot, 46-056 Kamehameha Hwy, Kāneʻohe, second Fridays 5–9 PM. The mall's 2026 calendar lists dates Feb 13 through Nov 13, with April 10 canceled for weather. The organizer says the market has food trucks and retail artisans. The lineup does not say which Curbside Cravings is, so category 'other' is a placeholder, not a finding. No products, website or social account found.",
+      "still_active": true
+    },
+    {
+      "name": "Da Tomato Guy",
+      "category": "produce",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Vine-ripened Kawamata Farm (Big Island) tomatoes, plus salsa and chips",
+      "products": [
+        "vine-ripened tomatoes",
+        "salsa",
+        "tortilla chips"
+      ],
+      "tags": [
+        "tomatoes",
+        "salsa",
+        "Big Island grown",
+        "formerly Kamuela Tomatoes",
+        "Made in Hawaii Festival 2026"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "Saturday, 7:30–11:30am"
+        },
+        {
+          "name": "FarmLovers Market at Kakaʻako",
+          "usual_days": "Saturday, 8am–12pm"
+        },
+        {
+          "name": "FarmLovers Market at Kailua Town",
+          "usual_days": "Sunday, 8am–12pm"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday, 8–11am"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/da_tomatoguy/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.threads.com/@da_tomatoguy",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Tomatoes grown at Kawamata Farm on Hawaiʻi Island",
+      "source_url": "https://hfbf.org/farmers-markets/da-tomato-guy/",
+      "source_date": null,
+      "source_label": "the Hawaiʻi Farm Bureau's vendor page and their social accounts",
+      "confidence": "high",
+      "notes": "Corrected markets: the Farm Bureau page says they attend the KCC (Saturday) and Mililani (Sunday) markets and do not attend the Wednesday Honolulu or Thursday Kailua markets, so I removed Honolulu Farmers' Market. Their Instagram bio and Threads posts add Saturday Kakaʻako and Sunday Kailua (FarmLovers); the days and hours come from undated Threads posts. Active in 2026: Maui Now (June 9, 2026) says owner Danny Rudometkin sells at Oʻahu farmers' markets and calls it a Hawaiʻi-based salsa company; the state business site lists Da Tomato Guy in the Hawaiʻi Made Pavilion at the Aug 20–23, 2026 Made in Hawaiʻi Festival. Formerly Kamuela Tomatoes (Farm Bureau page). Category kept as produce; they also sell salsa and chips.",
+      "still_active": true
+    }
+  ]
+}

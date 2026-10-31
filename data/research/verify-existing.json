@@ -1,0 +1,146 @@
+[
+ {
+  "name": "Grow Aloha",
+  "seed_id": "VND-008",
+  "website": "https://ntbg.org/events/grow-aloha",
+  "instagram": "",
+  "facebook": "",
+  "notes": "Grow Aloha is a free native-plant adoption program (a project of the National Tropical Botanical Garden) rather than a typical vendor; I assume this is the entity meant, though that is not confirmed. Its Oʻahu site was Bishop Museum's Kaiwiʻula Night Market (Honolulu). Bishop Museum's page calls Friday May 8, 2026 (5-7 pm) the final Grow Aloha plant distribution there, so still_active is false for the Oʻahu/Honolulu presence. The statewide program may continue on other islands. The DLNR event page names growaloha.org, but no full URL was confirmed, so I used the NTBG page. No Instagram/Facebook confirmed."
+ },
+ {
+  "name": "Mochi Lab",
+  "seed_id": "",
+  "website": "https://mochilab808.com",
+  "instagram": "",
+  "facebook": "https://www.facebook.com/mochilab808",
+  "notes": "The Facebook page (undated) lists Wed Blaisdell 4–7pm and Thu Kailua 5–7:30pm, plus catering and custom orders, and gives mochilab808.com. A Honolulu Magazine mochi guide (about 974 days old) labels Mochi Lab 'CLOSED'. The two sources conflict, and the closure article is old, so treat still_active=false as probable but unconfirmed. Re-check before using. No Instagram found."
+ },
+ {
+  "name": "Alex Products",
+  "seed_id": "VND-001",
+  "website": "https://keoandalex.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "Website tied by 'Alex Products LLC' in its copyright line; it describes a family farm in Kahuku (North Shore) and its ordering page is a stale COVID-era box delivery, so order_url left null. Marketspread lists the vendor at Wahiawa (96786), which conflicts with Kahuku; unresolved. Fort Street Mall organizer page lists Alex Products (fresh fruits and vegetables) at the Tue/Fri 7:00am-1:30pm open market. Honolulu Magazine guide (recent) also lists it at Fort Street Mall, hence still_active true. Also seen at the Honolulu Farmers' Market (older articles). 'Alex's Produce' at 1151 Mapunapuna St appears in third-party listings only and was not tied to this business. No Instagram/Facebook found. Seed says Town; the website says Kahuku, so seed side is uncertain."
+ },
+ {
+  "name": "Aloha Mac Shack",
+  "seed_id": "VND-090",
+  "website": "http://alohamacshack.com",
+  "instagram": "https://www.instagram.com/alohamacshack",
+  "facebook": "",
+  "notes": "Food truck at the Ohana Hale Waikiki food truck park, 1958 Kalākaua Ave. A Star-Advertiser article from Nov 2024 gives the Instagram handle @alohamacshack and says orders are in person or via DoorDash. The website URL comes from a third-party listing and I did not open it. The order URL is an Uber Eats listing, not the business's own channel. Hours reported in 2024 may have changed, and a TikTok post mentions a Monday stop on Lewers St. I could not confirm the current schedule or that it is still operating. No Facebook found."
+ },
+ {
+  "name": "BoTea Honolulu",
+  "seed_id": "",
+  "website": "https://www.boteahonolulu.com",
+  "instagram": "https://www.instagram.com/boteahonolulu",
+  "facebook": "",
+  "notes": "The business's own contact page lists Pearlridge Farmers Market and Kaka'ako Farmers Market, both Saturdays 8am-12pm. Its structured data lists the Instagram, YouTube (@BoTeaHonolulu) and the Square site. I did not open the Square site, so I'm not certain it is a product ordering page; the site also has a catering menu. HI Now (Aug 2025) confirms the Saturday FarmLovers markets and the grilled cheese & boba sandwich. A Facebook page exists per a food-truck directory, but I did not see its URL. Side left null because the two markets are in different areas (Kaka'ako and Aiea)."
+ },
+ {
+  "name": "Burgers & Burritos Hawai‘i",
+  "seed_id": "",
+  "website": "https://www.burgersburritoshawaii.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "The HFBF Kailua page lists it as 'Burgers & Burritos Hawaii (BBHI)' with the website above. Honolulu Magazine's market guide (about 19 days ago) lists it under the Hawai‘i spelling used in the seed. Marketspread lists it under the legal name Beyond Burgers Hawaii LLC, with stops at KCC, Honolulu and Kailua. No Instagram or Facebook found."
+ },
+ {
+  "name": "Burgers & Burritos Hawaii (BBHI)",
+  "seed_id": "",
+  "website": "https://www.burgersburritoshawaii.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "The HFBF Mililani page lists BBHI (Chef Jonathan) and gives the website and the email beyondburgers@gmail.com. A 2017 student-paper article gave a Kapahulu Ave restaurant address. I could not verify whether that restaurant is still open, so still_active reflects the current Mililani market listing only. I did not open the website, so its content is unchecked. Marketspread lists the legal name as Beyond Burgers Hawaii LLC dba Burgers & Burritos Hawaii (Honolulu 96826). No Instagram or Facebook handle was found. Side 'town' is not set because the base is only inferred from the older address."
+ },
+ {
+  "name": "Ed's Little Farm",
+  "seed_id": "",
+  "website": "https://www.edslittlefarm.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "The farm's own site says it is family-owned, in Waialua on the North Shore. It lists Kakaʻako Farmers Market on Saturdays 8am-12pm and Mililani Farmers Market 8am-11am. The HFBF page lists more markets: Mililani on Sunday, Honolulu (Blaisdell) on Wednesday, Kailua on Thursday and KCC on Saturday. No Instagram or Facebook found."
+ },
+ {
+  "name": "Grandma G's Ono Grindz",
+  "seed_id": "",
+  "website": "https://www.grandmagsonogrindz.com",
+  "instagram": "https://www.instagram.com/grandmagsonogrindz",
+  "facebook": "",
+  "notes": "The business's own site names the Instagram handle @grandmagsonogrindz. Its locations page lists Sunday 8-11am at Mililani High School and Thursday 4-7pm at Kailua Town Center. A Sept 2026 blog post says they were back at Mililani and to follow the same handle for locations. A third-party directory mentions a Facebook page but gave no URL, so Facebook is null. The only address found is a mailing address, so side is null."
+ },
+ {
+  "name": "It's About Time",
+  "seed_id": "VND-240",
+  "website": "https://www.itsabouttimehawaii.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "This business sells moisture-wicking graphic t-shirts printed in Honolulu, at 1020 Auahi St Ste 5. The home page has a 'Where to find us' list of fairs (Koko Marina and JCCH, Jan-Mar dates) and asks people to call or text to confirm. It also appears on the Aug 2026 JCCH list and the Dec 2025 Hawaii Holiday Fair list. The site links to an Instagram account, but the handle was not visible in the results, so instagram is null. The site says remaining inventory and 'seconds' are being sold at discounted prices. That could mean it is winding down, so check before relying on it. The shop page showed no online checkout, so order_url is null. No Facebook page found."
+ },
+ {
+  "name": "Kissy Hawaii",
+  "seed_id": "VND-206",
+  "website": "https://kissyhawaii.com",
+  "instagram": "https://www.instagram.com/kissyhawaii1",
+  "facebook": "https://www.facebook.com/kissyhawaii",
+  "notes": "The Facebook page says to follow it for craft fair location updates, and the website is listed on the page. The Instagram handle 'kissyhawaii1' comes from the Hawaii Holiday Fair organizer vendor list, which gives the same phone (808-672-9068) as the older Weebly site (kissyhawaii.weebly.com). Kapolei-based playful kidswear. Eventeny shows an upcoming event on Nov 21, 2026, and the business is also on the MTA Autumn Craft Fair list. The X bio says to check the website for the next craft fair, but I did not open the website. No order URL confirmed."
+ },
+ {
+  "name": "Mo-Chan Studio",
+  "seed_id": "VND-215",
+  "website": "https://mo-chan.net",
+  "instagram": "https://www.instagram.com/mochan_studio",
+  "facebook": "https://www.facebook.com/MoBearsArt",
+  "notes": "The Facebook page 'Mo-Chan' (Hawaii-based artist) lists mochan_studio and mo-chan.net, which ties these accounts together. The shop at mochanstudio.com is under the vendor name Mo-Chan Studio. Sources say 'Hawaii-based' and do not confirm Oʻahu specifically, so side is null. No schedule found. Activity status undated."
+ },
+ {
+  "name": "Once Again",
+  "seed_id": "",
+  "website": "https://onceagainhawaii.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "The business is Once Again Hawaii, a family-owned succulent nursery in Waimanalo. Its own site has a 'Pop-Ups + Locations' section and gives the farm address 41-829 Kakaina St. The HFBF Mililani page describes repurposed vessels (spam cans, eggshells, teacups) and lists onceagainhawaii@gmail.com and the website. No Instagram or Facebook found."
+ },
+ {
+  "name": "Sugah Papi Farms",
+  "seed_id": "",
+  "website": "https://www.sugahpapifarmshi.com",
+  "instagram": "https://www.instagram.com/sugahpapifarms",
+  "facebook": "",
+  "notes": "The HFBF Kailua page lists @sugahpapifarms. The business's own site says it sells farm-grown cut fruit. It lists Saturdays 8am–12pm at 919 Ala Moana Blvd (Honolulu), Sundays 8am–12pm at 604 Ulukahiki St in Kailua (labelled Kailua Farmers Market), and a food truck at 55621 Kamehameha Hwy, Haleiwa. HFBF still lists the Thursday Kailua Farmers' Market. HFBF's text says 'Wailua' for the farm, but its own page says Waialua (north shore) and Marketspread also says Waialua. Trays and platters are by inquiry. No Facebook found."
+ },
+ {
+  "name": "Wicked HI",
+  "seed_id": "",
+  "website": "https://www.wickedhicafe.com",
+  "instagram": "https://www.instagram.com/nomadic.hi",
+  "facebook": "https://www.facebook.com/WICKEDHISLUSH",
+  "notes": "An Aloha State Daily article (Jan 2026) says the business is now Nomadic, formerly Wicked HI, and gives Instagram @nomadic.hi. It has a Haleʻiwa food truck and a new Kailua shop at 270 Kuulei Rd. The Facebook page 'Wicked Hi Slush' (Haleiwa) is the older brand page. The website wickedhicafe.com is the café site found in results; the Facebook page lists wickedhislushie.com. I did not verify which site is current after the rebrand. Onolicious (old) says the Kakaʻako stand sells only honey slush on Saturdays. No source confirms the Kakaʻako stand is current under either name. Business is based in Waialua/Haleʻiwa, so side is north_shore."
+ },
+ {
+  "name": "Eat My Meat",
+  "seed_id": "VND-106",
+  "website": "https://eatmymeathi.com",
+  "instagram": "https://www.instagram.com/eatmymeat.official",
+  "facebook": "https://www.facebook.com/eatmymeathi",
+  "notes": "The Instagram handle @eatmymeat.official comes from a May 2025 Star-Advertiser feature. It describes the lime-green truck run by owner Minh Nguyen at Mililani Technology Park, 100 Kahelu Ave, Mon-Fri, plus island events. The Facebook page eatmymeathi lists 2829 Awaawaloa St, Honolulu, phone 808-837-0098, and the website eatmymeathi.com. A second Facebook page, facebook.com/eatmymeathawaii/, has the same address and phone. I could not confirm that the Mililani and Honolulu entries are the same business. The latest independent confirmation is May 2025, so activity is unconfirmed. Orders are by phone or Instagram per the article."
+ },
+ {
+  "name": "Silverspring",
+  "seed_id": "VND-246",
+  "website": "https://www.silverspringhawaii.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "'Silver Spring Hawaii' is a Honolulu gift and handcrafted-goods seller (wallets, pouches, tote bags, backpacks, jewelry). It has a Big Cartel shop and a website listed in a business directory. The match to this vendor is unverified because the seed has no product description, and I did not open the website. No Instagram, Facebook or market schedule found. Activity unconfirmed."
+ },
+ {
+  "name": "Special Gifts by Clarice",
+  "seed_id": "VND-077",
+  "website": "http://www.specialgiftsbyclarice.com",
+  "instagram": "",
+  "facebook": "",
+  "notes": "Gift basket and baked goods business owned by Clarice Hamada at 820 6th Ave, Honolulu (Kaimuki), since 1983 per BBB. The website URL appears only on a MapQuest listing, which also shows a different Kalihi address; another directory lists no website. I did not verify the site. No social accounts found. I could not confirm whether it is currently operating."
+ }
+]

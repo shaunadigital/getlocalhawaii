@@ -1,0 +1,266 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 229931,
+    "out": 18981,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Toys & Things",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Kakaʻako (Blaisdell Center fair)",
+      "description": "Collectible toys booth at the Hawaii Holiday Craft & Gift Fair",
+      "products": [
+        "Labubu",
+        "blind box toys",
+        "Sonny Angel",
+        "Smiski",
+        "Squishmallows",
+        "Sanrio items",
+        "Disney items",
+        "Marvel items",
+        "purse accessories"
+      ],
+      "tags": [
+        "collectibles",
+        "toys",
+        "craft fair",
+        "resale"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "source_date": null,
+      "source_label": "KHON2 Living808 article on the Hawaii Holiday Craft & Gift Fair",
+      "confidence": "medium",
+      "notes": "Resells collectibles, not locally made, so category changed from makers to other. KHON2 lists the booth for the Dec 19-21 fair at the Blaisdell Center Exhibition Hall, run by Sunshine Productions; article has no printed date and appears to be from Dec 2025. The Oct 30-Nov 1, 2026 fair coverage I could read does not name them; another exhibitor's page lists a Dec 18-20, 2026 fair, but Toys & Things is not confirmed for it. No own website or social page found, and no location outside the fair is stated. Active status for 2026 unconfirmed.",
+      "still_active": null
+    },
+    {
+      "name": "Wallflour Bake Shop",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Sourdough, pastry and croissant bakery; closed until further notice",
+      "products": [
+        "naturally-leavened sourdough breads",
+        "pastries",
+        "croissants"
+      ],
+      "tags": [
+        "bakery",
+        "sourdough",
+        "pastries",
+        "croissants",
+        "closed"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        },
+        {
+          "name": "Kailua Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.wallflourbakeshop.com/",
+      "instagram": "https://www.instagram.com/wallflourbakeshop",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.wallflourbakeshop.com/schedule",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Honolulu",
+      "source_url": "https://www.wallflourbakeshop.com/",
+      "source_date": null,
+      "source_label": "their website (closure notice and schedule page)",
+      "confidence": "high",
+      "notes": "Own site and schedule page say closed until further notice while they search for a new kitchen. The schedule page's latest listed market dates are in Nov 2025 (Kakaʻako Sat Nov 29, 2025); its Kailua entry is labeled oddly, so the Kailua market and days are unconfirmed. Pages are undated, so re-check for a reopening. The market's address when they were selling was 919 Ala Moana Blvd. Some third-party directory listings still show Saturday market hours and appear out of date. Old online pre-order page not listed because it is stale. Own site spells it 'Bake Shop' (a 'Bakeshop' spelling appears elsewhere).",
+      "still_active": false,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Wee Little Things",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Student maker business sold at Mākia Market and Lokahi Collective online",
+      "products": [
+        "Big Bunnies",
+        "Clueless Capybara",
+        "Goofy Geese",
+        "Saucy Strawberries"
+      ],
+      "tags": [
+        "student maker",
+        "keiki maker",
+        "handmade",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://linktr.ee/weelittlethings",
+      "instagram": "https://instagram.com/audreyweelittlethings",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "order_url": "https://lokahicollective.org/collections/wee-little-things",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "Aloha State Daily article on Mākia Market, plus their Linktree and Lokahi Collective page",
+      "confidence": "medium",
+      "notes": "Owner is Audrey Wee, a Mākia Student Ambassador. Listed on Mākia Market's Fri Aug 21, 2026 schedule (6:30-10 p.m., booth 106) at the Made in Hawaiʻi Festival, Hawaiʻi Convention Center. Mākia Market also runs select dates at The Barn at SALT at Our Kakaʻako, but the article does not say Wee Little Things sold there, so SALT is unconfirmed. Their Linktree (own link page) shows an order form, a Lokahi Collective shop link and a keiki makers market link; the order form URL and Instagram handle are not shown in what I could read. The Lokahi Collective page lists the four item names in products; product type is not stated. Neighborhood left null because the business's home base is not stated. No future market dates found.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Weirdoughs",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (Honolulu Farmers' Market, Blaisdell Center)",
+      "description": "Focaccia sandwiches and flatbreads; current market status unconfirmed",
+      "products": [
+        "focaccia",
+        "Hot n' weird panini pressed sandwiches",
+        "focashas (Detroit-style pizzas)",
+        "open face flat breads",
+        "grab & go sandwiches"
+      ],
+      "tags": [
+        "focaccia",
+        "sandwiches",
+        "pop-up",
+        "bakery"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@weirdoughsfocaccia",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.jeffsetter.com/blog/fantastic-eats-at-the-honolulu-farmers-market/",
+      "source_date": null,
+      "source_label": "a 2026 food blog post and Honolulu Magazine articles",
+      "confidence": "low",
+      "notes": "The 2026 blog (approx. Aug 2026) only lists Weirdoughs among places the writer wants to try at the Honolulu Farmers' Market and says the vendor list changes weekly; it does not confirm the vendor sells there, so the first search's 'mentioned as a vendor' was too strong. Honolulu Magazine (undated, likely 2023) says owner Aaron Biolos, 'formerly known for' WeirDoughs, now makes sandwiches at The Local General Store in Kaimukī. Hana Kitchens' current site still lists Weirdoughs as a member. The Hawaiʻi Farm Bureau Honolulu market page lists Wednesdays 4-7 p.m. at the Blaisdell Center, but I did not see Weirdoughs on it, so usual_days is null. Product list comes from an undated vendor-platform profile and older articles. Instagram handle comes from an older Honolulu Magazine article and is unverified. Active status unconfirmed.",
+      "still_active": null
+    },
+    {
+      "name": "Yolie's Designs",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako (Blaisdell Center fair)",
+      "description": "Handcrafted clay lei and jewelry at the Blaisdell holiday fair",
+      "products": [
+        "clay lei",
+        "jewelry"
+      ],
+      "tags": [
+        "clay lei",
+        "jewelry",
+        "handmade",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30-Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": null,
+      "source_label": "KHON2 Living808 article on the Hawaii Holiday Craft & Gift Fair",
+      "confidence": "medium",
+      "notes": "KHON2 (published about Oct 27, 2026; no printed date in what I read) says the business is part of the Oct 30-Nov 1, 2026 fair at the Blaisdell Center Exhibition Hall. The fair is happening now, so marked active. Clay lei, not fresh flowers. Own page not found. A customer's social post says the maker 'only pops up' at an event abbreviated 'MM', which is unexplained, so fixed_or_roaming is left null. Instagram handle is spelled inconsistently in customer posts, so it is not listed. Earrings and hair flowers from the first search are not in the KHON2 text I read, so products are limited to what it states. Location outside the fair not stated.",
+      "still_active": true
+    },
+    {
+      "name": "Youpo Noodles",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "description": "Hand-pulled biangbiang noodle shop in Chinatown; Kailua market Thursdays",
+      "products": [
+        "hand-pulled biangbiang noodles"
+      ],
+      "tags": [
+        "noodles",
+        "hand-pulled",
+        "Chinese",
+        "made to order",
+        "restaurant",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursdays"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "1109 Maunakea St, Honolulu, HI 96817",
+      "website": "https://www.youponoodleshi.com/",
+      "instagram": "https://www.instagram.com/youponoodleshi/",
+      "facebook": null,
+      "phone": "(808) 728-6222",
+      "schedule_source_url": "https://hfbf.org/farmers-markets/youpo-noodles/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/youpo-noodles/",
+      "source_date": null,
+      "source_label": "the Hawaiʻi Farm Bureau's market vendor page",
+      "confidence": "high",
+      "notes": "Organizer page (Hawaiʻi Farm Bureau, indexed about Aug 2026; no printed date) lists Youpo as participating at the Thursday Kailua Farmers' Market and not at Honolulu (Wed), KCC (Sat) or Mililani (Sun). It also gives the Chinatown address, phone and website, and says noodles are made to order with local ingredients. Kakaʻako Farmers Market was listed in a 2025 guide but I could not confirm it from a current organizer list, so it is not in markets; verify before listing. A hiChinatown listing (about mid 2025) gave Tue-Sat 11:30 a.m.-8 p.m. for the Chinatown shop, but other listings show different hours, so hours are not included. Instagram handle comes from a blog and older articles. Kailua market hours are Thursdays 4-7 p.m. per Hawaiʻi Farm Bureau's market listing.",
+      "still_active": true
+    }
+  ]
+}

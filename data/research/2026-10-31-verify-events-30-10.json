@@ -1,0 +1,89 @@
+{
+  "target": "second look at events",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 54915,
+    "out": 4578,
+    "searches": 4
+  },
+  "rows": [
+    {
+      "name": "Waimanalo Beach Park People's Open Market",
+      "kind": "farmers_market",
+      "side": "windward",
+      "neighborhood": "Waimānalo",
+      "venue_name": "Waimānalo Beach Park",
+      "address": "41-741 Kalanianaʻole Hwy, Waimānalo, HI 96795",
+      "schedule_text": "Thursdays, 7:15 am to 8:15 am, year round (per aggregator listings). A 2018 state schedule says People's Open Markets close on all City holidays.",
+      "dates": [],
+      "organizer": "City and County of Honolulu Department of Parks and Recreation (People's Open Market program)",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "City-run weekly open market started to help farmers sell off-grade and surplus produce and to lower food costs. Sells produce and other food items. Accepts EBT/SNAP per the Revitalize Oʻahu directory. On Kalanianaʻole Highway near the baseball fields, with some parking and street parking.",
+      "source_url": "https://www.revitalizeoahu.org/sustianble-ag-food-systems",
+      "source_date": null,
+      "source_label": "Revitalize Oʻahu Oʻahu Farmers' Markets Directory (names C&C Parks and Recreation as host)",
+      "confidence": "medium",
+      "notes": "Hours corrected to 7:15-8:15 am. This matches the Revitalize Oʻahu directory, a Generations808 schedule, an AARP event listing (Dec 2025 dates) and Soko. The 7:00-8:00 am hours come from an aggregator record dated to the 2015 season and are likely stale. I did not retrieve the City's own People's Open Market page, so there is no current own-page confirmation. Revitalize Oʻahu is a third-party directory, so confidence stays medium. The organizer is named only through that directory and the City's vendor rules PDF. The 2018 state schedule PDF is old. AARP dates are all 2025, so no 2026 dates are stated. Likely still running, but not confirmed by a current City source. Confirm with the City Parks and Recreation People's Open Market Unit.",
+      "still_active": null
+    },
+    {
+      "name": "We Are Samoa Festival",
+      "kind": "festival",
+      "side": "north_shore",
+      "neighborhood": "Lāʻie",
+      "venue_name": "Polynesian Cultural Center",
+      "address": "55-370 Kamehameha Highway, Lāʻie, HI",
+      "schedule_text": "Annual festival. The 2027 edition runs April 21-29, 2027. It includes the World Fireknife Championships and the We Are Samoa High School Arts Festival (Saturday April 24, 2027). Men's finals are Thursday April 29 at 7:30 pm during the evening show Hā: Breath of Life.",
+      "dates": [
+        {
+          "date": "2027-04-21",
+          "start": "09:30",
+          "end": null
+        },
+        {
+          "date": "2027-04-21",
+          "start": "18:30",
+          "end": null
+        },
+        {
+          "date": "2027-04-24",
+          "start": "09:00",
+          "end": null
+        },
+        {
+          "date": "2027-04-28",
+          "start": "09:30",
+          "end": null
+        },
+        {
+          "date": "2027-04-28",
+          "start": "18:30",
+          "end": null
+        },
+        {
+          "date": "2027-04-29",
+          "start": "19:30",
+          "end": null
+        }
+      ],
+      "organizer": "Polynesian Cultural Center",
+      "website": "https://worldfireknife.com/",
+      "instagram": null,
+      "facebook": "https://www.facebook.com/share/1BC6b3ZFHp",
+      "vendor_application_url": null,
+      "admission": "Ticketed. 2027 prices not found. In 2026, daytime competition sessions were $15 for all ages and the men's finals started at $94.95. The High School Arts Festival sold out in 2026 and was livestreamed on PCC's Facebook page.",
+      "description": "Hawaiʻi's largest Samoan cultural festival, centered on the World Fireknife Championships and a high school Samoan arts festival at the Polynesian Cultural Center. Sessions: 2027-04-21 junior and intermediate preliminaries (9:30 am) and competition (6:30 pm); 2027-04-24 High School Arts Festival (9:00 am); 2027-04-28 men's qualifying (9:30 am) and men's preliminaries with the women's competition (6:30 pm); 2027-04-29 men's finals (7:30 pm).",
+      "source_url": "https://worldfireknife.com/",
+      "source_date": null,
+      "source_label": "Organizer website, World Fireknife Championships / We Are Samoa Festival (Polynesian Cultural Center)",
+      "confidence": "high",
+      "notes": "The organizer's page shows the 2027 dates and session times. Hawaii News Now (2026-05-04) names PCC as host of the 2026 edition. Dates match the third-party calendar. This is a ticketed cultural and competition event. No food or craft vendors are mentioned, so it may not suit a vendor directory. The organizer's social handles appear only in third-party aggregator markup, and the two Facebook URL variants differ, so I left them null. The page snapshot date is not shown, so source_date is null.",
+      "still_active": true,
+      "social_source": "from their website"
+    }
+  ]
+}

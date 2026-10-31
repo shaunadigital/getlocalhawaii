@@ -1,0 +1,419 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 204755,
+    "out": 20798,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Dis-And-Bark",
+      "category": "other",
+      "side": null,
+      "neighborhood": "Aiea (Pearlridge), Kakaʻako, Kapolei",
+      "description": "Pet store with Hawaii kine dog toys and treats; Pearlridge, Kaka'ako",
+      "products": [
+        "dog toys",
+        "dog treats",
+        "holiday dog toys",
+        "slow feeders",
+        "dog ice cream bar"
+      ],
+      "tags": [
+        "pets",
+        "dog toys",
+        "storefront",
+        "craft fair vendor"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "98-1005 Moanalua Rd Ste 1411, Aiea, HI 96701; 685 Auahi St, Honolulu, HI 96813",
+      "website": "https://www.disandbark.com/",
+      "instagram": "https://www.instagram.com/disandbark/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.disandbark.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.disandbark.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Own site lists stores at Pearlridge (Uptown, near TJ Maxx) and SALT Kaka'ako (near Morning Brew). Kapolei Village Center store (4850 Kapolei Parkway #304) is shown as opening 8.1.26; I did not confirm it opened. Site says the online shop is closed for construction. Store hours are not on the own page, so none given. Also on the Hawaii Holiday Craft & Gift Fair's December 2025 vendor list, and KHON2 saw the booth at the Dec 2025 fair. Not confirmed for the 2026 fairs. Original 'pets' category is not an allowed value, so set to 'other'.",
+      "still_active": true
+    },
+    {
+      "name": "Fluffy Snow",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Japanese-style shave ice made to order",
+      "products": [
+        "Japanese-style shave ice",
+        "syrups",
+        "toppings"
+      ],
+      "tags": [
+        "shave ice",
+        "dessert",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        },
+        {
+          "name": "Honolulu Festival 2026 (30th)",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulufestival.com/en/group/fluffy-snow/",
+      "source_date": "2026",
+      "source_label": "the Honolulu Festival's vendor page",
+      "confidence": "medium",
+      "notes": "Product description comes from the Honolulu Festival's own 2026 page (handcrafted Japanese-style shave ice, made fresh to order). The Koʻolau Night Market listing (Nov 13, 2026 lineup on Island Craft Fairs) comes from the first pass and I could not re-open it. The two pages use the same name but are not confirmed to be the same business. Market is at Windward Mall, 46-056 Kamehameha Hwy, Kāneʻohe; market schedule from Windward Mall's page (every second Friday, 5–9 PM). No own website or social account found.",
+      "still_active": true
+    },
+    {
+      "name": "french ohana llc",
+      "category": "food-trucks",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe (Koʻolau Night Market, Windward Mall)",
+      "description": "Food trailer: crêpes and croque-monsieur, French-Hawaiian style",
+      "products": [
+        "crêpes",
+        "croque-monsieur"
+      ],
+      "tags": [
+        "crêpes",
+        "French-Hawaiian",
+        "food trailer",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "Listed by the organizer (Island Craft Fairs) as 'french ohana llc' on the Oct 9, 2026 Koʻolau Night Market lineup; the organizer's events page also shows 'FRENCH OHANA' under another market list (Sunset Rooftop Market). Product details come from a Marketspread vendor profile for 'FRENCH OHANA' (Honolulu County; food trailer run by a French couple, recently moved from Maui to Oʻahu), which is a third-party platform. The link between the two is likely but not confirmed. Organizer lists 'La crêpe parisienne' as a separate entry on the same lineups, so it is not confirmed to be the same business. Vendor's own base not stated; side/neighborhood are the market's location.",
+      "still_active": true
+    },
+    {
+      "name": "Glimmer Hawaii Shells and Jewelry",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe (Koʻolau Night Market, Windward Mall)",
+      "description": "Handmade shell jewelry; vendor at Koʻolau Night Market",
+      "products": [
+        "shell jewelry"
+      ],
+      "tags": [
+        "jewelry",
+        "shells",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "On the organizer's June 12, 2026 lineup. Hawaiʻi Baptist Academy's alumni page (undated) says a couple launched Glimmer Hawaii Shells and Jewelry and that the husband makes shell jewelry, which supports the 'makers' category. I did not see it on the later Oct 9 or Nov 13 lineups I checked, so last confirmed June 12, 2026. No own website or social account found. Vendor's own base not stated; side/neighborhood are the market's location (Windward Mall, 46-056 Kamehameha Hwy).",
+      "still_active": true
+    },
+    {
+      "name": "Go bananas",
+      "category": null,
+      "side": "windward",
+      "neighborhood": "Kāneʻohe (Koʻolau Night Market, Windward Mall)",
+      "description": "Vendor on the Koʻolau Night Market list; products not stated",
+      "products": null,
+      "tags": [
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "low",
+      "notes": "Name only on the organizer's June 12, 2026 lineup (first in the list). Category and products not stated. A search turned up 'Go Bananas Watersports' on Kapahulu Ave, which is a different kind of business and should not be assumed to be this vendor. Last confirmed June 12, 2026; not seen on later lineups I checked.",
+      "still_active": true
+    },
+    {
+      "name": "Good Mana",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Waimanalo",
+      "description": "Hawaiʻi-grown turmeric supplements, processed in Waimanalo",
+      "products": [
+        "ʻŌlena Gold Turmeric supplement",
+        "wellness supplements",
+        "Hang Easy"
+      ],
+      "tags": [
+        "supplements",
+        "turmeric",
+        "Hawaiʻi-grown",
+        "Mana Up"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": "online",
+      "address": null,
+      "website": "https://goodmanalife.com",
+      "instagram": "https://instagram.com/goodmanalife",
+      "facebook": "https://www.facebook.com/goodmanalife",
+      "phone": "808-800-4791",
+      "schedule_source_url": "https://alohastatedaily.com/2026/09/23/mana-up-showcase-will-highlight-hawaii-entrepreneurs",
+      "order_url": "https://goodmanalife.com/products/olena-gold-turmeric",
+      "payment_methods": null,
+      "made_where": "Processed in a drying facility in Waimanalo, Hawaiʻi",
+      "source_url": "https://goodmanalife.com/pages/about",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Own site is live (2026 copyright) and sells online, with free U.S. shipping. A company press release (June 19, 2026) shows the phone number for Denny Kwock, who is president/co-founder, and the company's 2025 release says it is based in Waimanalo. Active in Mana Up's 2026 cohort (Hawaii News Now, Oct 19, 2026). The Nov 5 marketplace night comes from the first pass (Aloha State Daily, Sept 23, 2026); I did not re-open it, and the venue is not stated here. Earlier note said 'Oʻahu and Hilo'. The Hilo part is not confirmed; the Waimanalo base is, so it stays as an Oʻahu vendor. Mostly online; no regular retail or market schedule found. Spelling follows how the company writes it.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hua Mochi Aloha",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": "Kaimukī (KCC) and Mililani",
+      "description": "Fruit-stuffed mochi and acai bowls at KCC and Mililani farmers markets",
+      "products": [
+        "fruit-stuffed mochi (strawberry, banana, seasonal fruit)",
+        "acai bowls",
+        "black natto"
+      ],
+      "tags": [
+        "mochi",
+        "acai",
+        "farmers market vendor"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/hua_mochialoha/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the Hawaiʻi Farm Bureau's market vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaii Farm Bureau (market organizer) KCC page (Saturdays 7:30–11:00 AM, KCC Parking Lot B, 4303 Diamond Head Rd) and the Mililani page (Mililani High School, 95-1200 Meheula Pkwy). Organizer describes it as all-natural fruit-stuffed mochi, best known for strawberry, banana and seasonal fruit. 'Daifuku' is not on the organizer pages, so removed. Mililani Sunday comes from a Feb 13, 2026 Hawaii Mom Blog post, not the organizer page. Acai bowls and black natto come from a Marketspread vendor profile; an older HFBF post says it was formerly Daizu Tei and also made macadamia nut soft serve. Instagram handle written hua_mochialoha; bio says 'All natural strawberry mochi'. The blog also saw a pink food truck parked near Kahala Mall in Feb 2026; no schedule given.",
+      "still_active": true
+    },
+    {
+      "name": "Island Banana Juice",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": "Honolulu (Blaisdell), Kaimukī (KCC), Kailua, Mānoa (UH)",
+      "description": "Banana smoothies from Hawaii-grown bananas and fruit sandwiches",
+      "products": [
+        "banana smoothies",
+        "banana juice",
+        "fruit sandwiches"
+      ],
+      "tags": [
+        "smoothies",
+        "banana",
+        "fruit sandwiches",
+        "farmers market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday, 4–7 PM"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday, 4–7 PM"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday, 7:30–11 AM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/island_banana_juice/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the Hawaiʻi Farm Bureau's market vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaii Farm Bureau KCC page (Saturdays 7:30–11:00 AM) and Honolulu page (Wednesdays 4–7 PM, Neal S. Blaisdell Center, 777 Ward Ave), with Instagram @island_banana_juice. Honolulu Magazine's farmers market guide (about 19 days old) also names it at the Wednesday Honolulu market. Kailua Thursday 4–7 PM is from third-party pages built on the HFBF roster (Marketspread, Makekemaps); I did not check HFBF's Kailua page. Bananas are Hawaii-grown (a Marketspread profile names a Kāneʻohe farm). UH Mānoa's own food page lists an Island Banana Juice food truck at Food Truck Row, Tue/Wed/Fri 9 AM–2 PM (page undated).",
+      "still_active": true
+    },
+    {
+      "name": "Jade and Pearl Hawaii",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe (Koʻolau Night Market, Windward Mall)",
+      "description": "Jewelry vendor at Koʻolau Night Market (Etsy shop of same name)",
+      "products": [
+        "jade and pearl jewelry"
+      ],
+      "tags": [
+        "jewelry",
+        "jade",
+        "pearl",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Handcrafted in Hawaii (per Etsy listing)",
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "On the organizer's Oct 9, 2026 lineup; the Nov 13, 2026 lineup comes from the first pass and was not re-opened. The organizer does not state products. An Etsy shop with the identical name (Honolulu, jade and pearl necklaces, 'handcrafted in Hawaii', listing about 502 days old) is the basis for the 'makers' category and products. The link between the Etsy shop and the market vendor is probable but not confirmed. Market is at Windward Mall, 46-056 Kamehameha Hwy, Kāneʻohe.",
+      "still_active": true
+    },
+    {
+      "name": "JAMS World",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaii-made totes, bags and printed apparel; sells at craft fairs",
+      "products": [
+        "reversible tote bags",
+        "limited-edition holiday totes",
+        "patchwork bags",
+        "farmers' market totes",
+        "waist packs",
+        "printed apparel"
+      ],
+      "tags": [
+        "tote bags",
+        "apparel",
+        "Hawaii-made",
+        "craft fair vendor"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.jamsworld.com",
+      "instagram": "https://www.instagram.com/jamsworld_1964",
+      "facebook": "https://www.facebook.com/tr",
+      "phone": null,
+      "schedule_source_url": "https://melekalikimakamarketplace.com/",
+      "order_url": "https://www.jamsworld.com",
+      "payment_methods": null,
+      "made_where": "Hawaii (bags collection page says Made in Hawaii)",
+      "source_url": "https://www.jamsworld.com/blogs/style-journal/mele-kalikimaka-marketplace-2025-one-stop-holiday-shopping-on-oahu",
+      "source_date": "2025",
+      "source_label": "their website's blog",
+      "confidence": "medium",
+      "notes": "Own site is live and sells online (bags and apparel). The 2025 blog post says it had a booth at the 2025 Mele Kalikimaka Marketplace, but its event dates and hours do not match the organizer's Dec 13–14, 2025 schedule, so none given. The organizer's 2026 page lists the 11th year at the Blaisdell Center (Sat Dec 12, 9 AM–7 PM; Sun Dec 13, 9 AM–5 PM) and is taking vendor applications. No source states a 2026 JAMS World booth. A Jan 23, 2026 blog post gives outfit ideas for the Feb 2 Waikiki Makers Market but does not say they had a booth. Business location is not stated, so side, neighborhood and address are null. Confidence is medium because the own page shows the business is active but no current Oʻahu schedule is stated.",
+      "still_active": true,
+      "social_source": "from their website"
+    }
+  ]
+}

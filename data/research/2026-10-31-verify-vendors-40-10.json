@@ -1,0 +1,462 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 188442,
+    "out": 21071,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Anela O Nālani Designs",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Jewelry business run by a 14-year-old maker and her family",
+      "products": [
+        "jewelry",
+        "earrings"
+      ],
+      "tags": [
+        "jewelry",
+        "keiki maker",
+        "family business",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/local-news/last-chance-to-shop-local-holiday-craft-fair-wraps-up-at-blaisdell/",
+      "source_date": "2025-12",
+      "source_label": "a KHON2 news story on the holiday craft fair",
+      "confidence": "medium",
+      "notes": "KHON2 (about Dec 20, 2025) says Caya Wong, 14, runs the business with her family and was at the fair for the second year in a row. She mentions earrings, making clay pieces and shell hunting, so the exact product mix is not stated. No own website, social page or current organizer list was found. The earlier note that the organizer spells it ANELAONALANI DESIGNS was not re-checked in this pass. The 2026 fairs are confirmed for Oct 30–Nov 1 and Dec 18–20, but no source shows this vendor at them. Results for Anela's Jewelry/Anela's Jade are Hilo (Hawaiʻi Island) businesses and were not matched. No location, hours or payment information found. Active in Dec 2025, not confirmed for 2026.",
+      "still_active": null
+    },
+    {
+      "name": "Aunty Nani's Hawaiian Cookies",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaiian cookies sold at craft fairs and farmers markets",
+      "products": [
+        "cookies",
+        "shortbread cookies"
+      ],
+      "tags": [
+        "cookies",
+        "baked goods",
+        "craft fairs",
+        "farmers markets"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        },
+        {
+          "name": "Honolulu Festival",
+          "usual_days": null
+        },
+        {
+          "name": "Maker's Market at Ala Moana Center",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": "https://www.facebook.com/p/Aunty-Nanis-Hawaiian-Cookies-61556324013893/",
+      "phone": "(808) 499-4039",
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Honolulu",
+      "source_url": "https://www.facebook.com/p/Aunty-Nanis-Hawaiian-Cookies-61556324013893/",
+      "source_date": null,
+      "source_label": "their Facebook page",
+      "confidence": "medium",
+      "notes": "Their Facebook page says cookies are made fresh to order and daily, and tells people to find them at craft fairs, farmers markets and other shows. A Facebook post (undated) mentions a Maker's Market outside the Face Shop at Ala Moana Center. The Honolulu Festival organizer's page lists the vendor as a participant in 2025 (29th), 2024 and 2023 and says the business has run about 30 years. The Hawaiʻi Farm Bureau vendor page (about 2024) describes shortbread cookies and other island favorites but names no market in the excerpt. The Facebook page lists a street address (723-C Umi St., Honolulu) that looks like a production kitchen, so it is not published here as a public location. The 2024 KHON2 macadamia nut chocolate chip cookie mention was not re-checked. No source confirms attendance at the 2026 holiday fairs. Confidence stays medium because the Facebook page is undated.",
+      "still_active": true
+    },
+    {
+      "name": "Bradley & Lily",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Letterpress cards, notebooks and prints made in Honolulu",
+      "products": [
+        "greeting cards",
+        "note cards",
+        "notebooks",
+        "art prints",
+        "postcards",
+        "luggage tags",
+        "gift tags",
+        "place cards",
+        "holiday cards"
+      ],
+      "tags": [
+        "letterpress",
+        "stationery",
+        "greeting cards",
+        "notebooks",
+        "made in Honolulu"
+      ],
+      "markets": [
+        {
+          "name": "Malama Market Ala Moana",
+          "usual_days": null
+        },
+        {
+          "name": "Lokahi Kailua",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": null,
+      "website": "https://www.bradleyandlily.com/",
+      "instagram": "https://www.instagram.com/bradleylily",
+      "facebook": "https://www.facebook.com/BradleyAndLily",
+      "phone": null,
+      "schedule_source_url": "https://www.bradleyandlily.com/products/home-sweet-home-letterpress-card",
+      "order_url": "https://www.bradleyandlily.com/",
+      "payment_methods": null,
+      "made_where": "Honolulu",
+      "source_url": "https://www.bradleyandlily.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Their own site says all cards and paper goods are designed and printed in Honolulu on recycled paper. It also points to a Honolulu boutique and letterpress studio called South Shore Paperie, but no street address is given in the pages found. A product page says the business is moving, so expect order delays. It lists market pop-ups at Malama Market Ala Moana (Saturdays, 10–4, June 13 and 27) and Lokahi Kailua at 340 Uluniu (Sundays, 9–1, June 14 and 28). Those weekdays match 2026; the page is undated. Mana Up Showcase Marketplace was removed from markets because no booth is confirmed. A Made in Hawaiʻi Festival booth note on their site (Aug 23–25) matches 2024, so it is stale. Social handles from a retailer page and the phone number from a wedding directory were not used. The business is active, but the move may change the boutique's location.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Dango Cat Designs",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Student-run maker business with hand-drawn cards and stickers",
+      "products": [
+        "greeting cards",
+        "stickers"
+      ],
+      "tags": [
+        "stickers",
+        "greeting cards",
+        "student maker",
+        "keiki entrepreneur"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "order_url": "https://www.etsy.com/shop/DangoCatDesigns",
+      "payment_methods": null,
+      "made_where": "Honolulu",
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "an Aloha State Daily article and their Etsy shop",
+      "confidence": "medium",
+      "notes": "Aloha State Daily (Aug 14, 2026) lists Dango Cat Designs, Risa '31 & Quinn '33 Togashi, on the Mākia Market schedule. Mākia Market is at booth 106 at the Made in Hawaiʻi Festival (Aug 20–23, 2026, Hawaiʻi Convention Center). It also runs on select dates at The Barn at SALT at Our Kakaʻako, and its last keiki-maker event there was Aug 8. No SALT date is given for this vendor, so neighborhood is set to Honolulu from the Etsy shop. The Etsy shop DangoCatDesigns (Honolulu) sells hand-drawn greeting cards and stickers and has listings dated through Sep 25, 2026. It is matched to the student business by name and city only, because Etsy does not name the owners. The Etsy link is the vendor's own storefront, and no reviews were used. Active as of Aug–Sep 2026.",
+      "still_active": true
+    },
+    {
+      "name": "Fatto a Mano",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Wood-fired sourdough pizza from a mobile oven at farmers markets",
+      "products": [
+        "wood-fired sourdough pizza"
+      ],
+      "tags": [
+        "pizza",
+        "wood-fired",
+        "sourdough",
+        "farmers market",
+        "mobile oven"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/fattoamanohi/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://vacations.hawaiilife.com/blog/hawaiian-culture/2025-guide-hawai%CA%BBis-best-farmers-markets-0",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://marketspread.com/vendor/36054/fatto-a-mano/",
+      "source_date": null,
+      "source_label": "their vendor profile on Marketspread and Honolulu Magazine",
+      "confidence": "medium",
+      "notes": "Category is corrected to prepared-food. The Marketspread vendor profile (undated) says they started in 2018 with a mobile wood-fire oven and make naturally leavened sourdough pizza with hand-pulled mozzarella. It lists the Honolulu Farmers Market (777 Ward Ave) and the Kailua Farmers Market (609 Kailua Rd), with James Orlando as manager. Honolulu Magazine (about Oct 2025, approximate) places the vendor at the Wednesday Hawaiʻi Farm Bureau market at Blaisdell and gives the handle @fattoamanohi. A 2025 guide gives the Honolulu Farmers Market hours as Wednesdays 4–7 pm. Hawaiʻi Magazine (about spring 2025) lists the vendor at the Kailua market, which meets Thursday nights. Reviews, Yelp hours and aggregator phone numbers were not used. No own website was found. Active in 2025; no current 2026 post was found.",
+      "still_active": true
+    },
+    {
+      "name": "Forage Hawai‘i",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Local meats incl. wild game, bone broth and tallow; markets and warehouse",
+      "products": [
+        "grass-fed local beef",
+        "pork",
+        "chicken",
+        "wild venison",
+        "lamb",
+        "goat",
+        "wild boar",
+        "organ blends",
+        "bone broth",
+        "tallow"
+      ],
+      "tags": [
+        "local meat",
+        "wild game",
+        "bone broth",
+        "EBT accepted",
+        "warehouse",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "Kaka'ako Farmer's Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Kailua Farmer's Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": "1001 Dillingham Blvd Unit 110, Honolulu, HI 96817 (warehouse, Fridays 12pm–5pm)",
+      "website": "https://foragehawaii.com/",
+      "instagram": "https://www.instagram.com/foragehawaii",
+      "facebook": "https://www.facebook.com/foragehawaii",
+      "phone": null,
+      "schedule_source_url": "https://foragehawaii.com/locations/",
+      "order_url": "https://foragehawaii.com/",
+      "payment_methods": [
+        "snap",
+        "card",
+        "cash"
+      ],
+      "made_where": null,
+      "source_url": "https://foragehawaii.com/locations/",
+      "source_date": null,
+      "source_label": "their website's locations page",
+      "confidence": "high",
+      "notes": "Their own locations page (undated, about late 2025) lists the Kaka'ako Farmer's Market on Saturdays 8am–noon at the corner of Ward Ave and Ala Moana Blvd. It lists the Kailua Farmer's Market on Sundays 8am–noon at Adventist Health Castle, 640 Ulukahiki St. The warehouse is open Fridays 12pm–5pm. The page says all locations accept EBT, credit card (2% fee) and cash. The site offers online ordering for pickup, and a 2025 HI Now story says they ship statewide. The Saturday/Sunday market times match the FarmLovers schedule, but the business page does not name the organizer. The earlier note naming Pearlridge is not supported, because Pearlridge is not listed on their page. The site spells the name Forage Hawaii, while HI Now and Honolulu Magazine use Forage Hawai‘i. The name is kept as given. The site says they source from Hawaiʻi Island, Maui and Oʻahu farms and ranches. A MapQuest listing with a Waiʻanae address conflicts with the warehouse address and was not used.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "From Scratch",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mom-made wellness shots, juices and dips",
+      "products": [
+        "wellness shots",
+        "Ginger Turmeric Wellness Shot",
+        "Elderberry Hibiscus shot",
+        "juices",
+        "dips"
+      ],
+      "tags": [
+        "wellness shots",
+        "juices",
+        "dips",
+        "mom-owned",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Markets",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/07/29/scratch-with-love-mama-made-wellness-shots-juices-dips/",
+      "source_date": "2025-07-29",
+      "source_label": "a sponsored HI Now story (sponsored by FarmLovers Markets)",
+      "confidence": "low",
+      "notes": "The July 2025 HI Now story is sponsored by FarmLovers Markets. It describes a mom-made business with wellness shots, juices and dips, and calls the Ginger Turmeric Wellness Shot (named 'From Scratch 808' in the story) the top seller. It also names an Elderberry Hibiscus shot. The page lists FarmLovers markets at Kaka'ako, Pearlridge and Kailua Town without saying which one this vendor attends. The FarmLovers site currently shows Saturdays 8AM–12PM at Kaka'ako and Pearlridge and Sundays 8AM–12PM at Kailua. No own website, Instagram or current vendor list was found. Active as of July 2025; current status unconfirmed.",
+      "still_active": null
+    },
+    {
+      "name": "Haleiwa Salt Co.",
+      "category": "food-producers",
+      "side": "north_shore",
+      "neighborhood": "Hale‘iwa",
+      "description": "Hand-harvested sea salt from Oʻahu's North Shore",
+      "products": [
+        "Pure Hawaiian Flake Salt",
+        "Hawaiian Chili Pepper Salt",
+        "Haleiwa Blend",
+        "salt subscription"
+      ],
+      "tags": [
+        "sea salt",
+        "flake salt",
+        "North Shore",
+        "small batch",
+        "family-run"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.haleiwasaltco.com/",
+      "instagram": "https://www.instagram.com/haleiwasaltco/",
+      "facebook": "https://www.facebook.com/haleiwasaltco",
+      "phone": "(808) 319-1059",
+      "schedule_source_url": "https://www.haleiwasaltco.com/pages/find-us",
+      "order_url": "https://www.haleiwasaltco.com/",
+      "payment_methods": null,
+      "made_where": "Hale‘iwa, North Shore, Oʻahu",
+      "source_url": "https://www.haleiwasaltco.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Their own site sells pure flake salt (bag and jars), chili pepper salt, a Haleiwa Blend and a monthly salt subscription. The Our Story page says every batch is collected, dried and packed in Hale‘iwa from North Shore water, and calls the business Hale‘iwa Salt Company. The site lists a PO Box in Haleiwa (96712) and the phone number shown here, and its Find Us page says the salt is sold at select retailers, with no list in the excerpt. A retailer page says the business was established in 2019 as a two-person family operation. The Made in Hawaiʻi Festival listing comes from the earlier DBEDT page and was not re-checked. The Aug 20–23, 2026 festival dates are from a separate article. Mākeke and Wahiawā VAPDC program details were not re-checked. No public street address or market schedule was found.",
+      "still_active": true
+    },
+    {
+      "name": "Hapa Girls",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-run Oʻahu jewelry maker since 1998; lei charms, earrings, bangles",
+      "products": [
+        "lei charms",
+        "bag charms",
+        "phone charms",
+        "boot charms",
+        "pikake earrings",
+        "Tahitian necklaces",
+        "gold-filled bangles",
+        "baby bangles",
+        "rings",
+        "apparel"
+      ],
+      "tags": [
+        "jewelry",
+        "lei charms",
+        "handmade",
+        "family-owned"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.hapagirls.com/",
+      "instagram": "https://www.instagram.com/hapagirlshawaii",
+      "facebook": "https://www.facebook.com/hapagirlshawaii",
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://www.hapagirls.com/",
+      "payment_methods": null,
+      "made_where": "Oahu",
+      "source_url": "https://www.hapagirls.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Their own site says Hapa Girls has been family-owned and operated since 1998 on Oahu and sells locally handmade jewelry. It lists lei charms (12 and 15 inch bag, phone and boot charms, custom charms), pikake earrings, Tahitian necklaces, gold-filled bangles and apparel, with a current online shop. The Mele Kalikimaka Marketplace entry (Dec 13–14, 2025) comes from the earlier KHON2 source and was not re-checked. The 2026 marketplace is Dec 12–13 at the Blaisdell, but no source shows Hapa Girls in it. A retail location appears only on review-site listings, which are not allowed, and the own-site pages checked give no address, so address is null.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hawaiian Soda Co.",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Fruit-juice sodas with prebiotics and no added sugar",
+      "products": [
+        "Sparkling Lilikoi Orange",
+        "Sparkling Strawberry Guava",
+        "Sparkling Luau Punch",
+        "Sparkling Passion Orange Guava",
+        "Sparkling Mango Sunset",
+        "Sparkling Lilikoi Lychee"
+      ],
+      "tags": [
+        "soda",
+        "real fruit juice",
+        "no added sugar",
+        "prebiotics",
+        "Mana Up"
+      ],
+      "markets": [],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://hawaiiansodaco.com/",
+      "instagram": "https://www.instagram.com/hawaiiansodaco",
+      "facebook": "https://www.facebook.com/HawaiianSodaCo",
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://houseofmanaup.com/collections/hawaiian-soda-co",
+      "payment_methods": null,
+      "made_where": "Hawaiʻi (company headquartered in Honolulu)",
+      "source_url": "https://houseofmanaup.com/collections/hawaiian-soda-co",
+      "source_date": null,
+      "source_label": "House of Mana Up's product page and the company's press release",
+      "confidence": "medium",
+      "notes": "The company's site says it was established in 2020 in Honolulu. House of Mana Up says it was founded on Oʻahu by Caesar and Gina Ho and sells the sodas at its South Shore Market store (1170 Auahi St L-133) and at Royal Hawaiian Center (2201 Kalakaua Ave). Hawaiʻi Magazine's directory says the sodas have real fruit juice, no added sugar or caffeine, and 70–90 calories a can. A June 4, 2025 press release reports its second Hawaiʻi Magazine Readers' Choice award. Mana Up Showcase Marketplace was removed from markets because no booth is confirmed. It was only named as a giveaway provider. A business address in a Hawaiʻi Magazine listing (Bishop St) is not published here, since it is not a retail location. No farmers market or fair schedule was found, so sales appear to be through retailers and online.",
+      "still_active": true,
+      "social_source": "from their website"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 196300,
+    "out": 23194,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Alohi Manao Imports",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Reusable shopping bags, handmade lamps, stationery and gift items",
+      "products": [
+        "shopping bags",
+        "handmade lamps",
+        "reusable eco bags",
+        "stationery",
+        "gift items"
+      ],
+      "tags": [
+        "bags",
+        "lamps",
+        "gifts",
+        "stationery",
+        "craft-fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026 (Fri noon–7 PM, Sat 10 AM–6 PM, Sun 10 AM–5 PM)"
+        },
+        {
+          "name": "Made in Hawaii Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://alohimanao.com",
+      "instagram": "https://www.instagram.com/alohimanao",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": "2026-10-26",
+      "source_label": "a KHON2 story and the fair organizer's Dec 2025 vendor list",
+      "confidence": "high",
+      "notes": "Active. KHON2 (Oct 26, 2026) says it will be at the Hawaii Holiday Craft & Gift Fair (Blaisdell Center Exhibition Hall, Oct 30–Nov 1, 2026) with bags and lamps. The organizer's Dec 2025 vendor list names it, and the 2026 Made in Hawaii Festival directory lists it (booth 1803; the PDF is marked 'subject to change' and gives no dates). The Honolulu Festival page lists it for 2024–2026 and describes eco bags, handcrafted lamps, stationery and gifts. A Dec 2025 KHON2 story spells it 'Alohi Manaʻo Imports'; the business's own pages use 'Alohi Manao Imports', which is kept. The website and Instagram links carry over from the first pass and were not re-opened. Phone not re-confirmed, so null. No store address stated.",
+      "still_active": true
+    },
+    {
+      "name": "Anela O Nālani Designs",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-run jewelry business at the Hawaii Holiday Craft & Gift Fair",
+      "products": [
+        "jewelry",
+        "earrings"
+      ],
+      "tags": [
+        "jewelry",
+        "craft-fair",
+        "family-run"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiiholidayfair.com/general-5",
+      "source_date": "2025-12",
+      "source_label": "the fair organizer's December 2025 vendor list",
+      "confidence": "medium",
+      "notes": "The organizer's December 2025 vendor list names ANELAONALANI DESIGNS, which confirms the organizer's spelling. The same list also has 'Anela's Jewelry' and 'Anela MiLoves' as separate entries. Anela's Jewelry is a Hilo (Hawaiʻi Island) business and is not merged. The earlier KHON2 story (about Dec 20, 2025) said the 14-year-old maker runs it with her family and was at the fair for a second year; the age is left out of the description because it will go stale. Earrings come from that story. No own website or social page found. No 2026 source shows this vendor at the Oct 30–Nov 1 or Dec 18–20, 2026 fairs, so current activity is unconfirmed. Confidence stays medium and still_active is null.",
+      "still_active": null
+    },
+    {
+      "name": "Hapa Girls",
+      "category": "makers",
+      "side": null,
+      "neighborhood": "Aiea",
+      "description": "Family-owned Oʻahu jewelry maker since 1998; lei charms, earrings, bangles",
+      "products": [
+        "lei charms",
+        "bag charms",
+        "phone charms",
+        "boot charms",
+        "pikake earrings",
+        "Tahitian necklaces",
+        "gold-filled bangles",
+        "baby bangles",
+        "rings",
+        "men's jewelry",
+        "palazzo pants",
+        "apparel"
+      ],
+      "tags": [
+        "jewelry",
+        "lei charms",
+        "pikake",
+        "Tahitian pearl",
+        "apparel",
+        "online-shop"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.hapagirls.com",
+      "instagram": "https://www.instagram.com/hapagirlshawaii",
+      "facebook": "https://www.facebook.com/hapagirlshawaii/",
+      "phone": "(808) 672-8476",
+      "schedule_source_url": null,
+      "order_url": "https://www.hapagirls.com",
+      "payment_methods": null,
+      "made_where": "Oʻahu",
+      "source_url": "https://www.hapagirls.com",
+      "source_date": null,
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own site is live and sells online; its necklaces page was refreshed within the last month. Site says family-owned and operated on Oʻahu since 1998 and that Tahitian pearls are hand drilled on Oʻahu. Phone comes from the site's page metadata; email is kristie@hapagirls.com. The business's own Facebook page lists Pearlridge Center Uptown, Aiea, and says it is 'always open', but gives no street address, so address is null and fixed_or_roaming is null (the site does not describe a store). Side is left null because Aiea does not clearly map to one of the allowed values. KHON2 (Dec 2025) has the Mele Kalikimaka Marketplace producer welcoming Hapa Girls to that year's event (Dec 13–14, 2025). No source shows a booth at the Dec 12–13, 2026 marketplace.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "JAMS World",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Aloha wear brand since 1964: dresses, shirts, totes, caps; online shop",
+      "products": [
+        "aloha dresses",
+        "aloha shirts",
+        "tote bags",
+        "insulated totes",
+        "caps",
+        "pareos",
+        "kimonos and robes",
+        "swimwear",
+        "scrunchies",
+        "pouches",
+        "bag ties"
+      ],
+      "tags": [
+        "aloha wear",
+        "apparel",
+        "bags",
+        "online-shop",
+        "craft-fair"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.jamsworld.com",
+      "instagram": "https://www.instagram.com/jamsworld_1964",
+      "facebook": "https://www.facebook.com/tr",
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://www.jamsworld.com",
+      "payment_methods": null,
+      "made_where": "Hawaii",
+      "source_url": "https://www.jamsworld.com/blogs/style-journal/discover-jams-world-authentic-hawaiian-clothing-since-1964",
+      "source_date": "2026-07-27",
+      "source_label": "their own website blog",
+      "confidence": "medium",
+      "notes": "Active: the own site is live, sells online, and has blog posts dated through 2026. The own-site 2025 blog post says it had a booth at the 2025 Mele Kalikimaka Marketplace, but its dates did not match the organizer's Dec 13–14, 2025 schedule, so none are given. The organizer's 2026 marketplace is Dec 12–13 at the Blaisdell Center; no source states a JAMS World 2026 booth. The 2026 Honolulu Festival blog post is style advice and does not say they had a booth. A Honolulu Magazine fukubukuro list (Dec 2025–Jan 2026) names Jams World among International Market Place retailers, but gives no address or hours, so address, side and neighborhood stay null. The product range was widened to match the own site. Confidence stays medium because there is no current Oʻahu location or schedule.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Meals on the fly",
+      "category": "food-trucks",
+      "side": null,
+      "neighborhood": null,
+      "description": "Filipino-Hawaiian burrito pop-up truck, meal prep and catering",
+      "products": [
+        "breakfast burritos (Paniolo, Bacon)",
+        "lunch burritos (Birria, Lechon Karekare, Pac Man, Panang, Cali)",
+        "weekly meal prep",
+        "catering"
+      ],
+      "tags": [
+        "burritos",
+        "Filipino-Hawaiian",
+        "pop-up",
+        "meal prep",
+        "catering"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.mealsontheflyhi.com",
+      "instagram": "https://www.instagram.com/mealsontheflyhi",
+      "facebook": null,
+      "phone": "808-223-9840",
+      "schedule_source_url": "https://www.mealsontheflyhi.com/find-us.html",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.mealsontheflyhi.com/find-us.html",
+      "source_date": null,
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own site is live. It describes a pop-up truck across Oʻahu with locations posted on Instagram @mealsontheflyhi; you can also call or text 808-223-9840. It says pop-ups are typically on Saturday and Sunday, with weekday corporate lunch drops, and that the truck regularly pops up in the Honolulu and Waikiki areas. The menu page lists the burritos named above, and the catering page gives a 10-burrito minimum. Prices ($12–$20 burritos, $15 or $18 meal prep) and the Wednesday ordering cutoff for weekend meal-prep pickup come from the first pass and were not re-opened. Email is mealsontheflyhi@gmail.com. The Koʻolau Night Market listing (June 12, 2026 organizer list) was not re-confirmed this pass, and a third-party roster for that date did not show it. The business writes 'Meals on the Fly'; the given name is kept.",
+      "still_active": true
+    },
+    {
+      "name": "Palaka Hawaii",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Apparel and accessories at the Hawaii Holiday Craft & Gift Fair",
+      "products": [
+        "apparel",
+        "accessories"
+      ],
+      "tags": [
+        "palaka",
+        "apparel",
+        "accessories",
+        "craft-fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026 (Blaisdell Center Exhibition Hall)"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "source_date": "2026-10-23",
+      "source_label": "a KHON2 story and the fair organizer's Dec 2025 vendor list",
+      "confidence": "high",
+      "notes": "Active. KHON2 (Oct 2026) names Palaka Hawaii for colorful apparel and accessories at the fair; the date is from the first pass. The organizer's December 2025 vendor list also names PALAKA HAWAII, and it lists 'Na Palaka 'O Hawai'i' as a separate entry that is not merged. Fair hours from KHON2: Fri Oct 30 noon–7 PM, Sat Oct 31 10 AM–6 PM, Sun Nov 1 10 AM–5 PM. Products stay at what the 2026 story states; the older palaka shirts, visors and caps wording came from a 2024 story. No website or social page found, so location, contact and payment are null.",
+      "still_active": true
+    },
+    {
+      "name": "Sasa Gourmet",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Summer rolls with tofu, pork, crab or shrimp, plus dipping sauces",
+      "products": [
+        "tofu summer rolls",
+        "pork summer rolls",
+        "crab summer rolls",
+        "shrimp summer rolls",
+        "dipping sauces"
+      ],
+      "tags": [
+        "summer rolls",
+        "farmers market",
+        "Oʻahu-grown vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday 4–7 PM"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday, 8–11 AM"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday 7:30–11 AM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/sasagourmet808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/sasa-gourmet/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/sasa-gourmet/",
+      "source_date": null,
+      "source_label": "the Hawaii Farm Bureau market vendor pages",
+      "confidence": "high",
+      "notes": "Hawaii Farm Bureau (the organizer) lists the product line, the four markets and Instagram @sasagourmet808. Its KCC page (Saturdays 7:30–11 AM, Parking Lot B, 4303 Diamond Head Rd) still carries the Sasa Gourmet description, and its Honolulu page (Wednesdays 4–7 PM, Blaisdell Center) lists them with the email sasagourmet96825@gmail.com. Mililani hours come from the first pass and were not re-checked. The Kailua time (Thu 4–7 PM) appears only on third-party Makeke Maps, so only 'Thursday' is given. A Dec 27, 2025 YouTube video labels KCC hours as Sunday, which conflicts with the organizer's Saturday listing; the organizer is followed. Address and phone appear only on review or listing sites, so they are omitted. The HFBF pages show no posting dates.",
+      "still_active": true
+    },
+    {
+      "name": "Seagonia Crab Co.",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dungeness crab dishes sold at Oʻahu farmers markets",
+      "products": [
+        "Dungeness crab"
+      ],
+      "tags": [
+        "crab",
+        "farmers market",
+        "seafood"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturday 8am-12pm"
+        },
+        {
+          "name": "Ono Grindz & Makeke",
+          "usual_days": "Thursday 4-8pm"
+        },
+        {
+          "name": "Kailua Farmers Market (Sunday, next to Adventist Health Castle)",
+          "usual_days": "Sunday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/seagoniacrabco",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.instagram.com/seagoniacrabco",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.instagram.com/seagoniacrabco",
+      "source_date": null,
+      "source_label": "their Instagram bio and Honolulu Magazine's farmers market guide",
+      "confidence": "high",
+      "notes": "The Instagram bio lists Kakaʻako (Sat 8–12) and Ono Grindz & Makeke (Thu 4–8). Honolulu Magazine's farmers market guide (about Oct 2026) names them under the Sunday Kailua market next to Adventist Health Castle (640 Ulukahiki St, FarmLovers), 8 a.m. to noon; this Sunday stop is third-party only. That is a different market from the Thursday Kailua Town market. Payment methods (cash, cards, Apple Pay, Venmo) and Instagram-DM pre-ordering come from a 2024 Star-Advertiser article, which predates 2025, so payment_methods is null. The 2024 Star-Advertiser articles also place Ono Grindz & Makeke at Wai Kai on Thursdays. Specific dishes are not stated in a 2025-or-later source, so products stay generic.",
+      "still_active": true
+    },
+    {
+      "name": "Simply Ono, Inc.",
+      "category": "food-trucks",
+      "side": null,
+      "neighborhood": null,
+      "description": "Food truck and caterer with a weekly changing plate lunch menu",
+      "products": [
+        "plate lunches (rotating weekly menu)",
+        "kalbi boneless short ribs",
+        "Okinawan shoyu pork",
+        "baked spaghetti",
+        "corn chowder",
+        "prime rib",
+        "side dishes",
+        "catering"
+      ],
+      "tags": [
+        "food truck",
+        "plate lunch",
+        "catering",
+        "weekly menu"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "2337 North King Street, Honolulu, HI 96819 (kitchen)",
+      "website": "https://simplyono.com",
+      "instagram": "https://www.instagram.com/simply_ono_lunchwagon",
+      "facebook": null,
+      "phone": "(808) 255-2283",
+      "schedule_source_url": "https://simplyono.com/menu",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://simplyono.com/menu",
+      "source_date": "2026-10-12",
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own site is live. Its menu page (week of Oct 12, 2026) lists a rotating weekly menu and a Fri Oct 16, 2026 food truck event at Moanalua Middle School, 5–8 PM. The site gives the kitchen at 2337 North King Street; it does not say the public can walk up. For catering it lists Cora at (808) 255-2283 or Harris at (808) 728-0441, and cora@simplyono.com. A 2025 Star-Advertiser article says the business started in 1996, has no set menu, and gives the Instagram handle @simply_ono_lunchwagon; that handle is not confirmed on the own pages. The Koʻolau Night Market listing (June 12, 2026 organizer list) was not re-opened. Ahi poke bowl was dropped from products because it came from a third-party catering listing. Side is null because the truck moves around.",
+      "still_active": true
+    },
+    {
+      "name": "Sugar Rush Mini",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mini desserts and sweet treats; listed at the Koʻolau Night Market",
+      "products": [
+        "mini desserts",
+        "sweet treats"
+      ],
+      "tags": [
+        "dessert",
+        "night market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/sugarrushmini",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's event page",
+      "confidence": "medium",
+      "notes": "The organizer's page (first pass) listed it for the June 12, 2026 Koʻolau Night Market. Third-party Makeke Maps also shows it for that date and says the product lineup was not detailed; the dessert wording and the Instagram handle @sugarrushmini come only from that site. The Makeke Maps page also refers to an April 2026 listing, but Windward Mall says the April 10 market was cancelled for weather. Market is Windward Mall, Kāneʻohe, second Fridays 5–9 PM; the mall lists 2026 dates from Feb 13 through Nov 13. No later organizer list was found that includes it, and no own page was found, so the current status is unknown. Not confirmed to be the same business as Sugar Rush by Frances.",
+      "still_active": null
+    },
+    {
+      "name": "The Squeeze Co.",
+      "category": null,
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "night market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's event page",
+      "confidence": "high",
+      "notes": "The organizer's Koʻolau Night Market page for Fri Oct 9, 2026 (5–9 PM, Windward Mall, Kāneʻohe) lists The Squeeze Co. It also appears in a Koʻolau Night Market list on the organizer's main events page. Nothing states what it sells, and the name alone does not say, so category and products are null. No own website or social page found. It is not linked to Mad Fruits, MainSqueeze Lemonade, Island Squeeze Lemonade or Squeeze Play Hawaii. Confidence is high that it is active at the market, but the listing gives no product details.",
+      "still_active": true
+    },
+    {
+      "name": "The Wooden Anvil",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Artisan vendor at Oʻahu night markets and gift fairs; products not stated",
+      "products": null,
+      "tags": [
+        "night market",
+        "gift fair",
+        "artisan"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        },
+        {
+          "name": "Mele Kalikimaka Gift Fair (Island Craft Fairs)",
+          "usual_days": null
+        },
+        {
+          "name": "The Night Market Collective at Hilton Hawaiian Village",
+          "usual_days": null
+        },
+        {
+          "name": "Holoholo Night Market (Mililani Town Association)",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizers' event pages",
+      "confidence": "high",
+      "notes": "Island Craft Fairs lists it for the Fri Oct 9, 2026 Koʻolau Night Market, and its events page also lists it for the Mele Kalikimaka Gift Fair and The Night Market Collective at Hilton Hawaiian Village; dates for those two were not shown. A Mililani Town Association page for the Holoholo Night Market names it among vendors (the July 11, 2026 date comes from the page address, not the text). The organizer describes The Night Market Collective as made-in-Hawaii items by local artisans, which is the only basis for the makers category. No source states its products, and no own page was found, so products are null. Confidence is high that it is active; it reflects organizer lists only.",
+      "still_active": true
+    }
+  ]
+}

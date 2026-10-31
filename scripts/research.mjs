@@ -6,6 +6,9 @@
 //   npm run research -- --market "KCC Farmers Market"
 //   npm run research -- --category "food trucks" --side windward
 //   npm run research -- --query "lei stands in Kalihi"   (optional --max 30)
+//   npm run research -- --events "plant sales"
+//   npm run research -- --enrich 0:15          (links for listed vendors, from enrich-pool.json)
+//   npm run research -- --verify vendors:0:10  (second look at rows in verify-vendors.json or verify-events.json)
 //
 // Needs ANTHROPIC_API_KEY in .env.local. Output: data/research/<date>-<slug>.csv and .json
 import fs from 'node:fs';
@@ -26,11 +29,12 @@ const PRICE_SEARCH = 0.01;                                      // USD per web s
 const args = {};
 for (let i = 2; i < process.argv.length; i += 2) args[process.argv[i].replace(/^--/, '')] = process.argv[i + 1];
 const max = Number(args.max || 25);
-const MODE = args.enrich ? 'enrich' : args.events ? 'events' : 'vendors';
+const [VKIND, VOFF, VCNT] = String(args.verify || '').split(':');
+const MODE = args.verify ? (VKIND === 'events' ? 'events' : 'vendors') : args.enrich ? 'enrich' : args.events ? 'events' : 'vendors';
 const target = args.market ? `vendors who sell at the ${args.market} on Oʻahu`
   : args.category ? `${args.category} on Oʻahu${args.side ? `, on the ${args.side} side` : ''}`
-  : args.events ? args.events : args.enrich ? 'social links for listed vendors' : args.query;
-if (!target) { console.error('Give --market, --category (and optional --side), --query, --events "what" or --enrich OFFSET:COUNT'); process.exit(1); }
+  : args.verify ? `second look at ${VKIND}` : args.events ? args.events : args.enrich ? 'social links for listed vendors' : args.query;
+if (!target) { console.error('Give --market, --category (and optional --side), --query, --events "what", --enrich OFFSET:COUNT or --verify vendors|events:OFFSET:COUNT'); process.exit(1); }
 
 const known = JSON.parse(fs.readFileSync(path.join(root, 'data/research/known.json'), 'utf8'));
 const norm = (s) => (s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯʻ'’`]/g, '').replace(/[^a-z0-9]+/g, ' ').replace(/\b(the|llc|co|company|hawaii|oahu)\b/g, '').trim();
@@ -43,7 +47,7 @@ const VENDOR_FIELDS = ['name', 'category', 'side', 'neighborhood', 'description'
   'website', 'instagram', 'facebook', 'phone', 'schedule_source_url', 'order_url', 'payment_methods', 'made_where', 'source_url',
   'source_date', 'source_label', 'confidence', 'notes'];
 
-const FIELDS = MODE === 'events' ? EVENT_FIELDS : MODE === 'enrich' ? ENRICH_FIELDS : VENDOR_FIELDS;
+const FIELDS = [...(MODE === 'events' ? EVENT_FIELDS : MODE === 'enrich' ? ENRICH_FIELDS : VENDOR_FIELDS), ...(args.verify ? ['still_active'] : [])];
 const RULES = `Rules, all strict:
 - Only use public sources: the business's or organizer's own website and social accounts, organizer vendor lists, and news or community articles. Never use Yelp, Google Maps, TripAdvisor or other review sites, and never copy reviews.
 - Never guess. A field the source does not state is null. Do not invent hours, dates, addresses, prices or handles.
@@ -55,7 +59,7 @@ ${RULES}
 - Keep only events with a 2026 or later date, or an organizer page showing it is current.
 - kind is one of: festival, plant_sale, flea_market, swap_meet, farm_stand, u_pick, farmers_market, makers_market, night_market, popup_series, holiday_fair, craft_fair_annual, food_truck_park, food_truck_rally.
 - dates: list of {"date": "YYYY-MM-DD", "start": "HH:MM" or null, "end": "HH:MM" or null} only for dates a source states; schedule_text in plain words for anything recurring.
-Return your final answer as one JSON array in a \`\`\`json code block, with these keys: ${EVENT_FIELDS.join(', ')}.`;
+Return your final answer as one JSON array in a \`\`\`json code block, with these keys: ${EVENT_FIELDS.join(', ')}${args.verify ? ', still_active' : ''}.`;
 const systemEnrich = `You find the official online presence of Oʻahu vendors already listed in a directory.
 ${RULES}
 - For each vendor given, find its own Instagram, Facebook page and website, and where it posts its weekly schedule or market stops (schedule_source_url, often an Instagram or a page).
@@ -82,7 +86,12 @@ Return your final answer as one JSON array in a \`\`\`json code block, with thes
 const skip = known.vendors.map((v) => v.n).join('; ');
 let user;
 let batch = [];
-if (MODE === 'enrich') {
+if (args.verify) {
+  const pool = JSON.parse(fs.readFileSync(path.join(root, `data/research/verify-${VKIND}.json`), 'utf8'));
+  batch = pool.slice(Number(VOFF || 0), Number(VOFF || 0) + Number(VCNT || 10));
+  if (!batch.length) { console.error('No rows in that range'); process.exit(1); }
+  user = `A first search found these ${VKIND === 'events' ? 'Oʻahu events and stands' : 'Oʻahu vendors'} but could not confirm them well. For each one, check the business's or organizer's own pages and current posts. Confirm or correct every field, fill what a source states, and add still_active (true, false or null) and the reason in notes. Raise confidence only when a current own page or organizer list supports it. Return every row you were given, same names, even if nothing more was found.\n${batch.map((r) => `- ${JSON.stringify(r)}`).join('\n')}`;
+} else if (MODE === 'enrich') {
   const [off, cnt] = String(args.enrich).split(':').map(Number);
   const pool = JSON.parse(fs.readFileSync(path.join(root, 'data/research/enrich-pool.json'), 'utf8'));
   batch = pool.slice(off, off + (cnt || 15));
@@ -99,7 +108,7 @@ async function call(messages) {
     method: 'POST',
     headers: { 'x-api-key': KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
     body: JSON.stringify({ model: MODEL, max_tokens: 32000, system, messages,
-      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: Number(process.env.RESEARCH_MAX_SEARCHES || (MODE === 'enrich' ? 14 : 8)) }] }),
+      tools: [{ type: 'web_search_20250305', name: 'web_search', max_uses: Number(process.env.RESEARCH_MAX_SEARCHES || (MODE === 'enrich' || args.verify ? 14 : 8)) }] }),
   });
   if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
   return res.json();
@@ -133,11 +142,11 @@ try { rows = JSON.parse(m[1]); } catch { rows = salvage(text); if (rows.length) 
 
 const knownMarkets = new Map(known.markets.map((m) => [norm(m.n), m]));
 for (const r of rows) {
-  if (MODE === 'enrich') continue;
+  if (MODE === 'enrich' || args.verify) continue;
   const hit = (MODE === 'events' ? knownMarkets : knownNames).get(norm(r.name));
   r.possible_duplicate = hit ? `${hit.n}${hit.s ? ` (${hit.s})` : ''}` : '';
 }
-const slugBase = MODE === 'enrich' ? `enrich-${String(args.enrich).replace(':', '-')}` : MODE === 'events' ? `events-${args.events}` : (args.market || args.category || args.query);
+const slugBase = args.verify ? `verify-${VKIND}-${VOFF || 0}-${VCNT || 10}` : MODE === 'enrich' ? `enrich-${String(args.enrich).replace(':', '-')}` : MODE === 'events' ? `events-${args.events}` : (args.market || args.category || args.query);
 const slug = slugBase.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 const stamp = new Date().toISOString().slice(0, 10);
 const dir = path.join(root, 'data/research');

@@ -23,11 +23,13 @@ const write = (name, cols, rows) => {
   return path.relative(root, out);
 };
 const runs = fs.readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}-.*\.json$/.test(f));
-const kindOf = (f) => (/-enrich-\d/.test(f) ? 'enrich' : /-events-/.test(f) ? 'events' : 'vendors');
+const kindOf = (f) => (/-enrich-\d|-verify-existing-/.test(f) ? 'enrich' : /-events-/.test(f) ? 'events' : 'vendors');
 
 function mergeRows(files, extra) {
   const merged = new Map();
-  for (const f of files) {
+  // second-look runs (verify) go last and correct earlier answers instead of only filling gaps
+  for (const f of [...files].sort((x, y) => /-verify-/.test(x) - /-verify-/.test(y))) {
+    const verify = /-verify-/.test(f);
     for (const r of JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')).rows || []) {
       const k = norm(r.name);
       if (!k) continue;
@@ -35,8 +37,10 @@ function mergeRows(files, extra) {
       const run = f.replace(/\.json$/, '');
       if (!prev) { merged.set(k, { ...r, markets: [...(r.markets || [])], runs: [run] }); continue; }
       for (const m of r.markets || []) if (!prev.markets.some((x) => norm(x.name) === norm(m.name))) prev.markets.push(m);
-      for (const [key, val] of Object.entries(r)) if (prev[key] == null || prev[key] === '' || (Array.isArray(prev[key]) && !prev[key].length)) prev[key] = val;
-      if ((rank[r.confidence] || 0) > (rank[prev.confidence] || 0)) prev.confidence = r.confidence;
+      const empty = (v) => v == null || v === '' || (Array.isArray(v) && !v.length);
+      for (const [key, val] of Object.entries(r)) if (empty(prev[key]) || (verify && !empty(val))) prev[key] = val;
+      if (verify) prev.confidence = r.confidence;
+      else if ((rank[r.confidence] || 0) > (rank[prev.confidence] || 0)) prev.confidence = r.confidence;
       if (!prev.runs.includes(run)) prev.runs.push(run);
     }
   }
@@ -50,7 +54,7 @@ const vendors = mergeRows(runs.filter((f) => kindOf(f) === 'vendors'), (r) => {
 }).sort((a, b) => (a.category || '').localeCompare(b.category || '') || a.name.localeCompare(b.name));
 const vFile = write('review-vendors', ['approve', 'name', 'category', 'side', 'neighborhood', 'description', 'products', 'tags', 'markets', 'fixed_or_roaming', 'address', 'website',
   'instagram', 'facebook', 'phone', 'schedule_source_url', 'order_url', 'payment_methods', 'made_where', 'source_url', 'source_date', 'source_label',
-  'confidence', 'notes', 'possible_duplicate', 'runs'], vendors);
+  'confidence', 'still_active', 'notes', 'possible_duplicate', 'runs'], vendors);
 
 // Enrichment: only rows where something was found
 const enrich = mergeRows(runs.filter((f) => kindOf(f) === 'enrich'), () => ({}))
@@ -65,7 +69,7 @@ const events = mergeRows(runs.filter((f) => kindOf(f) === 'events'), (r) => {
   return { possible_duplicate: hit ? `${hit.n} (${hit.s})` : '' };
 }).sort((a, b) => (a.kind || '').localeCompare(b.kind || '') || a.name.localeCompare(b.name));
 const evFile = write('review-events', ['approve', 'name', 'kind', 'side', 'neighborhood', 'venue_name', 'address', 'schedule_text', 'dates', 'organizer', 'website',
-  'instagram', 'facebook', 'social_source', 'vendor_application_url', 'admission', 'description', 'source_url', 'source_date', 'source_label', 'confidence', 'notes',
+  'instagram', 'facebook', 'social_source', 'vendor_application_url', 'admission', 'description', 'source_url', 'source_date', 'source_label', 'confidence', 'still_active', 'notes',
   'possible_duplicate', 'runs'], events);
 
 const by = (rows, k) => JSON.stringify(rows.reduce((a, r) => ((a[r[k] || 'unknown'] = (a[r[k] || 'unknown'] || 0) + 1), a), {}));

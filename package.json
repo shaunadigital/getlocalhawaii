@@ -11,7 +11,8 @@
     "test:watch": "vitest",
     "research": "node scripts/research.mjs",
     "research:merge": "node scripts/research-merge.mjs",
-    "research:socials": "node scripts/research-socials.mjs"
+    "research:socials": "node scripts/research-socials.mjs",
+    "research:clean": "node scripts/research-clean.mjs"
   },
   "dependencies": {
     "next": "16.3.1",

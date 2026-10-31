@@ -1,0 +1,351 @@
+{
+  "target": "second look at existing",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 178070,
+    "out": 20762,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "It's About Time",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Moisture-wicking graphic t-shirts designed and printed in Honolulu",
+      "products": [
+        "men's moisture-wicking t-shirts",
+        "women's moisture-wicking t-shirts"
+      ],
+      "tags": [
+        "t-shirts",
+        "craft fairs",
+        "made in Hawaii"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Craft & Gift Fair",
+          "usual_days": "Saturdays (listed dates)"
+        },
+        {
+          "name": "JCCH Craft & Collectibles Fair",
+          "usual_days": "Saturdays (listed dates)"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.itsabouttimehawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": "808-591-2004",
+      "schedule_source_url": "https://www.itsabouttimehawaii.com/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Honolulu",
+      "source_url": "https://www.itsabouttimehawaii.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "medium",
+      "notes": "Own home page lists Koko Marina fairs (Jan 17, Feb 21) and JCCH fairs (Feb 14, Mar 14), 'subject to change'. It asks people to call or text 808-591-2004 to confirm. No year is shown, but the weekdays match 2026, so all listed dates have already passed. Two listings say remaining current shirt inventory is being sold at discounted prices, and two say 'seconds' are being sold. That could mean winding down, so still_active is null. The Hawai‘i Holiday Craft & Gift Fair vendor page lists them but is undated and has old text (face masks 'new this year'). I could not re-confirm the earlier Aug 2026 JCCH and Dec 2025 fair listings. Address 1020 Auahi St Ste 5 appears only in directory listings; the own site shows only 'Honolulu, Hawaii', so address is null and side is from 'Honolulu'. Site links to Instagram but the handle was not visible. The site has men's and women's /store/ pages and a USPS Signature Confirmation page, which hints at online ordering, but I could not confirm a checkout, so order_url is null.",
+      "still_active": null
+    },
+    {
+      "name": "Kissy Hawaii",
+      "category": "makers",
+      "side": "leeward_ewa",
+      "neighborhood": "Kapolei",
+      "description": "Handmade kids' and baby clothing sold at craft fairs; Kapolei-based",
+      "products": [
+        "kidswear",
+        "baby items"
+      ],
+      "tags": [
+        "kidswear",
+        "handmade",
+        "craft fairs"
+      ],
+      "markets": [
+        {
+          "name": "Hawai‘i Holiday Craft & Gift Fair",
+          "usual_days": null
+        },
+        {
+          "name": "Winter Craft and Gift Fair (Waipahu)",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://kissyhawaii.com",
+      "instagram": "https://www.instagram.com/kissyhawaii1",
+      "facebook": "https://www.facebook.com/kissyhawaii",
+      "phone": "808-672-9068",
+      "schedule_source_url": "https://kissyhawaii.com",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.eventeny.com/company/?c=382851",
+      "source_date": null,
+      "source_label": "their Eventeny vendor page and the Hawai‘i Holiday Craft & Gift Fair vendor list",
+      "confidence": "high",
+      "notes": "Corrects the seed: their Eventeny page shows the upcoming Winter Craft and Gift Fair 2026 in Waipahu on Nov 28, 2026, not Nov 21. It also shows the Mother's Day Food & Craft Fair in Mililani Town (Apr 11, 2026, completed) and a Winter Craft Fair in Waipahu (Nov 29, 2025, completed). The Hawai‘i Holiday Craft & Gift Fair organizer vendor list gives Instagram kissyhawaii1 and phone (808) 672-9068. Their X profile and Facebook page say to check the website or follow for craft fair locations; the X profile gives Kapolei. I did not open kissyhawaii.com, so the fair schedule there is unread. The MTA Autumn Craft Fair listing from the seed was not re-verified. A Hilo craft fair listing is another island and was skipped. No order URL found.",
+      "still_active": true
+    },
+    {
+      "name": "Mo-Chan Studio",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikīkī (market location)",
+      "description": "Watercolor and ukiyoe-style art prints; Waikīkī Makers Market Mondays",
+      "products": [
+        "watercolor art prints",
+        "ukiyoe-inspired prints"
+      ],
+      "tags": [
+        "art prints",
+        "watercolor",
+        "makers market"
+      ],
+      "markets": [
+        {
+          "name": "Waikīkī Makers Market",
+          "usual_days": "Monday nights"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://mo-chan.net",
+      "instagram": "https://www.instagram.com/mochan_studio",
+      "facebook": "https://www.facebook.com/MoBearsArt",
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/holiday-markets-craft-fairs/",
+      "order_url": "https://mochanstudio.com/",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/holiday-markets-craft-fairs/",
+      "source_date": null,
+      "source_label": "a Honolulu Magazine holiday markets article",
+      "confidence": "medium",
+      "notes": "Resolves the Oʻahu question: a Honolulu Magazine holiday-markets article (by its age indicator, about Dec 2025) names Mo-Chan Studio among Waikīkī Makers Market vendors on Monday nights. The own sites are undated. mo-chan.net shows watercolor and ukiyoe-inspired collections. The shop at mochanstudio.com sells art prints from $20. The Facebook page says 'Hawaii-based artist' and lists mochan_studio and mo-chan.net. The Instagram bio mentions watercolor and shodo. 'town' is the market's area; the artist's home area is not stated. I found no current own-page schedule, so still_active is null and I could not confirm the Monday market is still running.",
+      "still_active": null
+    },
+    {
+      "name": "Once Again",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Waimanalo",
+      "description": "Succulent nursery; Waimanalo farm, Windward kiosk Fri-Sat, Mililani market",
+      "products": [
+        "succulents",
+        "cactus",
+        "air plants",
+        "succulent gardens in repurposed vessels"
+      ],
+      "tags": [
+        "succulents",
+        "nursery",
+        "workshops",
+        "pop-ups"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": "41-829 Kakaina Street, Waimanalo, HI 96795",
+      "website": "https://onceagainhawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": "(808) 389-6966",
+      "schedule_source_url": "https://onceagainhawaii.com/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Waimanalo",
+      "source_url": "https://onceagainhawaii.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Own site 'Pop-Ups + Locations' says that on Oʻahu they are at a Windward kiosk on the 2nd floor, Friday 12pm-8pm and Saturday 10am-8pm, with workshops. The site does not name the mall in the text I saw. It gives the farm location as 41-829 Kakaina Street, Waimanalo, phone (808) 389-6966, and says to see their schedule page for upcoming pop-ups. It also lists a Maui location in Kahului, which I skipped. The Hawaii Farm Bureau Mililani Farmers' Market vendor page (about Aug 2026 by its age indicator) lists them as a Waimanalo nursery. It describes gardens in repurposed vessels (spam cans, eggshells, teacups) and lists onceagainhawaii@gmail.com. Farm visit hours are not stated on the site, so call first. The site shows an '@onceagainhawaii' handle but does not name the platform in what I saw, so instagram is null. No Facebook found.",
+      "still_active": true
+    },
+    {
+      "name": "Sugah Papi Farms",
+      "category": "prepared-food",
+      "side": "north_shore",
+      "neighborhood": "Waialua",
+      "description": "Farm-grown cut fruit bowls and platters; Waialua farm, sold at markets",
+      "products": [
+        "tropical fruit bowls",
+        "fruit trays and platters"
+      ],
+      "tags": [
+        "cut fruit",
+        "farmers market",
+        "farm-grown",
+        "food truck"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers Market (Thursday)",
+          "usual_days": "Thursdays 4pm-8pm"
+        },
+        {
+          "name": "Kaka’ako Farmers Market",
+          "usual_days": "Saturdays 8am-12pm"
+        },
+        {
+          "name": "Kailua Farmers Market (Sunday)",
+          "usual_days": "Sundays 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": "Food truck: 55621 Kamehameha Hwy, Haleiwa, HI 96712 (as written on their site)",
+      "website": "https://www.sugahpapifarmshi.com",
+      "instagram": "https://www.instagram.com/sugahpapifarms",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.sugahpapifarmshi.com/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Waialua farm",
+      "source_url": "https://www.sugahpapifarmshi.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Corrects the seed schedule. Own site 'find us' lists: Kailua Farmers Market Thursdays 4pm-8pm at 609 Kailua Rd; Kaka’ako Farmers Market Saturdays 8am-12pm at 919 Ala Moana Blvd; Kailua Farmers Market Sundays 8am-12pm at 604 Ulukahiki St; and a food truck at 55621 Kamehameha Hwy, Haleiwa. Honolulu Magazine (about Oct 2026 by its age indicator) lists them at the Kailua Town Center Farmers Market on Thursday 4-7pm. The Hawaii Farm Bureau Kailua page (about Aug 2026) also lists them on Thursday, so the Thursday end time differs between site (8pm) and others (7pm). Trays and platters are by inquiry only. The site's phone is a placeholder (555), so phone is null. The farm is in Waialua per the Hawaii Farm Bureau page text and Marketspread; the Hawaii Farm Bureau headline says 'Wailua', which looks like a typo. The truck address number (55621) has a different street-number prefix from other Haleiwa addresses (66-xxx), so verify it before publishing. No Facebook found.",
+      "still_active": true
+    },
+    {
+      "name": "Wicked HI",
+      "category": "food-trucks",
+      "side": "north_shore",
+      "neighborhood": "Haleʻiwa (truck); Kailua (shop)",
+      "description": "Now Nomadic: sourdough pizza, honey slush; Haleʻiwa truck, Kailua shop",
+      "products": [
+        "sourdough pizza",
+        "sourdough waffles",
+        "honey slush"
+      ],
+      "tags": [
+        "rebranded as Nomadic",
+        "sourdough",
+        "honey slush",
+        "food truck"
+      ],
+      "markets": [],
+      "fixed_or_roaming": "fixed",
+      "address": "Kailua shop: 270 Kuulei Road, Kailua; Haleʻiwa truck street address not stated in approved sources",
+      "website": "https://www.wickedhicafe.com",
+      "instagram": "https://www.instagram.com/nomadic.hi",
+      "facebook": "https://www.facebook.com/WICKEDHISLUSH",
+      "phone": null,
+      "schedule_source_url": "https://www.instagram.com/nomadic.hi/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/01/20/nomadics-honey-slushes-are-available-in-kailua/",
+      "source_date": "2026-01-20",
+      "source_label": "an Aloha State Daily article and their Instagram",
+      "confidence": "high",
+      "notes": "The business is now named Nomadic (formerly Wicked HI). Aloha State Daily (Jan 20, 2026) says it still has a Haleʻiwa food truck and recently opened a Kailua location at 270 Kuulei Road. It lists Kailua hours of 9am-8pm and gives Instagram @nomadic.hi. The Instagram bio (own page) says dine-in in Kailua Mon-Sat and food truck in Haleiwa Mon-Sun. The list name stays 'Wicked HI' as given. Side is north_shore from the seed (truck and base); the Kailua shop is on the windward side. Not verified which website is current after the rebrand: wickedhicafe.com is the seed's site, and the old Facebook page 'Wicked Hi Slush' lists wickedhislushie.com. The Kaka‘ako Farmers Market stand appears only in older or non-approved sources (Onolicious Dec 2022, Paper Plane), so no market is listed. I found no approved source showing the stand is current. The truck's phone number and street address appeared only in non-approved directories, so both are null.",
+      "still_active": true
+    },
+    {
+      "name": "Eat My Meat",
+      "category": "food-trucks",
+      "side": "central",
+      "neighborhood": "Mililani",
+      "description": "Lime-green food truck; plate lunches weekdays at Mililani Technology Park",
+      "products": [
+        "plate lunches"
+      ],
+      "tags": [
+        "food truck",
+        "lunch",
+        "events"
+      ],
+      "markets": [],
+      "fixed_or_roaming": "both",
+      "address": "Mililani Technology Park, 100 Kahelu Ave, Mililani",
+      "website": "https://eatmymeathi.com",
+      "instagram": "https://www.instagram.com/eatmymeat.official",
+      "facebook": "https://www.facebook.com/eatmymeathi",
+      "phone": null,
+      "schedule_source_url": "https://www.staradvertiser.com/2025/05/07/food/feast-of-meat/",
+      "order_url": null,
+      "payment_methods": [
+        "cash",
+        "card",
+        "venmo",
+        "other"
+      ],
+      "made_where": null,
+      "source_url": "https://www.staradvertiser.com/2025/05/07/food/feast-of-meat/",
+      "source_date": "2025-05-07",
+      "source_label": "a Star-Advertiser feature",
+      "confidence": "medium",
+      "notes": "Star-Advertiser (May 7, 2025): the truck is at Mililani Technology Park, 100 Kahelu Ave, Mondays to Fridays until sold out, and also at events around the island. Owner is Minh Nguyen. Order by phone or Instagram (@eatmymeat.official). Pay by cash, credit/debit card, Venmo or Cash App (Cash App recorded as 'other'). Two Facebook pages (eatmymeathi, eatmymeathawaii) list 2829 Awaawaloa St, Honolulu, phone 808-837-0098, with plate lunches Mon-Fri 10am-2pm. Both are undated, and I could not confirm they describe the same truck as the Mililani one. Because of that, phone and the Honolulu address are not used. The latest dated approved source is May 2025, so current activity is unconfirmed.",
+      "still_active": null
+    },
+    {
+      "name": "Silverspring",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Honolulu gift and handcrafted-goods seller; details unverified",
+      "products": [],
+      "tags": [],
+      "markets": [],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.silverspringhawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": null,
+      "source_date": null,
+      "source_label": "no current source found",
+      "confidence": "low",
+      "notes": "Only a business directory describes 'Silver Spring Hawaii' as a Honolulu gift shop (totes, jewelry, backpacks, handcrafted items) and lists a phone. I did not copy the phone or products because it is not an approved source type. I could not open silverspringhawaii.com, so I could not confirm this is the same business as the seed, and I found no Instagram, Facebook, market schedule or dated source. Side is from 'Honolulu' only. Left unconfirmed.",
+      "still_active": null
+    },
+    {
+      "name": "Special Gifts by Clarice",
+      "category": "other",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Honolulu gift baskets and baked goods; status unconfirmed",
+      "products": [
+        "gift baskets",
+        "baked goods"
+      ],
+      "tags": [
+        "gift baskets",
+        "baked goods"
+      ],
+      "markets": [],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "http://www.specialgiftsbyclarice.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": null,
+      "source_date": null,
+      "source_label": "no current source found",
+      "confidence": "low",
+      "notes": "No own page, organizer list or news article found. Only directory and review-site listings appeared, which I did not use. They show conflicting addresses (820 6th Ave, Kaimuki, and 3075 Kalihi St), so address and neighborhood are null. The website URL comes from the seed and was not opened or verified. The products come from the seed and are unconfirmed. Left unconfirmed; do not publish without a phone check.",
+      "still_active": null
+    }
+  ]
+}

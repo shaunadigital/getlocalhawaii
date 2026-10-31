@@ -1,0 +1,412 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 190557,
+    "out": 24058,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Kahakai HI Jewelry",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handmade 14k gold-filled shell and pearl jewelry, student-owned",
+      "products": [
+        "bangles",
+        "necklaces",
+        "earrings",
+        "rings",
+        "shell jewelry",
+        "custom jewelry"
+      ],
+      "tags": [
+        "jewelry",
+        "shell jewelry",
+        "student-owned",
+        "pop-up",
+        "online shop"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://kahakaihi.com/",
+      "instagram": "https://www.instagram.com/kahakaihi/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.instagram.com/kahakaihi/",
+      "order_url": "https://kahakaihi.com/",
+      "payment_methods": null,
+      "made_where": "Handmade on O'ahu, HI (their Instagram)",
+      "source_url": "https://kahakaihi.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Corrected: neighborhood changed from Kakaʻako to null, because no source says where the business is based. Their website and Instagram are live. The 14 Aug 2026 Aloha State Daily article lists owner Kaela Yasuhara on Mākia Market's booth schedule for the Made in Hawaiʻi Festival (Aug 20-23, 2026, Hawaiʻi Convention Center). No source says they sold at SALT. The owner's site bio says she attends Loyola Marymount University, so confirm local availability. Their Instagram bio lists August pop-ups (one at Ala Moana), but the year is not shown, so I did not use it as a current schedule. Custom orders go through Instagram DM or the email on their site. Sales are also online.",
+      "still_active": true
+    },
+    {
+      "name": "Kainoa Kookie Company",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Freshly made Hawaiian baked goods, including cookies and snacks",
+      "products": [
+        "cookies",
+        "snacks"
+      ],
+      "tags": [
+        "cookies",
+        "baked goods",
+        "craft fairs"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.kainoakookiecompany.com",
+      "instagram": "https://www.instagram.com/kainoa.kookie.company",
+      "facebook": "https://www.facebook.com/kainoakookiecompany",
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://www.kainoakookiecompany.com",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.kainoakookiecompany.com/gallery",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "low",
+      "notes": "Not confirmed. Their site's gallery page shows a 2020 copyright and nothing current. The fair's dates (Oct 30–Nov 1, 2026, Blaisdell Center Exhibition Hall, Sunshine Productions) are confirmed by KHON2. The KHON2 and Hoodline fair articles I could open do not name Kainoa Kookie, and I found no organizer vendor list naming them. The original source was a KHON video page that I could not re-verify. Location, address and phone are left null because only directory sites state them, and those are not permitted sources. Check their own page or an organizer list before publishing.",
+      "still_active": null,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Lotus & Lime",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Native Hawaiian resort wear and hand-painted wearable art",
+      "products": [
+        "resort wear",
+        "island wear",
+        "hand-painted wearable art",
+        "women's clothing",
+        "men's clothing"
+      ],
+      "tags": [
+        "clothing",
+        "Native Hawaiian-owned",
+        "Mana Up alumni",
+        "mother-daughter"
+      ],
+      "markets": [],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://lotusandlimeshop.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://lotusandlimeshop.com",
+      "payment_methods": null,
+      "made_where": "Designed on the island of O'ahu (Mana Up's brand page)",
+      "source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "source_date": null,
+      "source_label": "Mana Up's Showcase 2026 giveaway page",
+      "confidence": "medium",
+      "notes": "Corrected: markets emptied and neighborhood set to null. The Mana Up giveaway page lists them as an alumni giveaway provider only, and no source says they have a booth at the Showcase Marketplace. The Marketplace itself is confirmed for Thu Nov 5, 2026, 5-8 pm at Bloomingdale's Ala Moana Center. Active in 2026: a Modern Luxury Hawaiʻi 2026 Power List entry covers the brand, and Mana Up's giveaway page includes them. Mana Up's brand page says it was founded by Kim and Jade Alexis Ryusaki. The brand began in 2012, per Hawaii Business and Modern Luxury. Mana Up's brand page also lists Oʻahu stores at South Shore Market (Ward Village) and Royal Hawaiian Center. Those appear to be House of Mana Up retail locations, not their own shop, so I did not use them as their address. Their own site was named in news but not opened, so no own-site hours or payments were checked.",
+      "still_active": true
+    },
+    {
+      "name": "Made for Kūpuna",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Student maker business in the Mākia Market program",
+      "products": null,
+      "tags": [
+        "student-owned",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "an Aloha State Daily news article",
+      "confidence": "medium",
+      "notes": "Corrected: neighborhood changed from Kakaʻako to null, because the article does not say where they are based. Abigail Yang and Leila Toma (Mākia Student Ambassadors) are named in the article's list of student makers for the Made in Hawaiʻi Festival (Aug 20-23, 2026, Hawaiʻi Convention Center). That is a planned schedule, and I did not confirm they attended. I found no own website or social page. The SALT Honolulu Night Market vendor list for July 18, 2026 shows a Mākia-vendor marking for other businesses, but I did not see this one in the visible part of the list. Products are not stated.",
+      "still_active": true
+    },
+    {
+      "name": "Mānoa Chocolate",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Bean-to-bar chocolate factory and tasting room in Kailua",
+      "products": [
+        "bean-to-bar chocolate bars",
+        "chocolate macadamias",
+        "cacao tea",
+        "cacao brew",
+        "coffee",
+        "chocolate gift boxes"
+      ],
+      "tags": [
+        "chocolate",
+        "bean-to-bar",
+        "tasting room",
+        "retail shop"
+      ],
+      "markets": [],
+      "fixed_or_roaming": "fixed",
+      "address": "333 Uluniu St, Kailua, Hawai'i 96734",
+      "website": "https://manoachocolate.com/",
+      "instagram": "https://www.instagram.com/manoachocolate/",
+      "facebook": "https://www.facebook.com/ManoaChocolateHawaii",
+      "phone": "(808) 263-6292",
+      "schedule_source_url": "https://manoachocolate.com/",
+      "order_url": "https://manoachocolate.com/",
+      "payment_methods": null,
+      "made_where": "Crafted bean-to-bar at their chocolate factory in Kailua, O'ahu",
+      "source_url": "https://manoachocolate.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Confirmed active from their own site. The home page lists the Kailua hours as Sun-Wed 8am-5pm and Thu-Sat 8am-7pm, but the page is undated, so recheck before publishing. Their experiences page also lists a Waikīkī store at 227 Lewers St, Unit R106 (808-810-4491) and a Mana Up x Kō Hana x Mānoa shop at Royal Hawaiian Center, Space A112 (808-991-7624). Corrected: markets emptied. The Mana Up giveaway evidence is only from 2025, and I found no 2026 Showcase booth. The site brands the name both as Mānoa Chocolate and Manoa Chocolate Hawaii.",
+      "still_active": true
+    },
+    {
+      "name": "Matt & Lilia",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Vegetables and massage listed by Kunia Loa Ridge Farmers Market",
+      "products": [
+        "vegetables",
+        "massage"
+      ],
+      "tags": [
+        "vegetables",
+        "massage",
+        "Kunia Loa Ridge Farm"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.kunialoaridgefarmlands.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farm, lot 74F (organizer listing)",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/khao-lao-todd-xayphone/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed as a vendor card on the market's own site, which is current (it shows the next market as Sat Nov 7). The card shows only first names, lot 74F, and 'massage, vegetables'. The 808-436-2214 number on that page belongs to a different vendor (Khao Lao), so it is not used. Market location is 94-1100 Kunia Road, Royal Kunia. The farmlands homepage says the market is on the 1st and 3rd Saturday, and the next date is Sat Nov 7, 9am-1pm. The farmlands events page lists Friday dates (e.g., Nov 6), which conflicts with that. The vendor's own attendance days are not stated. No business name beyond first names is given, so check before listing.",
+      "still_active": true
+    },
+    {
+      "name": "Minigirl Studios",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Student maker business in the Mākia Market program",
+      "products": null,
+      "tags": [
+        "student-owned",
+        "Mākia Market",
+        "retail"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        },
+        {
+          "name": "Honolulu Night Market at Our Kakaʻako",
+          "usual_days": "July 18, 2026"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/events/honolulu-night-market-july-18-2026/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/events/honolulu-night-market-july-18-2026/",
+      "source_date": "2026-07-18",
+      "source_label": "the Our Kakaʻako vendor list for the Honolulu Night Market",
+      "confidence": "medium",
+      "notes": "Corrected: neighborhood changed from Kakaʻako to null, because the sources give where they sold, not where they are based. The Our Kakaʻako (SALT) page lists them under Retail for the Honolulu Night Market on July 18, 2026. That confirms SALT sales for that one event. The date shown is the event date, not a publish date. The 14 Aug 2026 Aloha State Daily article names Katia Dela Cruz (Mākia Student Ambassador) among the Mākia makers at the Made in Hawaiʻi Festival (Aug 20-23, 2026). I found no own website or social page. Confidence stays medium because the organizer list is for a past event and no own page was found.",
+      "still_active": true
+    },
+    {
+      "name": "Missing Polynesia",
+      "category": "makers",
+      "side": null,
+      "neighborhood": "Aiea",
+      "description": "Women's and men's clothing mixing cultural art and modern style",
+      "products": [
+        "women's clothing",
+        "men's clothing"
+      ],
+      "tags": [
+        "clothing",
+        "Polynesian-inspired",
+        "craft fair",
+        "founded 2001"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": null,
+      "website": "https://missingpolynesia.com/",
+      "instagram": "https://www.instagram.com/missingpolynesia",
+      "facebook": "https://www.facebook.com/missingpolynesia/",
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": "https://missingpolynesia.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": "2026-10-26",
+      "source_label": "a KHON2 news article",
+      "confidence": "medium",
+      "notes": "Corrected: location is Aiea. Their Facebook page lists 'Missing Polynesia, Aiea' and says it was founded in 2001 in Hawaii. The street address and phone are left null because only directory sites state them. KHON2 (posted Oct 26, 2026) names them as a featured business at the Hawaii Holiday Craft & Gift Fair, Oct 30–Nov 1, 2026, Blaisdell Center Exhibition Hall. Admission $7 per KHON2. Hoodline repeats the KHON2 report. The website URL comes from directory listings and was not opened. The Facebook page is undated, so confidence stays medium. Directory listings suggest other locations, but none are confirmed here.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Mochi Lab",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Stuffed butter mochi sold at farmers markets; catering offered",
+      "products": [
+        "stuffed butter mochi"
+      ],
+      "tags": [
+        "butter mochi",
+        "farmers markets",
+        "catering",
+        "custom orders"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market (Blaisdell)",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://mochilab808.com",
+      "instagram": null,
+      "facebook": "https://www.facebook.com/mochilab808/",
+      "phone": "(808) 744-9141",
+      "schedule_source_url": "https://www.facebook.com/mochilab808/",
+      "order_url": "https://mochilab808.com",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.facebook.com/mochilab808/",
+      "source_date": null,
+      "source_label": "their Facebook page",
+      "confidence": "low",
+      "notes": "Unconfirmed as active. Their undated Facebook page lists Wednesday Blaisdell farmers' market 4-7pm and Thursday Kailua farmers' market 5-7:30pm. It also has a post saying they are at KCC 'every Saturday' until 11am. Corrected: neighborhood set to null (the page says Honolulu, and the 'Kailua' came only from the market). The Hawaii Farm Bureau Kailua page says Thursdays 4-7pm, though one line on it still says 5-7:30pm. The visible part of that vendor list does not include Mochi Lab. A Honolulu Magazine mochi guide (about two years old, so pre-2025 and not usable) labels Mochi Lab 'CLOSED'. I found no source dated 2025 or later that shows them selling, and the stale Kailua hours suggest the page is out of date. Check with the organizer or the business before publishing. The email is mochilab808@gmail.com (not a schema field). A different Mochi Lab in Toronto is unrelated.",
+      "still_active": null
+    },
+    {
+      "name": "Ohana Style Snack Co.",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": "Honolulu",
+      "description": "Popcorn, jerky chips, cotton candy and fruit roll-ups",
+      "products": [
+        "candy popcorn",
+        "Movie Mix popcorn",
+        "caramel popcorn",
+        "Hawaiian jerky chips",
+        "guava beef jerky",
+        "cotton candy",
+        "fruit roll-ups"
+      ],
+      "tags": [
+        "snacks",
+        "popcorn",
+        "jerky",
+        "craft fairs",
+        "online shop"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://ohanastylesnackco.bigcartel.com/products",
+      "instagram": "https://www.instagram.com/ohanastylesnackco",
+      "facebook": "https://www.facebook.com/ohanastylesnackco",
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://ohanastylesnackco.bigcartel.com/products",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ohanastylesnackco.bigcartel.com/products",
+      "source_date": null,
+      "source_label": "their online store",
+      "confidence": "low",
+      "notes": "Their online store and an Eventeny vendor profile that says 'Honolulu, Hawaii' list the products above. The store pages are undated. The Eventeny profile lists past Kawaii Kon participation, with a 2025 date shown. I could not confirm the Hawaii Holiday Craft & Gift Fair listing from the organizer or KHON2 pages I opened. The fair is confirmed for Oct 30–Nov 1, 2026, but its dates are not stated for this vendor and the original blog source was not re-verified. I found no source dated 2025 or later that shows current sales. The blog's note that some vendors flew in from Hawaiʻi island leaves where they are based unconfirmed. Honolulu comes from the Eventeny profile. No storefront address is confirmed from permitted sources. Prices are left out. Check before listing. The similarly named 'Ohana Bros' snack company is a California business and is not this one.",
+      "still_active": null,
+      "social_source": "from their website"
+    }
+  ]
+}

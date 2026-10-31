@@ -1,0 +1,403 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 182701,
+    "out": 17997,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Kea Creations",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "Name only on Island Craft Fairs list for June 12, 2026; category 'makers' is not stated and is kept from the first pass. Market is at Windward Mall parking lot, 46-056 Kamehameha Hwy (organizer page prints 45-056); Windward Mall lists dates through Nov 13, 2026. keacreations.com sells Hawaii-inspired jewelry but nothing links it to this vendor, so it is not attached. Not the same as Kea Kea Designs (Kāneʻohe shop) or Keao Designs. Active only as of the June 2026 listing.",
+      "still_active": true
+    },
+    {
+      "name": "Kulimi Soda Co.",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "soda",
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        },
+        {
+          "name": "Kaimuki Market (Plenty of Aloha)",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://plentyofaloha.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizers' vendor lists (Island Craft Fairs and Plenty of Aloha)",
+      "confidence": "high",
+      "notes": "Listed at Koʻolau Night Market June 12, 2026. Plenty of Aloha's own markets page also lists 'Kulimi Soda CO' under Kaimuki Market vendors; that page is undated and its days and hours were not in what I retrieved. Products and category are not stated (category inferred from the name). No website or social page found; other results were Hawaiian Soda Co, a different company.",
+      "still_active": true
+    },
+    {
+      "name": "La crepe parisienne",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "Organizer prints 'La crepe parisienne' on the June 12, 2026 list. The first pass reported 'La crêpe parisienne' on the Nov 13 list; I did not re-check that listing. Category is inferred from the name and products are not stated. No own website or social page found. Not linked to Le Crêpe Café or North Shore Crepes Cafe, which are different businesses. An Oct 9 list shows 'french ohana llc'; no source links it to this vendor.",
+      "still_active": true
+    },
+    {
+      "name": "Lenasjewels",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Handmade shell jewelry in gold-filled and sterling silver",
+      "products": [
+        "bangles",
+        "earrings",
+        "rings",
+        "necklaces",
+        "handchains"
+      ],
+      "tags": [
+        "jewelry",
+        "shell jewelry",
+        "gold filled",
+        "sterling silver",
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://lenasjewels.com",
+      "instagram": "https://www.instagram.com/lenasjewels_",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://lenasjewels.com/collections",
+      "order_url": "https://lenasjewels.com",
+      "payment_methods": null,
+      "made_where": "Hawaii (site says handcrafted in Hawaii; their Etsy shop lists Waiāhole)",
+      "source_url": "https://lenasjewels.com/collections",
+      "source_date": "2026",
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own site (footer © 2026) says the business is at the Koʻolau Night Market every 2nd Friday, 5–9 PM, Windward Mall parking lot. Island Craft Fairs also lists 'Lenasjewels' for the Oct 9, 2026 market. Instagram handle @lenasjewels_ comes from their Etsy shop page. The 'Lenas Jewels' entry on the Koko Marina market page is still unconfirmed as the same business. Site gives no payment methods or phone. source_date is year only because the page shows no posting date.",
+      "still_active": true
+    },
+    {
+      "name": "Local Poke Bowl",
+      "category": "prepared-food",
+      "side": "north_shore",
+      "neighborhood": "Haleʻiwa",
+      "description": "Poke bowl vendor named at the Haleiwa Farmers Market",
+      "products": [
+        "poke bowls"
+      ],
+      "tags": [
+        "poke"
+      ],
+      "markets": [
+        {
+          "name": "Haleiwa Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/localpokebowl",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "source_date": "2025-03-07",
+      "source_label": "a Hawaii News Now article",
+      "confidence": "low",
+      "notes": "Hawaii News Now (March 7, 2025) named Local Poke Bowl among vendors at the Thursday 2–6 PM Haleiwa Farmers Market, hosted by FarmLovers. A Haleiwa Town guide later said the FarmLovers Haleiwa market was temporarily closed, and I found no current vendor or organizer page confirming this vendor. Sources disagree on the market's place and day: HNN says the Historic Haleiwa Gym property, Thursdays; the guide and other pages say Liliuokalani Church grounds. The Honolulu Night Market entry from the first pass was dropped because I could not confirm it. Instagram handle comes from a 2022 Star-Advertiser feature, which also listed Waialua, Waimea and Pearlridge markets that are not confirmed as current. Address omitted because only listing sites showed one.",
+      "still_active": null
+    },
+    {
+      "name": "Meals on the fly",
+      "category": "food-trucks",
+      "side": null,
+      "neighborhood": null,
+      "description": "Filipino-Hawaiian burrito pop-up truck, meal prep and catering",
+      "products": [
+        "breakfast burritos (Paniolo, Bacon)",
+        "lunch burritos (Birria, Lechon Karekare, Pac Man, Panang, Cali)",
+        "weekly meal prep",
+        "catering"
+      ],
+      "tags": [
+        "Filipino-Hawaiian",
+        "burritos",
+        "pop-up",
+        "meal prep",
+        "catering",
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.mealsontheflyhi.com",
+      "instagram": "https://www.instagram.com/mealsontheflyhi",
+      "facebook": null,
+      "phone": "808-223-9840",
+      "schedule_source_url": "https://www.mealsontheflyhi.com/find-us.html",
+      "order_url": "https://www.mealsontheflyhi.com/meal-preps.html",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.mealsontheflyhi.com/find-us.html",
+      "source_date": null,
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own site says it is a pop-up truck across Oʻahu, typically Saturday and Sunday pop-ups; locations are posted on Instagram @mealsontheflyhi, or call or text 808-223-9840. Site lists burritos at $12–$20 and meal prep at $15 or $18 per meal, ordered by Wednesday for Saturday or Sunday pickup. Email is mealsontheflyhi@gmail.com. Also on the Koʻolau Night Market list for June 12, 2026. The business writes its name 'Meals on the Fly'; the organizer's spelling is kept in the name field. Plenty of Aloha's markets page also names 'Meals on the Fly' in a vendor list, but which market it belongs to is unclear, so it is not added.",
+      "still_active": true
+    },
+    {
+      "name": "North Shore Bees",
+      "category": "food-producers",
+      "side": "north_shore",
+      "neighborhood": "Haleʻiwa",
+      "description": "Raw Oʻahu honey and gift sets; also humane bee removal",
+      "products": [
+        "raw Oʻahu honey (kiawe, macadamia)",
+        "honey gift set trio",
+        "humane bee removal"
+      ],
+      "tags": [
+        "honey",
+        "raw honey",
+        "bee removal",
+        "Hawaiian owned"
+      ],
+      "markets": [
+        {
+          "name": "Kaka'ako Farmer's Market",
+          "usual_days": "Saturdays, 8–12"
+        },
+        {
+          "name": "North Shore Country Market",
+          "usual_days": "Wednesdays, 12–5 PM"
+        },
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": "Dec 13–14, 2025 (annual December event)"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.northshorebees.com",
+      "instagram": "https://www.instagram.com/northshorebees",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.northshorebees.com/markets-stockists-1",
+      "order_url": "https://www.etsy.com/shop/NorthShoreBees",
+      "payment_methods": null,
+      "made_where": "North Shore of Oʻahu (honey harvested from North Shore apiaries)",
+      "source_url": "https://www.northshorebees.com/markets/north-shore-country-market-feb-18",
+      "source_date": "2026-02-18",
+      "source_label": "their own website",
+      "confidence": "high",
+      "notes": "Own market page shows the North Shore Country Market, Wednesdays 12–5 at Queen Liliʻuokalani Church, 66-090 Kamehameha Hwy, Haleʻiwa (page for Feb 18, 2026). Instagram bio gives Saturdays 8–12 at Kaka'ako Farmer's Market; the bio has no posting date. The Mele Kalikimaka booth (#25, 2025) is from the first pass; a 2026 show is not confirmed. Own Markets + Stockists page also lists retail stockists: The Cove Collection North Shore (59-712 B Kamehameha Hwy, Haleiwa), The Cove Collection Reef Waikīkī, and Nā Mea Hawaiʻi (Ala Moana). Hive locations are not given as an address; own page says apiaries from Waialua to Hauʻula.",
+      "still_active": true
+    },
+    {
+      "name": "Paniolo LLC",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "Name only on the June 12, 2026 organizer list; no category or products stated, so category is 'other'. Searches returned unrelated Paniolo businesses (a Big Island cattle company, a Big Island tack shop, Paniolo Trading in Honolulu, Paniolo's burrito shop in Kailua, and a Hawaii tallow skincare shop at paniolo.shop). None is linked to this vendor, so none is attached. Active only as of the June 2026 listing.",
+      "still_active": true
+    },
+    {
+      "name": "Pure Island Kava LLC",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "kava",
+        "Koʻolau Night Market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.windwardmall.com/events/night-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "medium",
+      "notes": "Name only on the organizer list for the Oct 9, 2026 market. Category and 'kava' tag come from the name; products are not stated. No website or social page found. Other 'Pure Kava' and Island Kava results are mainland or unrelated businesses and are not attached.",
+      "still_active": true
+    },
+    {
+      "name": "Sasa Gourmet",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Summer rolls with tofu, pork, crab or shrimp, plus dipping sauces",
+      "products": [
+        "tofu summer rolls",
+        "pork summer rolls",
+        "crab summer rolls",
+        "shrimp summer rolls",
+        "dipping sauces"
+      ],
+      "tags": [
+        "summer rolls",
+        "Oʻahu-grown vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday, 8–11 AM"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/sasagourmet808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/sasa-gourmet/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/sasa-gourmet/",
+      "source_date": null,
+      "source_label": "the Hawaii Farm Bureau farmers' market vendor pages",
+      "confidence": "high",
+      "notes": "Hawaii Farm Bureau (the market organizer) lists the product line and these four markets with Instagram @sasagourmet808. Its Mililani market page (Sundays 8–11 AM, Mililani High School) also lists Sasa Gourmet and gives the email sasagourmet96825@gmail.com. The third-party Makeke Maps page, citing the HFBF roster with June 2026 dates, gives Kailua Thursday 4–7 PM and KCC Saturday 7:30–11 AM; those times are not from the organizer's pages I retrieved. Address and phone appear only on listing and review sites, so they are omitted. HFBF pages show no posting date.",
+      "still_active": true
+    }
+  ]
+}

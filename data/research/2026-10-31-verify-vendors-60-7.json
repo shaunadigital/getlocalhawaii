@@ -1,0 +1,284 @@
+{
+  "target": "second look at vendors",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 265551,
+    "out": 15698,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Ornamental Plants and Vegetables",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Ornamental plants and vegetables from Carlito \"Lito\" Galiguis, Lot 6K",
+      "products": [
+        "ornamental plants",
+        "vegetables"
+      ],
+      "tags": [
+        "kunia loa ridge farmlands",
+        "plants",
+        "vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturdays, 9am-1pm"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://kunialoaridgefarmersmarket.com/",
+      "instagram": "https://www.instagram.com/klrfarmersmarket/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.kunialoaridgefarmlands.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kunialoaridgefarmersmarket.com/?b=5696572321100",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the market's own vendor page as Carlito \"Lito\" Galiguis, lot 6K KLRF. The listing title is a product description, not a business name, so the name is kept as given. The earlier source_url was a different vendor's (Khao Lao) page, where this vendor appears only as a card; replaced with the market's own list. The vendor page gives no address or phone. Market address is 94-1100 Kunia Rd, Waipahu, HI 96797. The market's own pages show the next market as Saturday Nov 7, 2026, 9am-1pm, with Nov 21 and Dec 5 after it. The market's Events page lists the same dates as Fridays, which looks like a display error. The Instagram handle klrfarmersmarket comes from an HPU calendar page (Oct 2025). No source date is given because the page is undated; it was live when checked.",
+      "still_active": true
+    },
+    {
+      "name": "Paige's Pretty Patterns",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Student maker business (Paige Hijirida) shown by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "Aloha State Daily article",
+      "confidence": "low",
+      "notes": "The article lists Paige Hijirida (class of 2033) in Mākia Market's Thursday Aug 20, 2026 6:30-10pm slot at its Made in Hawaiʻi Festival booth 106, a one-off festival that has already passed. Products are not stated. Neighborhood was changed from Kakaʻako to null because no source gives the vendor's base. Mākia's own site shows its market events are at The Barn at SALT in Kakaʻako, but the vendor is not named on the pages seen, and SALT sales are not confirmed. No own page found. Whether the vendor is still active is unknown.",
+      "still_active": null
+    },
+    {
+      "name": "Palaka Hawaii",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Apparel and accessories sold at the Hawaii Holiday Craft & Gift Fair",
+      "products": [
+        "apparel",
+        "accessories"
+      ],
+      "tags": [
+        "craft fair",
+        "apparel"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30-Nov 1, 2026 (Blaisdell Center Exhibition Hall)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiiholidayfair.com/about-1",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "source_date": "2026-10-23",
+      "source_label": "KHON2 story on the fair",
+      "confidence": "medium",
+      "notes": "KHON2 (Oct 23, 2026) names the vendor and says apparel and accessories. The earlier palaka-print, shirts, visors, caps and toddler-shorts wording came from a 2024 story, so products and description were narrowed to what the 2026 story states. Business location, website and social accounts were not found. Shaka Time and other shops sell palaka goods online, but nothing links them to this vendor. Fair dates are confirmed by the organizer's coupon page (Oct 30, 31 and Nov 1, 2026); the Blaisdell calendar and other pages give hours of noon-7pm Friday, 10am-6pm Saturday and 10am-5pm Sunday.",
+      "still_active": true
+    },
+    {
+      "name": "Saszdcreations",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handmade totes, mini baskets and monstera pillow covers",
+      "products": [
+        "totes",
+        "mini baskets",
+        "monstera pillow covers"
+      ],
+      "tags": [
+        "handmade",
+        "bags",
+        "home decor"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.saszdcreations.com",
+      "instagram": "https://www.instagram.com/saszdcreations/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": "https://www.saszdcreations.com",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-brings-unique-holiday-shopping-to-blaisdell/",
+      "source_date": "2024-11",
+      "source_label": "KHON2 story on the 2024 fair",
+      "confidence": "low",
+      "notes": "The KHON2 story dates from about Nov 2024 (approximate, from its age) and names the owner as Dana Devers. The earlier row's note named her Dana Rickard from a 2025 story, which I could not retrieve, so the surname is unresolved and left out of fields. Another maker's page (Just4U by Kawenaa) names Dana of Saszdcreations and says to order at saszdcreations.com. The Instagram bio gives the email Saszdcreations@yahoo.com but no dates or location. The 2026 KHON2 fair stories seen do not mention this vendor, so 2026 attendance is unconfirmed. Whether it is currently active is unconfirmed because I could not open the current website or posts.",
+      "still_active": null
+    },
+    {
+      "name": "Seagonia Crab Co.",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dungeness crab dishes sold at Oʻahu farmers markets",
+      "products": [
+        "Dungeness crab"
+      ],
+      "tags": [
+        "crab",
+        "farmers market",
+        "seafood"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturday 8am-12pm"
+        },
+        {
+          "name": "Ono Grindz & Makeke",
+          "usual_days": "Thursday 4-8pm"
+        },
+        {
+          "name": "Kailua Farmers Market (Sunday, next to Adventist Health Castle)",
+          "usual_days": "Sunday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/seagoniacrabco/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.instagram.com/seagoniacrabco/",
+      "order_url": "https://www.instagram.com/seagoniacrabco/",
+      "payment_methods": [
+        "cash",
+        "card",
+        "venmo"
+      ],
+      "made_where": null,
+      "source_url": "https://www.instagram.com/seagoniacrabco/",
+      "source_date": null,
+      "source_label": "their Instagram bio",
+      "confidence": "high",
+      "notes": "The Instagram bio lists only Kakaʻako (Sat 8-12) and Ono Grindz & Makeke (Thu 4-8). Honolulu Magazine's farmers market guide (about 2026-10-12, approximate) names them under the Sunday Kailua market next to Adventist Health Castle (640 Ulukahiki St, run by FarmLovers). That is a different market from the Thursday Kailua Town Center market, so the earlier \"KailuaTown\" label was corrected. Sunday attendance is not on their own bio, so it is third-party only. A 2024 Star-Advertiser article gave the payment methods (cash, cards, Apple Pay, Venmo) and said to pre-order by Instagram message; those details predate 2025. It also said Ono Grindz & Makeke is on Thursdays at Wai Kai. The bio and the Honolulu Magazine guide are both current, so still active.",
+      "still_active": true
+    },
+    {
+      "name": "The Local General Store",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Kaimuki",
+      "description": "Whole-animal butcher shop and bakery in Kaimuki using local farm meat",
+      "products": [
+        "locally raised beef, pork, chicken, venison and lamb",
+        "pastries",
+        "sausages"
+      ],
+      "tags": [
+        "butcher",
+        "bakery",
+        "local meat"
+      ],
+      "markets": [],
+      "fixed_or_roaming": "fixed",
+      "address": "3458 Waialae Ave, Honolulu, HI 96816",
+      "website": "http://www.thelocalgeneralstorehi.com/",
+      "instagram": "https://www.instagram.com/thelocalgeneralstorehi/",
+      "facebook": null,
+      "phone": "(808) 777-2431",
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Honolulu (baked and butchered in house)",
+      "source_url": "https://unearththevoyage.com/this-hawaii-general-store-is-a-butcher-and-baker-in-one-baking-the-bread-and-building-your-sandwich-to-order-96a64500/",
+      "source_date": "2026-09",
+      "source_label": "a 2026 community article",
+      "confidence": "medium",
+      "notes": "The article (about 40 days before Oct 31, 2026; approximate) says the owners moved from a weekly pop-up to a permanent shop at 3458 Waialae Ave, open Thu-Mon 8am-5pm and closed Tue-Wed. The Honolulu Farmers' Market Wednesday listing comes from an undated blog post and a 2022 Star-Advertiser piece. It is not in the current Honolulu Magazine vendor highlights and was not seen on the HFBF list, so markets is empty. The market's own page was last seen 843 days old. An undated Marketspread listing also names the KCC Farmers Market. Website and Instagram handle come from a 2022 Star-Advertiser listing, and the address and phone from a Good Meat Project directory entry. I did not read the website or Instagram directly. The earlier category was blank; this is a guess, as the business is both a butcher and a bakery.",
+      "still_active": true
+    },
+    {
+      "name": "The Rice Factory",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Japanese rice milled in Honolulu; Kakaʻako shop and Saturday market stand",
+      "products": [
+        "Japanese rice",
+        "soy sauce",
+        "musubi",
+        "vinegar drinks",
+        "Japanese pantry and home goods"
+      ],
+      "tags": [
+        "rice",
+        "Japanese groceries",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "955 Kawaiahao St, Honolulu, HI 96814",
+      "website": "https://the-rice-factory-honolulu.square.site/",
+      "instagram": null,
+      "facebook": "https://www.facebook.com/tr",
+      "phone": "(808) 800-1520",
+      "schedule_source_url": "https://www.wardvillage.com/explore/activities/farmers-market/",
+      "order_url": "https://the-rice-factory-honolulu.square.site/",
+      "payment_methods": null,
+      "made_where": "Rice from Japan, milled in Honolulu",
+      "source_url": "https://onolicioushawaii.com/the-rice-factory/",
+      "source_date": "2025-12",
+      "source_label": "Onolicious Hawaiʻi blog",
+      "confidence": "medium",
+      "notes": "The earlier prepared-food category was a guess from the name. Sources show it is a retail rice and pantry shop that also has a market stand, so the category was changed to other. The blog (about Dec 2025, approximate) describes a regular Saturday 8am-12pm stall at Kakaʻako and the shop at 955 Kawaiahao St. An older Onolicious market guide (about mid-2025) describes the stand as selling rice, soy sauce, musubi and vinegar drinks. Ward Village's own page confirms the Kakaʻako Farmers Market runs every Saturday 8am-12pm, but I did not find the stand on an organizer vendor list. The website is the Square site named in blog and business listings, and I did not read it directly. Store hours differ between sources, so none are given. Whether the market stand is still running is not confirmed.",
+      "still_active": true,
+      "social_source": "from their website"
+    }
+  ]
+}

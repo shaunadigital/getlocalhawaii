@@ -1,0 +1,203 @@
+{
+  "target": "second look at events",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 270218,
+    "out": 14548,
+    "searches": 14
+  },
+  "rows": [
+    {
+      "name": "Eggs Hawaii / Ka Lei Eggs",
+      "kind": "farm_stand",
+      "side": "town",
+      "neighborhood": "Kalihi",
+      "venue_name": "Eggs Hawaii Inc - Island Fresh Eggs (retail store)",
+      "address": "419 Waiakamilo Rd, Honolulu, HI 96817",
+      "schedule_text": null,
+      "dates": [],
+      "organizer": "Eggs Hawaii (Ka Lei Eggs / Hawaiian Maid Eggs)",
+      "website": "https://eggshawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Retail store of Eggs Hawaii selling Ka Lei and Hawaiian Maid island fresh eggs from the family farm in Waianae, in an industrial part of Kalihi.",
+      "source_url": "https://eggshawaii.com/contact",
+      "source_date": null,
+      "source_label": "Eggs Hawaii own contact page (store name, address, phone (808) 841-7695); Honolulu Magazine staff pick (older, pandemic-era)",
+      "confidence": "medium",
+      "notes": "Own contact page (read in the first pass) names the store and address; unit is given as 1E in one place and E1 in another, so no unit is listed here. Phone (808) 841-7695; company office is 1590 Hau Street, (808) 841-7521. Honolulu Magazine (about 2020) gave 8:30-3:30 Mon-Fri and 7:30-2 Sat, and a local-eggs directory repeats those hours (closed Sundays, some holidays), but other directory listings show 7:30 weekday openings, and no current own page states hours, so schedule_text is null. No 2026 own post found, so still_active is null rather than true. Ka Lei eggs are also sold at Kakaʻako Farmers Market (already in the directory). Facebook handle not captured. Review sites not used.",
+      "still_active": null
+    },
+    {
+      "name": "Keiki Construction Zone",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Sunday, November 8, 2026, 9 AM-3 PM.",
+      "dates": [
+        {
+          "date": "2026-11-08",
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "$35 per person; children age 2 and under free",
+      "description": "Family event with operational excavators and big machines, horseback riding and livestock encounters, construction and agriculture demonstrations, RC cars, a kendama competition, a keiki corner, a farmers market, local vendors, food and live entertainment.",
+      "source_url": "https://www.hawaiiparentmedia.com/things-to-do-november-2026/",
+      "source_date": null,
+      "source_label": "Hawaii Parent, Island Events & Oahu Family Fun Calendar: November 2026",
+      "confidence": "medium",
+      "notes": "Date, hours, admission and activities come from the Hawaii Parent November 2026 calendar (recent third-party). The listing does not name a venue or organizer, so side, neighborhood and venue are null. Earlier editions: Dec 9, 2023 at Ke Alaula Farms, Whitmore Village, Wahiawa, free, per the Max Gainz Inc. / Ohana Hui Ventures page. Environment Hawaii (Aug 2025) reported the 2025 edition was approved on state Agribusiness Development Corporation land in Whitmore Village with BZ Services LLC as organizer, after a one-year hiatus (no 2024 event). I did not confirm 2026 is at the same site or run by the same organizer. Admission changed from free (2023) to $35 (2026). Not the monthly Hawaiʻi State Public Library 'Keiki Construction Zone' play program. No own 2026 page or vendor application found; still_active is true only because the event is listed as upcoming in a current calendar.",
+      "still_active": true
+    },
+    {
+      "name": "Kimchi Festival Hawaiʻi (Kimchi Day Festival)",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual one-day festival; 2026 edition Saturday, November 14, 2026, 10 AM-7 PM.",
+      "dates": [
+        {
+          "date": "2026-11-14",
+          "start": "10:00",
+          "end": "19:00"
+        }
+      ],
+      "organizer": "Kimchi Festival Hawaiʻi (earlier editions hosted by The United Korean Association of Hawaiʻi)",
+      "website": "https://www.kimchifestivalhi.com",
+      "instagram": "@kimchifestivalhi",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Celebration of Korean culture and cuisine with kimchi tastings, food vendors, cultural performances and community activities.",
+      "source_url": "https://www.kimchifestivalhi.com",
+      "source_date": null,
+      "source_label": "Kimchi Festival Hawaii organizer page; Hawaii Parent November 2026 calendar",
+      "confidence": "high",
+      "notes": "Organizer's own page confirms the 2026 date and hours; Hawaii Parent's November 2026 calendar matches. The organizer page also carries an official sign-up form for volunteers, vendors, sponsors and participants, but I could not capture its URL, so vendor_application_url is null. The 2026 venue is not stated in what I read. Earlier editions were at Makiki District Park Field, 1527 Keeaumoku St (2024 per organizer page, KHON2 and Hawaii News Now; 2025 per Honolulu Magazine and Aloha State Daily, which said hosted by The United Korean Association of Hawaiʻi and free). The organizer's parking page lists Makiki District Park, Hawaii Christ Church and Catholic Charities lots, which is consistent with Makiki but does not state the 2026 venue, so venue, neighborhood and side stay null. Free admission was reported for 2024 and 2025 only, so admission is null for 2026. The Instagram handle @kimchifestivalhi comes from Honolulu Magazine's 2025 guide, which lists it beside kimchifestivalhi.com; I did not see it on the organizer page. Facebook not captured.",
+      "still_active": true
+    },
+    {
+      "name": "Oahu Fresh (Farmers' Market Box / subscription delivery)",
+      "kind": null,
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Subscription service with weekly or biweekly produce bag delivery or pickup at various island pickup locations; one member comment on the site mentions weekly Wednesday delivery. Order cutoffs apply each week.",
+      "dates": [],
+      "organizer": "Oahu Fresh",
+      "website": "https://shop.oahufresh.com",
+      "instagram": "@oahufresh",
+      "facebook": "https://www.facebook.com/Oahu-Fresh-159710474062352",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Subscription-based service delivering local farm produce bags; members can choose home delivery or pickup at various locations around Oʻahu.",
+      "source_url": "https://shop.oahufresh.com/product/farmers-market-box",
+      "source_date": null,
+      "source_label": "Oahu Fresh own shop site (undated); oahufresh.com Umeke ʻAi Pono page",
+      "confidence": "low",
+      "notes": "Delivery subscription, not a market, so no directory kind fits and kind is null. Own shop home page says delivery or pickup at various locations, but it is undated and I found no 2026 post, so still_active is null. The company's own site lists 916 Kaaahi Place, Honolulu 96817, (808) 476-7550 as its address (Oahu Food Hub); not used as a venue or address because it is not a public market site. Its Umeke ʻAi Pono community pickup program (Kaʻaʻawa, Wahiawa, Waipahu, Hauʻula, Kāneʻohe) ran only through July 4, 2025 and should not be listed. Old press: Star-Advertiser 2020 gave a $15 membership; Sierra Club 2020 gave a $20 farmers market bag. Current prices and delivery regions not re-verified. The @oahufresh handle comes from an Instagram post embedded in a 2020 Honolulu Magazine article, not from the own site. Facebook not captured.",
+      "still_active": null,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Okinawan FEASTival",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": "Okinawan-owned restaurants and food businesses across Oʻahu",
+      "address": null,
+      "schedule_text": "Annual two-week run of restaurant specials after the Okinawan Festival. The 7th FEASTival ran September 7-21, 2026 (continuous range). The 2027 run has not been announced.",
+      "dates": [
+        {
+          "date": "2026-09-07",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-09-21",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Hawaiʻi United Okinawa Association",
+      "website": "https://www.hawaiiokinawans.com",
+      "instagram": "https://www.instagram.com/okinawanfestival",
+      "facebook": "https://www.facebook.com/okinawanfestival",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Two weeks of Okinawan-inspired specials at participating Okinawan-owned and Okinawan-at-heart restaurants and food businesses on Oʻahu, following the Okinawan Festival weekend.",
+      "source_url": "https://www.hawaiiokinawans.com/specials",
+      "source_date": null,
+      "source_label": "FEASTival Specials page (organizer); Star-Advertiser 2026-09-02; Honolulu Magazine; okinawanfestival.com",
+      "confidence": "high",
+      "notes": "The 2026 run has ended (Sept 21). The two date entries are the start and end of one continuous range, not two separate events. The organizer's specials page is titled for the 7th FEASTival, September 7 to 21, 2026, and okinawanfestival.com and huoa.org give the same dates. Star-Advertiser (2026-09-02) says the seventh annual run was Sept 7-21, with the full participant list at hawaiiokinawans.com. Honolulu Magazine says 20 restaurants and food businesses took part. 2026 examples: Oide Kitchen (212 Merchant St), Masa & Joyce (45-582 Kamehameha Hwy, Kāneʻohe), Sunrise Restaurant (525 Kapahulu Ave), SKY Waikiki (2270 Kalākaua Ave), an Aloha Andagi pop-up at the Marukai Dillingham parking lot, and Beer Lab Pearlridge. The specials page also carries leftover 2025 entries: the Saturday 9/13 Ige's Halawa sale cannot be 2026 because 9/13/2026 is a Sunday. I could not verify the conflicting 'November 2 - 8' line, so it is treated as a leftover. Okinawan Festival itself was Sept 5-6, 2026 at the Hawaii Convention Center (organizer). The Facebook page is the Okinawan Festival's own page, which also announces the FEASTival. still_active is true because the organizer ran the 2026 program and the series is annual.",
+      "still_active": true,
+      "social_source": "from their website"
+    },
+    {
+      "name": "Haleiwa Town Festival",
+      "kind": "festival",
+      "side": "north_shore",
+      "neighborhood": "Haleʻiwa",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed by one aggregator for Saturday, November 14, 2026, 9 AM to 2 PM. Not confirmed by any organizer.",
+      "dates": [
+        {
+          "date": "2026-11-14",
+          "start": "09:00",
+          "end": "14:00"
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free (per aggregator only)",
+      "description": "Aggregator describes a one-day North Shore street festival in Haleʻiwa with local artists, merchants, food vendors, entertainers and Hawaiian entertainment.",
+      "source_url": "https://www.best-of-oahu.com/oahu-events-in-november.html",
+      "source_date": null,
+      "source_label": "Best of Oahu, Oahu Events in November 2026 (single aggregator); Waialua Community Association calendar (conflict check)",
+      "confidence": "low",
+      "notes": "Single aggregator source; no organizer page found. The aggregator gives the location as Waialua Community Association, the same venue it gives for a separate Haleiwa Town Art Walk on Nov 7. The Waialua Community Association's own calendar instead lists a Haleiwa Art Walk (Free Parking) in the WCA Parking Lot on Saturday, Nov 14, 2026, 3-8 PM, which conflicts with the aggregator's Nov 7 date and suggests the venue (and possibly the date) was copied from the Art Walk. Venue_name and address are therefore set to null. Another event the same day is Holoholo to Haleʻiwa, 2-4 PM at the Kamehamalu Courtyard (Haleʻiwa Store Lots); it is not this festival. The Haleiwa Arts Festival (June 13-14, 2026, Haleʻiwa Beach Park) and the July 4 festival are separate events. Do not list until an organizer confirms; still_active is null.",
+      "still_active": null
+    },
+    {
+      "name": "Ho Farms produce pickup (Ewa Beach / Honolulu)",
+      "kind": null,
+      "side": null,
+      "neighborhood": "Ewa Beach / Honolulu",
+      "venue_name": "Old Fort Weaver Road (Ewa Beach); Republik (Concert and Event Center) (Honolulu)",
+      "address": null,
+      "schedule_text": "Per an undated (about 2020) Sierra Club Oʻahu list: pickup Mondays 3-5 pm on Old Fort Weaver Road (Ewa Beach) and Saturdays 1-3 pm at Republik (Concert and Event Center), Honolulu. Not confirmed as current.",
+      "dates": [],
+      "organizer": "Ho Farms",
+      "website": "https://www.hofarms.com",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Farm produce pickup points for Ho Farms (Kahuku) as listed in a pandemic-era online-ordering directory; farm known for cherry tomatoes and Asian vegetables.",
+      "source_url": "https://www.sierracluboahu.org/blog/o%CA%BBahus-farmers-offer-hope",
+      "source_date": null,
+      "source_label": "Sierra Club Oʻahu Group blog, Oʻahu's farmers offer hope (undated, about 2020)",
+      "confidence": "low",
+      "notes": "Source URL changed to the Sierra Club blog post, where I verified the pickup text; the original island-resources URL was not re-read. The list reads as pandemic-era (search index age about 6.5 years). I found no current own page showing these pickups. The farm's X account (@hofarms) links hofarms.com but its posts are from 2013; no Instagram or Facebook tied to the farm. Ho Farms is currently listed as a vendor on the Hawaii Farm Bureau's KCC Farmers' Market page (Saturdays 7:30-11 AM, KCC Parking Lot B, 4303 Diamond Head Rd), so the farm itself is active, but that is a separate venue and does not confirm these pickups. Ho Farms produce is also sold via Farm Link Hawaiʻi (separate seller). Pickups unverified, so still_active is null. Do not list until the farm confirms.",
+      "still_active": null
+    }
+  ]
+}
