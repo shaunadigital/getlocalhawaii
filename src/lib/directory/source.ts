@@ -73,7 +73,9 @@ async function fetchTable<K extends keyof Tables>(base: string, key: string, tab
     const response = await fetch(url, {
       headers: {
         apikey: key,
-        Authorization: `Bearer ${key}`,
+        // Legacy anon keys are JWTs and also go in Authorization. New
+        // publishable keys (sb_publishable_...) are not JWTs and must not.
+        ...(key.startsWith("eyJ") ? { Authorization: `Bearer ${key}` } : {}),
         Range: `${offset}-${offset + PAGE_SIZE - 1}`,
         "Range-Unit": "items",
       },
