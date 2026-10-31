@@ -57,12 +57,16 @@ function timeLabelFor(run: MarketDate[]): string {
 export function fairRuns(markets: MarketListing[], today: string): FairRunRow[] {
   const rows: FairRunRow[] = [];
   for (const market of markets) {
-    if (!isFairPageMarket(market)) continue;
+    // Fair kinds list every run; other dated markets (makers markets, pop-ups)
+    // list only their November and December runs, the holiday season.
+    const fairKind = isFairPageMarket(market);
+    if (!fairKind && market.sessions.length > 0) continue;
     for (const run of splitRuns(market.dates)) {
       const last = run[run.length - 1].date;
       if (last < today) continue;
       const first = run[0].date;
       const [, month, day] = first.split("-").map(Number);
+      if (!fairKind && month !== 11 && month !== 12) continue;
       const firstDay = dayName(dayOfWeekOf(first)).toUpperCase();
       rows.push({
         key: `${market.id}-${first}`,

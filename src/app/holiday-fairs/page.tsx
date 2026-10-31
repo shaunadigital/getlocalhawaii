@@ -28,7 +28,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Holiday craft fairs on Oahu: dates and hours",
   description:
-    "Holiday craft fairs and annual makers fairs on Oʻahu by month, with dates, hours when posted and where each one is. Most run one day, so check the date.",
+    "Holiday craft fairs and holiday makers markets on Oʻahu by month, with dates, hours when posted and where each one is. Most run one day, so check the date.",
   alternates: { canonical: HOLIDAY_FAIRS_HREF },
 };
 
@@ -54,8 +54,8 @@ export default async function HolidayFairsPage({ searchParams }: { searchParams:
   const oneDay = allRuns.filter((r) => r.dates.length === 1).length;
   const intro =
     oneDay * 2 > allRuns.length
-      ? "Holiday craft fairs and annual makers fairs on Oʻahu, by month. Most run one day, so check the date."
-      : "Holiday craft fairs and annual makers fairs on Oʻahu, by month.";
+      ? "Holiday craft fairs and holiday makers markets on Oʻahu, by month. Most run one day, so check the date."
+      : "Holiday craft fairs and holiday makers markets on Oʻahu, by month.";
 
   const schema = {
     "@context": "https://schema.org",
