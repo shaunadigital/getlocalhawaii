@@ -13,7 +13,8 @@ Read this before writing any page, email, social post, asset or UI label for the
 - Headlines read like something painted on a roadside sign: short, plain, all caps in Bungee.
 
 ## Honesty rules
-- Listings come from public sources. "Checked" means a source was read on that date, never that anyone called or visited. Only say called or visited when it happened.
+- Listings come from public sources. "Checked" means a source was read on that date.
+- Never narrate how the site works behind the scenes: no "I called", "I visited", "I check it against", "I review", "before it goes on the site". State the fact the reader needs and stop.
 - Never claim completeness: no "every", "all", "full list", "complete" as a coverage claim.
 - Status states only what a source posts. "Open now" only from posted hours. Missing facts say "not posted yet", never a guess.
 - Attribute third-party claims ("calls itself", "per the Star-Advertiser") and tie relative claims to a year ("through 2025", not "the last 13 years").
@@ -33,7 +34,7 @@ Read this before writing any page, email, social post, asset or UI label for the
 
 ## Words
 - Use: CHECKED [DATE], NEXT, NOT POSTED, WHERE TO FIND THEM, TELL ME, side names (Town, East, Windward, North Shore, Central, Leeward and ʻEwa).
-- Never: shop local, support local, verified, confirmed, every or all (coverage), visited or stopped by (unless true), discover, explore, curated, hidden gem, vibrant, nestled, your guide to.
+- Never: shop local, support local, verified, confirmed, every or all (coverage), called, visited or stopped by, discover, explore, curated, hidden gem, vibrant, nestled, your guide to.
 - No AI cadence: no lists of three for rhythm, no "not just X, it's Y", no "whether you're", no exclamation marks.
 
 ## Mechanics
