@@ -1,0 +1,839 @@
+{
+  "target": "vendors who sell at the Waikiki Makers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 97465,
+    "out": 18044,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Hawaii Cultural Woodcarvings Inc",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Wood carvings; also runs Oahu Tiki kiosk in Waikiki",
+      "products": [
+        "wood carvings"
+      ],
+      "tags": [
+        "woodcarving",
+        "tiki",
+        "gifts"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": "5 Dukes Lane, Kiosk #17, Honolulu, HI 96815",
+      "website": "https://oahutiki.com/",
+      "instagram": "https://www.instagram.com/oahutiki",
+      "facebook": "https://www.facebook.com/OahutikiWoodcarving",
+      "phone": "808-366-3867",
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": "https://oahutiki.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Kiosk address and phone come from oahutiki.com, whose legal name is Hawaii Cultural Woodcarvings Inc. (dba Oahu Tiki). The same-business link is inferred from the exact legal name. Kiosk hours not stated.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Honolulu Pickle Company",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Artisanal spicy and non-spicy cucumber pickles made by a trained chef",
+      "products": [
+        "gourmet cucumber pickles",
+        "spicy pickles"
+      ],
+      "tags": [
+        "pickles",
+        "spicy",
+        "local ingredients"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.honolulupicklecompany.com/",
+      "instagram": "https://instagram.com/artisanal_pickles_hnl",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": "https://www.honolulupicklecompany.com/store",
+      "payment_methods": null,
+      "made_where": "Honolulu",
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Product details from the company's own website. Store lists jars at US$15 each.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Diamond Head Taffy LLC",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Locally flavored saltwater taffy, nut-free and gluten-free",
+      "products": [
+        "saltwater taffy",
+        "Local Mix taffy",
+        "Tropical Mix taffy"
+      ],
+      "tags": [
+        "taffy",
+        "candy",
+        "local flavors",
+        "gluten-free"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.diamondheadcandy.com/",
+      "instagram": "https://www.instagram.com/diamondheadcandy",
+      "facebook": "https://www.facebook.com/diamondheadcandy/",
+      "phone": "(808) 398-2087",
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": "https://www.diamondheadcandy.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Business sells as Diamond Head Candy Co. / Diamond Head Taffy Co. Website contact address is 866 Iwilei Rd Ste 216, Honolulu 96817, but it is not stated as a shop, so address is null. Sold in 7.5 oz bags or 5 lb bulk bags per website.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Waikiki Soap Factory",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Soap vendor listed at the Monday Waikiki market",
+      "products": null,
+      "tags": [
+        "soap"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed on many 2026 market dates. A Facebook page under another name links to waikikisoapfactory.square.site, but the link is indirect, so no website is given. Not the North Shore Soap Factory.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Leo Hat Company LLC",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Custom hats with wood patches riveted on while you watch",
+      "products": [
+        "custom wooden patch hats"
+      ],
+      "tags": [
+        "hats",
+        "custom",
+        "wood patch"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://leohatco.com",
+      "instagram": null,
+      "facebook": "https://www.facebook.com/leohatco/",
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": "https://leohatco.com",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Product description from the vendor's Marketspread profile (undated). Website from their Facebook page. Facebook phone has a non-808 area code, so it is omitted. Also appears in an Aloha Stadium vendor directory (2026).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "CoCo Cups Hawaii",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated by organizer; no own page found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Moeuhane",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed as MOEUHANE on the April 20 page. Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "JJ Art Boutique",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Art vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "art"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Also listed at the organizer's Koolau Night Market and Ohana Gift Fair (2026). Products not stated; 'art' is from the business name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "To The Sea Designs",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Design vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated. Also on the organizer's Nov 2 market page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "NamesAllDay",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Island Crumbs",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ladeña Hawaii",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed as 'Ladena Hawaii' on the April 20 page. Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "chic play LLC",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/hhwexfgclmsl8gredjx9p3d3b5laz2-jdz46-3nasb-zfm43-wr59n-z3ps6-43n2t-64n93-flcbl-db3a5",
+      "source_date": "2026-07-06",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Beahnna's printing",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Printing vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "printing"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated; 'printing' is from the business name. Also listed on a later organizer page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "stefani truyol art",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Art vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "art"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated; 'art' is from the business name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hawaiian Accessories",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Accessories vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "accessories"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Also on the organizer's Ohana Gift Fair list (Kapolei, April 2026). Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Jamie Art",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Art vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "art"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated; 'art' is from the business name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Golden Goddess",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "808 henna",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Henna vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "henna"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Henna is inferred from the business name and the organizer's event tags (HENNA). Products and prices not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oahu Gear Company LLC",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Gear vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "gear"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oh's kitchen",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Food vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "food"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Specific food items not stated; 'food' is from the business name. Also on the organizer's Ohana Gift Fair list (Kapolei).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sweet Stalk",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Fattitude",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/waikiki-makers-market-4",
+      "source_date": "2026-04-20",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Also on the organizer's Koolau Night Market list (Kaneohe, March 2026). Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Artistry Hawaii LLC dba Shave Ice Waikiki",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Shave ice vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "shave ice"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": null,
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's current events page. The page shows no date for this entry. Products not stated; 'shave ice' is from the business name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Garamendy Inc DBA Santi's Paella",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Waikiki",
+      "description": "Paella vendor listed at the Monday Waikiki Makers Market",
+      "products": null,
+      "tags": [
+        "paella"
+      ],
+      "markets": [
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Monday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": null,
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's current events page. The page shows no date for this entry. Menu not stated; 'paella' is from the business name.",
+      "possible_duplicate": ""
+    }
+  ]
+}

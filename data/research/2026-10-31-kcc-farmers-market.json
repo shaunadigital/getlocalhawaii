@@ -1,0 +1,601 @@
+{
+  "target": "vendors who sell at the KCC Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 87108,
+    "out": 10990,
+    "searches": 6
+  },
+  "rows": [
+    {
+      "name": "808 Bow Wow",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dog treats made with locally grown veggies",
+      "products": [
+        "dog treats"
+      ],
+      "tags": [
+        "pet treats",
+        "local veggies"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaiʻi Farm Bureau's current KCC vendor page. Its category is 'makers' because pet treats don't fit the other categories.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aikane Plantation",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Kaʻu coffee, coffee jelly and roasted beans by the bag",
+      "products": [
+        "Kaʻu coffee",
+        "coffee jelly",
+        "roasted coffee beans"
+      ],
+      "tags": [
+        "coffee",
+        "Kaʻu"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": "https://www.aikaneplantation.com/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Honolulu Magazine's market guide, which looked recent, also names it as a KCC vendor. The coffee is from Kaʻu (Hawaiʻi Island). Marketspread lists the business in Honolulu County, which is why I kept it. Check its Oʻahu base before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Akamai Foods",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Oatcakes, natto and seasonal tropical juices by Chef Sharon",
+      "products": [
+        "oatcakes",
+        "natto",
+        "seasonal tropical juices"
+      ],
+      "tags": [
+        "original KCC vendor",
+        "baked goods",
+        "juice"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": "http://www.akamaifoods.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/akamai-foods/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/akamai-foods/",
+      "source_date": null,
+      "source_label": "the market's vendor page",
+      "confidence": "high",
+      "notes": "The Hawaiʻi Farm Bureau's current KCC list also includes it.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Elote",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mexican street corn on a stick or in a cup, local corn",
+      "products": [
+        "elote on a stick",
+        "elote in a cup"
+      ],
+      "tags": [
+        "Mexican",
+        "street corn",
+        "local corn"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/aloha-elote/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/aloha-elote/",
+      "source_date": null,
+      "source_label": "the market's vendor page",
+      "confidence": "high",
+      "notes": "Corn comes from Nozawa Farms and Aloun Farms. Honolulu Magazine's guide also names it as a KCC vendor.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha German Bakery",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-run bakery selling German breads, pretzels and pastries",
+      "products": [
+        "German breads",
+        "pretzels",
+        "pastries"
+      ],
+      "tags": [
+        "German",
+        "bakery",
+        "family run"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaiʻi Farm Bureau's current KCC vendor page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Nata",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Portuguese-style food, sausage and egg tarts",
+      "products": [
+        "Portuguese food",
+        "sausage",
+        "egg tarts"
+      ],
+      "tags": [
+        "Portuguese",
+        "pastry"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://waikikitrolley.com/jp-2025-kcc-farmersmarket-info/",
+      "source_date": "2026-08-12",
+      "source_label": "a Waikiki Trolley vendor list copied from the market's map",
+      "confidence": "medium",
+      "notes": "Products are from a Japanese-language translation of the 2026-08-12 vendor list. Marketspread's KCC page also lists it.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aunty Nani's Cookies",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Shortbread cookies and other island favorites",
+      "products": [
+        "shortbread cookies",
+        "island cookies"
+      ],
+      "tags": [
+        "cookies",
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Also on the 2026-08-12 vendor list copied by waikikitrolley.com.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Boba Bros",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Locally made boba drinks and milk teas",
+      "products": [
+        "black milk tea",
+        "green milk tea",
+        "lemon tea",
+        "dragon fruit sparkler",
+        "Vietnamese iced coffee"
+      ],
+      "tags": [
+        "boba",
+        "tea",
+        "drinks"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaiʻi Farm Bureau's current KCC vendor page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Bloomed with Aloha",
+      "category": "flowers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Florist selling at the KCC market",
+      "products": null,
+      "tags": [
+        "florist"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://waikikitrolley.com/jp-2025-kcc-farmersmarket-info/",
+      "source_date": "2026-08-12",
+      "source_label": "a Waikiki Trolley vendor list copied from the market's map",
+      "confidence": "medium",
+      "notes": "Described only as a florist (花屋) in the translated list. Marketspread's KCC page also lists it. Specific products are unknown.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Keith's Cookies",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Assortment of local cookies with local flavors",
+      "products": [
+        "local cookies"
+      ],
+      "tags": [
+        "cookies",
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "1st, 3rd and 5th Saturdays"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/keiths-cookies/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Attends only select Saturdays, per the Hawaiʻi Farm Bureau.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Manoa Honey",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Honey from bee hives around Oʻahu",
+      "products": [
+        "Oʻahu honey"
+      ],
+      "tags": [
+        "honey",
+        "local"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "1st and 3rd Saturdays"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": "https://www.manoahoney.com",
+      "instagram": "https://www.instagram.com/manoahoneymead",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/manoa-honey/",
+      "order_url": "https://www.manoahoney.com/shop",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Attends only select Saturdays, per the Hawaiʻi Farm Bureau.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Nalo Meli",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Fresh honey from Oʻahu hives, in several sizes and flavors",
+      "products": [
+        "Oʻahu honey"
+      ],
+      "tags": [
+        "honey",
+        "beekeepers",
+        "local"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "2nd, 4th and 5th Saturdays"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": "https://www.nalomelihoney.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/nalo-meli/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Oʻahu hives",
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Attends only select Saturdays, per the Hawaiʻi Farm Bureau. It is complementary to Manoa Honey's schedule.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Pang's Nursery",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": null,
+      "description": "Plants: ornamentals, perennials, herbs, edibles and fruit trees",
+      "products": [
+        "blooming ornamentals",
+        "perennials",
+        "herbs",
+        "groundcovers",
+        "edibles",
+        "fruit trees"
+      ],
+      "tags": [
+        "plants",
+        "nursery",
+        "family-owned"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": "4th Saturday of the month"
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": "https://www.pangsnursery.com",
+      "instagram": "https://www.instagram.com/pangsnursery",
+      "facebook": "https://www.facebook.com/pangsnursery",
+      "phone": "(808) 239-1505",
+      "schedule_source_url": "https://hfbf.org/farmers-markets/pangs-nursery/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Windward side of Oʻahu",
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Attends only on the 4th Saturday of the month. The vendor page says its nursery is on Oʻahu's Windward side.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "King's Farm",
+      "category": "produce",
+      "side": null,
+      "neighborhood": null,
+      "description": "Asian vegetables, papayas, bananas and more",
+      "products": [
+        "Asian vegetables",
+        "papayas",
+        "bananas"
+      ],
+      "tags": [
+        "vegetables",
+        "fruit"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Also on the 2026-08-12 vendor list copied by waikikitrolley.com. The farm's location is not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hua Mochi Aloha",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaiʻi-style fruit daifuku mochi",
+      "products": [
+        "fruit daifuku"
+      ],
+      "tags": [
+        "mochi",
+        "Japanese sweets"
+      ],
+      "markets": [
+        {
+          "name": "KCC Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "market_stall",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kcc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://waikikitrolley.com/jp-2025-kcc-farmersmarket-info/",
+      "source_date": "2026-08-12",
+      "source_label": "a Waikiki Trolley vendor list copied from the market's map",
+      "confidence": "medium",
+      "notes": "Product is from a Japanese-language translation of the 2026-08-12 vendor list. Marketspread's KCC page also lists it. Not yet checked against the Hawaiʻi Farm Bureau's own page.",
+      "possible_duplicate": ""
+    }
+  ]
+}

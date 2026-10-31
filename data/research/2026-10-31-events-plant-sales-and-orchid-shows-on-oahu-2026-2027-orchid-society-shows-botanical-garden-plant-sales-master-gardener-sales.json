@@ -1,0 +1,252 @@
+{
+  "target": "plant sales and orchid shows on Oahu 2026 2027 (orchid society shows, botanical garden plant sales, master gardener sales)",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 108866,
+    "out": 9140,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Honolulu Orchid Society Orchid Show & Plant Sale (87th Annual, \"Orchids Spooktacular\")",
+      "kind": "plant_sale",
+      "side": "town",
+      "neighborhood": null,
+      "venue_name": "Washington Middle School Cafeteria",
+      "address": "1633 South King Street, Honolulu, HI 96826",
+      "schedule_text": "Annual show, held on a Friday and Saturday in October. The 2026 show was Oct 9-10, 9am-4pm both days. The plant sale closed at 3pm on Saturday. The 2027 date has not been announced in the sources found.",
+      "dates": [
+        {
+          "date": "2026-10-09",
+          "start": "09:00",
+          "end": "16:00"
+        },
+        {
+          "date": "2026-10-10",
+          "start": "09:00",
+          "end": "16:00"
+        }
+      ],
+      "organizer": "Honolulu Orchid Society",
+      "website": "https://www.honoluluorchidsociety.org/hos-show-2026/",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free admission and parking",
+      "description": "Orchid displays by the Honolulu Orchid Society and guest societies, a plant sale by island nurseries, a country store, free orchid workshops, a plant doctor, and UH CTAHR and HDOA information tables.",
+      "source_url": "https://www.honoluluorchidsociety.org/hos-show-2026/",
+      "source_date": null,
+      "source_label": "Honolulu Orchid Society (organizer page)",
+      "confidence": "high",
+      "notes": "This event has already happened as of 2026-10-31. Other sources: AOS calendar says no AOS judging; Hoodline article dated 2026-10-05. Plant sale hours are 9-4 Friday and 9-3 Saturday. Neighborhood not stated in the sources.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kunia Orchid Society 68th Orchid Show & Plant Sale",
+      "kind": "plant_sale",
+      "side": "central",
+      "neighborhood": "Wahiawā",
+      "venue_name": "Leilehua High School Gymnasium",
+      "address": "1515 California Avenue, Wahiawa, Hawaii 96786",
+      "schedule_text": "Two-day annual show. The 2026 show ran Friday March 20 and Saturday March 21, theme \"March Madness\". The 2027 date has not been announced in the sources found.",
+      "dates": [
+        {
+          "date": "2026-03-20",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "date": "2026-03-21",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Kunia Orchid Society",
+      "website": "https://www.honoluluorchidsociety.org/event/68th-kunia-orchid-show-plant-sale/",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Orchid show and plant sale held in the Leilehua High School gym by the Kunia Orchid Society.",
+      "source_url": "https://www.honoluluorchidsociety.org/event/68th-kunia-orchid-show-plant-sale/",
+      "source_date": null,
+      "source_label": "Honolulu Orchid Society events calendar (listing for a sister society's show)",
+      "confidence": "medium",
+      "notes": "This event has already happened. The 9am-5pm time is the one the listing shows for March 20. Saturday hours were not stated. Kunia Orchid Society is also listed as a guest society on the HOS show page. Check the Kunia Orchid Society's own page for the 2027 date.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Windward Orchid Society 44th Annual Orchid Show & Plant Sale",
+      "kind": "plant_sale",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "venue_name": "S.W. King Intermediate School Cafeteria",
+      "address": "46-155 Kamehameha Highway, Kaneohe, Hawaii 96744",
+      "schedule_text": "Three-day annual show. The 2026 show ran Friday March 20 through Sunday March 22, theme \"Stars of the Show Orchids Galore\". Plant sales closed at 2pm on Sunday. The 2027 date has not been announced in the sources found.",
+      "dates": [
+        {
+          "date": "2026-03-20",
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "date": "2026-03-21",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-03-22",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Windward Orchid Society",
+      "website": "https://www.honoluluorchidsociety.org/event/windward-orchid-show-plant-sale-2/",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Annual orchid show and plant sale run by the Windward Orchid Society in the S.W. King Intermediate cafeteria.",
+      "source_url": "https://www.honoluluorchidsociety.org/event/windward-orchid-show-plant-sale-2/",
+      "source_date": null,
+      "source_label": "Honolulu Orchid Society events calendar (listing for a sister society's show)",
+      "confidence": "medium",
+      "notes": "This event has already happened. The 10am-5pm time is the one the listing shows for March 20. Saturday and Sunday hours were not stated, and the Saturday date is implied by the three-day run. Check the Windward Orchid Society's own page for the 2027 date.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ewa Orchid Society Orchid Show and Plant Sale",
+      "kind": "plant_sale",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual show. The 2026 show was Friday July 17 and Saturday July 18. The 2027 date has not been announced in the sources found.",
+      "dates": [
+        {
+          "date": "2026-07-17",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-07-18",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Ewa Orchid Society",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Orchid show and plant sale with blooming orchid plants and show trophies. The Honolulu Orchid Society exhibited a display there.",
+      "source_url": "https://www.honoluluorchidsociety.org/wp-content/uploads/2026/08/August-2026-Newsletter-rev.pdf",
+      "source_date": "2026-08",
+      "source_label": "Honolulu Orchid Society August 2026 newsletter (wrap-up of the Ewa show)",
+      "confidence": "low",
+      "notes": "This event has already happened. Only an indirect wrap-up was found, and the extracted text did not show the venue. Venue, address, hours and admission are null. Check the Ewa Orchid Society's own site for the 2027 show.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lyon Arboretum Fall Plant & Craft Sale",
+      "kind": "plant_sale",
+      "side": "town",
+      "neighborhood": "Mānoa",
+      "venue_name": "Harold L. Lyon Arboretum (around the Visitor Center and Greenhouse)",
+      "address": "3860 Mānoa Rd, Honolulu, HI 96822",
+      "schedule_text": "Held twice a year: a Fall Plant Sale, typically late November or early December, and a Spring Plant Sale in May. The 2026 fall sale is Friday Dec 4 and Saturday Dec 5, 9am-3pm each day.",
+      "dates": [
+        {
+          "date": "2026-12-04",
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "date": "2026-12-05",
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": "Harold L. Lyon Arboretum, University of Hawaiʻi at Mānoa",
+      "website": "https://manoa.hawaii.edu/lyon/classes-and-events/annual-plant-sales/",
+      "instagram": "https://instagram.com/uhmanoanews",
+      "facebook": "https://www.facebook.com/uhmanoa",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Plant and craft sale with local vendors, music and food, selling gifts and plants. In past sales, vendors have sold orchids, bromeliads, ferns and native plants. Proceeds support the Arboretum's conservation, education and research.",
+      "source_url": "https://manoa.hawaii.edu/lyon/2026/09/17/2026-fall-plant-sale/",
+      "source_date": "2026-09-17",
+      "source_label": "Lyon Arboretum (organizer post)",
+      "confidence": "high",
+      "notes": "Parking reservations open on Eventbrite via the Lyon website on Nov 9, 2026 at 10am; the registration page is not available before then. Entry cost is not stated in the source. The recurring-schedule wording comes from the Lyon annual plant sales page.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Lyon Arboretum Spring Plant & Craft Sale",
+      "kind": "plant_sale",
+      "side": "town",
+      "neighborhood": "Mānoa",
+      "venue_name": "Harold L. Lyon Arboretum (around the Visitor Center and greenhouse)",
+      "address": "3860 Mānoa Rd, Honolulu, HI 96822",
+      "schedule_text": "Annual spring sale in May. The 2026 sale was Friday May 8 and Saturday May 9, 9am to 3pm each day. Walk-ups without reservations were admitted from 10:30am.",
+      "dates": [
+        {
+          "date": "2026-05-08",
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "date": "2026-05-09",
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": "Harold L. Lyon Arboretum, University of Hawaiʻi at Mānoa",
+      "website": "https://manoa.hawaii.edu/lyon/classes-and-events/annual-plant-sales/",
+      "instagram": "https://instagram.com/uhmanoanews",
+      "facebook": "https://www.facebook.com/uhmanoa",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Spring plant and craft sale with tropical ornamentals, native plants, orchids, begonias, hoyas, ferns and exotic edibles, plus handmade goods.",
+      "source_url": "https://www.hawaiipublicradio.org/community-calendar/event/lyon-arboretum-spring-plant-sale-30-03-2026-17-56-32",
+      "source_date": null,
+      "source_label": "Hawaiʻi Public Radio community calendar (Lyon Arboretum listing)",
+      "confidence": "medium",
+      "notes": "This event has already happened. Parking reservations were via Eventbrite, opening April 13, 2026. A 2027 date has not been announced in the sources found.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Annual Unthirsty Plant Sale (Hālawa Xeriscape Garden)",
+      "kind": "plant_sale",
+      "side": "central",
+      "neighborhood": "Hālawa",
+      "venue_name": "Hālawa Xeriscape Garden",
+      "address": "99-1268 Iwaena Street",
+      "schedule_text": "Annual sale, typically early August. The 2026 sale was Saturday Aug 1, 9am-1pm. The 2027 date has not been announced in the sources found.",
+      "dates": [
+        {
+          "date": "2026-08-01",
+          "start": "09:00",
+          "end": "13:00"
+        }
+      ],
+      "organizer": "Honolulu Board of Water Supply, co-sponsored by Friends of Hālawa Xeriscape Garden",
+      "website": "https://www.boardofwatersupply.com/news-events/special-events/annual-unthirsty-plant-sale/",
+      "instagram": "http://www.instagram.com/BWSHonolulu",
+      "facebook": "http://www.facebook.com/BWSHonolulu",
+      "vendor_application_url": null,
+      "admission": "Free admission; free street parking and a shuttle on Iwaena Street. Payments by major credit card only (no cash).",
+      "description": "Drought-tolerant and native plants from local vendors, with agency and community booths, mini-workshops, a rain barrel giveaway, a Cactus & Succulent Society of Hawaiʻi display, and a UH Master Gardener Plant Doctors booth.",
+      "source_url": "https://www.boardofwatersupply.com/news-events/special-events/annual-unthirsty-plant-sale/",
+      "source_date": null,
+      "source_label": "Honolulu Board of Water Supply (organizer page)",
+      "confidence": "high",
+      "notes": "This event has already happened. The Honolulu Orchid Society also staffed an orchid-care booth, per a KHON story dated 2026-07-25. The central side tag is my reading of the Hālawa location, and the source does not give a city or ZIP. The Friends of Hālawa Xeriscape Garden offer a membership with 10% off plant purchases.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    }
+  ]
+}

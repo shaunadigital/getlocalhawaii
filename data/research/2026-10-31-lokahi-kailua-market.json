@@ -1,0 +1,122 @@
+{
+  "target": "vendors who sell at the Lokahi Kailua Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 133324,
+    "out": 6085,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Poi Dog Treats",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Human-grade single-ingredient jerky treats for dogs",
+      "products": [
+        "Wild Hawaiian ahi tuna jerky",
+        "Hawaiian wild opah jerky",
+        "Dog collars"
+      ],
+      "tags": [
+        "dog treats",
+        "pet",
+        "jerky"
+      ],
+      "markets": [
+        {
+          "name": "Lokahi Kailua Market",
+          "usual_days": "last Sunday of the month"
+        },
+        {
+          "name": "Koko Marina Center",
+          "usual_days": "third Saturday of the month"
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": "99-205 Moanalua Road #203, Aiea, HI 96701",
+      "website": "https://www.poidogtreats.com",
+      "instagram": "https://www.instagram.com/poidogtreats",
+      "facebook": "https://www.facebook.com/Poi-Dog-Treats-1468132833480323",
+      "phone": null,
+      "schedule_source_url": "https://www.poidogtreats.com/upcoming-events",
+      "order_url": "https://www.poidogtreats.com",
+      "payment_methods": null,
+      "made_where": "Hawaii",
+      "source_url": "https://www.poidogtreats.com/page",
+      "source_date": "2026-05-31",
+      "source_label": "their website events page",
+      "confidence": "high",
+      "notes": "Category is a judgment call (pet treats, no pet category). Aiea shop hours per Japanese page: Tue-Sat 9am-2pm, closed 3rd Saturdays. Koko Marina Center pop-up 10am-2:30pm per same page. Side left null because the shop is in Aiea and the market is windward. Also sold at some retailers, e.g. Calvin & Susie in Kailua. Latest event listed on their calendar is May 31, 2026.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Swell Aloha",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Vendor at Lokahi Kailua Market; products not stated in source",
+      "products": null,
+      "tags": [
+        "lokahi-kailua-market"
+      ],
+      "markets": [
+        {
+          "name": "Lokahi Kailua Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://lokahikailuamarket.com/location",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.threads.com/@swell_aloha/post/DXUzUqegfc8/join-swell_crafted-swell-aloha-and-all-the-lovely-vendors-today-from-9-1pm-at-th",
+      "source_date": "2026-04-19",
+      "source_label": "their Threads account",
+      "confidence": "medium",
+      "notes": "Post names both swell_crafted and Swell Aloha; unclear whether they are one business or two. Products not stated, so category 'other' is a placeholder. Instagram handle not confirmed from the source. Side/neighborhood reflect the market location, not a stated vendor address.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Lovely",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Small business that sells at Lokahi Kailua Market most Sundays",
+      "products": null,
+      "tags": [
+        "lokahi-kailua-market",
+        "retail"
+      ],
+      "markets": [
+        {
+          "name": "Lokahi Kailua Market",
+          "usual_days": "Sundays"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://alohalovely.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://lokahikailuamarket.com/location",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohalovely.com/where-to-find-the-best-pop-up-markets-on-oahu/",
+      "source_date": "2025-11",
+      "source_label": "their blog post about pop-up markets",
+      "confidence": "medium",
+      "notes": "Blog date is approximate (about Nov 2025). Says they are there every Sunday unless out of town or with a scheduling conflict. Products not stated in the retrieved text; category 'other' is a placeholder. Side/neighborhood reflect the market location.",
+      "possible_duplicate": ""
+    }
+  ]
+}

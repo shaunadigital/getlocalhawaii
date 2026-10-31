@@ -1,0 +1,902 @@
+{
+  "target": "vendors who sell at the Mililani Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 143334,
+    "out": 14949,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "808 Bow Wow",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dog treats made with locally grown veggies",
+      "products": [
+        "dog treats"
+      ],
+      "tags": [
+        "pet treats",
+        "locally grown ingredients"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the Hawaii Farm Bureau's current Mililani vendor page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Akamai Foods",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Oatcakes, natto and seasonal tropical juices",
+      "products": [
+        "oatcakes",
+        "natto",
+        "seasonal tropical juices"
+      ],
+      "tags": [
+        "KCC vendor",
+        "Chef Sharon"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "www.akamaifoods.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Described as an original KCC Farmers' Market vendor.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Bueno Salsa",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": "Kailua",
+      "description": "Handmade salsas and pickles, incl. Kailua-grown ghost pepper recipes",
+      "products": [
+        "salsas",
+        "pickles",
+        "ghost pepper salsa"
+      ],
+      "tags": [
+        "spicy",
+        "handmade"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Source says the ghost peppers are Kailua-grown; Kailua is not confirmed as the business location, so side is null.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Burgers & Burritos Hawaii (BBHI)",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mexican favorites and burgers from local ingredients",
+      "products": [
+        "burritos",
+        "burgers"
+      ],
+      "tags": [
+        "Mexican",
+        "burgers",
+        "Chef Jonathan"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ed's Little Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-owned farm selling an array of produce",
+      "products": [
+        "produce"
+      ],
+      "tags": [
+        "family farm"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "An older Farm Bureau post also mentions flowers; the current page lists produce only.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Grandma G's Ono Grindz",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Local-style Sunday breakfast plates and Thursday dinner plates",
+      "products": [
+        "local breakfast plates",
+        "dinner plates"
+      ],
+      "tags": [
+        "breakfast",
+        "plate lunch"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Source says dinner plates are served Thursday evenings but does not say where. Listed as Grandma G's by the organizer and Grandma G's Ono Grindz on Marketspread.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Green & Fit Mama",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Superfood and health products, incl. a raw superfood bar",
+      "products": [
+        "superfood products",
+        "raw superfood bar"
+      ],
+      "tags": [
+        "health food"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hua Mochi Aloha",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "All-natural fruit-stuffed mochi, known for strawberry and banana",
+      "products": [
+        "fruit-stuffed mochi",
+        "strawberry mochi",
+        "banana mochi"
+      ],
+      "tags": [
+        "mochi",
+        "seasonal fruit"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The market page links to an Instagram account, but the handle was not visible in the results.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "King's Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Asian vegetables, papayas and bananas",
+      "products": [
+        "Asian vegetables",
+        "papayas",
+        "bananas"
+      ],
+      "tags": [
+        "produce",
+        "formerly Theng's Farm"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The Farm Bureau says King's Farm was previously known as Theng's Farm. Marketspread still lists the Theng's Farm name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Thai Farmers Association",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Assorted produce and free-range organic chicken eggs",
+      "products": [
+        "assorted produce",
+        "free-range organic chicken eggs"
+      ],
+      "tags": [
+        "eggs",
+        "produce"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Description comes from the organizer's KCC page and archive post for the same vendor.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Grok Coffee",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaii-grown coffee with local syrups",
+      "products": [
+        "Hawaii-grown coffee",
+        "local syrups"
+      ],
+      "tags": [
+        "coffee"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Name and description appear next to each other on the organizer's page. Marketspread also lists Grok Coffee for this market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ho Farms",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Cherry tomatoes and other Asian vegetables",
+      "products": [
+        "cherry tomatoes",
+        "Asian vegetables"
+      ],
+      "tags": [
+        "tomatoes",
+        "produce"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "www.hofarmshawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Also named as a Mililani vendor in Honolulu Magazine's market guide (Oct 6, 2026).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kalihi Corner",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Plate lunches like shoyu chicken, short rib stew, stuffed salmon pastry",
+      "products": [
+        "shoyu chicken",
+        "short rib stew",
+        "stuffed salmon puffed pastries",
+        "plate lunches"
+      ],
+      "tags": [
+        "plate lunch"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Okonokai",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Snacks made with Hawaiian seaweed grown in Kona water",
+      "products": [
+        "seaweed snacks"
+      ],
+      "tags": [
+        "seaweed",
+        "Okonokai Sea Snacks"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The seaweed is grown with Kona water, so it is likely not made on Oʻahu; made_where left null.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sasa Gourmet",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Summer rolls with tofu, pork, crab or shrimp, Oʻahu-grown vegetables",
+      "products": [
+        "summer rolls",
+        "sauces"
+      ],
+      "tags": [
+        "summer rolls",
+        "Oʻahu-grown vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/sasagourmet808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/sasa-gourmet/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The organizer's vendor page also lists Honolulu, Kailua and KCC markets, but that page looks older, so I listed only Mililani.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sally's Farm",
+      "category": "farms",
+      "side": "windward",
+      "neighborhood": "Kahaluu",
+      "description": "Small family farm growing papayas and Asian vegetables",
+      "products": [
+        "papayas",
+        "Asian vegetables"
+      ],
+      "tags": [
+        "family farm",
+        "30+ years"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/sallysfarm808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/sallys-farm/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Kahaluu location and product details come from the third-party Marketspread listing. The organizer's page lists the Instagram handle @sallysfarm808.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Small Kine Farm",
+      "category": "farms",
+      "side": "windward",
+      "neighborhood": "Waimanalo",
+      "description": "Waimanalo-grown Portobello mushrooms",
+      "products": [
+        "Portobello mushrooms"
+      ],
+      "tags": [
+        "mushrooms",
+        "organic (per Merriman's farm page)"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "1st, 3rd and 5th Sundays of the month"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/small-kine-farm/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Waimanalo",
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "medium",
+      "notes": "The 1st/3rd/5th Sunday schedule comes from the organizer's separate vendor page, which looks older. Check it before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Son Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": "Pearl City",
+      "description": "Small family farm: watercress, taro, onions, eggplant, choi sum",
+      "products": [
+        "watercress",
+        "taro",
+        "green onion",
+        "round onion",
+        "eggplant",
+        "cucumbers",
+        "bell peppers",
+        "choi sum"
+      ],
+      "tags": [
+        "family farm",
+        "produce"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Pearl City",
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Source says the farm is in Pearl City and 'will be bringing' these items.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Vilath Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family farm with Asian greens, herbs, vegetables and fruit",
+      "products": [
+        "Asian greens",
+        "herbs",
+        "vegetables",
+        "fruit"
+      ],
+      "tags": [
+        "family farm",
+        "30+ years"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Once Again",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Waimanalo",
+      "description": "Succulent mini gardens in re-purposed vessels like teacups and spam cans",
+      "products": [
+        "succulent gardens",
+        "easy-care plants in re-purposed vessels"
+      ],
+      "tags": [
+        "plants",
+        "succulents",
+        "upcycled"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "www.onceagainhawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Waimanalo",
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Source says the nursery is in Waimanalo.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "This Lil Piggy",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Fusion barbecue blending Hawaii, Texas and Southern styles",
+      "products": [
+        "fusion barbecue"
+      ],
+      "tags": [
+        "BBQ"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "www.thislilpiggy.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The organizer also lists This Lil Piggy at the KCC Saturday market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Da Tomato Guy",
+      "category": "produce",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vine-ripened Big Island tomatoes, plus salsa and tortilla chips",
+      "products": [
+        "vine-ripened tomatoes",
+        "salsa",
+        "tortilla chips"
+      ],
+      "tags": [
+        "tomatoes",
+        "formerly Kamuela Tomatoes"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/da-tomato-guy/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Kawamata Farm, Big Island",
+      "source_url": "https://hfbf.org/farmers-markets/da-tomato-guy/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "Previously known as Kamuela Tomatoes, which Marketspread and older Farm Bureau pages still use. The tomatoes are grown on Hawaiʻi Island but sold at Oʻahu markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Daizu Tei",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": "Mililani",
+      "description": "Fruit-stuffed mochi sold at the Mililani market",
+      "products": [
+        "fruit-stuffed mochi"
+      ],
+      "tags": [
+        "mochi"
+      ],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/daizutei",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hirootsrealty.com/blog/whats-actually-happening-in-mililani-this-season",
+      "source_date": null,
+      "source_label": "a 2026 Mililani community guide",
+      "confidence": "medium",
+      "notes": "Named as a Mililani vendor by a recent community guide and a vendor-events listing. It did not appear in the portion of the Farm Bureau's current vendor list I could read, so confirm with the organizer. The Instagram handle comes from a 2021 blog post.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "No Ka 'Oi Cookie Company",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed Mililani market vendor; products not stated in the source",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mililani/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://hfbf.org/category/farmers-market/page/5/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor archive",
+      "confidence": "low",
+      "notes": "Appears in the Farm Bureau's Mililani archive, in a group of posts dated 25 Jan (year not shown in the results), and on Marketspread's 2026 vendor list. Check whether it is still active and what it sells.",
+      "possible_duplicate": ""
+    }
+  ]
+}

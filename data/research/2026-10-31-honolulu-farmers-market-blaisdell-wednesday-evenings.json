@@ -1,0 +1,618 @@
+{
+  "target": "vendors who sell at the Honolulu Farmers Market (Blaisdell, Wednesday evenings) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 149418,
+    "out": 15914,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Ho Farms",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Cherry tomatoes and other Asian vegetables at the Wednesday market",
+      "products": [
+        "cherry tomatoes",
+        "Asian vegetables"
+      ],
+      "tags": [
+        "produce",
+        "tomatoes"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Also named as a popular vendor by Honolulu Magazine's farmers market guide (Oct 2026). Farm location not stated in sources.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Little Sparrow",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Spaetzle dishes made with local vegetables, meats and cheeses",
+      "products": [
+        "spaetzle"
+      ],
+      "tags": [
+        "german-inspired",
+        "noodles"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/littlesparrowhnl/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Also on the HFBF Kailua page and named in Honolulu Magazine's guide (Oct 2026).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "MetroGrow Hawaiʻi",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Indoor vertical farm; online order pickup at the Wednesday market",
+      "products": [
+        "hydroponic lettuce",
+        "leafy greens"
+      ],
+      "tags": [
+        "vertical farm",
+        "hydroponic"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.metrogrowhawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.metrogrowhawaii.com/media-and-news",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.metrogrowhawaii.com/media-and-news",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Their site says store hours are Thursdays 2-4 p.m. until further notice, with online order pickup at the Wednesday market 4-7 p.m. or by appointment. Store address and phone not confirmed from an allowed source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Island Banana Juice",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Banana smoothies from Hawaiʻi-grown bananas, plus fruit sandwiches",
+      "products": [
+        "banana juice",
+        "fruit sandwiches"
+      ],
+      "tags": [
+        "smoothies",
+        "fruit sando"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/island_banana_juice/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Other-market days come from a third-party page built on the HFBF roster (June 2026). The UH Mānoa food page lists a food truck at Food Truck Row Tue/Wed/Fri 9am-2pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Roti-Si",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Porchetta and rotisserie chicken sandwiches, also sold by the pound",
+      "products": [
+        "porchetta",
+        "rotisserie chicken",
+        "sandwiches"
+      ],
+      "tags": [
+        "808 Organics",
+        "local meat"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/roti-si/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/roti-si/",
+      "source_date": "2025-10",
+      "source_label": "the market's vendor page",
+      "confidence": "high",
+      "notes": "Page lists '808 Organics' under the name. Uses local meat and vegetables per HFBF.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Papi's Empanadas",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Argentinian empanadas made with locally sourced ingredients",
+      "products": [
+        "Argentinian empanadas"
+      ],
+      "tags": [
+        "empanadas",
+        "Argentinian"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Chef Nelo. Not the same as Papi's Tacos or Tango empanadas already in the directory (not verified). A 2020 HFBF tip sheet marked this vendor '(CXL)'; the current HFBF page lists it, so confirm before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "No Ka ʻOi Cookie Company",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Scones, cookies, mochi, brownies, banana bread and bars",
+      "products": [
+        "scones",
+        "lavash",
+        "cookies",
+        "mochi",
+        "bars",
+        "brownies",
+        "banana bread"
+      ],
+      "tags": [
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Spelled 'No Ka ‘Oi Cookie Company' on the HFBF page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Olay Thai",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed on the market's vendor page; no menu details given",
+      "products": null,
+      "tags": [
+        "thai"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "medium",
+      "notes": "Only the name appeared in the retrieved text of the HFBF page; no description. Different from existing Sou's Thai / Fasay Thai Wagon (not verified).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "King's Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Asian vegetables, papayas, bananas and more",
+      "products": [
+        "Asian vegetables",
+        "papayas",
+        "bananas"
+      ],
+      "tags": [
+        "produce"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "A Star-Advertiser June 2025 photo caption (garbled text) also shows a King's Farm produce tent at the weekly Blaisdell market. Also on the HFBF KCC page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Akaka Falls Farm",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Tropical fruit jams, jellies and fruit butters",
+      "products": [
+        "tropical fruit jams",
+        "jellies",
+        "fruit butters"
+      ],
+      "tags": [
+        "jam",
+        "preserves"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://vacations.hawaiilife.com/blog/hawaiian-culture/2025-guide-hawai%CA%BBis-best-farmers-markets-0",
+      "source_date": "2025-01",
+      "source_label": "a 2025 Hawaiʻi Life farmers market guide",
+      "confidence": "medium",
+      "notes": "Product description is from an older HFBF tip sheet (2020). Named as a popular Honolulu Farmers Market vendor in the 2025 guide; not seen on the retrieved current HFBF page. Confirm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Fatto a Mano",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Named as a popular vendor at the Honolulu Farmers Market",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/honolulu/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://vacations.hawaiilife.com/blog/hawaiian-culture/2025-guide-hawai%CA%BBis-best-farmers-markets-0",
+      "source_date": "2025-01",
+      "source_label": "a 2025 Hawaiʻi Life farmers market guide",
+      "confidence": "low",
+      "notes": "Products not stated in sources I could use; needs their own page or HFBF vendor page to confirm category and current status.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Weirdoughs",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mentioned as a vendor at the Honolulu Farmers Market in a 2026 blog",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.jeffsetter.com/blog/fantastic-eats-at-the-honolulu-farmers-market/",
+      "source_date": "2026-08",
+      "source_label": "a recent food blog post",
+      "confidence": "low",
+      "notes": "Blog says vendors change week to week and to check with vendors directly. Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Local General Store",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Locally raised proteins and pastries",
+      "products": [
+        "locally raised proteins",
+        "pastries"
+      ],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.jeffsetter.com/blog/fantastic-eats-at-the-honolulu-farmers-market/",
+      "source_date": "2026-08",
+      "source_label": "a recent food blog post",
+      "confidence": "low",
+      "notes": "Described by the blog as one of the market's latest vendors. Not seen on the retrieved HFBF list.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sasa Gourmet",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Summer rolls (tofu, pork, crab, shrimp) and dipping sauces",
+      "products": [
+        "tofu summer rolls",
+        "pork summer rolls",
+        "crab summer rolls",
+        "shrimp summer rolls",
+        "dipping sauces"
+      ],
+      "tags": [
+        "summer rolls"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makekemaps.com/vendors/sasa-gourmet",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.makekemaps.com/vendors/sasa-gourmet",
+      "source_date": "2026-06",
+      "source_label": "a market-schedule site citing the HFBF vendor roster",
+      "confidence": "medium",
+      "notes": "Third-party page based on the Hawaii Farm Bureau roster, with June 2026 dates. Not seen on the HFBF page text I retrieved.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Veggi Dogs",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed by HFBF at its Honolulu, Kailua and KCC markets",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": null
+        },
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": null
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/category/farmers-market/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/category/farmers-market/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor archive",
+      "confidence": "low",
+      "notes": "Only the archive tags were visible (Honolulu, Kailua, KCC Saturday); post year and product details not shown. Category inferred from the name only; confirm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "This Lil Piggy",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed among vendors for the Honolulu Farmers Market on Marketspread",
+      "products": null,
+      "tags": [],
+      "markets": [
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://marketspread.com/market/17590/honolulu-farmers-market/",
+      "source_date": "2026",
+      "source_label": "a third-party market listing site",
+      "confidence": "low",
+      "notes": "Products not stated. Marketspread also lists Sugah Papi Farms here, but HFBF says that farm is not at the Honolulu market, so this listing may be out of date.",
+      "possible_duplicate": ""
+    }
+  ]
+}

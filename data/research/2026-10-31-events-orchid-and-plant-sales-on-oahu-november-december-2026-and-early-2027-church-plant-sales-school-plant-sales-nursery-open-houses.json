@@ -1,0 +1,69 @@
+{
+  "target": "orchid and plant sales on Oahu November December 2026 and early 2027 (church plant sales, school plant sales, nursery open houses)",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 113598,
+    "out": 4782,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Lyon Arboretum Fall Plant & Craft Sale",
+      "kind": "plant_sale",
+      "side": "town",
+      "neighborhood": "Mānoa",
+      "venue_name": "Harold L. Lyon Arboretum (surrounding the Visitor Center and Greenhouse)",
+      "address": null,
+      "schedule_text": "Friday Dec 4 and Saturday Dec 5, 2026, 9 AM to 3 PM each day",
+      "dates": [
+        {
+          "date": "2026-12-04",
+          "start": "09:00",
+          "end": "15:00"
+        },
+        {
+          "date": "2026-12-05",
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": "Harold L. Lyon Arboretum, University of Hawaiʻi at Mānoa",
+      "website": "https://manoa.hawaii.edu/lyon/",
+      "instagram": "https://instagram.com/uhmanoanews",
+      "facebook": "https://www.facebook.com/uhmanoa",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Fall plant and craft sale at Lyon Arboretum in Mānoa Valley with local vendors, music and food. Plants include tropical ornamentals, Hoya, natives, ferns, orchids, jade vines, aroids, gingers, bromeliads and carnivorous plants from Lyon's Horticulture Dept., Hui Ku Maoli Ola, Laʻau Hawaiʻi, Olomana Tropicals, Lang's Nursery, Mix Plate Nurseries, Nuʻuanu Orchids and others. Also aloha shirts, local honey and art. Proceeds support Lyon Arboretum's conservation, education and research.",
+      "source_url": "https://manoa.hawaii.edu/lyon/2026/09/17/2026-fall-plant-sale/",
+      "source_date": "2026-09-17",
+      "source_label": "Lyon Arboretum (organizer) event page",
+      "confidence": "high",
+      "notes": "Page indicates a vehicle-based parking reservation system (one reservation per vehicle). Reservation booking date and admission price were cut off in the retrieved text, so verify on the organizer page. Street address not stated in the source.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Waimea Valley Nursery Saturday Plant Sale",
+      "kind": "plant_sale",
+      "side": "north_shore",
+      "neighborhood": "Waimea / Haleʻiwa",
+      "venue_name": "Waimea Valley Nursery",
+      "address": "59-864 Kamehameha Highway, Haleiwa, HI 96712",
+      "schedule_text": "Every Saturday, 8 AM to 12 PM, through December 27, 2026 (listing span May 24 to December 27, 2026)",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Weekly plant sale at the Waimea Valley Nursery with a variety of plants for home and garden, including fruiting and flowering plants, native trees and easy-care greenery.",
+      "source_url": "https://businessdailynetwork.com/stories/682315533-plant-sale-on-may-24-december-27-2026",
+      "source_date": "2026-05-24",
+      "source_label": "North Shore Chamber of Commerce event listing via Business Daily Network",
+      "confidence": "medium",
+      "notes": "Third-party chamber listing; the listed start date (May 24, 2026) is a Sunday, so confirm the Saturday schedule with Waimea Valley. Organizer and admission not stated in the listing. No individual dates listed because the source gives a recurring range only.",
+      "possible_duplicate": ""
+    }
+  ]
+}

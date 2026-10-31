@@ -1,0 +1,584 @@
+{
+  "target": "cultural and food festivals on Oahu 2026 2027 (ethnic festivals, county fairs, harvest festivals)",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 125167,
+    "out": 16247,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Honolulu Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī",
+      "venue_name": "Hawaiʻi Convention Center (stages also at Ala Moana Center); Grand Parade on Kalākaua Avenue",
+      "address": "1801 Kalākaua Ave, Honolulu, HI 96815",
+      "schedule_text": "Annual three-day festival held in March, Friday through Sunday. The 31st edition is March 5–7, 2027.",
+      "dates": [
+        {
+          "date": "2027-03-05",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-03-06",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-03-07",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Honolulu Festival Foundation",
+      "website": "https://www.honolulufestival.com/en/",
+      "instagram": "https://www.instagram.com/honfestival",
+      "facebook": "https://www.facebook.com/HonoluluFestival",
+      "vendor_application_url": null,
+      "admission": "Free per a third-party listing (festivalnet). A reserved fireworks viewing area at the Royal Hawaiian was offered separately in 2026.",
+      "description": "Pacific Rim cultural festival with dance and performance stages, art demonstrations, a craft fair, a Japanese product bazaar, a Sake & Food Fest, a parade and Nagaoka fireworks. Performers come from Japan, Korea, Taiwan, the Philippines, Tahiti, Australia and Hawaiʻi.",
+      "source_url": "https://www.honolulufestival.com/en/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "The organizer says March 5–7, 2027 (Fri–Sun). GoHawaii lists March 6–7, 2027, 10am–4pm. The Honolulu Festival Craft Fair is already in the directory. ASOBIEXPO HAWAII, a sister event, is listed for March 8, 2027.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Pan-Pacific Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī / Ala Moana",
+      "venue_name": "Multiple venues from Ala Moana Center to Waikīkī; Kalākaua Ave for the Hoʻolauleʻa",
+      "address": null,
+      "schedule_text": "Usually the second weekend of June. The Hoʻolauleʻa block party is on Friday and the parade on Sunday. The 44th festival is June 11–13, 2027.",
+      "dates": [
+        {
+          "date": "2027-06-11",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-06-12",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-06-13",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Pan-Pacific Festival Foundation and the Matsuri in Hawaiʻi Committee",
+      "website": "https://www.panpacificfestival.org/",
+      "instagram": "https://www.instagram.com/panpacificfestival",
+      "facebook": "https://www.facebook.com/PanPacificFestival",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Japanese and Pacific cultural festival with a Hoʻolauleʻa street party, a parade and performances. The 2026 edition (June 12–14) also included a bon dance on Kalākaua Ave on June 12.",
+      "source_url": "https://www.panpacificfestival.org/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "The organizer says dates are subject to change. Honolulu Magazine's bon dance list gives the handle @panpacificfestival but doesn't say which platform.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Waikīkī SPAM JAM",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual block party. The 2027 date is Saturday, April 24, 4:00–10:00pm. Participating restaurants run a Dine-In SPAM event April 17–May 2, 2027.",
+      "dates": [
+        {
+          "date": "2027-04-24",
+          "start": "16:00",
+          "end": "22:00"
+        }
+      ],
+      "organizer": "Waikiki SPAM JAM",
+      "website": "https://www.spamjamhawaii.com/",
+      "instagram": "https://www.instagram.com/waikikispamjam",
+      "facebook": "https://www.facebook.com/WaikikiSpamJam",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Food festival built around Spam dishes such as nachos, manapua and gelato. The 2026 edition had more than 40 food and retail booths. It is a fundraiser for the Hawaiʻi Foodbank, with donation tents on site.",
+      "source_url": "https://www.spamjamhawaii.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "The source page does not give the street or venue for the block party.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Okinawan Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī",
+      "venue_name": "Hawaiʻi Convention Center",
+      "address": "1801 Kalākaua Ave, Honolulu, HI 96815",
+      "schedule_text": "Annual festival around Labor Day weekend, run by the Hawaiʻi United Okinawa Association. The 44th edition was held September 5–6, 2026. Check okinawanfestival.com for the 2027 dates.",
+      "dates": [
+        {
+          "date": "2026-09-05",
+          "start": "10:00",
+          "end": "17:00"
+        },
+        {
+          "date": "2026-09-06",
+          "start": "10:00",
+          "end": "16:00"
+        }
+      ],
+      "organizer": "Hawaiʻi United Okinawa Association (HUOA)",
+      "website": "https://www.okinawanfestival.com/",
+      "instagram": "https://www.instagram.com/okinawanfestival",
+      "facebook": "https://www.facebook.com/HUOA.org",
+      "vendor_application_url": null,
+      "admission": "Free per a third-party listing (mygoldscene)",
+      "description": "Okinawan food (soba, andagi), music, martial arts and performing arts, craft vendors and cultural exhibits. The 2026 edition was scaled down because of Convention Center renovations, with no bon dance or early admission. A shuttle ran from the Civic Center lot, with a $5 return ticket.",
+      "source_url": "https://www.okinawanfestival.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "The organizer's site lists Sunday 10am–4pm. The Saturday 10am–5pm time comes from a third-party listing (mygoldscene). HUOA is based at 94-587 Ukeʻe St, Waipahu. 2027 dates were not found.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Okinawan FEASTival",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": "Okinawan-owned restaurants and food businesses across Oʻahu",
+      "address": null,
+      "schedule_text": "A two-week run of restaurant specials after the Okinawan Festival. The 2026 run was September 7–21 per the organizer's current notice.",
+      "dates": [],
+      "organizer": "Hawaiʻi United Okinawa Association",
+      "website": "https://www.hawaiiokinawans.com/",
+      "instagram": "https://www.instagram.com/okinawanfestival",
+      "facebook": "https://www.facebook.com/okinawanfestival",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Restaurants and food businesses owned by Okinawans offer special Okinawan dishes and deals. The aim is to help people discover and keep supporting these eateries.",
+      "source_url": "https://www.hawaiiokinawans.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "medium",
+      "notes": "The same page also shows a line reading 'November 2 - 8', which conflicts with September 7–21 and is probably a leftover from another year. The list of participating restaurants was not captured.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Korean Festival Hawaiʻi",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī / Kapiʻolani Park",
+      "venue_name": "Kapiʻolani Park",
+      "address": "3840 Paki Ave, Honolulu, HI 96815",
+      "schedule_text": "Annual one-day festival in August. The 22nd edition was Saturday, August 8, 2026, 10am–8pm. Confirm the 2027 date with the organizer.",
+      "dates": [
+        {
+          "date": "2026-08-08",
+          "start": "10:00",
+          "end": "20:00"
+        }
+      ],
+      "organizer": "Korean Festival Foundation",
+      "website": "https://www.koreanfesthawaii.com/",
+      "instagram": "http://instagram.com/koreanfestival",
+      "facebook": "https://www.facebook.com/koreanfestivalhi/",
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Korean cuisine, K-pop and traditional performances, fashion, art and family activities. Food vendors serve dishes such as kalbi, mandoo and kimchi.",
+      "source_url": "https://www.koreanfesthawaii.com/",
+      "source_date": "2026-08-07",
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "The festival moved back to Kapiʻolani Park in 2026. Older listings that point to Honolulu Hale are outdated. The admission and address details come from third-party event listings (makekemaps and The Creative City). A separate Taste of Korea event (see below) also exists.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Taste of Korea in Honolulu",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": "Keʻelikōlani Middle School",
+      "address": null,
+      "schedule_text": "A one-day event listed for Saturday, May 16, 2026, 10am–3pm. Whether it repeats in 2027 is unconfirmed.",
+      "dates": [
+        {
+          "date": "2026-05-16",
+          "start": "10:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Korean food and culture event listed on an events aggregator.",
+      "source_url": "https://islandsevents.com/island/oahu",
+      "source_date": null,
+      "source_label": "Third-party event aggregator (islandsevents.com)",
+      "confidence": "low",
+      "notes": "A single third-party mention. No organizer page was found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Flores de Mayo & Filipino Fiesta",
+      "kind": "festival",
+      "side": "leeward_ewa",
+      "neighborhood": "Waipahu",
+      "venue_name": "Filipino Community Center",
+      "address": null,
+      "schedule_text": "Every first Saturday of May, 10am–6pm. The 2026 edition (14th Flores de Mayo and 34th Filipino Fiesta) was held May 2.",
+      "dates": [
+        {
+          "date": "2026-05-02",
+          "start": "10:00",
+          "end": "18:00"
+        }
+      ],
+      "organizer": "Filipino Community Center; the 2024–2026 editions were led by the Filipino Jaycees of Honolulu",
+      "website": "https://filipinofiestahi.com/",
+      "instagram": "https://www.instagram.com/filipinofiesta_hi",
+      "facebook": "https://www.facebook.com/filcomcenter",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Oʻahu's largest Filipino cultural celebration, with food, dance and music, a Santacruzan procession, tinikling, a Filipiniana Market and a Sari Sari store. The 2026 contests were a balut eating contest, a purple freeze challenge and Bilao Blitz.",
+      "source_url": "https://filipinofiestahi.com/",
+      "source_date": "2026-04-26",
+      "source_label": "Organizer website, with Hawaii News Now (April 26, 2026) for the 2026 details",
+      "confidence": "high",
+      "notes": "The 10am–6pm hours come from a hawaii-guide.com listing. Hawaii News Now says only 'from 10 a.m.' The street address is not in the sources, only 'Filipino Community Center in Waipahu'.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hawaiʻi Food & Wine Festival – Oʻahu weekend",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī",
+      "venue_name": "Multiple venues, including Sheraton Waikīkī, Halekulani, Alohilani Resort, Hyatt Regency Waikīkī, Kapiʻolani Community College and a Kāneʻohe event",
+      "address": null,
+      "schedule_text": "The 16th annual festival ran October 16–November 8, 2026 across three islands. The Oʻahu weekend is November 5–8, 2026.",
+      "dates": [
+        {
+          "date": "2026-11-05",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-11-06",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-11-07",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-11-08",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Hawaiʻi Ag & Culinary Alliance (festival co-founded by chefs Roy Yamaguchi and Alan Wong)",
+      "website": "https://hawaiifoodandwinefestival.com/",
+      "instagram": "https://www.instagram.com/hifoodwinefest",
+      "facebook": "https://www.facebook.com/tr",
+      "vendor_application_url": null,
+      "admission": "Ticketed. All Oʻahu events require separately sold tickets.",
+      "description": "Ticketed chef dinners, wine seminars, grand tastings and a FEAST summit featuring local farmers, ranchers, fishers and chefs. The 2026 theme was 'Traditions and Heritage'.",
+      "source_url": "https://hawaiifoodandwinefestival.com/chef-faq/",
+      "source_date": null,
+      "source_label": "Organizer website, with hawaii.com listing for ticketing",
+      "confidence": "high",
+      "notes": "This is a ticketed culinary event, not a vendor market. The schedule page I retrieved looked like a cached older-edition page, so I did not use its per-event times.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Chinese New Year Celebration (Chinatown Cultural Plaza)",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "venue_name": "Chinatown Cultural Plaza",
+      "address": "100 N Beretania St, Honolulu, HI 96817",
+      "schedule_text": "Two-day Lunar New Year festival, Friday and Saturday, January 29–30, 2027. It starts Friday 5pm and runs to 10pm Saturday. A Choy Cheng lion-dance open house through Chinatown is listed 6–9pm.",
+      "dates": [
+        {
+          "date": "2027-01-29",
+          "start": "17:00",
+          "end": null
+        },
+        {
+          "date": "2027-01-30",
+          "start": null,
+          "end": "22:00"
+        }
+      ],
+      "organizer": "Chinese Chamber of Commerce of Hawaiʻi",
+      "website": "https://business.chinesechamber.com/calendar",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Food booths with traditional Chinese delicacies, vendors selling narcissus flowers, arts and crafts, and live Chinese music and dance. The 2026 edition had more than 40 booths.",
+      "source_url": "https://business.chinesechamber.com/calendar/Details/chinese-new-year-celebration-1700439?sourceTypeId=Website",
+      "source_date": null,
+      "source_label": "Organizer calendar (Chinese Chamber of Commerce of Hawaiʻi)",
+      "confidence": "high",
+      "notes": "The Chamber's calendar also lists the 77th Narcissus Festival Queen Pageant and Coronation Ball. Their exact dates were not captured. Lunar New Year itself is February 6, 2027.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Chinatown Festival & Parade (Lunar New Year)",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual Lunar New Year festival and parade, listed for January 30, 2027. Start and end times were not found.",
+      "dates": [
+        {
+          "date": "2027-01-30",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Chinatown 808",
+      "website": "https://chinatown808.com/",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Chinatown 808 is a volunteer-led nonprofit that runs Honolulu's Chinatown festival and parade for Lunar New Year. The 2026 edition was the 50th, held February 13–14.",
+      "source_url": "https://chinatown808.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "high",
+      "notes": "Hawaii News Now (Jan 6, 2026) described the 2026 edition. Details for 2027 such as the route and booths were not found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Chinatown 808 Mid-Autumn Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed on the organizer's events page for September 19, 2026.",
+      "dates": [
+        {
+          "date": "2026-09-19",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Chinatown 808",
+      "website": "https://chinatown808.com/",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "A Mid-Autumn Festival listed among the Chinatown 808 events.",
+      "source_url": "https://chinatown808.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "medium",
+      "notes": "The organizer's page gives only the name and date. The venue and hours were not found, so I can't say whether food vendors take part.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Festivals",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī",
+      "venue_name": "Royal Hawaiian Hotel Helumoa Gardens and Royal Hawaiian Center (opening); Kalākaua Ave (Hoʻolauleʻa and Floral Parade)",
+      "address": null,
+      "schedule_text": "Annual September celebration of Hawaiian culture. The 2026 (80th anniversary) Oʻahu events were: opening ceremony September 5, 4–6pm; the 72nd Waikīkī Hoʻolauleʻa September 19, 6–10pm (vendors from 4pm); and the 78th Floral Parade September 26 at 9am.",
+      "dates": [
+        {
+          "date": "2026-09-05",
+          "start": "16:00",
+          "end": "18:00"
+        },
+        {
+          "date": "2026-09-19",
+          "start": "18:00",
+          "end": "22:00"
+        },
+        {
+          "date": "2026-09-26",
+          "start": "09:00",
+          "end": null
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Mostly free",
+      "description": "Hawaiian music, hula, chant and pageantry. It includes a Royal Court investiture, a Waikīkī Hoʻolauleʻa block party with vendors, and a Floral Parade on Kalākaua Ave.",
+      "source_url": "https://islandsevents.com/island/oahu/aloha-festivals-2026",
+      "source_date": null,
+      "source_label": "Third-party event listing (islandsevents.com), cross-checked with alohacalendar.com",
+      "confidence": "medium",
+      "notes": "Another site (hiestates.com) lists July 10–12, 2026, which conflicts with the September dates. I used the September dates that two sources agree on. I did not find the organizer's own page, so the website is null. 2027 dates were not found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mōʻiliʻili Summer Fest & Bon Dance",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Mōʻiliʻili",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual summer event. The 13th edition was held July 4, 2026.",
+      "dates": [
+        {
+          "date": "2026-07-04",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Honolulu Magazine calls it Honolulu's largest and arguably most popular bon dance.",
+      "source_url": "https://www.honolulumagazine.com/oahu-bon-dance-schedule/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine, 'Oʻahu Bon Dance Schedule 2026'",
+      "confidence": "medium",
+      "notes": "The sources give no venue, hours or vendor details. The Creative City calendar lists it as '13th Annual Moiliili Summer Fest & Bon Dance'.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Obon Celebration at Hawaiʻi's Plantation Village",
+      "kind": "festival",
+      "side": "leeward_ewa",
+      "neighborhood": "Waipahu",
+      "venue_name": "Hawaiʻi's Plantation Village",
+      "address": null,
+      "schedule_text": "Annual obon celebration that opened the 2026 bon season on June 6, 2026 (36th annual).",
+      "dates": [
+        {
+          "date": "2026-06-06",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Hawaiʻi's Plantation Village",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Bon dancing under the stars, local food offerings and a pop-up craft tent.",
+      "source_url": "https://www.honolulumagazine.com/oahu-bon-dance-schedule/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine, with The Creative City calendar for the '36th Annual' label",
+      "confidence": "medium",
+      "notes": "The venue's own page was not retrieved, so the address, hours and admission are null.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hawaiʻi FoodieCon & Spring Expo",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Honolulu (Ward Ave)",
+      "venue_name": "Blaisdell Exhibition Hall",
+      "address": "777 Ward Ave, Honolulu, HI",
+      "schedule_text": "Listed for February 12–13, 2027.",
+      "dates": [
+        {
+          "date": "2027-02-12",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-02-13",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Pacific Expos",
+      "website": "https://www.pacificexpos.com/",
+      "instagram": "https://www.instagram.com/pacificexposhawaii",
+      "facebook": "https://www.facebook.com/PacificExpos",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Consumer food convention advertised with over 250 vendors.",
+      "source_url": "https://www.pacificexpos.com/",
+      "source_date": null,
+      "source_label": "Organizer website",
+      "confidence": "medium",
+      "notes": "The page is an older snapshot but still shows the 2027 date. Confirm hours and ticket prices with Pacific Expos. The organizer's other show listings were ambiguous, so I excluded them.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "We Are Samoa Festival",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed on a third-party calendar for April 21–29, 2027.",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "A Samoan cultural festival named in an Oʻahu events calendar for April 2027.",
+      "source_url": "https://waikikibeachstays.com/oahu-events-calendar/",
+      "source_date": null,
+      "source_label": "Third-party events calendar (waikikibeachstays.com)",
+      "confidence": "low",
+      "notes": "Name and date range only. I did not find the organizer's page, the venue or whether it includes food vendors.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The East Honolulu Food Festival",
+      "kind": "festival",
+      "side": "east",
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed under May 2027 with no confirmed date.",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "A food festival named in an Oʻahu events calendar for May 2027.",
+      "source_url": "https://waikikibeachstays.com/oahu-events-calendar/",
+      "source_date": null,
+      "source_label": "Third-party events calendar (waikikibeachstays.com)",
+      "confidence": "low",
+      "notes": "Name and month only. The 'east' side is inferred from the event name. I did not find the organizer, venue or date.",
+      "possible_duplicate": ""
+    }
+  ]
+}

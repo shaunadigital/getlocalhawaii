@@ -1,0 +1,846 @@
+{
+  "target": "vendors who sell at the Ko'olau Night Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 128985,
+    "out": 13490,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Go bananas",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Vintage Aloha1968",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "La crepe parisienne",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed June 12, 2026 as 'La crepe parisienne' and Nov 13 as 'La crêpe parisienne'. Spelling as the organizer writes it.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Paniolo LLC",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Glimmer Hawaii Shells and Jewelry",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Shell and jewelry vendor at the Koʻolau Night Market",
+      "products": null,
+      "tags": [
+        "koolau-night-market",
+        "jewelry",
+        "shells"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Category taken from the business name; no product list in source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kai's Groove",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at several Koʻolau Night Markets; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the organizer's June 12 and October 9, 2026 lineups. Also listed as 'Kai's Groove' at the November 13 market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Simply Ono, Inc.",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed June 12, 2026 as 'Simply Ono, Inc.' and Nov 13 as 'SImply Ono'.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sugar Rush Mini",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dessert vendor at the Koʻolau Night Market",
+      "products": null,
+      "tags": [
+        "koolau-night-market",
+        "dessert"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Dessert label comes from a third-party market listing site (makekemaps.com), which says it was listed at the April 2026 market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oh's Kitchen",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Curbside Cravings",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the organizer's June 12 and Nov 13 lineups; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Meals on the fly",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kea Creations",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kulimi Soda Co.",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Trio Treats by krysmar",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje",
+      "source_date": "2026-06-12",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for June 12, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "fattitude",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed Oct 9, 2026 as 'fattitude' and Nov 13 as 'FATTITUDE'.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "french ohana llc",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for Oct 9, 2026. Not confirmed to be the same business as La crepe parisienne.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lenasjewels",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Jewelry vendor at the Koʻolau Night Market",
+      "products": null,
+      "tags": [
+        "koolau-night-market",
+        "jewelry"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Category taken from the business name; no product list in source. Organizer's Koko Marina market page lists 'Lenas Jewels', possibly the same business (not confirmed).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Jade and Pearl Hawaii",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed on the organizer's Oct 9 and Nov 13, 2026 lineups; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Pure Island Kava LLC",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for Oct 9, 2026. I found no website or social page for this business.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Squeeze Co.",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for Oct 9, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Wooden Anvil",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "source_date": "2026-10-09",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on organizer list for Oct 9, 2026; category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Pie-coon Bakery",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kaneohe",
+      "description": "Small-batch mini pies and full-size pies; pickup in Kaneohe",
+      "products": [
+        "mini pies",
+        "full-size pies"
+      ],
+      "tags": [
+        "koolau-night-market",
+        "bakery",
+        "pies"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "45-950 Kamehameha Highway, Kaneohe, HI 96744",
+      "website": "https://www.piecoonbakery.com/",
+      "instagram": "https://www.instagram.com/pie_coon",
+      "facebook": "https://www.facebook.com/profile.php",
+      "phone": "808-829-9882",
+      "schedule_source_url": "https://www.islandcraftfairs.org/events/koolau-night-market-1-lmcje-9xsth-mn49t-t8b2r-hxkn4",
+      "order_url": "https://www.piecoonbakery.com/",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.piecoonbakery.com/",
+      "source_date": "2026-10-09",
+      "source_label": "their website and the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "The website lists the Kaneohe pickup address and online ordering. Market listing is the Oct 9, 2026 organizer lineup. A third-party event listing shows a May 2, 2026 grand opening at the same address. The site and a directory listing show different phone numbers; I used the site's. Hours are not stated on the site.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Da Local Lemon",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-11-13",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's Nov 13, 2026 lineup (upcoming); category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Waikiki Cake",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-11-13",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's Nov 13, 2026 lineup (upcoming); category not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Fluffy Snow",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Vendor listed at the Koʻolau Night Market; products not stated",
+      "products": null,
+      "tags": [
+        "koolau-night-market"
+      ],
+      "markets": [
+        {
+          "name": "Koʻolau Night Market",
+          "usual_days": "Second Friday of the month, 5–9 PM"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.islandcraftfairs.org/events",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-11-13",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's Nov 13, 2026 lineup (upcoming); category not stated.",
+      "possible_duplicate": ""
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "target": "vendors who sell at the Malama Hawaii Makers Market - Ala Moana Center on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 109249,
+    "out": 4554,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Raised by the Waves",
+      "category": "prepared-food",
+      "side": "north_shore",
+      "neighborhood": "Kahuku",
+      "description": "Vegan plant-based cafe from Kahuku Sugar Mill; bowls, smoothies, sandwiches",
+      "products": [
+        "vegan poke bowl",
+        "smoothies",
+        "sandwiches",
+        "sea moss shots",
+        "seed cheeze"
+      ],
+      "tags": [
+        "vegan",
+        "plant-based",
+        "cafe",
+        "north shore"
+      ],
+      "markets": [
+        {
+          "name": "Mālama Hawaii Makers Market - Ala Moana Center",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "56-565 Kamehameha Hwy #B9, Kahuku (Kahuku Sugar Mill)",
+      "website": "https://raisedbythewaves.com/",
+      "instagram": "https://www.instagram.com/raisedbythewaves/",
+      "facebook": "https://www.facebook.com/tr",
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/wake-up-2day/food-2go/food2go-raised-waves-vegan/",
+      "order_url": "https://linktr.ee/raisedbythewaveshawaii",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/wake-up-2day/food-2go/food2go-raised-waves-vegan/",
+      "source_date": "2026-10-24",
+      "source_label": "a KHON2 news segment",
+      "confidence": "medium",
+      "notes": "Market appearance confirmed only for Sat Oct 24, 2026; date is the event date, not the publish date. Café lists itself as open daily 7:30am-5pm. Address is from a Hawaii Islander article and the café's site places it at Kahuku Sugar Mill. Instagram handle taken from its Threads/article credit and not separately verified. Café is separate from the market stall.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Pualani Soap Hawaii",
+      "category": "makers",
+      "side": null,
+      "neighborhood": "Honolulu",
+      "description": "Handmade natural soap and skin care made with kukui nut oil and local honey",
+      "products": [
+        "handmade soap",
+        "skin care",
+        "beeswax salve",
+        "lip balm",
+        "gift sets"
+      ],
+      "tags": [
+        "soap",
+        "skin care",
+        "handmade",
+        "kukui nut oil"
+      ],
+      "markets": [
+        {
+          "name": "Mālama Hawaii Makers Market - Ala Moana Center",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://pualanisoaphawaii.com/",
+      "instagram": "https://www.instagram.com/pualanisoap/",
+      "facebook": "https://www.facebook.com/pualanisoap/",
+      "phone": null,
+      "schedule_source_url": "https://pualanisoaphawaii.com/events/malama-hawaii-makers-market-at-ala-moana-in-261024",
+      "order_url": "https://pualanisoaphawaii.com/",
+      "payment_methods": null,
+      "made_where": "Honolulu, Hawaii (home-based business)",
+      "source_url": "https://pualanisoaphawaii.com/events/malama-hawaii-makers-market-at-ala-moana-in-261024",
+      "source_date": "2026-10-24",
+      "source_label": "their website's events page",
+      "confidence": "medium",
+      "notes": "Own site has event pages for Ala Moana market dates in 2026 (Apr 11, May 9, Jul 25, Oct 24). Event pages are organizer-style blurbs; the page itself is undated, so source_date is the event date. Instagram handle @pualanisoap and Facebook page come from the vendor's Etsy shop and Facebook page. Home-based business, so no public address. Also sells online and at other local events.",
+      "possible_duplicate": ""
+    }
+  ]
+}

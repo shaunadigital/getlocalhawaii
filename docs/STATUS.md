@@ -1,19 +1,20 @@
 # Status
 
 ## What works
-- Live (main): coming-soon home with a working email signup (Apps Script to the signups sheet, tested Oct 23) plus the older inner pages. The site still reads src/data/site-data.json, not the database. 61 tests pass; typecheck, lint clean (Oct 23).
-- Direction (Oct 23): the product is the Oʻahu shop-local directory; lei stands are a vendor category. STRATEGY.md is the superseded Oct 8 plan.
-- Supabase project getlocalhawaii (ref oejcxjqbipsojbmjpjwb): every migration in supabase/migrations applied (the connector split some into parts; the files are the record). Security advisor clean.
-- Database: 133 markets (17 published from August, 116 draft), 288 vendors (37 published lei and fish, 251 draft), 48 organizers, 32 weekly sessions, 171 vendor-market links. Import checksums match the migration file.
-- Seed sheet: every row reviewed; rows with no 2025-2026 evidence moved to the Archived markets and Archived vendors tabs with a reason (README tab explains).
+- Live (main): coming-soon home with email signup plus the older inner pages. The site still reads src/data/site-data.json, not the database.
+- Supabase: internal-column lock and vendor master fields applied Oct 30 (migrations 20261028000100, 20261030000100). Public API no longer reads research_notes or owner_email.
+- Designs (canvas, "Directory (current)" page): roadside sign direction in dusty plum. Home with painted island map filter, vendor pages (Local Iʻa, Cindy's), search (suggest, results, no results), KCC market page, airport lei place page.
+## In progress
+- Remaining screens: category, side, holiday fairs, vendor desktop, sparse vendor, menu, claim, list your market, about, 404.
+- Research script (scripts/, review CSV in data/research/); needs ANTHROPIC_API_KEY in .env.local.
 
 ## Next 3 steps
-1. Lock the internal columns (see Known issues), then point src/lib/db.ts at Supabase and replace the Aug 19 NEXT_PUBLIC_SUPABASE_* vars in Vercel (they point at the deleted project).
-2. Design the directory pages: map, this week, market page, vendor page.
-3. Vendor claim flow, then organizer outreach from the organizers table.
+1. Split area into side and neighborhood for vendors and markets; add the new columns to the seed sheet.
+2. Build and test-run the research script on one market.
+3. Store holiday fair dates in market_dates and publish the weekend markets before Nov 5.
 
 ## Known issues
-- research_notes (markets, vendors), notes (organizers) and organizer_name are internal but readable through the public API on any published or organizer row; revoke column access or move them before the site reads the database.
-- Likely duplicates kept as drafts: VND-276 Maguro Brothers vs maguro-brothers-chinatown; VND-206 Kissy Hawaii vs VND-241 Kissy; VND-170 vs VND-290 Tango empanadas.
-- The vendors "owner update" policy lets an owner change publish_status; restrict the editable columns before the claim flow ships.
-- site-data.json still holds the mockup called/visited checks; do not carry them over.
+- Uncommitted: both migrations, the art (public/art, src/data/oahu-sides.json), these docs.
+- Market names use straight apostrophes instead of ʻokina; category names still undecided.
+- Likely duplicates kept as drafts: VND-276 vs maguro-brothers-chinatown; VND-206 vs VND-241; VND-170 vs VND-290.
+- Map art is a recolor of the yellow original until the plum repaint comes back.

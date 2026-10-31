@@ -1,0 +1,360 @@
+{
+  "target": "vendors who sell at the Pearlridge Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 139668,
+    "out": 9977,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "BoTea Honolulu",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Brown sugar boba teas and grilled cheese and boba sandwiches",
+      "products": [
+        "brown sugar boba tea",
+        "loose-leaf teas",
+        "coffee",
+        "grilled cheese and boba sandwich"
+      ],
+      "tags": [
+        "boba",
+        "tea",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Pearlridge Farmers Market (FarmLovers)",
+          "usual_days": "Saturday 8am-12pm"
+        },
+        {
+          "name": "Kaka‘ako Farmers Market (FarmLovers)",
+          "usual_days": "Saturday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.boteahonolulu.com/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/08/15/botea-honolulu-brings-homemade-brown-sugar-boba-teas-oahus-farmers-markets/",
+      "source_date": "2025-08-15",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Website URL comes from a third-party offer listing. Nextdoor business page also says Kaka’ako and Pearl Ridge Farmlovers Markets each Saturday 8am-12pm. Market address: 98-180 Kamehameha Hwy, Aiea (Wai Makai near Zippys).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Tali’s Bagels",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "New York-style bagels and sandwiches with local-flavored spreads",
+      "products": [
+        "bagels",
+        "sandwiches",
+        "spreads"
+      ],
+      "tags": [
+        "bagels",
+        "baking classes",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Pearlridge Farmers Market (FarmLovers)",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@talisbagels",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/12/23/talis-bagels-brings-new-york-flavor-hawaii-with-local-twist/",
+      "source_date": "2025-12-23",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Article also mentions shop locations (not named in the excerpt) with baking classes. Instagram handle appears in a 2022 Star-Advertiser piece.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Café Kana",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Organic, vegan coconut yogurt smoothies with no added sugar",
+      "products": [
+        "coconut yogurt smoothies",
+        "cold-pressed fruit juices"
+      ],
+      "tags": [
+        "smoothies",
+        "organic",
+        "vegan",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Pearlridge Farmers Market (FarmLovers)",
+          "usual_days": "Saturday 8am-12pm"
+        },
+        {
+          "name": "Kaka‘ako Farmers Market (FarmLovers)",
+          "usual_days": "Saturday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/07/01/find-fresh-coconut-yogurt-smoothies-by-caf-kana/",
+      "source_date": "2025-07-01",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Article says Cafe Kana is found exclusively at the FarmLovers markets in Kakaʻako and Pearlridge. Article uses both Café Kana and Cafe Kana.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Saendo’s Bakeshop",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Bakery listed as a Pearlridge Farmers Market vendor",
+      "products": null,
+      "tags": [
+        "bakery",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Pearlridge Farmers Market",
+          "usual_days": "Saturday 8am-noon"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": "2026-10",
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Page is undated; source_date is approximate from search-index age (about 19 days before 2026-10-31). Spelling as printed by the magazine.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Honolulu Mochi",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mochi desserts sold at the Pearlridge Farmers Market",
+      "products": [
+        "mochi"
+      ],
+      "tags": [
+        "mochi",
+        "dessert",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "Pearlridge Farmers Market",
+          "usual_days": "Saturday 8am-noon"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": "2026-10",
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Page is undated; source_date is approximate. Other markets, address and phone were only found on Yelp, so they are left null.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Forage Hawai‘i",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Wild game meat, organ blends, bone broth and tallow",
+      "products": [
+        "USDA wild game",
+        "organ blends",
+        "bone broth",
+        "tallow"
+      ],
+      "tags": [
+        "meat",
+        "wild game",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Markets",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/08/29/forage-hawaii-wants-help-you-feel-good-about-meat-you-eat/",
+      "source_date": "2025-08-29",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "low",
+      "notes": "Article says it sells through farmers markets, a Honolulu warehouse and statewide shipping; the sponsored piece lists FarmLovers markets generally and doesn't say Pearlridge specifically. Confirm with the vendor.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "From Scratch",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Mom-made wellness shots, juices and dips",
+      "products": [
+        "wellness shots",
+        "juices",
+        "dips"
+      ],
+      "tags": [
+        "mom-owned",
+        "farmers market"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Markets",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@fromscratch808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/07/29/scratch-with-love-mama-made-wellness-shots-juices-dips/",
+      "source_date": "2025-07-29",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "low",
+      "notes": "Sponsored article lists the FarmLovers market schedule including Pearlridge but the excerpt does not say which market this vendor attends.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Anuhea’s Small Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-run farm with tropical flowers and produce",
+      "products": [
+        "tropical flowers",
+        "produce"
+      ],
+      "tags": [
+        "farm",
+        "flowers",
+        "family-run"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Markets",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/06/18/find-locally-grown-tropical-flowers-anuheas-small-farm/",
+      "source_date": "2025-06-18",
+      "source_label": "a news article sponsored by FarmLovers Markets",
+      "confidence": "low",
+      "notes": "Article places the farm at FarmLovers Markets generally; the excerpt lists the Hale‘iwa Thursday market first and doesn't confirm Pearlridge.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Leftover Love Co.",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Composting service that vends at FarmLovers Markets",
+      "products": [
+        "composting service"
+      ],
+      "tags": [
+        "composting",
+        "sustainability"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Markets",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/pearlridge",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiinewsnow.com/2026/02/02/honolulu-farmers-markets-promote-sustainability-fresh-eating/",
+      "source_date": "2026-02-02",
+      "source_label": "a Hawaii News Now story",
+      "confidence": "low",
+      "notes": "Story says it is one of the vendors at FarmLovers Markets (Kakaako, Kailua Town, Pearlridge) without naming a specific market.",
+      "possible_duplicate": ""
+    }
+  ]
+}

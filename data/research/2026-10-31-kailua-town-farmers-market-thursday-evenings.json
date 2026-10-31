@@ -1,0 +1,834 @@
+{
+  "target": "vendors who sell at the Kailua Town Farmers Market (Thursday evenings) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 203939,
+    "out": 16673,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Aloha Elote",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Mexican street corn made with local corn, on a stick or in a cup",
+      "products": [
+        "elote on a stick",
+        "elote in a cup"
+      ],
+      "tags": [
+        "mexican",
+        "corn",
+        "farmers-market"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@aloha.elote.hawaii",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Corn from Nozawa Farms and Aloun Farms",
+      "source_url": "https://hfbf.org/farmers-markets/aloha-elote/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "Kailua Town Center, 609 Kailua Rd, Thursdays 4-7 pm. Instagram handle taken from a market post, not the vendor's own page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha German Bakery",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Family-run German breads, pretzels and pastries",
+      "products": [
+        "German breads",
+        "pretzels",
+        "pastries"
+      ],
+      "tags": [
+        "bakery",
+        "german",
+        "family-run"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Kailua Town Center, 609 Kailua Rd, Thursdays 4-7 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Grandma G's",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Local-style dinner plates on Thursday evenings",
+      "products": [
+        "local-style dinner plates"
+      ],
+      "tags": [
+        "plate lunch",
+        "local food"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The market's page also says they serve a local breakfast on Sunday mornings, but does not say where.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mon Cha Cha Milk Tea",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Handcrafted milk teas sweetened with fruit purées and jams",
+      "products": [
+        "milk tea"
+      ],
+      "tags": [
+        "drinks",
+        "milk tea"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@monchacha.hi808",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Kailua Town Center, 609 Kailua Rd, Thursdays 4-7 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "No Ka ‘Oi Cookie Company",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Scones, lovash, cookies, mochi, bars, brownies and banana bread",
+      "products": [
+        "scones",
+        "lovash",
+        "cookies",
+        "mochi",
+        "bars",
+        "brownies",
+        "banana bread"
+      ],
+      "tags": [
+        "bakery",
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Spelling of the name and 'lovash' follow the organizer's page. Also named by Honolulu Magazine's current market guide.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Poke Creations",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "New poke business with unique flavors and items",
+      "products": [
+        "poke"
+      ],
+      "tags": [
+        "poke"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The organizer describes it as new and upcoming. Few details are published.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Roti-Si",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Porchetta and rotisserie chicken sandwiches, also sold by the pound",
+      "products": [
+        "porchetta",
+        "rotisserie chicken",
+        "sandwiches"
+      ],
+      "tags": [
+        "italian",
+        "rotisserie",
+        "local meat"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@roti_si.hi",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Uses local meat and vegetables",
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sugah Papi Farms",
+      "category": "farms",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Fruit from their north shore farm, cut fresh on site",
+      "products": [
+        "cut fruit"
+      ],
+      "tags": [
+        "fresh fruit",
+        "farm"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@sugahpapifarms",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/sugah-papi-farms/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Farm on Oʻahu's north shore",
+      "source_url": "https://hfbf.org/farmers-markets/sugah-papi-farms/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "The organizer's page says the farm is in 'Wailua' in one place and 'Waialua' in another. Does not sell at KCC, Mililani or Honolulu markets. Also named in Honolulu Magazine's market guide.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Corner Rolls",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Hand-made spring rolls in traditional and new flavors",
+      "products": [
+        "spring rolls",
+        "cheeseburger spring rolls",
+        "avocado spring rolls",
+        "crab rangoon spring rolls"
+      ],
+      "tags": [
+        "spring rolls",
+        "asian"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.thecornerrolls.com/",
+      "instagram": "@the.corner.rolls",
+      "facebook": "https://www.facebook.com/the.corner.rolls",
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/the-corner-rolls/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "Listed on the organizer's current Kailua vendor list. Their vendor page is older. A market post uses the handle @corner.rolls.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Veggi Dogs",
+      "category": "food-trucks",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Plant-based hot dog cart with local dressings and produce",
+      "products": [
+        "plant-based hot dogs"
+      ],
+      "tags": [
+        "plant-based",
+        "hot dogs",
+        "cart"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://veggidogs.square.site/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The vendor's older page on the organizer's site also lists the KCC Saturday market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Vilath Farm",
+      "category": "farms",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Family farm growing Asian greens, herbs, vegetables and fruit",
+      "products": [
+        "Asian greens",
+        "herbs",
+        "squash",
+        "Manoa lettuce",
+        "tomatoes",
+        "bittermelon",
+        "apple bananas",
+        "melons",
+        "papayas"
+      ],
+      "tags": [
+        "produce",
+        "family farm",
+        "Asian greens"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "The organizer says the farm has over 30 years of harvest. The product list comes from a third-party market directory and the organizer's older vendor page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "King's Farm",
+      "category": "farms",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Asian vegetables, papayas, bananas and more",
+      "products": [
+        "Asian vegetables",
+        "papayas",
+        "bananas"
+      ],
+      "tags": [
+        "produce",
+        "farm"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Little Sparrow",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Spaetzle dishes made with fresh local vegetables, meats and cheeses",
+      "products": [
+        "spaetzle"
+      ],
+      "tags": [
+        "german",
+        "noodles"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@littlesparrowhnl",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/kailua/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Older organizer page also lists Honolulu Wednesday and Mililani Sunday markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mochi Aulelei Hawaii",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Crispy fried poi mochi from local taro; also ube and coconut",
+      "products": [
+        "taro poi mochi",
+        "ube mochi",
+        "coconut mochi"
+      ],
+      "tags": [
+        "mochi",
+        "taro",
+        "sells out early"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": "Sunday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/mochi-aulelei-hawaii/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Uses taro from ʻAi Manuahi",
+      "source_url": "https://hfbf.org/farmers-markets/mochi-aulelei-hawaii/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "Hawaiʻi Magazine says it often sells out early, with little left by 6:30 pm. The magazine spells the name 'Mochi Aulelei Hawaiʻi'; the organizer writes 'Hawaii'.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lanikai Mochi",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Gluten-free butter mochi in local flavors",
+      "products": [
+        "butter mochi"
+      ],
+      "tags": [
+        "mochi",
+        "gluten-free"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.lanikaimochi.com",
+      "instagram": "https://www.instagram.com/lanikai_mochi",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/lanikai-mochi/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/lanikai-mochi/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": null,
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Nosh",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Gluten-free Brazilian cheese bread (pão de queijo), plain or filled",
+      "products": [
+        "pão de queijo",
+        "pão de queijo sliders"
+      ],
+      "tags": [
+        "brazilian",
+        "gluten-free",
+        "bread"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.noshhawaii.com/",
+      "instagram": "@nosh_hawaii",
+      "facebook": "facebook.com/noshhawaii",
+      "phone": null,
+      "schedule_source_url": "https://hfbf.org/farmers-markets/nosh-llc/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://hfbf.org/farmers-markets/nosh-llc/",
+      "source_date": null,
+      "source_label": "the market organizer's vendor page",
+      "confidence": "high",
+      "notes": "The organizer lists it as Nosh LLC. Its website also lists Foodland locations.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Pig and the Lady",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Vietnamese street food made with locally sourced ingredients",
+      "products": [
+        "Vietnamese street food",
+        "pho",
+        "pho French dip"
+      ],
+      "tags": [
+        "vietnamese",
+        "street food"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday 4-7 pm"
+        },
+        {
+          "name": "Honolulu Farmers' Market",
+          "usual_days": "Wednesday"
+        },
+        {
+          "name": "KCC Farmers' Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "83 N. King St, Honolulu, HI 96817",
+      "website": "https://thepigandthelady.com",
+      "instagram": "https://www.instagram.com/pigandthelady",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://thepigandthelady.com/market-schedule",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://thepigandthelady.com/market-schedule",
+      "source_date": null,
+      "source_label": "their website's market schedule",
+      "confidence": "high",
+      "notes": "The address is their downtown Honolulu restaurant, not the market stall. Their site says the market menu is posted on their website. Wednesday and Saturday markets come from the organizer's vendor page.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Andy's Bueno Salsa",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Handmade salsas and pickles, including Kailua-grown ghost pepper salsa",
+      "products": [
+        "salsa",
+        "pickles",
+        "ghost pepper salsa"
+      ],
+      "tags": [
+        "salsa",
+        "hot sauce",
+        "pickles"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "Mililani Farmers' Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Ghost peppers grown in Kailua",
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Kailua Thursday listing is from Honolulu Magazine. Product details are from the organizer's Mililani page, where it appears as 'Bueno Salsa'. It is not on the organizer's Kailua vendor list I could see.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Burgers & Burritos Hawai‘i",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Burgers and burritos made with locally sourced food",
+      "products": [
+        "burgers",
+        "burritos"
+      ],
+      "tags": [
+        "burgers",
+        "burritos"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Only named in the magazine guide. Products inferred only from the business name; not confirmed by a vendor page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mochi Lab",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Stuffed butter mochi; catering and custom orders",
+      "products": [
+        "stuffed butter mochi"
+      ],
+      "tags": [
+        "mochi",
+        "butter mochi",
+        "catering"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers' Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "Honolulu Farmers' Market (Blaisdell)",
+          "usual_days": "Wednesday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "mochilab808.com",
+      "instagram": null,
+      "facebook": "https://www.facebook.com/mochilab808/",
+      "phone": "(808) 744-9141",
+      "schedule_source_url": "https://www.facebook.com/mochilab808/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.facebook.com/mochilab808/",
+      "source_date": null,
+      "source_label": "their Facebook page",
+      "confidence": "low",
+      "notes": "Their page lists Kailua Thursday at 5-7:30 pm, but the organizer now says 4-7 pm. The page also says they are at KCC on Saturdays. Not on the organizer's Kailua vendor list I could see, so check before publishing.",
+      "possible_duplicate": ""
+    }
+  ]
+}

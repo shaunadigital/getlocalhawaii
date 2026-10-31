@@ -1,0 +1,394 @@
+{
+  "target": "vendors who sell at the Mana Up Showcase (Marketplace) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 208662,
+    "out": 10343,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "BUJO BAE",
+      "category": "makers",
+      "side": null,
+      "neighborhood": "ʻAiea",
+      "description": "Planners, guided journals, notepads and hand-drawn stationery",
+      "products": [
+        "planners",
+        "guided journals",
+        "notepads",
+        "hand-drawn stationery"
+      ],
+      "tags": [
+        "stationery",
+        "Mana Up Cohort 11"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2026-event-details",
+      "order_url": "https://houseofmanaup.com/",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/06/16/mana-up-saw-record-applications-for-cohort-11/",
+      "source_date": "2026-06-16",
+      "source_label": "a news article and the market organizer's Showcase page",
+      "confidence": "medium",
+      "notes": "Marketplace is at Bloomingdale's Ala Moana Center, 1450 Ala Moana Blvd, Honolulu (event address, not the vendor's). Founder Jenna Aina Ikeda. Own website not confirmed in sources.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Good Mana",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Supplements made from Hawaiʻi-grown botanicals, including turmeric",
+      "products": [
+        "wellness supplements",
+        "Hang Easy"
+      ],
+      "tags": [
+        "supplements",
+        "Mana Up Cohort 11"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2026-event-details",
+      "order_url": "https://houseofmanaup.com/",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/09/23/mana-up-showcase-will-highlight-hawaii-entrepreneurs/",
+      "source_date": "2026-09-23",
+      "source_label": "a news article and the market organizer's Showcase page",
+      "confidence": "medium",
+      "notes": "Described as Oʻahu and Hilo (Hawaiʻi Island), so it is not Oʻahu-only; neighborhood not stated. Founder Denny Kwock.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oceans End",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Handbags, lei-adornment keychains and island-inspired accessories",
+      "products": [
+        "handbags",
+        "lei-adornment keychains",
+        "accessories"
+      ],
+      "tags": [
+        "handbags",
+        "fashion",
+        "Mana Up Cohort 11"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://oceansend.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2026-event-details",
+      "order_url": "https://oceansend.com",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/06/16/mana-up-saw-record-applications-for-cohort-11/",
+      "source_date": "2026-06-16",
+      "source_label": "a news article and the market organizer's Showcase page",
+      "confidence": "medium",
+      "notes": "Founder Danielle Gosiaco. Website from a Hawaii News Now segment (2026-06-15).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oysters Hawaiʻi",
+      "category": "other",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Mobile oyster shucking and caviar catering; sells smoked ponzu sauce",
+      "products": [
+        "mobile oyster shucking",
+        "caviar catering",
+        "smoked ponzu sauce"
+      ],
+      "tags": [
+        "catering",
+        "oysters",
+        "Mana Up Cohort 11"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.oystershawaii.com",
+      "instagram": "@oystershawaii",
+      "facebook": "https://www.facebook.com/oystershawaii",
+      "phone": "808-204-4422",
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2026-event-details",
+      "order_url": "https://www.oystershawaii.com/contact",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.oystershawaii.com/contact",
+      "source_date": null,
+      "source_label": "their website and the market organizer's Showcase page",
+      "confidence": "high",
+      "notes": "Mainly an event caterer, booked via inquiry form. Retail ponzu sauce is listed as a Showcase special on House of Mana Up.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Yick Lung – Hawaiʻi's Choice",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Heritage snack brand: Nibb-its twists, Li Hing Plum and Mango tablets",
+      "products": [
+        "Nibb-its snack twists",
+        "Li Hing Plum tablets",
+        "Li Hing Mango tablets"
+      ],
+      "tags": [
+        "crack seed",
+        "snacks",
+        "Mana Up Cohort 11"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": "Thursday, November 5, 2026, 5-8 PM (one-night event)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://hawaiischoice.com",
+      "instagram": "https://www.instagram.com/hawaiischoice",
+      "facebook": "https://www.facebook.com/hawaiischoice",
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2026-event-details",
+      "order_url": "https://hawaiischoice.com",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/09/23/mana-up-showcase-will-highlight-hawaii-entrepreneurs/",
+      "source_date": "2026-09-23",
+      "source_label": "a news article and the market organizer's Showcase page",
+      "confidence": "medium",
+      "notes": "Owner Derek Ching. Website from a Hawaii News Now segment (2026-06-15).",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hawaiian Soda Co.",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Fruit-juice sodas with prebiotics and no added sugar",
+      "products": [
+        "Hawaiian-flavor sodas"
+      ],
+      "tags": [
+        "beverages",
+        "Mana Up alumni"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "source_date": null,
+      "source_label": "the market organizer's Showcase 2026 giveaway page",
+      "confidence": "low",
+      "notes": "Listed as a Showcase 2026 alumni giveaway provider and a 2025 giveaway provider; a booth at the marketplace is not confirmed. Founders Caesar and Gina Ho, Honolulu (Mana Up cohort announcement).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lotus & Lime",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Native Hawaiian resort wear and hand-painted wearable art",
+      "products": [
+        "resort wear",
+        "hand-painted wearable art"
+      ],
+      "tags": [
+        "fashion",
+        "Mana Up alumni"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "source_date": null,
+      "source_label": "the market organizer's Showcase 2026 giveaway page",
+      "confidence": "low",
+      "notes": "Listed as a Showcase 2026 alumni giveaway provider with a Showcase Special; a booth at the marketplace is not confirmed. Founded 2012 by Kim and Jade-Alexis Ryusaki.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Daguzan Charcuterie",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kāneʻohe",
+      "description": "French-style charcuterie made with locally sourced meats",
+      "products": [
+        "charcuterie",
+        "charcuterie boards",
+        "Party Holiday Box"
+      ],
+      "tags": [
+        "charcuterie",
+        "Mana Up Cohort 10"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-cohort-10-full-list-of-companies",
+      "source_date": null,
+      "source_label": "the market organizer's Cohort 10 list and Showcase 2026 giveaway page",
+      "confidence": "low",
+      "notes": "Listed as a Showcase 2026 alumni giveaway provider; a booth at the marketplace is not confirmed. Chef Pierre Daguzan.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Bradley & Lily",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Honolulu",
+      "description": "Letterpress cards, notebooks and stationery printed in Honolulu",
+      "products": [
+        "greeting cards",
+        "notebooks",
+        "stationery",
+        "art prints",
+        "luggage tags"
+      ],
+      "tags": [
+        "stationery",
+        "Mana Up alumni"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@bradleylily",
+      "facebook": "Bradley & Lily",
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/enter-to-win-the-biggest-giveaways-of-mana-up-showcase-2026",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Printed in Honolulu",
+      "source_url": "https://houseofmanaup.com/collections/bradley-lily",
+      "source_date": null,
+      "source_label": "the market organizer's collection and Showcase 2026 giveaway page",
+      "confidence": "low",
+      "notes": "Listed as a Showcase 2026 alumni giveaway provider; a booth at the marketplace is not confirmed. Social handles come from a retailer's page (themakeke.com). Has a boutique, South Shore Paperie (per Mana Up alumni page).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mānoa Chocolate",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Bean-to-bar chocolate from Hawaiʻi and single-origin cacao",
+      "products": [
+        "bean-to-bar chocolate",
+        "Flavors of Hawaiʻi Classic Treasure Box"
+      ],
+      "tags": [
+        "chocolate",
+        "Mana Up alumni"
+      ],
+      "markets": [
+        {
+          "name": "Mana Up Showcase Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://houseofmanaup.com/blogs/lets-mana-up-blog-hawaii-shopping-tips/mana-up-showcase-2025-giveaways-guide",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://manauphawaii.com/pages/mana-up-alumni",
+      "source_date": null,
+      "source_label": "the market organizer's alumni page and Showcase 2025 giveaway page",
+      "confidence": "low",
+      "notes": "Only 2025 giveaway evidence (published Sept 2025); not seen in the Showcase 2026 pages I found. Booth at the marketplace not confirmed. Spelled Manoa Chocolate Hawaiʻi in the giveaway guide.",
+      "possible_duplicate": ""
+    }
+  ]
+}

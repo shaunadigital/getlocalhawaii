@@ -1,0 +1,166 @@
+{
+  "target": "vendors who sell at the Mele Kalikimaka Marketplace on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 144859,
+    "out": 5497,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "North Shore Bees",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Local Oʻahu honey and gift set boxes; sold at the Mele Kalikimaka Marketplace",
+      "products": [
+        "Oʻahu honey",
+        "honey gift set boxes"
+      ],
+      "tags": [
+        "honey",
+        "gift sets",
+        "holiday fair"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": "Dec 13–14, 2025 (annual December event)"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.northshorebees.com",
+      "instagram": "http://instagram.com/northshorebees",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.northshorebees.com/markets/mele-kalikimaka-marketplace",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.northshorebees.com/markets/mele-kalikimaka-marketplace",
+      "source_date": "2025-12-13",
+      "source_label": "their own market page",
+      "confidence": "medium",
+      "notes": "Booth #25 at the 2025 show. source_date is the event date; the page's posting date is not shown. Page does not mention the 2026 show. Hive/farm location not stated.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "JAMS World",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaii-made gifts and reversible tote bags; had a booth at the 2025 show",
+      "products": [
+        "reversible tote bags",
+        "limited-edition holiday totes",
+        "Hawaiian gifts"
+      ],
+      "tags": [
+        "totes",
+        "gifts",
+        "holiday fair"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://www.jamsworld.com",
+      "instagram": "https://www.instagram.com/jamsworld_1964",
+      "facebook": "https://www.facebook.com/tr",
+      "phone": null,
+      "schedule_source_url": "https://www.jamsworld.com/blogs/style-journal/mele-kalikimaka-marketplace-2025-one-stop-holiday-shopping-on-oahu",
+      "order_url": "https://www.jamsworld.com",
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.jamsworld.com/blogs/style-journal/mele-kalikimaka-marketplace-2025-one-stop-holiday-shopping-on-oahu",
+      "source_date": "2025-12-12",
+      "source_label": "their own blog post",
+      "confidence": "medium",
+      "notes": "The post's event dates and hours (two weekends, 9 AM–4 PM) do not match the organizer's Dec 13–14, 2025 schedule, so no usual_days or hours are given. Post does not state a 2026 booth. Business location not stated.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hapa Girls",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handcrafted goods including customizable lei charms; at the 2025 show",
+      "products": [
+        "lei charms",
+        "handcrafted goods"
+      ],
+      "tags": [
+        "lei charms",
+        "accessories",
+        "holiday fair"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": "Dec 13–14, 2025"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/unique-gifts-blaisdell-center/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/unique-gifts-blaisdell-center/",
+      "source_date": "2025-12",
+      "source_label": "a KHON2 news story quoting the event producer",
+      "confidence": "low",
+      "notes": "Described as a local brand by the event producer; base location and own web presence not confirmed. Only the 2025 show is documented. Article date approximate (around the Dec 13–14, 2025 weekend).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha 3D Printing",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "3D-printed custom toys and displays; does only a few shows a year",
+      "products": [
+        "custom toys",
+        "3D-printed creations"
+      ],
+      "tags": [
+        "3D printing",
+        "toys",
+        "holiday fair"
+      ],
+      "markets": [
+        {
+          "name": "Mele Kalikimaka Marketplace",
+          "usual_days": "Dec 13–14, 2025"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/honolulu-holiday-shopping-extravaganza/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/honolulu-holiday-shopping-extravaganza/",
+      "source_date": "2025-12",
+      "source_label": "a KHON2 news story",
+      "confidence": "medium",
+      "notes": "Founder named as Sean Tavares. Appears at only a few shows each year, so a 2026 booth is not confirmed. Article date approximate (around the Dec 13–14, 2025 weekend).",
+      "possible_duplicate": ""
+    }
+  ]
+}

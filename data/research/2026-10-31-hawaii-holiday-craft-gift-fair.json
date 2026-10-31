@@ -1,0 +1,603 @@
+{
+  "target": "vendors who sell at the Hawaii Holiday Craft & Gift Fair on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 144603,
+    "out": 15872,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Chyler's Hawaiian Beef Chips",
+      "category": "food-producers",
+      "side": "leeward_ewa",
+      "neighborhood": null,
+      "description": "Dried beef chips in four flavors, made in Hawaii",
+      "products": [
+        "Hawaiian Beef Chips (Original, Cracked Pepper, Spicy, Roasted Garlic)"
+      ],
+      "tags": [
+        "beef chips",
+        "snacks",
+        "made in Hawaii",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://chylers.com/",
+      "instagram": "https://www.instagram.com/chylers",
+      "facebook": "https://www.facebook.com/chylers/",
+      "phone": "(800) 484-1663",
+      "schedule_source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "order_url": "https://chylers.com/",
+      "payment_methods": null,
+      "made_where": "Hawaii",
+      "source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "source_date": "2026-10",
+      "source_label": "KHON2 coverage of the 2026 fair, plus their website",
+      "confidence": "medium",
+      "notes": "Own Facebook lists 94-300 Farrington Hwy #C03, Waipahu; LinkedIn lists Kapolei. Address left blank because sources conflict. Side based on either town.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Sun Chong Company",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "description": "Crackseed, li hing snacks and aloha-print bags; Chinatown shop",
+      "products": [
+        "li hing apricots",
+        "crackseed",
+        "Bubs candy",
+        "aloha-print bags",
+        "tea towels"
+      ],
+      "tags": [
+        "crackseed",
+        "li hing",
+        "snacks",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "127 N. Hotel Street, Honolulu",
+      "website": "https://sunchonghi.com/",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "order_url": "https://sunchonghi.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "source_date": "2026-10",
+      "source_label": "KHON2 coverage of the 2026 fair, plus their website",
+      "confidence": "medium",
+      "notes": "Own FAQ page says the shop is open daily (Mon–Sat 8–5, Sun 8–3) at 127 N. Hotel St, on a bus-only lane.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Palaka Hawaii",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Palaka-print shirts, visors and caps for men, women and keiki",
+      "products": [
+        "palaka shirts",
+        "visors",
+        "caps",
+        "toddler shorts"
+      ],
+      "tags": [
+        "apparel",
+        "palaka",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/blaisdell-center-christmas-shopping/",
+      "source_date": "2026-10",
+      "source_label": "KHON2 coverage of the 2026 fair",
+      "confidence": "low",
+      "notes": "Business location not stated in sources. Product list is from KHON2's 2024 fair story; the 2026 story only says apparel and accessories.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Missing Polynesia",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Women's and men's clothing mixing cultural art and modern style",
+      "products": [
+        "women's clothing",
+        "men's clothing"
+      ],
+      "tags": [
+        "apparel",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": "2026-10-26",
+      "source_label": "KHON2 coverage of the 2026 fair",
+      "confidence": "low",
+      "notes": "Business location not stated in sources.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Alohi Manao Imports",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Shopping bags in many prints and handmade lamps",
+      "products": [
+        "shopping bags",
+        "handmade lamps"
+      ],
+      "tags": [
+        "bags",
+        "lamps",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": "2026-10-26",
+      "source_label": "KHON2 coverage of the 2026 fair",
+      "confidence": "low",
+      "notes": "Spelled 'Alohi Manao Imports' by the organizer's list and the 2026 story; a Dec 2025 KHON2 story wrote 'Alohi Manaʻo Imports'. Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Yolie's Designs",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handcrafted clay lei, hair flowers and jewelry",
+      "products": [
+        "clay lei",
+        "clay jewelry",
+        "clay hair flowers",
+        "earrings"
+      ],
+      "tags": [
+        "clay lei",
+        "jewelry",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/upcoming-blaisdell-center-shopping-event/",
+      "source_date": "2026-10-26",
+      "source_label": "KHON2 coverage of the 2026 fair",
+      "confidence": "low",
+      "notes": "Clay lei, not fresh flowers. Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kainoa Kookie Company",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Home-made cookies and snacks in many flavors",
+      "products": [
+        "cookies",
+        "snacks"
+      ],
+      "tags": [
+        "cookies",
+        "snacks",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": "Oct 30–Nov 1, 2026"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/video/waikiki%E2%80%99s-biggest-costume-party-returns-halloween-at-the-hyatt-regency-waikiki-beach-resort-and-spa/10180360/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/video/waikiki%E2%80%99s-biggest-costume-party-returns-halloween-at-the-hyatt-regency-waikiki-beach-resort-and-spa/10180360/",
+      "source_date": "2026-10",
+      "source_label": "KHON2 video story on the 2026 fair",
+      "confidence": "low",
+      "notes": "Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Keliʻiwehi",
+      "category": "makers",
+      "side": "windward",
+      "neighborhood": "Waimānalo",
+      "description": "Family-made palaka and print clothing, sizes XXS to 7X",
+      "products": [
+        "palaka clothing",
+        "baby doll palaka dresses",
+        "men's and women's clothing"
+      ],
+      "tags": [
+        "apparel",
+        "palaka",
+        "family-owned",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Hawaiʻi",
+      "source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "source_date": "2025-12",
+      "source_label": "KHON2 coverage of the December 2025 fair",
+      "confidence": "medium",
+      "notes": "Also at the Oct 31–Nov 2, 2025 edition per KHON2. Spelled Keli‘iwehi in one story. Not confirmed for the Oct 2026 edition.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Saszdcreations",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handmade island-inspired bags, totes and pillow covers",
+      "products": [
+        "handmade bags",
+        "totes",
+        "mini baskets",
+        "monstera pillow covers"
+      ],
+      "tags": [
+        "bags",
+        "handmade",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-fair/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-fair/",
+      "source_date": "2025-10",
+      "source_label": "KHON2 coverage of the Oct 2025 fair",
+      "confidence": "low",
+      "notes": "Owner named as Dana Rickard in 2025 story. Pillow covers and baskets are from a 2024 story. Location not stated; not confirmed for 2026.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Anela O Nālani Designs",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Jewelry run by a 14-year-old maker and her family",
+      "products": [
+        "jewelry"
+      ],
+      "tags": [
+        "jewelry",
+        "family-run",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/local-news/last-chance-to-shop-local-holiday-craft-fair-wraps-up-at-blaisdell/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/local-news/last-chance-to-shop-local-holiday-craft-fair-wraps-up-at-blaisdell/",
+      "source_date": "2025-12",
+      "source_label": "KHON2 coverage of the December 2025 fair",
+      "confidence": "low",
+      "notes": "Second year at the fair as of Dec 2025. The organizer's list spells it ANELAONALANI DESIGNS. Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Dis-And-Bark",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dog toys, slow feeders and a dog ice cream bar",
+      "products": [
+        "holiday dog toys",
+        "slow feeders",
+        "dog ice cream bar"
+      ],
+      "tags": [
+        "pets",
+        "dog treats",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/local-news/last-chance-to-shop-local-holiday-craft-fair-wraps-up-at-blaisdell/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/local-news/last-chance-to-shop-local-holiday-craft-fair-wraps-up-at-blaisdell/",
+      "source_date": "2025-12",
+      "source_label": "KHON2 coverage of the December 2025 fair",
+      "confidence": "medium",
+      "notes": "Also on the organizer's December 2025 vendor list. Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Toys & Things",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Collectible toys: Sonny Angel, Smiski, Squishmallows, Sanrio",
+      "products": [
+        "Labubu",
+        "blind box toys",
+        "Sonny Angel",
+        "Smiski",
+        "Squishmallows",
+        "Sanrio items"
+      ],
+      "tags": [
+        "toys",
+        "collectibles",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.khon2.com/living-808/hawaii-holiday-craft-gift-fair-5/",
+      "source_date": "2025-12",
+      "source_label": "KHON2 coverage of the December 2025 fair",
+      "confidence": "low",
+      "notes": "Resells collectibles, not locally made. Location not stated; not confirmed for 2026.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "AlohaMade Bites",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handcrafted macadamia nut pies and tarts, family-owned",
+      "products": [
+        "macadamia nut pies",
+        "tarts",
+        "O.G. Vanilla Mac",
+        "Choco Mac",
+        "Ube Mac",
+        "Coffee Mac",
+        "Pumpkin Mac"
+      ],
+      "tags": [
+        "pies",
+        "macadamia nut",
+        "family-owned",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://alohamadebites.com/about",
+      "instagram": "https://www.instagram.com/alohamadebites",
+      "facebook": "https://www.facebook.com/alohamadebites",
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiiholidayfair.com/general-5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiiholidayfair.com/general-5",
+      "source_date": "2025-12",
+      "source_label": "the fair's December 2025 vendor list",
+      "confidence": "medium",
+      "notes": "Described as an Oʻahu business by HI Now (Feb 2025). Vendor list is for the Dec 2025 edition, so not confirmed for 2026.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Aunty Nani's Hawaiian Cookies",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Hawaiian cookies sold at the fair",
+      "products": [
+        "cookies"
+      ],
+      "tags": [
+        "cookies",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiiholidayfair.com/general-5",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiiholidayfair.com/general-5",
+      "source_date": "2025-12",
+      "source_label": "the fair's December 2025 vendor list",
+      "confidence": "low",
+      "notes": "Name only on the Dec 2025 list. A 2024 KHON2 story mentions a macadamia nut chocolate chip cookie. Location not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ohana Style Snack Co.",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Candy popcorn, furikake popcorn mix and fruit roll-ups",
+      "products": [
+        "candy popcorn",
+        "Movie-Mix furikake popcorn with veggie sticks",
+        "fruit roll-ups"
+      ],
+      "tags": [
+        "snacks",
+        "popcorn",
+        "craft fair"
+      ],
+      "markets": [
+        {
+          "name": "Hawaii Holiday Craft & Gift Fair",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.lilliancumic.com/blog/hawaii-holiday-craft-amp-gift-fair",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.lilliancumic.com/blog/hawaii-holiday-craft-amp-gift-fair",
+      "source_date": "2025-12",
+      "source_label": "a food blog post on the December 2025 fair",
+      "confidence": "low",
+      "notes": "Blog says several vendors flew in from Hawaiʻi island and does not say where this business is based. The blog gives prices; left out. Check before listing.",
+      "possible_duplicate": ""
+    }
+  ]
+}

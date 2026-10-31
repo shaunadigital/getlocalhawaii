@@ -1,0 +1,906 @@
+{
+  "target": "vendors who sell at the Honolulu Night Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 146116,
+    "out": 16696,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Aloha Matcha Hawaii",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Organizer lists name in all caps. Also named as a vendor/partner. Market held Sat July 18, 2026, 5-10 pm; check ourkakaako.com/hnm for next date.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Poke Bar",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Poke vendor at Honolulu Night Market; shop at Our Kakaʻako",
+      "products": [
+        "poke"
+      ],
+      "tags": [
+        "night-market",
+        "kakaako",
+        "poke"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Organizer's partner list places it at Keawe Retail at Our Kakaʻako; no street address stated. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Bite Size 808",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm; check ourkakaako.com/hnm for next date.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "CAES Smash & Grindz",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Spelling as shown on organizer list. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Crepe Haven",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Cosmic Tacos 808",
+      "category": "food-trucks",
+      "side": "leeward_ewa",
+      "neighborhood": "Waiʻanae",
+      "description": "Taco truck based in Waiʻanae; at Honolulu Night Market",
+      "products": [
+        "tacos",
+        "burritos",
+        "nachos",
+        "horchata"
+      ],
+      "tags": [
+        "night-market",
+        "food-truck",
+        "tacos"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        },
+        {
+          "name": "Waianae Farmers Market",
+          "usual_days": "Sat 8-12"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://cosmictacos.my.canva.site",
+      "instagram": "https://www.instagram.com/cosmictacos808/",
+      "facebook": "https://www.facebook.com/people/Cosmic-Tacos-808/61558420503416/",
+      "phone": "(916) 749-2900",
+      "schedule_source_url": "https://www.instagram.com/cosmictacos808/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list and their Instagram",
+      "confidence": "high",
+      "notes": "Listed as Cosmic Tacos on market list. Facebook says open Tue, Thu, Fri, Sat, Sun in Maili/Waiʻanae area. A third-party page said temporarily closed, reopening Jan 15, 2026; not verified. Side inferred from Waiʻanae base.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Da Local Lemon",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food and drink vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Da Ultimate Grindz Hawaii",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Honolulu Magazine writes it as Da Ultimate Grindz Hawaiʻi. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Fig & Ginger Honolulu",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "McCully",
+      "description": "Cafe and grazing boards at McCully Shopping Center; at Night Market",
+      "products": [
+        "grazing boards",
+        "brunch"
+      ],
+      "tags": [
+        "night-market",
+        "cafe",
+        "brunch"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "fixed",
+      "address": "1960 Kapiolani Blvd #103, Honolulu, HI 96826",
+      "website": "https://www.fghonolulu.com/",
+      "instagram": "https://www.instagram.com/fig.gingerhonolulu",
+      "facebook": "https://www.facebook.com/fig.gingerhonolulu",
+      "phone": "(808) 501-7249",
+      "schedule_source_url": "https://www.fghonolulu.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list and their website",
+      "confidence": "high",
+      "notes": "Website says brunch 8-2 daily, take-out orders by phone. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Fattitude",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Food vendor at Honolulu Night Market and Kaimuki market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        },
+        {
+          "name": "Kaimuki Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://plentyofaloha.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list and the Kaimuki market organizer's page",
+      "confidence": "high",
+      "notes": "Kaimuki market listing is on the organizer's page (undated, current); days not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Island Fiyah Grill",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Linakaʻs Catering",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed catering and food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako",
+        "catering"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Organizer uses both Linakaʻs and Linaka’s spellings. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mainsqueezelemonade",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed drink vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako",
+        "drinks"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Spelled as one word on organizer list. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Local Poke Bowl",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Poke bowl vendor at Honolulu Night Market",
+      "products": [
+        "poke bowls"
+      ],
+      "tags": [
+        "night-market",
+        "kakaako",
+        "poke"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Olayʻs Thai-Lao Express",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Thai-Lao food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako",
+        "thai",
+        "lao"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Spelling as shown on organizer list. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Milky Way Shave Ice",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Shave ice vendor at Honolulu Night Market",
+      "products": [
+        "shave ice"
+      ],
+      "tags": [
+        "night-market",
+        "kakaako",
+        "dessert"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "One Spoon",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Pop Culture Artisan Pops",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Artisan pops vendor at Honolulu Night Market",
+      "products": [
+        "artisan pops"
+      ],
+      "tags": [
+        "night-market",
+        "kakaako",
+        "dessert"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "PACIFIKOOL",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food and drink vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Organizer lists name in all caps. Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Agua Babe",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food and drink vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Tropicold Wai",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food and drink vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Two Sisters Kitchen",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Listed food vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Market held Sat July 18, 2026, 5-10 pm.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Cloudpink Studios",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Retail vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako",
+        "retail"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ourkakaako.com/hnm/",
+      "source_date": "2026-07-18",
+      "source_label": "the market's vendor and partner list",
+      "confidence": "high",
+      "notes": "Organizer writes Cloudpink Studios; Honolulu Magazine writes Cloudpink Studio. Products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Henna Shack",
+      "category": "other",
+      "side": null,
+      "neighborhood": null,
+      "description": "Retail vendor at Honolulu Night Market",
+      "products": null,
+      "tags": [
+        "night-market",
+        "kakaako",
+        "retail"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/honolulu-night-market/",
+      "source_date": "2026-07-18",
+      "source_label": "Honolulu Magazine's July 2026 night market guide",
+      "confidence": "medium",
+      "notes": "Listed under retail vendors in the magazine guide; products not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sweet Enemy Clothing",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Honolulu streetwear brand; retail vendor at Honolulu Night Market",
+      "products": [
+        "streetwear",
+        "graphic tees",
+        "jerseys",
+        "shorts",
+        "snapback hats"
+      ],
+      "tags": [
+        "night-market",
+        "kakaako",
+        "clothing"
+      ],
+      "markets": [
+        {
+          "name": "Honolulu Night Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://sweetenemyclothing.com/",
+      "instagram": "https://www.instagram.com/sweetenemyclothing",
+      "facebook": "https://www.facebook.com/sweetenemyclothing/",
+      "phone": "(808) 221-9705",
+      "schedule_source_url": "https://ourkakaako.com/hnm/",
+      "order_url": "https://sweetenemyclothing.com/",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/honolulu-night-market/",
+      "source_date": "2026-07-18",
+      "source_label": "Honolulu Magazine's July 2026 night market guide and their website",
+      "confidence": "medium",
+      "notes": "Website shows a Summer '26 collection. Facebook lists 2009 South King Street, but I could not confirm a current storefront from an allowed source, so address is left null. Also appeared at the Nov 2022 market fashion show.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    }
+  ]
+}

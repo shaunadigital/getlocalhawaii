@@ -1,0 +1,607 @@
+{
+  "target": "vendors who sell at the Koko Marina Makers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 130968,
+    "out": 12466,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Wick'd Essentials",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Hand-poured soy candles, melts, room sprays and reed diffusers",
+      "products": [
+        "soy candles",
+        "soy melts",
+        "room and linen sprays",
+        "reed diffusers"
+      ],
+      "tags": [
+        "candles",
+        "soy",
+        "made in Hawaiʻi"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://wickdessentials.com",
+      "instagram": "https://www.instagram.com/wickdessentials",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": "https://www.wickdessentials.com/s/shop",
+      "payment_methods": [],
+      "made_where": "Hawaiʻi",
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Also listed for the Sept 26, 2026 market. The vendor's own site has a pop-up post mentioning Koko Marina.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "To The Sea Designs",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Handcrafted shell, pearl and gemstone jewelry made in Hawaiʻi",
+      "products": [
+        "jewelry",
+        "mother of pearl pikake jewelry",
+        "pearls",
+        "shark tooth jewelry",
+        "shell stickers"
+      ],
+      "tags": [
+        "jewelry",
+        "shells",
+        "pearls"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://totheseadesigns.com/",
+      "instagram": "https://www.instagram.com/totheseadesigns",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": "https://totheseadesigns.com/",
+      "payment_methods": [],
+      "made_where": "Hawaiʻi",
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed for the Aug 22, Sept 26 and Oct 24, 2026 markets. The vendor's website says the jewelry is made in Hawaii.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "JJ Art Boutique",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Art vendor listed at the Koko Marina Makers Market",
+      "products": [],
+      "tags": [
+        "art"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated. Listed for Aug, Sept and Oct 2026 markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Adorneia",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated. Listed for Aug, Sept and Oct 2026 markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aurea Swim",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lenas Jewels",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Jewelry vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [
+        "jewelry"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list; the product type is inferred from the name, not stated by the source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Alford Seaglass",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Altinay Designs LLC",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Design vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/octoberkmc",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Grayshellsjewelry",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Jewelry vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [
+        "jewelry"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Listed as 'Grayshellsjewelry' under the Oct 24 market on the events index; the organizer writes 'Grayshells Jewelry' on other events. The product type is inferred from the name.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Oside Shells",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Name only, from the events index page under the Oct 24 market. Products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Malia’s Lemonada",
+      "category": "prepared-food",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Lemonade vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [
+        "drinks"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Name only, from the events index page under the Oct 24 market. Offerings are inferred from the name and not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Two Seas Arts",
+      "category": "makers",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Art vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [
+        "art"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Name only, from the events index page under the Oct 24 market. Products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kanatee",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Oct 24, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-10-24",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Name only, from the events index page under the Oct 24 market. Products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Angel on My Shoulder Hawai`i",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/septemberkmc",
+      "source_date": "2026-09-26",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed for the Sept 26 and Oct 24, 2026 markets. The Aug 22 page shows a typo ('Aloha Agel'). Products are not stated.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Vintage aloha1968",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Sept 26, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/septemberkmc",
+      "source_date": "2026-09-26",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list. Not seen on the Oct 24 list, so it may not attend every month.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Cairo Beauty Shop",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Aug 22, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/augustkmc",
+      "source_date": "2026-08-22",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Name only on the organizer list, so products are not stated. Also on the organizer's Oct 22 Night Market Collective list.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Web's Banana Bread",
+      "category": "prepared-food",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Banana bread loaves and muffins in several flavors",
+      "products": [
+        "banana bread loaves",
+        "banana bread muffins",
+        "ube banana bread"
+      ],
+      "tags": [
+        "baked goods",
+        "banana bread"
+      ],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events/augustkmc",
+      "source_date": "2026-08-22",
+      "source_label": "the market organizer's vendor list",
+      "confidence": "high",
+      "notes": "Listed for the Aug 22, 2026 market. Products come from the vendor's Marketspread profile, which lists flavors such as dark chocolate, peanut butter, ube, matcha and seasonal pumpkin. It says the vendor does pop-ups at dance events and some markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kai’s Groove",
+      "category": "other",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai (Koko Marina Center)",
+      "description": "Vendor listed at the Aug 22, 2026 Koko Marina Makers Market",
+      "products": [],
+      "tags": [],
+      "markets": [
+        {
+          "name": "Koko Marina Makers Market",
+          "usual_days": "4th Saturday (select dates), 10am-3pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kokomarinacenter.com/events/island-craft-fairs/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.islandcraftfairs.org/events",
+      "source_date": "2026-08-22",
+      "source_label": "the market organizer's events page",
+      "confidence": "high",
+      "notes": "Name only, from the events index page under the Aug 22 market. Products are not stated.",
+      "possible_duplicate": ""
+    }
+  ]
+}

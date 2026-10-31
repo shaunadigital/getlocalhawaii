@@ -1,0 +1,181 @@
+{
+  "target": "vendors who sell at the Haleiwa Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 183274,
+    "out": 6997,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Roti-Si",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Food vendor named by Hawaii News Now at the Haleiwa Farmers Market",
+      "products": null,
+      "tags": null,
+      "markets": [
+        {
+          "name": "Haleiwa Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "source_date": "2025-03-07",
+      "source_label": "a Hawaii News Now article",
+      "confidence": "medium",
+      "notes": "Article names the vendor but not what it sells; category inferred from 'food vendors' wording and needs checking. Market status uncertain: a Haleiwa Town guide says the FarmLovers Haleiwa market is temporarily paused. Verify before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aiwi Waffle",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Waffle vendor named by Hawaii News Now at the Haleiwa Farmers Market",
+      "products": null,
+      "tags": null,
+      "markets": [
+        {
+          "name": "Haleiwa Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "source_date": "2025-03-07",
+      "source_label": "a Hawaii News Now article",
+      "confidence": "medium",
+      "notes": "Article gives the name only; category inferred from the name. Market status uncertain: a Haleiwa Town guide says the FarmLovers Haleiwa market is temporarily paused. Verify before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Local Poke Bowl",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Poke bowl vendor named at the Haleiwa Farmers Market",
+      "products": [
+        "poke bowls"
+      ],
+      "tags": [
+        "poke"
+      ],
+      "markets": [
+        {
+          "name": "Haleiwa Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@localpokebowl",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiinewsnow.com/2025/03/07/haleiwa-farmers-market-moves-new-location/",
+      "source_date": "2025-03-07",
+      "source_label": "a Hawaii News Now article",
+      "confidence": "medium",
+      "notes": "Instagram handle comes from a 2022 Star-Advertiser feature, which also listed other markets that are not confirmed as current. No address because only review and listing sites showed one. Market status uncertain: a Haleiwa Town guide says the FarmLovers Haleiwa market is temporarily paused.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Anuhea's Small Farm",
+      "category": "farms",
+      "side": null,
+      "neighborhood": null,
+      "description": "Family-run farm selling tropical flowers and produce at FarmLovers markets",
+      "products": [
+        "tropical flowers",
+        "fresh produce"
+      ],
+      "tags": [
+        "family-run"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Market at Hale'iwa",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hinowdaily.com/2025/06/18/find-locally-grown-tropical-flowers-anuheas-small-farm/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/06/18/find-locally-grown-tropical-flowers-anuheas-small-farm/",
+      "source_date": "2025-06-18",
+      "source_label": "a HI Now article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Sponsored article; its schedule block lists the Haleiwa Thursday market (3-7PM summer, 3-7PM winter, 66-434 Kamehameha Highway) plus other FarmLovers markets. Market status uncertain: a Haleiwa Town guide says the market is temporarily paused.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Café Kana",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Fresh smoothies, organic and vegan, sold at FarmLovers Markets",
+      "products": [
+        "coconut yogurt smoothies"
+      ],
+      "tags": [
+        "organic",
+        "vegan",
+        "no added sugar"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Market at Hale'iwa",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.hinowdaily.com/2025/07/01/find-fresh-coconut-yogurt-smoothies-by-caf-kana/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hinowdaily.com/2025/07/01/find-fresh-coconut-yogurt-smoothies-by-caf-kana/",
+      "source_date": "2025-07-01",
+      "source_label": "a HI Now article sponsored by FarmLovers Markets",
+      "confidence": "medium",
+      "notes": "Article says they are found exclusively at FarmLovers Markets; its schedule block lists the Haleiwa Thursday market. Name is spelled 'Cafe Kana' in the article body. Market status uncertain: a Haleiwa Town guide says the market is temporarily paused.",
+      "possible_duplicate": ""
+    }
+  ]
+}

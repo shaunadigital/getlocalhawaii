@@ -1,0 +1,653 @@
+{
+  "target": "vendors who sell at the Kakaako Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 151282,
+    "out": 17451,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "JOJA Hawaii",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Truffle smash burger stand; Saturdays at the market",
+      "products": [
+        "Oklahoma truffle smash burger",
+        "truffle fries",
+        "plain fries"
+      ],
+      "tags": [
+        "smash burger",
+        "market stall",
+        "catering"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays 7:30am-12pm"
+        },
+        {
+          "name": "Waikiki Makers Market",
+          "usual_days": "Mondays 4-8pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "919 Ala Moana Blvd, Honolulu (mauka side, opposite side wharf)",
+      "website": "https://jojahawaii.com/",
+      "instagram": "https://www.instagram.com/joja.hawaii",
+      "facebook": "https://www.facebook.com/JOJA.HAWAII",
+      "phone": null,
+      "schedule_source_url": "https://jojahawaii.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://jojahawaii.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Own site says exclusively at two markets. Star-Advertiser (2026-05-20) also lists Kakaako Saturdays and Waikiki Mondays, plus Waikele Center What the Truck?! first/third Fridays. The site lists a catering email.",
+      "social_source": "from their website"
+    },
+    {
+      "name": "MAʻO Organic Farms",
+      "category": "farms",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Organic farm produce stand and CSA; Saturdays at the market",
+      "products": [
+        "organic produce"
+      ],
+      "tags": [
+        "organic",
+        "CSA",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "210 Ward Avenue, Honolulu, HI 96814 (market location listed on their page)",
+      "website": "https://www.maoorganicfarms.org/",
+      "instagram": "https://www.instagram.com/maoorganicfarms",
+      "facebook": "https://www.facebook.com/maoorganicfarms",
+      "phone": null,
+      "schedule_source_url": "https://www.maoorganicfarms.org/co-producers",
+      "order_url": "https://www.maoorganicfarms.org/csa",
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.maoorganicfarms.org/co-producers",
+      "source_date": null,
+      "source_label": "their website's co-producers page",
+      "confidence": "high",
+      "notes": "Own page lists Kakaʻako every Saturday 8a-12p. Their CSA page also lists pickup at the Kakaʻako, Pearlridge and Waiʻanae Saturday markets. That page may be older, and I did not add those as sales markets.",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Ho Farms",
+      "category": "produce",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Produce vendor listed at the market",
+      "products": [
+        "fresh produce"
+      ],
+      "tags": [
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Listed in the guide (appears to be 2025). The guide says vendors change often. The produce wording comes from an undated Paper Plane guide. Verify before publishing."
+    },
+    {
+      "name": "‘Ōma’o Man",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Green smoothies in cups and jars",
+      "products": [
+        "green smoothie (kale, spinach, romaine, baby bok choy, mint, mango, banana)"
+      ],
+      "tags": [
+        "smoothie",
+        "drinks",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://omaomanhawaii.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kakaakolifestyle.com/kakaako-farmers-market-saturday-mornings-at-honolulus-favorite-market/",
+      "source_date": null,
+      "source_label": "Kakaʻako Lifestyle article",
+      "confidence": "medium",
+      "notes": "Spelled Ōmao Man in several articles; the business spelling wasn't confirmed from its own page. Articles from 2025 and Dec 2025 (aloalotravel) also list it. The article lists a 16 oz cup and a 32 oz mason jar. Website comes from a third-party listing."
+    },
+    {
+      "name": "Islander Sake Brewery",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Sake brewery stand selling amazake at the market",
+      "products": [
+        "amazake (non-alcoholic)"
+      ],
+      "tags": [
+        "sake",
+        "amazake",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Stand shown in the guide (appears to be 2025). The amazake detail comes from an undated Paper Plane guide, which also says alcoholic drinks are not sold at the market."
+    },
+    {
+      "name": "Roscoe's Sourdough Breads",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Sourdough bread and focaccia stand",
+      "products": [
+        "sourdough bread",
+        "focaccia"
+      ],
+      "tags": [
+        "bread",
+        "bakery",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Stand and focaccia shown in the guide (appears to be 2025)."
+    },
+    {
+      "name": "Wallflour Bake Shop",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Bakery stand listed at the market",
+      "products": [],
+      "tags": [
+        "bakery",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "low",
+      "notes": "Name-only listing in the guide (appears to be 2025). Spelled Wallflour Bakeshop in a Paper Plane guide. Products not stated in what I could read."
+    },
+    {
+      "name": "Izu's Mochi",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Mochi stand at the market",
+      "products": [
+        "mochi"
+      ],
+      "tags": [
+        "mochi",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Stand shown in the guide (appears to be 2025). Another guide spells it Izu’s Mochi."
+    },
+    {
+      "name": "Little Sparrow",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Spaetzle dish stand",
+      "products": [
+        "spaetzle dishes",
+        "veggie spaetzle with greens"
+      ],
+      "tags": [
+        "spaetzle",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Described in the guide (appears to be 2025)."
+    },
+    {
+      "name": "Youpo Noodles",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Hand-pulled noodle stand made to order",
+      "products": [
+        "hand-pulled biangbiang noodles"
+      ],
+      "tags": [
+        "noodles",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "low",
+      "notes": "Listed in the guide (appears to be 2025), but other listings hint its status may have changed. I couldn't confirm it is still active from the organizer, so check before publishing."
+    },
+    {
+      "name": "Daguzan Charcuterie",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Charcuterie stand listed at the market",
+      "products": [],
+      "tags": [
+        "charcuterie",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "low",
+      "notes": "Name-only listing in the guide (appears to be 2025). Products not stated in what I could read."
+    },
+    {
+      "name": "The Rice Factory",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Stand listed at the market; products not stated",
+      "products": [],
+      "tags": [
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "low",
+      "notes": "Name-only listing in the guide (appears to be 2025). Category is a guess from the name, so verify."
+    },
+    {
+      "name": "Dean & Deluca",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Stand with items made for the market, like cheese and olive loaf",
+      "products": [
+        "cheese and olive loaf"
+      ],
+      "tags": [
+        "bakery",
+        "deli",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "The guide (appears to be 2025) says the Waikīkī retailer makes special treats for the market. Also named as a popular shop in a Dec 2025 aloalotravel guide."
+    },
+    {
+      "name": "Wicked HI",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Hawaiian honey slush stand",
+      "products": [
+        "Hawaiian honey slush"
+      ],
+      "tags": [
+        "slush",
+        "drinks",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://onolicioushawaii.com/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "Onolicious Hawaiʻi market guide",
+      "confidence": "medium",
+      "notes": "Guide (appears to be 2025) shows the stand, written as Wicked HI Slush. A Paper Plane guide says they also have a shop."
+    },
+    {
+      "name": "Kava Queen",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Kava stand",
+      "products": [
+        "kava"
+      ],
+      "tags": [
+        "kava",
+        "drinks",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine farmers market guide",
+      "confidence": "medium",
+      "notes": "Named in a recent Honolulu Magazine guide, which looked about 19 days old when searched."
+    },
+    {
+      "name": "Big Time Bagels",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Fresh bagel stand",
+      "products": [
+        "bagels"
+      ],
+      "tags": [
+        "bagels",
+        "bakery",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine farmers market guide",
+      "confidence": "medium",
+      "notes": "Named in a recent Honolulu Magazine guide, which looked about 19 days old when searched."
+    },
+    {
+      "name": "Touan Farm",
+      "category": "produce",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Produce farm stall",
+      "products": [
+        "fruits and vegetables"
+      ],
+      "tags": [
+        "farm stall",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://aloalotravel.com/en/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "aloalotravel market guide",
+      "confidence": "medium",
+      "notes": "Guide appears to date to about Dec 2025 and calls it a popular, busy produce stall. Farm location not stated in the source."
+    },
+    {
+      "name": "Kona Abalone",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Kakaʻako (market)",
+      "description": "Grilled abalone stand",
+      "products": [
+        "grilled abalone"
+      ],
+      "tags": [
+        "abalone",
+        "seafood",
+        "market stall"
+      ],
+      "markets": [
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.farmloversmarkets.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://aloalotravel.com/en/kakaako-farmers-market/",
+      "source_date": null,
+      "source_label": "aloalotravel market guide",
+      "confidence": "medium",
+      "notes": "Guide appears to date to about Dec 2025. The source does not say where the business is based; confirm it sells on Oʻahu as described."
+    }
+  ]
+}

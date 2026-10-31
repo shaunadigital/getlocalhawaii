@@ -1,0 +1,385 @@
+{
+  "target": "vendors who sell at the Made in Hawaii Festival on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 158562,
+    "out": 13840,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Daguzan Charcuterie",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Pâtés and rillettes made with local livestock, French method",
+      "products": [
+        "pâtés",
+        "rillettes"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "charcuterie",
+        "debut-2025"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@daguzan_charcuterie",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Oʻahu",
+      "source_url": "https://www.honolulumagazine.com/food-vendors-made-in-hawaii-festival-2025/",
+      "source_date": "2025-08",
+      "source_label": "Honolulu Magazine's 2025 festival food vendor guide",
+      "confidence": "medium",
+      "notes": "Listed as from Oʻahu, booth 2626 in 2025 (UHCC Food Innovation Centers). Also named in the DBEDT Hawaiʻi Made Pavilion for the Aug 20–23, 2026 festival (invest.hawaii.gov). Not yet in a year-round selling location in these sources.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "UCook Hawaiʻi",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Sauces, marinades, brownies and snack foods",
+      "products": [
+        "sauces",
+        "marinades",
+        "Lemongrass Party Chex",
+        "fudge brownies",
+        "lemongrass sweet-ish pickle chips",
+        "boiled peanuts"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "debut-2025"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@ucookhawaii",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Oʻahu",
+      "source_url": "https://www.honolulumagazine.com/food-vendors-made-in-hawaii-festival-2025/",
+      "source_date": "2025-08",
+      "source_label": "Honolulu Magazine's 2025 festival food vendor guide",
+      "confidence": "medium",
+      "notes": "Booth 2526 in 2025 (UHCC Food Innovation Centers). 2026 participation not confirmed in the sources I found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "BE. Kākou",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Coffee, matcha lattes, māmaki tea and coconut water drinks",
+      "products": [
+        "specialty coffees roasted by Chadlou's Coffee Roasters",
+        "espresso lattes",
+        "matcha lattes",
+        "māmaki tea",
+        "WAItalizer coconut water"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "coffee",
+        "debut-2025"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@be.kakou",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Oʻahu",
+      "source_url": "https://www.honolulumagazine.com/food-vendors-made-in-hawaii-festival-2025/",
+      "source_date": "2025-08",
+      "source_label": "Honolulu Magazine's 2025 festival food vendor guide",
+      "confidence": "medium",
+      "notes": "Booth F-120 (food area) in 2025. 2026 participation not confirmed in the sources I found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Aloha Smoked",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Smoked shoyu, smoked salt mix and smoked hot sauce",
+      "products": [
+        "original recipe smoked shoyu",
+        "spicy smoked shoyu",
+        "smoked salt mix",
+        "smoked hot sauce"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "debut-2025"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "@alohasmoked",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Oʻahu",
+      "source_url": "https://www.honolulumagazine.com/food-vendors-made-in-hawaii-festival-2025/",
+      "source_date": "2025-08",
+      "source_label": "Honolulu Magazine's 2025 festival food vendor guide",
+      "confidence": "medium",
+      "notes": "Booth 1304 in 2025. 2026 participation not confirmed in the sources I found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Sinaloa",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Tortillas and chips made fresh daily in Honolulu",
+      "products": [
+        "tortillas",
+        "chips"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "tortilleria"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Honolulu",
+      "source_url": "https://www.hfahawaii.com/community/mahalo-to-the-six-brands-we-represented-at-the-2026-made-in-hawai%CA%BBi-festival/",
+      "source_date": "2026-08",
+      "source_label": "Hawaii Foodservice Alliance's festival recap",
+      "confidence": "medium",
+      "notes": "One of six brands the Hawaii Foodservice Alliance represented at the 2026 festival. Side set to town because the source says Honolulu.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Koko Kai",
+      "category": "food-producers",
+      "side": "town",
+      "neighborhood": null,
+      "description": "Plant-based coconut yogurt in reusable glass jars, made in Honolulu",
+      "products": [
+        "coconut yogurt"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "plant-based"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Honolulu",
+      "source_url": "https://www.hfahawaii.com/community/mahalo-to-the-six-brands-we-represented-at-the-2026-made-in-hawai%CA%BBi-festival/",
+      "source_date": "2026-08",
+      "source_label": "Hawaii Foodservice Alliance's festival recap",
+      "confidence": "medium",
+      "notes": "Founder named as Chef Aline Steiner. One of six brands the Hawaii Foodservice Alliance represented at the 2026 festival.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ten Tomorrow",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kaimukī",
+      "description": "Clothing line with a boutique and design studio in Kaimukī",
+      "products": [
+        "clothing"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "apparel",
+        "returning-vendor"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": "Kaimukī design studio; much of the cut and sew is done in Hawaiʻi",
+      "source_url": "https://www.khon2.com/local-news/made-hawaii-festival-2026/",
+      "source_date": "2026-08-03",
+      "source_label": "KHON2's 2026 festival preview",
+      "confidence": "medium",
+      "notes": "Owner and designer Summer Shiigi said 2026 was their thirteenth year at the festival. Boutique address and hours not stated in the source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Haleiwa Salt Co.",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Food business from LCC ʻĀina to Mākeke program",
+      "products": [],
+      "tags": [
+        "made-in-hawaii-festival",
+        "dbedt-hawaii-made-pavilion"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://invest.hawaii.gov/32nd-annual-made-in-hawai%CA%BBi-festival-2026/",
+      "source_date": "2026-08",
+      "source_label": "the state's DBEDT festival page",
+      "confidence": "low",
+      "notes": "Named as Haleiwa Salt Company on the DBEDT page and Haleiwa Salt Co. in its press release. Listed as a Leeward CC ʻĀina to Mākeke / Wahiawā VAPDC graduate in the 2026 DBEDT Hawaiʻi Made Pavilion. The source does not state the island, products or location.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Honolulu Mochi",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Food business from LCC ʻĀina to Mākeke program",
+      "products": [],
+      "tags": [
+        "made-in-hawaii-festival",
+        "dbedt-hawaii-made-pavilion"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://invest.hawaii.gov/32nd-annual-made-in-hawai%CA%BBi-festival-2026/",
+      "source_date": "2026-08",
+      "source_label": "the state's DBEDT festival page",
+      "confidence": "low",
+      "notes": "Listed as a Leeward CC ʻĀina to Mākeke / Wahiawā VAPDC graduate in the 2026 DBEDT Hawaiʻi Made Pavilion. The source does not state the island, products or location.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Waikīkī Soap Factory",
+      "category": "makers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Handmade soaps and locally crafted body care products",
+      "products": [
+        "handmade soaps",
+        "body care products"
+      ],
+      "tags": [
+        "made-in-hawaii-festival",
+        "skincare"
+      ],
+      "markets": [
+        {
+          "name": "Made in Hawaiʻi Festival",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://madeinhawaiifestival.com/general-faq/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/made-in-hawaii-festival/",
+      "source_date": "2026-08",
+      "source_label": "Honolulu Magazine's 2026 festival guide",
+      "confidence": "low",
+      "notes": "Listed in the 2026 guide's Shopping & Dining picks. The source does not state the island, address or booth.",
+      "possible_duplicate": ""
+    }
+  ]
+}

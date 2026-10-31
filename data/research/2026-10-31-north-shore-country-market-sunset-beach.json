@@ -1,0 +1,50 @@
+{
+  "target": "vendors who sell at the North Shore Country Market (Sunset Beach) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 184101,
+    "out": 2900,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Carol's Cooking",
+      "category": "prepared-food",
+      "side": "north_shore",
+      "neighborhood": "Sunset Beach",
+      "description": "Breakfast burritos and quesadillas at the Saturday Sunset Beach market",
+      "products": [
+        "Breakfast burritos",
+        "Quesadillas",
+        "Rice & bean burritos"
+      ],
+      "tags": [
+        "breakfast burritos",
+        "quesadillas",
+        "market vendor"
+      ],
+      "markets": [
+        {
+          "name": "North Shore Country Market (Sunset Beach)",
+          "usual_days": "Saturdays"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": "808-234-9421",
+      "schedule_source_url": "https://www.northshorecountrymarket.ngo/carols-cooking",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.northshorecountrymarket.ngo/carols-cooking",
+      "source_date": null,
+      "source_label": "the market's own vendor page",
+      "confidence": "high",
+      "notes": "Page is undated but is the organizer's current page. It lists two closing times: 1:00 pm in the header and 2:00 pm in the body (market hours are 8-2). The phone (808-234-9421) and email (nscmkt@gmail.com) on the page match the market's contact info, so they may be the market's rather than the vendor's own. The market's site now lists a different contact (NSCountryMarket28@gmail.com, 808-954-1483), so the page may be partly outdated. The market address is 59-360 Kamehameha Hwy, Haleiwa, HI 96712 (Sunset Elementary School); no separate vendor address is given.",
+      "possible_duplicate": ""
+    }
+  ]
+}

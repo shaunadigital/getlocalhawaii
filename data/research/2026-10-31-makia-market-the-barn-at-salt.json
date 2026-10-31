@@ -1,0 +1,253 @@
+{
+  "target": "vendors who sell at the Makia Market (The Barn at SALT) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 160221,
+    "out": 7346,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Little Loops Crochet Co",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student crochet and amigurumi maker; Mākia Market vendor",
+      "products": [
+        "crochet",
+        "amigurumi"
+      ],
+      "tags": [
+        "student maker",
+        "crochet",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market (The Barn at SALT)",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "https://www.instagram.com/littleloopscrochetco/",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article and their Instagram",
+      "confidence": "medium",
+      "notes": "Honolulu Night Market vendor list (July 18, 2026) marks them as a Mākia Market vendor. Instagram bio references the 8/16 Mākia Market at SALT (2025). Market dates are select Saturdays, not weekly. Market address per organizer: 327 Keawe St, Honolulu (another organizer line gives 660 Ala Moana Blvd). Side set from market location.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kahakai HI Jewelry",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Listed (Kaela Yasuhara) on Mākia Market's planned booth schedule at the Made in Hawaiʻi Festival, Aug 20-23, 2026. Article does not say they sold at SALT; verify before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Dango Cat Designs",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Run by Risa and Quinn Togashi per the article; on the Mākia Market Made in Hawaiʻi Festival schedule. SALT sales not confirmed in source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Made for Kūpuna",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Abigail Yang and Leila Toma (Mākia Student Ambassadors) per the article. SALT sales not confirmed in source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Paige's Pretty Patterns",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Paige Hijirida per the article. SALT sales not confirmed in source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Minigirl Studios",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Katia Dela Cruz (Mākia Student Ambassador) per the article. SALT sales not confirmed in source.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Wee Little Things",
+      "category": "makers",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "description": "Student maker business listed by Mākia Market",
+      "products": null,
+      "tags": [
+        "student maker",
+        "Mākia Market"
+      ],
+      "markets": [
+        {
+          "name": "Mākia Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.makiaco.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://alohastatedaily.com/2026/08/14/made-in-hawaii-festival-to-feature-makia-market-for-the-first-time/",
+      "source_date": "2026-08-14",
+      "source_label": "a news article",
+      "confidence": "low",
+      "notes": "Audrey Wee (Mākia Student Ambassador) per the article. SALT sales not confirmed in source.",
+      "possible_duplicate": ""
+    }
+  ]
+}

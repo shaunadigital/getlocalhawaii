@@ -1,0 +1,91 @@
+{
+  "target": "vendors who sell at the Makeke Waianae Farmers' & Greens Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 157980,
+    "out": 4183,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "MA‘O Organic Farms",
+      "category": "farms",
+      "side": "leeward_ewa",
+      "neighborhood": "Waiʻanae",
+      "description": "Organic farm and youth program that sells produce at farmers' markets",
+      "products": [
+        "organic fruits and vegetables"
+      ],
+      "tags": [
+        "organic",
+        "farm",
+        "csa",
+        "youth program"
+      ],
+      "markets": [
+        {
+          "name": "Mākeke Waiʻanae",
+          "usual_days": "Saturday 8a-12p"
+        },
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturday 8a-12p"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": "86-148 Pūhāwai Road, Waiʻanae, HI 96792",
+      "website": "https://www.maoorganicfarms.org",
+      "instagram": "https://www.instagram.com/maoorganicfarms",
+      "facebook": "https://www.facebook.com/maoorganicfarms",
+      "phone": "(808) 696-5569",
+      "schedule_source_url": "https://www.maoorganicfarms.org/co-producers",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.maoorganicfarms.org/co-producers",
+      "source_date": null,
+      "source_label": "their website's co-producers page",
+      "confidence": "high",
+      "notes": "The page is undated but current on the farm's own site. Its CSA page, which is about 3 years old, also lists Pearlridge, Whole Foods Kailua and Whole Foods Kahala. I left those out as stale. The Saturday 8a-12p line on the co-producers page covers both listed markets. Organic claim: a 2026 third-party article describes the produce as USDA-certified organic.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Paradise Kettle Corn",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Kettle corn vendor that lists Waianae Makeke on its events page",
+      "products": [
+        "kettle corn"
+      ],
+      "tags": [
+        "popcorn",
+        "snacks"
+      ],
+      "markets": [
+        {
+          "name": "Waianae Makeke (Waianae Mall)",
+          "usual_days": "Saturdays 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": "https://paradisekettlecorn.com",
+      "instagram": "https://www.instagram.com/paradisekettlecorn",
+      "facebook": "https://www.facebook.com/WordPresscom",
+      "phone": null,
+      "schedule_source_url": "https://paradisekettlecorn.com/upcoming-events/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://paradisekettlecorn.com/upcoming-events/",
+      "source_date": null,
+      "source_label": "their website's upcoming events page",
+      "confidence": "high",
+      "notes": "The events page is current on the vendor's own site, about 4 months old per the search index. It names the market and its hours but gives no vendor address. Products come from the business name only. The name differs from 'Ono Kettle Pop' and 'Popcorn Express', which are already in the directory.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    }
+  ]
+}

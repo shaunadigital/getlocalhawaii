@@ -1,0 +1,391 @@
+{
+  "target": "vendors who sell at the Kunia Loa Ridge Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 128881,
+    "out": 8260,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Khao Lao",
+      "category": "food-trucks",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Lao-Thai lunchwagon food listed as a vendor at the Kunia Loa Ridge market",
+      "products": [
+        "Lao-Thai lunchwagon meals"
+      ],
+      "tags": [
+        "lao",
+        "thai",
+        "lunchwagon"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/khao-lao-todd-xayphone/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Run by Todd Xayphone. Page is undated but current on the organizer's site. Market schedule: 1st and 3rd Saturday, 9am-1pm, 94-1100 Kunia Rd, Waipahu. The market's events calendar shows Fridays, which conflicts with the homepage. Likely different from 'Khao and Papas' already in directory.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Arun Farms",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Kunia Loa Ridge farm selling bananas, Tahitian limes, cilantro, bok choy",
+      "products": [
+        "bananas",
+        "Tahitian limes",
+        "cilantro",
+        "bok choy",
+        "grafted mango trees",
+        "pomegranate trees"
+      ],
+      "tags": [
+        "farm",
+        "fruit trees",
+        "produce"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": "arunfarmshi",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/arun-farms-kabi-neupane/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Led by Kabi Neupane, who is also quoted in a Hawaii News Now story dated 2025-09-28 about the market. Instagram handle comes from a third-party TikTok post. Farm is on a private lot in the farmlands, so no street address given.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kunia Farm & Garden, LLC",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Bananas, banana leaves, dragon fruit, squash, eggplant and eggs",
+      "products": [
+        "bananas",
+        "banana leaves",
+        "dragon fruit",
+        "squash",
+        "eggplant",
+        "eggs",
+        "natural mosquito repellant"
+      ],
+      "tags": [
+        "farm",
+        "bananas",
+        "dragon fruit"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/kunia-farm-garden/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Contact person Rebecca Washburn, who chairs the Farmers Market Committee. Lot 24 in the farmlands.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Homemade Sourdough Bread – Veronica",
+      "category": "food-producers",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Homemade sourdough bread made with natural starters",
+      "products": [
+        "sourdough bread"
+      ],
+      "tags": [
+        "bread",
+        "sourdough",
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kunialoaridgefarmersmarket.com/farms/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed as 'Homemade Sourdough Bread – Veronica'; no business name shown. Could be the same as 'Artisan Cottage Sourdough' already in directory, but no source confirms that.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hawaii Hatz & Plants",
+      "category": "makers",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Custom hats and bags listed as a Kunia Loa Ridge market maker",
+      "products": [
+        "custom hats",
+        "custom bags"
+      ],
+      "tags": [
+        "hats",
+        "bags",
+        "handmade"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kunialoaridgefarmersmarket.com/?b=23949388521100",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed under the maker name Irena. Name suggests plants, but the listing only states hats and bags. source_url is the organizer homepage variant that showed this listing (https://kunialoaridgefarmersmarket.com/?b=21949388521100).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Moms Ohana Farm",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Kunia Loa Ridge farm with veggies, fruits and flowers",
+      "products": [
+        "vegetables",
+        "fruits",
+        "flowers"
+      ],
+      "tags": [
+        "farm",
+        "produce",
+        "flowers"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": "1st and 3rd Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/?b=60914512921100",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "high",
+      "notes": "Listed under Myrna Gustilo and Alma. The snapshot I saw said market dates were coming soon, so it may be an earlier version of the page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Captain T Farm",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Kunia Loa Ridge farm listing jackfruit and mango",
+      "products": [
+        "jackfruit",
+        "mango"
+      ],
+      "tags": [
+        "farm",
+        "fruit"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/captain-t-farm-mario-margie-transfiguracion/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "medium",
+      "notes": "Listing names Mario and Margie Transfiguracion. The page is thin and does not say they sell at a specific market date.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "808 Mang Jeff Farm",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Farm listed in the Kunia Loa Ridge Farmers Market directory",
+      "products": null,
+      "tags": [
+        "farm"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/808-mang-jeff-farm-jeffrey-jose/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "low",
+      "notes": "Listing names Jeffrey Jose but does not state any products. Thin listing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Matt & Lilia",
+      "category": "other",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Massage and vegetables listed at the Kunia Loa Ridge market",
+      "products": [
+        "massage",
+        "vegetables"
+      ],
+      "tags": [
+        "massage",
+        "vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/khao-lao-todd-xayphone/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "low",
+      "notes": "Appears only as a 'More from the market' card, with no business name beyond first names. Lot 74F.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Ornamental Plants and Vegetables",
+      "category": "farms",
+      "side": "central",
+      "neighborhood": "Kunia",
+      "description": "Ornamental plants and vegetables from Carlito 'Lito' Galiguis",
+      "products": [
+        "ornamental plants",
+        "vegetables"
+      ],
+      "tags": [
+        "plants",
+        "vegetables"
+      ],
+      "markets": [
+        {
+          "name": "Kunia Loa Ridge Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://kunialoaridgefarmersmarket.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Kunia Loa Ridge Farmlands, Oʻahu",
+      "source_url": "https://kunialoaridgefarmersmarket.com/farm-listing/khao-lao-todd-xayphone/",
+      "source_date": null,
+      "source_label": "the market's vendor list",
+      "confidence": "low",
+      "notes": "Appears only as a 'More from the market' card; listing title is the product description, not a business name. Lot 6K.",
+      "possible_duplicate": ""
+    }
+  ]
+}

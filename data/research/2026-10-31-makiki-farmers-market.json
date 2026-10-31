@@ -1,0 +1,95 @@
+{
+  "target": "vendors who sell at the Makiki Farmers Market on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 154701,
+    "out": 3612,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Olay's Thai Lao Express",
+      "category": "prepared-food",
+      "side": "town",
+      "neighborhood": "Makiki",
+      "description": "Thai and Lao dishes sold at farmers markets and a Chinatown restaurant",
+      "products": [
+        "Thai food",
+        "Lao food"
+      ],
+      "tags": [
+        "thai",
+        "lao",
+        "farmers-market"
+      ],
+      "markets": [
+        {
+          "name": "Makiki Farmers Market",
+          "usual_days": "Thursday"
+        }
+      ],
+      "fixed_or_roaming": "both",
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": "2026-10 (approx., guide shown as updated 19 days before search)",
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Listed as a Makiki market vendor in the 2026 guide. An older Honolulu Magazine feature also puts them at St. Clement's on Thursdays. Market list and Thursday day come from those pieces, not the vendor's own page. A separate Yelp listing for 'Olay's Thai Express' at 777 Ward Ave is marked closed, so check which name is current. Related restaurant listing: Olay's Thai Lao Cuisine, Chinatown (not verified here from the vendor's own site).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hungry Jon's Place",
+      "category": "food-trucks",
+      "side": "town",
+      "neighborhood": "Makiki",
+      "description": "Sourdough sandwiches, plate lunches, desserts and pet treats from scratch",
+      "products": [
+        "grilled sourdough sandwiches",
+        "soups",
+        "burgers",
+        "plate lunches",
+        "desserts",
+        "all-natural pet treats"
+      ],
+      "tags": [
+        "food-truck",
+        "farmers-market",
+        "pet-treats"
+      ],
+      "markets": [
+        {
+          "name": "Makiki Farmers Market",
+          "usual_days": "Thursday"
+        },
+        {
+          "name": "Kaiser High School farmers market",
+          "usual_days": "Tuesday"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@hungryjonsplace",
+      "facebook": null,
+      "phone": "(808) 778-4443",
+      "schedule_source_url": "https://www.khon2.com/wake-up-2day/food-2go/hungry-jons-place-will-satisfy-your-taste-buds/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": "2026-10 (approx.); KHON2 piece copyright 2025",
+      "source_label": "Honolulu Magazine's guide and a KHON2 news story",
+      "confidence": "medium",
+      "notes": "KHON2 gives Thursdays at Makiki 4-7 p.m. and Tuesdays at Kaiser High School 4-6 p.m. The phone number is given for pre-orders. KHON2 describes them as a food truck at various locations. Address and website not stated in the sources.",
+      "possible_duplicate": ""
+    }
+  ]
+}

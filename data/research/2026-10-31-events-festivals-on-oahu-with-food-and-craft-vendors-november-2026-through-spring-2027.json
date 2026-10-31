@@ -1,0 +1,455 @@
+{
+  "target": "festivals on Oahu with food and craft vendors, November 2026 through spring 2027",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 130192,
+    "out": 15179,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Nā Lehua Marketplace & Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Ala Moana / Waikīkī edge",
+      "venue_name": "Hawaiʻi Convention Center, ground-floor Kamehameha Exhibit Halls",
+      "address": "1801 Kalākaua Ave, Honolulu, HI 96815",
+      "schedule_text": "Three days, Friday through Sunday, November 6-8, 2026. Daily hours not stated in source.",
+      "dates": [
+        {
+          "date": "2026-11-06",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-11-07",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-11-08",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Hawaiʻi Convention Center",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "New marketplace and festival with hundreds of local vendors, live entertainment and island-inspired products, per the Convention Center's announcement as reported by a travel guide.",
+      "source_url": "https://www.hawaii-guide.com/blog/hawaii-holiday-craft-fairs-gift-markets",
+      "source_date": null,
+      "source_label": "Hawaii-guide.com holiday craft fair season guide (third-party, citing HCC announcement)",
+      "confidence": "medium",
+      "notes": "Ticket-sale details were listed as due in fall, so admission is unknown. Debuting in 2026. Not the same event as Made in Hawaii Festival. Food vendors are not specifically confirmed; the source says 'vendors' and 'island-inspired products'. Check the HCC site for details.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kimchi Festival Hawaiʻi (Kimchi Day Festival)",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Annual one-day festival; 2026 edition Saturday, November 14, 2026, 10 AM-7 PM.",
+      "dates": [
+        {
+          "date": "2026-11-14",
+          "start": "10:00",
+          "end": "19:00"
+        }
+      ],
+      "organizer": "Kimchi Festival Hawaiʻi (earlier editions hosted by The United Korean Association of Hawaii)",
+      "website": "https://www.kimchifestivalhi.com/",
+      "instagram": "http://instagram.com/kimchifestivalhi",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Celebration of kimchi and Korean culture with kimchi tastings, food vendors, cultural performances and community activities. The 2026 edition is announced on the festival's own site.",
+      "source_url": "https://www.kimchifestivalhi.com/",
+      "source_date": null,
+      "source_label": "Kimchi Festival Hawaii official site; Hawaii Parent November 2026 calendar",
+      "confidence": "high",
+      "notes": "The 2026 venue is not stated in the sources I found. Earlier editions were at Makiki District Park Field, 1527 Keeaumoku St (town side), so confirm before listing the venue. Free admission was reported for the 2024 edition only.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Haleiwa Town Festival",
+      "kind": "festival",
+      "side": "north_shore",
+      "neighborhood": "Haleʻiwa",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed for Saturday, November 14, 2026. Hours not stated.",
+      "dates": [
+        {
+          "date": "2026-11-14",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Street festival lined with local artists, merchants, food vendors and entertainers, per an events roundup.",
+      "source_url": "https://www.best-of-oahu.com/oahu-events-in-november.html",
+      "source_date": null,
+      "source_label": "Best-of-Oahu.com November events page (third-party)",
+      "confidence": "low",
+      "notes": "Single aggregator source. Organizer, street and hours not found. The page mixes 2025 and 2026 dates for other events, so confirm with the organizer.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hanalani Schools Holiday Craft Fair",
+      "kind": "craft_fair_annual",
+      "side": "central",
+      "neighborhood": "Mililani",
+      "venue_name": "Hanalani Schools",
+      "address": "94-294 Anania Dr, Mililani, HI 96789",
+      "schedule_text": "Saturday, November 14, 2026, 9 AM-2 PM.",
+      "dates": [
+        {
+          "date": "2026-11-14",
+          "start": "09:00",
+          "end": "14:00"
+        }
+      ],
+      "organizer": "Hanalani Schools",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Central Oʻahu school craft and food fair, free to shoppers.",
+      "source_url": "https://localhawaiievents.com/guides/craft-fairs-oahu",
+      "source_date": "2026-10-06",
+      "source_label": "LocalHawaiiEvents.com craft fairs guide (third-party, checked 2026-10-06)",
+      "confidence": "medium",
+      "notes": "A KITV roundup showed Hanalani also ran a Spring Craft Fair on April 25, 2026 with 60+ crafters and food vendors. No 2027 spring date found yet. Different from the Mililani Town Association Holiday Craft Fair on your skip list.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mililani High School Holiday Food & Craft Fair",
+      "kind": "craft_fair_annual",
+      "side": "central",
+      "neighborhood": "Mililani",
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed for Saturday, November 21, 2026. Hours not stated.",
+      "dates": [
+        {
+          "date": "2026-11-21",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Holiday food and craft fair listed on a Waikīkī-focused events calendar.",
+      "source_url": "https://waikikibeachstays.com/oahu-events-calendar/",
+      "source_date": null,
+      "source_label": "Waikikibeachstays.com Oʻahu events calendar 2026-27 (third-party)",
+      "confidence": "low",
+      "notes": "Calendar title only. Venue, organizer and hours not given. It may overlap with the Mililani Town Association Holiday Craft Fair on your skip list, so check for duplication.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "HUOA Winter Craft and Gift Fair",
+      "kind": "craft_fair_annual",
+      "side": "leeward_ewa",
+      "neighborhood": "Waipahu",
+      "venue_name": "Hawaii Okinawa Center (Legacy Ballroom)",
+      "address": "94-587 Uke'e Street, Waipahu, HI 96797",
+      "schedule_text": "Saturday, November 28, 2026; one listing also shows a second day on Sunday, November 29. Hours not stated.",
+      "dates": [
+        {
+          "date": "2026-11-28",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Hawaii United Okinawan Association (HUOA)",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Annual cultural craft and gift fair bringing together the Okinawan community and craft shoppers in Waipahu each November.",
+      "source_url": "https://vendorsmap.com/cities/waipahu",
+      "source_date": null,
+      "source_label": "VendorsMap Waipahu listings (third-party)",
+      "confidence": "medium",
+      "notes": "The source lists Nov 28-29 in one entry and Nov 28 only in another. I included only the date both entries share. Food vendors are not confirmed. Check HUOA's own page.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Chinese New Year Celebration (Chinese Chamber of Commerce of Hawaii)",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "venue_name": "Chinatown Cultural Plaza",
+      "address": "100 N Beretania St, Honolulu, HI 96817",
+      "schedule_text": "Two-day festival, Friday January 29 (from 5 PM) to Saturday January 30, 2027 (to 10 PM).",
+      "dates": [
+        {
+          "date": "2027-01-29",
+          "start": "17:00",
+          "end": null
+        },
+        {
+          "date": "2027-01-30",
+          "start": null,
+          "end": "22:00"
+        }
+      ],
+      "organizer": "Chinese Chamber of Commerce of Hawaii",
+      "website": "https://business.chinesechamber.com/calendar/Details/chinese-new-year-celebration-1700439?sourceTypeId=Website",
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Food booths with traditional Chinese delicacies, vendors selling narcissus flowers, arts and crafts, and live stage performances.",
+      "source_url": "https://business.chinesechamber.com/calendar/Details/chinese-new-year-celebration-1700439?sourceTypeId=Website",
+      "source_date": null,
+      "source_label": "Chinese Chamber of Commerce of Hawaii event calendar",
+      "confidence": "medium",
+      "notes": "Organizer calendar page shows 2027 dates, but the page's date metadata looked stale, so re-verify. The 2026 edition (Jan 30-31) had 40+ food, craft and cultural booths. This is separate from the Chinatown 808 Lunar New Year Festival & Parade (ʻAʻala Park), whose 2027 date I did not find.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Punahou Carnival 2027: Party Like It's 2000",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Mānoa / Punahou",
+      "venue_name": "Punahou School (lower campus)",
+      "address": "1601 Punahou St, Honolulu, HI 96822",
+      "schedule_text": "Two days, Friday February 5 and Saturday February 6, 2027, 11 AM-10 PM.",
+      "dates": [
+        {
+          "date": "2027-02-05",
+          "start": "11:00",
+          "end": "22:00"
+        },
+        {
+          "date": "2027-02-06",
+          "start": "11:00",
+          "end": "22:00"
+        }
+      ],
+      "organizer": "Punahou School (Class of 2028)",
+      "website": "https://carnival.punahou.edu",
+      "instagram": "@punahou_carnival",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Punahou's annual financial-aid fundraiser carnival with food booths (including the famous malasadas), a large art gallery of Hawaiʻi artists, rides, games, a silent auction and live music.",
+      "source_url": "https://www.punahou.edu/news-and-events/carnival",
+      "source_date": null,
+      "source_label": "Punahou School carnival page; Punahou Bulletin (Oct 20, 2026) confirms Feb 5-6 dates",
+      "confidence": "high",
+      "notes": "Food booths are school-run rather than independent vendors, but the carnival has a large art gallery of Hawaiʻi artists. Admission to the 2026 carnival was reported free (KITV); 2027 admission not stated. The Instagram handle comes from a Honolulu Magazine guide to the 2026 carnival.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Asia Fest (Year of the Fire Goat Lunar New Year celebration)",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "February 12-13, 2027. Hours and venue not stated.",
+      "dates": [
+        {
+          "date": "2027-02-12",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-02-13",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Pacific Expos",
+      "website": "https://www.pacificexpos.com/",
+      "instagram": "https://www.instagram.com/pacificexposhawaii",
+      "facebook": "https://www.facebook.com/PacificExpos",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Billed by the organizer as one of Hawaii's largest Lunar New Year celebrations.",
+      "source_url": "https://www.pacificexpos.com/",
+      "source_date": null,
+      "source_label": "Pacific Expos homepage",
+      "confidence": "medium",
+      "notes": "The organizer's page appeared old, but it lists Feb 12-13, 2027. A Honolulu Magazine item described the 2026 inaugural 'Explore Asia Fest' (Feb 28, 2026) with food booths, craft vendors and collectibles; it may be the same series. Venue and vendor mix for 2027 not confirmed.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "Hawaii FoodieCon & Spring Expo",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Kakaʻako / Ward",
+      "venue_name": "Blaisdell Exhibition Hall",
+      "address": "777 Ward Ave, Honolulu, HI",
+      "schedule_text": "April 3-4, 2027. Hours not stated.",
+      "dates": [
+        {
+          "date": "2027-04-03",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2027-04-04",
+          "start": null,
+          "end": null
+        }
+      ],
+      "organizer": "Pacific Expos",
+      "website": "https://www.pacificexpos.com/",
+      "instagram": "https://www.instagram.com/pacificexposhawaii",
+      "facebook": "https://www.facebook.com/PacificExpos",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Organizer describes 250+ vendors at one of Hawaii's largest foodie conventions.",
+      "source_url": "https://www.pacificexpos.com/",
+      "source_date": null,
+      "source_label": "Pacific Expos homepage",
+      "confidence": "medium",
+      "notes": "Organizer page appeared dated, so confirm the 2027 dates. Fair-style expo; craft vendors are not specifically stated.",
+      "possible_duplicate": "",
+      "social_source": "from their website"
+    },
+    {
+      "name": "HEART of Honolulu Art Street Festival",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Chinatown",
+      "venue_name": "Nuʻuanu Avenue (pedestrian-only closure)",
+      "address": null,
+      "schedule_text": "Annual; listing expects April 11, 2027, 11 AM-4 PM. Date is described as expected, not confirmed.",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Annual art street festival in Chinatown with art, live music, food, creative local vendors, cultural performances and maker booths.",
+      "source_url": "https://vendorsmap.com/cities/honolulu",
+      "source_date": null,
+      "source_label": "VendorsMap Honolulu listings (third-party)",
+      "confidence": "low",
+      "notes": "Date marked 'expected' and organizer not identified. Confirm with the organizer before listing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Lei Day at Kapiʻolani Park",
+      "kind": "festival",
+      "side": "town",
+      "neighborhood": "Waikīkī / Kapiʻolani Park",
+      "venue_name": "Kapiʻolani Park",
+      "address": null,
+      "schedule_text": "Annual; listing expects May 1, 2027. Date is described as expected, not confirmed.",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Annual Lei Day festival listed as a vendor event on a vendor-events directory.",
+      "source_url": "https://vendorsmap.com/cities/honolulu",
+      "source_date": null,
+      "source_label": "VendorsMap Honolulu listings (third-party)",
+      "confidence": "low",
+      "notes": "Spring (May) is at the edge of your window. Date is expected only, and the source gives no vendor specifics for this event. Verify with the City or the organizer. Separate from the May Day Lei Day at Waimea Valley, which I did not research.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Keiki Construction Zone",
+      "kind": "festival",
+      "side": null,
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Sunday, November 8, 2026, 9 AM-3 PM.",
+      "dates": [
+        {
+          "date": "2026-11-08",
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Family event with operating construction equipment, horseback riding and livestock, plus a farmers market, local vendors, food and live entertainment.",
+      "source_url": "https://www.hawaiiparentmedia.com/things-to-do-november-2026/",
+      "source_date": null,
+      "source_label": "Hawaii Parent November 2026 calendar (third-party)",
+      "confidence": "low",
+      "notes": "Venue, organizer and admission not stated in the snippet I retrieved. Needs a follow-up before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "McKinley High School Band & Orchestra Winter Craft & Gift Fair",
+      "kind": "craft_fair_annual",
+      "side": "town",
+      "neighborhood": null,
+      "venue_name": null,
+      "address": null,
+      "schedule_text": "Listed for December 2026 with the date still to be confirmed.",
+      "dates": [],
+      "organizer": "McKinley High School Band & Orchestra",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Winter craft and gift fair listed on a Waikīkī-focused events calendar.",
+      "source_url": "https://waikikibeachstays.com/oahu-events-calendar/",
+      "source_date": null,
+      "source_label": "Waikikibeachstays.com Oʻahu events calendar 2026-27 (third-party)",
+      "confidence": "low",
+      "notes": "Title-only listing. The organizer is inferred from the event name. Venue (presumably McKinley High School) and date not confirmed. Food vendors are not mentioned.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Mele Market at Pearl at Kalauao",
+      "kind": "holiday_fair",
+      "side": "leeward_ewa",
+      "neighborhood": "ʻAiea / Pearl City (Kalauao)",
+      "venue_name": "Pearl at Kalauao",
+      "address": null,
+      "schedule_text": "Listed for December 2026 with the date still to be confirmed.",
+      "dates": [],
+      "organizer": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Holiday 'Mele Market' listed for December 2026 at Pearl at Kalauao.",
+      "source_url": "https://waikikibeachstays.com/oahu-events-calendar/",
+      "source_date": null,
+      "source_label": "Waikikibeachstays.com Oʻahu events calendar 2026-27 (third-party)",
+      "confidence": "low",
+      "notes": "Title-only listing. The venue comes from the event name. It may be a holiday edition of the Night Market at Pearl at Kalauao on your skip list; check for duplication. Vendor types not stated.",
+      "possible_duplicate": ""
+    }
+  ]
+}

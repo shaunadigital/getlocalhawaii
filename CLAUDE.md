@@ -4,9 +4,10 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 
 ## Key files
 
+- `docs/BRAND_VOICE.md` - voice, honesty rules, vocabulary and visual quick reference. Read before writing any page, label, email or asset.
 - `docs/STRATEGY.md` - the Oct 8 content-site plan, superseded on Oct 23 by the directory direction (DECISIONS.md). Its design system and lei page notes still apply.
 - Seed data: Google Sheet "Get Local Hawaii seed data (Oahu)". Approved rows are imported (migration 20261023000400, generated from the sheet); rows without 2025-2026 evidence sit in its Archived tabs. Check those before re-adding anything; rows match the database by `seed_id`.
-- `docs/designs_100826/` - current page designs, copies of the canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu (mobile 390px and desktop 1280px per page). Rebuild as components; do not copy markup.
+- Current page designs: the canvas https://claude.ai/artifact/WDtrJ1ZWb74eENEW5J2fcu, page "Directory (current)" (mobile 390px and desktop 1280px). "Old designs" holds superseded boards; docs/designs_100826/ is an old export. Rebuild as components; do not copy markup.
 - `docs/BUILD_SPEC.md` - build spec for the original directory: data model and status logic still apply; its page inventory and design tokens are superseded by STRATEGY.md.
 - `docs/SEO_TARGETS.md` - keyword targets from Shauna's Keyword Planner data; drives which pages exist.
 - `data/lei-vendors-oahu.csv` - real vendor dataset from public sources, each row carries source URLs and a confidence rating.

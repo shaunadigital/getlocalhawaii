@@ -1,0 +1,83 @@
+{
+  "target": "vendors who sell at the Waialua Farmers Market (Old Waialua Sugar Mill) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 149892,
+    "out": 3803,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Terra Cuisine",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Farm-to-table produce, juices and baked goods",
+      "products": [
+        "produce",
+        "juices",
+        "baked goods"
+      ],
+      "tags": [
+        "farm-to-table"
+      ],
+      "markets": [
+        {
+          "name": "Waialua Farmers Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Named in Honolulu Magazine's current guide. The page shows no publication date, but search metadata showed it was indexed about 19 days before 2026-10-31. Category is my best fit because the source doesn't say. Vendor's own site, socials and payment methods not found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Hale‘iwa Sourdough",
+      "category": "food-producers",
+      "side": null,
+      "neighborhood": null,
+      "description": "Fresh sourdough bread",
+      "products": [
+        "bread"
+      ],
+      "tags": [
+        "sourdough"
+      ],
+      "markets": [
+        {
+          "name": "Waialua Farmers Market",
+          "usual_days": "Saturday"
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "order_url": null,
+      "payment_methods": [],
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "medium",
+      "notes": "Spelling follows the magazine; the business's own spelling is not confirmed. Same undated but recently indexed source as Terra Cuisine. Category is my best fit because the source doesn't say. Vendor's own site, socials and payment methods not found.",
+      "possible_duplicate": ""
+    }
+  ]
+}

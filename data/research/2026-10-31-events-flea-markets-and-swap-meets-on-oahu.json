@@ -1,0 +1,164 @@
+{
+  "target": "flea markets and swap meets on Oahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 126482,
+    "out": 9539,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Wiki Wiki One Day Vintage Collectibles & Hawaiiana Show",
+      "kind": "flea_market",
+      "side": "town",
+      "neighborhood": "Kakaʻako / Ala Moana",
+      "venue_name": "Neal S. Blaisdell Center (Galleria and Hawaiʻi Suites)",
+      "address": "777 Ward Ave, Honolulu, HI 96814",
+      "schedule_text": "A few one-day shows per year, usually on a Sunday. Regular shopping hours 11 a.m. to 4:30 p.m. 2026 dates: March 22, July 19, October 4, November 22.",
+      "dates": [
+        {
+          "date": "2026-03-22",
+          "start": "11:00",
+          "end": "16:30"
+        },
+        {
+          "date": "2026-07-19",
+          "start": null,
+          "end": null
+        },
+        {
+          "date": "2026-10-04",
+          "start": "11:00",
+          "end": "16:30"
+        },
+        {
+          "date": "2026-11-22",
+          "start": "11:00",
+          "end": "16:30"
+        }
+      ],
+      "organizer": "Ilene Wong and Wayne Maeda",
+      "website": "https://www.ukulele.com/wikiwiki.html",
+      "instagram": "@wikiwikionedayvintageshow",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "$6 general admission; free for two kids 12 and under with each paid adult ticket",
+      "description": "Vintage collectibles and Hawaiiana show with 100+ vendor tables. Vendors come from the outer islands, Oʻahu, Japan and the U.S. mainland.",
+      "source_url": "https://www.instagram.com/wikiwikionedayvintageshow/",
+      "source_date": null,
+      "source_label": "Organizer Instagram bio (2026 dates), corroborated by Aloha State Daily 2026-09-21 and Blaisdell Center events calendar",
+      "confidence": "high",
+      "notes": "Mar 22 and Oct 4 times come from the Blaisdell Center listing. Nov 22 times assume the 'regular shopping hours' stated in the Aloha State Daily article. The July 19 time was not confirmed (a third-party listing showed a different window), so it is null. Early entry was 10:00 a.m. for the Mar 22 and Oct 4 shows. Oct 4 has already happened.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Harbors Vintage Market",
+      "kind": "flea_market",
+      "side": "town",
+      "neighborhood": "Makiki",
+      "venue_name": "Harbors Vintage",
+      "address": "419 Keoniana St, Honolulu, HI",
+      "schedule_text": "Periodic Saturday vintage markets from 3 to 7 p.m. 2026 dates listed: August 15 and September 12.",
+      "dates": [
+        {
+          "date": "2026-08-15",
+          "start": "15:00",
+          "end": "19:00"
+        },
+        {
+          "date": "2026-09-12",
+          "start": "15:00",
+          "end": "19:00"
+        }
+      ],
+      "organizer": "Harbors Vintage",
+      "website": "https://harbors-vintage.com",
+      "instagram": "@harborsvintage",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "The two-story vintage shop becomes a market with vintage vendors and local businesses, selling clothing, accessories and collectibles.",
+      "source_url": "https://www.honolulumagazine.com/shop-vintage-oahu-summer-2026/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine, 'Where to Shop Vintage on Oʻahu This Summer' (2026)",
+      "confidence": "medium",
+      "notes": "Third-party listing; I did not verify against the organizer's own page. Both dates have already passed. Check the shop's site or Instagram for later dates.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "East Side Underground Market",
+      "kind": "flea_market",
+      "side": "east",
+      "neighborhood": "Hawaiʻi Kai",
+      "venue_name": "Koko Marina",
+      "address": "7192 Kalaniana‘ole Highway, Honolulu, HI",
+      "schedule_text": "Typically the first Saturday of every month, 4 to 9 p.m. (per Honolulu Magazine).",
+      "dates": [
+        {
+          "date": "2026-08-01",
+          "start": "16:00",
+          "end": "21:00"
+        }
+      ],
+      "organizer": null,
+      "website": null,
+      "instagram": "@eastsideunderground",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Monthly evening market listed among O‘ahu's vintage shopping events.",
+      "source_url": "https://www.honolulumagazine.com/shop-vintage-oahu-summer-2026/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine, 'Where to Shop Vintage on Oʻahu This Summer' (2026)",
+      "confidence": "medium",
+      "notes": "Third-party listing. Whether it continues past summer 2026 is unconfirmed. Not the same as Koko Marina Makers Market, which is already in the directory. Kind chosen as flea_market because the source groups it with vintage markets.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Free Parking Flea Market",
+      "kind": "flea_market",
+      "side": "town",
+      "neighborhood": "Kakaʻako",
+      "venue_name": "The Barn at SALT at Our Kakaʻako",
+      "address": "691 Auahi St, Honolulu, HI",
+      "schedule_text": "Evening flea market on select dates. The summer 2026 edition was listed as August, date TBD, 5 to 10 p.m.",
+      "dates": [],
+      "organizer": "Free Parking Studio",
+      "website": null,
+      "instagram": "@freeparkingfleamarket",
+      "facebook": null,
+      "vendor_application_url": null,
+      "admission": "Free",
+      "description": "Evening flea market of vintage vendors and local small businesses, with local food vendors and live DJ sets.",
+      "source_url": "https://www.honolulumagazine.com/shop-vintage-oahu-summer-2026/",
+      "source_date": null,
+      "source_label": "Honolulu Magazine, 'Where to Shop Vintage on Oʻahu This Summer' (2026)",
+      "confidence": "medium",
+      "notes": "No exact 2026 date was stated in the source. SALT's event pages I found were for 2025 editions. Check @freeparkingfleamarket for the next date. Separate from Makia Market, which is already in the directory.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Kailua Swap Meet",
+      "kind": "swap_meet",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "venue_name": "Emmanuel Episcopal Church (per Facebook page; earlier editions at Aikahi Elementary School)",
+      "address": null,
+      "schedule_text": "Irregular community swap meet. The Facebook page showed a June 6 post (year not shown) with hours 8:30 a.m. to 1 p.m.",
+      "dates": [],
+      "organizer": null,
+      "website": "https://kailuaswapmeet.com/",
+      "instagram": "@kailuaswapmeet",
+      "facebook": "https://www.facebook.com/kailuaswapmeet/",
+      "vendor_application_url": null,
+      "admission": null,
+      "description": "Community swap meet with craft, food and garage-sale vendors. The 2023 edition at Aikahi Elementary drew 100+ vendors.",
+      "source_url": "https://www.facebook.com/kailuaswapmeet/",
+      "source_date": null,
+      "source_label": "Organizer Facebook page",
+      "confidence": "low",
+      "notes": "The organizer website only shows a July 2023 event. The Facebook post's year was not visible, so I could not confirm a 2026 date. The page's intro lists 281 Ilihau St, which is Aikahi Elementary's address, so I left the address null because the current venue's street address was not found. Verify before publishing.",
+      "possible_duplicate": ""
+    }
+  ]
+}

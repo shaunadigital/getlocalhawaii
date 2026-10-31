@@ -1,0 +1,287 @@
+{
+  "target": "vendors who sell at the KailuaTown Farmers Market (Sunday, FarmLovers) on Oʻahu",
+  "model": "claude-sonnet-5-5",
+  "usage": {
+    "in": 134062,
+    "out": 9289,
+    "searches": 8
+  },
+  "rows": [
+    {
+      "name": "Omao Man",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Green smoothie stand at Kailua and Kakaako markets",
+      "products": [
+        "Green smoothies"
+      ],
+      "tags": [
+        "smoothies",
+        "farmers-market"
+      ],
+      "markets": [
+        {
+          "name": "Kakaako Farmers Market",
+          "usual_days": "Saturday 8am-Noon"
+        },
+        {
+          "name": "Kailua Farmers Market (KailuaTown)",
+          "usual_days": "Sunday 8am-Noon"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": "https://www.omaomanhawaii.com/",
+      "instagram": "@omaomanhawaii",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.omaomanhawaii.com/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.omaomanhawaii.com/",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Name spelled ʻŌmaʻo Man in Hawaiʻi Magazine; the business's own site text was not visible in the results, so confirm the exact spelling. Sunday location per Hawaiʻi Magazine (2026) is the KailuaTown market.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "The Vegan Cheese Shoppe",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Vegan macadamia nut cheese made in Hawaii",
+      "products": [
+        "Macadamia Nut \"Brie\"",
+        "Macadamia Nut Grated \"Parm\"",
+        "Better Than Breadcrumbs"
+      ],
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "macadamia nut"
+      ],
+      "markets": [
+        {
+          "name": "FarmLovers Kakaʻako",
+          "usual_days": "Saturday 8am-12pm"
+        },
+        {
+          "name": "FarmLovers KailuaTown",
+          "usual_days": "Sunday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "640 Ulukahiki Street, Kailua (market location)",
+      "website": "https://thevegancheeseshoppe.com",
+      "instagram": "@thevegancheeseshoppe",
+      "facebook": "https://www.facebook.com/thevegancheeseshoppe/",
+      "phone": null,
+      "schedule_source_url": "https://thevegancheeseshoppe.com/retail-partners",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": "Hawaii",
+      "source_url": "https://thevegancheeseshoppe.com/retail-partners",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Also sold at Down to Earth stores per their site. Their Facebook page shows a summer break with return dates 8/8 and 8/9 (year not shown), so check before visiting.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Leftover Love Co.",
+      "category": "other",
+      "side": "windward",
+      "neighborhood": "Waimānalo / Kailua",
+      "description": "Food-scrap compost subscription with Sunday market drop-off",
+      "products": [
+        "Compost drop-off membership",
+        "Garden-ready compost"
+      ],
+      "tags": [
+        "compost",
+        "sustainability",
+        "food waste"
+      ],
+      "markets": [
+        {
+          "name": "KailuaTown Farmers Market (Castle Hospital)",
+          "usual_days": "Sunday 8am-12pm"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "Full Circle Farm, 41-756 Mahailua St., Waimanalo, HI 96795 (farm and drop-off)",
+      "website": "https://leftoverloveco.com",
+      "instagram": null,
+      "facebook": null,
+      "phone": "808-978-2278",
+      "schedule_source_url": "https://leftoverloveco.com/products/compost-drop-off-membership",
+      "order_url": "https://leftoverloveco.com/products/compost-drop-off-membership",
+      "payment_methods": null,
+      "made_where": "Waimānalo, Oʻahu",
+      "source_url": "https://leftoverloveco.com/products/compost-drop-off-membership",
+      "source_date": null,
+      "source_label": "their website",
+      "confidence": "high",
+      "notes": "Other drop-offs listed: Kakaʻako Ocean Friendly Garden (210 Coral St.) and Full Circle Farm. A Hawaii News Now segment (Feb 2026) also names them as a FarmLovers vendor. Subscription prices differ between sources, so none are listed.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Seagonia Crab Co.",
+      "category": "prepared-food",
+      "side": null,
+      "neighborhood": null,
+      "description": "Dungeness crab at farmers markets",
+      "products": [
+        "Dungeness crab"
+      ],
+      "tags": [
+        "crab",
+        "seafood",
+        "farmers-market"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers Market (KailuaTown)",
+          "usual_days": null
+        },
+        {
+          "name": "Kakaʻako Farmers Market",
+          "usual_days": "Saturday 8-12"
+        },
+        {
+          "name": "Ono Grindz & Makeke",
+          "usual_days": "Thursday 4-8"
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": null,
+      "website": null,
+      "instagram": "@seagoniacrabco",
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://www.instagram.com/seagoniacrabco/",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.honolulumagazine.com/farmers-markets/",
+      "source_date": "2026-10",
+      "source_label": "Honolulu Magazine's farmers market guide",
+      "confidence": "low",
+      "notes": "Honolulu Magazine lists them under the Sunday Kailua market. Their Instagram bio lists only Kakaʻako (Sat) and Ono Grindz & Makeke (Thu), so Kailua attendance is unconfirmed. Source date is approximate (about 19 days before 2026-10-31).",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "I Heart Kimchi",
+      "category": "food-producers",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Kimchi sold at the KailuaTown market",
+      "products": [
+        "Kimchi"
+      ],
+      "tags": [
+        "kimchi",
+        "fermented"
+      ],
+      "markets": [
+        {
+          "name": "KailuaTown Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiimagazine.com/what-to-do-in-kailua-oahu/",
+      "source_date": "2026-02",
+      "source_label": "Hawaiʻi Magazine's Kailua guide",
+      "confidence": "medium",
+      "notes": "Only a passing mention in a magazine article. Source date is approximate (about 246 days before 2026-10-31). Vendor's own pages not found.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Nosh Hawaiʻi",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "Brazilian cheese bread (pão de queijo)",
+      "products": [
+        "Pão de queijo"
+      ],
+      "tags": [
+        "Brazilian",
+        "cheese bread",
+        "baked goods"
+      ],
+      "markets": [
+        {
+          "name": "Kailua Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": null,
+      "address": null,
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": null,
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://www.hawaiimagazine.com/what-to-do-in-kailua-oahu/",
+      "source_date": "2026-02",
+      "source_label": "Hawaiʻi Magazine's Kailua guide",
+      "confidence": "low",
+      "notes": "The article says only 'the Kailua Farmers Market' and does not say whether that is the Sunday KailuaTown market or the Thursday Kailua Town Center market. Verify before publishing.",
+      "possible_duplicate": ""
+    },
+    {
+      "name": "Chef Arnaud Jager",
+      "category": "prepared-food",
+      "side": "windward",
+      "neighborhood": "Kailua",
+      "description": "French omelet station, announced for Sep 27, 2026",
+      "products": [
+        "French omelets"
+      ],
+      "tags": [
+        "omelet",
+        "breakfast",
+        "guest chef"
+      ],
+      "markets": [
+        {
+          "name": "KailuaTown Farmers Market",
+          "usual_days": null
+        }
+      ],
+      "fixed_or_roaming": "roaming",
+      "address": "640 Ulukahiki Street, Kailua (market location)",
+      "website": null,
+      "instagram": null,
+      "facebook": null,
+      "phone": null,
+      "schedule_source_url": "https://ma.to/event/chef-arnaud-jager-at-kailuatown-27-sep-2026",
+      "order_url": null,
+      "payment_methods": null,
+      "made_where": null,
+      "source_url": "https://ma.to/event/chef-arnaud-jager-at-kailuatown-27-sep-2026",
+      "source_date": "2026-09-27",
+      "source_label": "FarmLovers' event listing",
+      "confidence": "medium",
+      "notes": "Listed as a single-date appearance on Sep 27, 2026, 8AM-12PM. Not shown as a regular weekly vendor, so check whether he returns.",
+      "possible_duplicate": ""
+    }
+  ]
+}
