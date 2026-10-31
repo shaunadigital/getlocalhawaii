@@ -11,17 +11,17 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 - `docs/BUILD_SPEC.md` - build spec for the original directory: data model and status logic still apply; its page inventory and design tokens are superseded by STRATEGY.md.
 - `docs/SEO_TARGETS.md` - keyword targets from Shauna's Keyword Planner data; drives which pages exist.
 - `data/lei-vendors-oahu.csv` - real vendor dataset from public sources, each row carries source URLs and a confidence rating.
-- `src/data/site-data.json` - all listings (vendors, hours, products, markets, checks), bundled with the build. `src/lib/db.ts` joins it.
+- `src/lib/directory/` - the directory's data layer: reads published rows from Supabase (REST, anon key) or from `GL_SNAPSHOT`, joins them and computes status. New pages use it. `src/data/site-data.json` and `src/lib/db.ts` still feed the older /oahu/lei and guide pages.
 - `src/lib/status.ts` - all status, freshness and countdown logic. `src/lib/time.ts` - all Hawaii clock math. `src/lib/queries.ts` - data access, returns objects with status already attached.
 - `src/content/` - page prose for the lei type, area, delivery and guide pages. `src/lib/schema.ts` - JSON-LD builders. `src/lib/site.ts` - origin, site name, contact address.
 
 ## Stack
 
 - Next.js 16 (App Router, TypeScript, Tailwind v4), Vitest for unit tests.
-- Listings live in `src/data/site-data.json` until the site is switched to Supabase (project getlocalhawaii, ref oejcxjqbipsojbmjpjwb); then the database is the source of truth (vendor claims need writes). `supabase/migrations/` is the schema in plain Postgres; every migration must run clean in order. The Supabase connector applies migrations; destructive statements wait for an approval prompt in the app. `research_notes`, `organizer_name`, `markets_seen_at` and organizer `notes` are internal and never render.
+- Supabase (project ref aqizthcpjohxsepbemjm) is the source of truth for listings. The site reads it with `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY`; a Vercel build without them fails on purpose. `supabase/migrations/` is the schema in plain Postgres; every migration must run clean in order. The Supabase connector applies migrations; destructive statements wait for an approval prompt in the app. `research_notes`, `organizer_name`, `markets_seen_at` and organizer `notes` are internal and never render.
 - Repo https://github.com/shaunadigital/getlocalhawaii.git, deployed on Vercel from `main`.
 - Live at https://getlocalhawaii.com (and www). Vercel temp domain: getlocalhawaii.vercel.app.
-- Env: none required to build. `SIGNUP_SHEET_URL` plus `SIGNUP_SHEET_SECRET` (Vercel only) turn on the coming-soon email box, which posts to /api/signup and the signups Google Sheet. `NEXT_PUBLIC_BUTTONDOWN_USERNAME` still drives the older SignupForm component.
+- Env: the two Supabase vars above. Locally, `GL_SNAPSHOT=.local/snapshot.json` reads a snapshot file instead (rebuild it by running every migration in a local Postgres). `SIGNUP_SHEET_URL` plus `SIGNUP_SHEET_SECRET` (Vercel only) turn on the coming-soon email box, which posts to /api/signup and the signups Google Sheet. `NEXT_PUBLIC_BUTTONDOWN_USERNAME` still drives the older SignupForm component.
 
 ## Conventions
 
@@ -45,6 +45,8 @@ Shop-local directory for Oʻahu: farmers markets, makers and night markets, food
 - Commit messages carry the detail: what changed and why, so the docs can stay short.
 
 ## Commands
+
+- URLs: `/`, `/markets/[slug]`, `/holiday-fairs`, `/[category]/[vendor]`, `/search?q=`; `/farmers-markets/[slug]` redirects to `/markets/[slug]`.
 
 - `npm run dev` - local dev server
 - `npm run build` - production build

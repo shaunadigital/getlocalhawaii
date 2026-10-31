@@ -74,6 +74,65 @@ export function floristSchema(vendor: VendorDetail, path: string) {
   });
 }
 
+/** A social link stored as a handle or a URL, as a URL. */
+function socialUrl(value: string | null, host: string): string | undefined {
+  if (!value) return undefined;
+  if (/^https?:\/\//i.test(value)) return value;
+  const handle = value.replace(/^@/, "").trim();
+  return handle ? `https://www.${host}/${handle}` : undefined;
+}
+
+/**
+ * A directory vendor (src/lib/directory) as LocalBusiness, or Florist for lei
+ * shops. Only what the listing posts: no hours, address or phone is filled in.
+ */
+export function vendorBusinessSchema(
+  vendor: {
+    name: string;
+    description: string | null;
+    story: string | null;
+    phone: string | null;
+    address: string | null;
+    area: string | null;
+    lat: number | null;
+    lng: number | null;
+    website: string | null;
+    instagram: string | null;
+    facebook: string | null;
+    hours: OpeningHours[];
+    category: { slug: string } | null;
+    photo: { url: string } | null;
+  },
+  path: string,
+) {
+  const sameAs = [
+    vendor.website ?? undefined,
+    socialUrl(vendor.instagram, "instagram.com"),
+    socialUrl(vendor.facebook, "facebook.com"),
+  ].filter((url): url is string => Boolean(url));
+
+  return prune({
+    "@context": "https://schema.org",
+    "@type": vendor.category?.slug === "lei" ? "Florist" : "LocalBusiness",
+    name: vendor.name,
+    url: absoluteUrl(path),
+    description: vendor.description ?? vendor.story ?? undefined,
+    image: vendor.photo?.url,
+    telephone: vendor.phone ?? undefined,
+    address: vendor.address
+      ? postalAddress(vendor.address)
+      : vendor.area
+        ? { "@type": "PostalAddress", addressLocality: vendor.area, addressRegion: "HI", addressCountry: "US" }
+        : undefined,
+    geo:
+      vendor.lat !== null && vendor.lng !== null
+        ? { "@type": "GeoCoordinates", latitude: vendor.lat, longitude: vendor.lng }
+        : undefined,
+    openingHoursSpecification: vendor.hours.length > 0 ? openingHours(vendor.hours) : undefined,
+    sameAs: sameAs.length > 0 ? sameAs : undefined,
+  });
+}
+
 export function itemListSchema(
   vendors: VendorSummary[],
   options: { name: string; path: string },

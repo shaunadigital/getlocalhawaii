@@ -294,9 +294,31 @@ export function getStatus(input: VendorStatusInput, now: Date): VendorStatus {
     };
   }
 
+  return getHoursStatus(input.hours, now);
+}
+
+/**
+ * Status from posted hours alone, with no freshness gate. The directory pages
+ * print the checked date beside every chip, so the reader sees how old the
+ * hours are; the older listing pages gate on freshness through getStatus.
+ */
+export function getHoursStatus(hours: OpeningHours[], now: Date): VendorStatus {
+  if (hours.length === 0) {
+    return {
+      kind: "unconfirmed",
+      label: "LISTED",
+      detail: null,
+      closesAt: null,
+      opensAt: null,
+      opensDay: null,
+      note: null,
+      isOpenNow: false,
+    };
+  }
+
   const clock = hawaiiClock(now);
 
-  const open = currentSession(input.hours, clock);
+  const open = currentSession(hours, clock);
   if (open) {
     const closesAt = shortTime(open.end);
     return {
@@ -311,7 +333,7 @@ export function getStatus(input: VendorStatusInput, now: Date): VendorStatus {
     };
   }
 
-  const later = nextSessionToday(input.hours, clock);
+  const later = nextSessionToday(hours, clock);
   if (later) {
     const opensAt = shortTime(later.start);
     return {
@@ -326,7 +348,7 @@ export function getStatus(input: VendorStatusInput, now: Date): VendorStatus {
     };
   }
 
-  const upcoming = nextOpening(input.hours, clock);
+  const upcoming = nextOpening(hours, clock);
   if (!upcoming) {
     return {
       kind: "closed",

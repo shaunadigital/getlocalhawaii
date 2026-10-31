@@ -1,17 +1,25 @@
 import type { Metadata, Viewport } from "next";
-import { Figtree, Playwrite_NG_Modern } from "next/font/google";
+import { Bungee, Figtree, Playwrite_NG_Modern } from "next/font/google";
 
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 
-// Two fonts only: Figtree for everything people read, Playwrite for the logo,
-// and small human touches. Figtree replaced LINE Seed JP,
+// Figtree for everything people read, Playwrite for the logo and handwritten
+// captions, Bungee for sign headings, labels and times on the new pages (it
+// carries the ʻokina and every kahakō). Figtree replaced LINE Seed JP,
 // whose macrons land on the following letter (Pīkake read as "Pik̄ake").
 const sans = Figtree({
   variable: "--font-sans-face",
   subsets: ["latin", "latin-ext"],
   weight: ["400", "700", "800"],
+  display: "swap",
+});
+
+const bungee = Bungee({
+  variable: "--font-bungee",
+  subsets: ["latin", "latin-ext"],
+  weight: "400",
   display: "swap",
 });
 
@@ -47,7 +55,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${sans.variable} ${playwrite.variable}`}>
+    <html lang="en" className={`${sans.variable} ${playwrite.variable} ${bungee.variable}`}>
       <body className="flex min-h-dvh flex-col antialiased">{children}</body>
     </html>
   );

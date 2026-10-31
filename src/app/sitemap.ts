@@ -1,17 +1,38 @@
 import type { MetadataRoute } from "next";
 
 import { CAPTURE_SLUGS, GRADUATION } from "@/content/pages";
+import { HOLIDAY_FAIRS_HREF, getDirectory } from "@/lib/directory";
 import { absoluteUrl } from "@/lib/site";
 
+/** Same window as the directory fetch cache. */
+export const revalidate = 300;
+
 /**
- * Only the pages in the new site. The old directory pages (shop, fish and
- * farmers market pages) redirect or return 404 and are left out.
+ * The pages in the new site: home, holiday fairs, each published market and
+ * each published vendor with a source, plus the lei capture pages, the guide
+ * and the legal pages. Old /farmers-markets/* URLs redirect and are left out.
  */
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const lastModified = new Date();
+  const { markets, vendors } = await getDirectory();
 
   return [
-    { url: absoluteUrl("/"), lastModified, changeFrequency: "weekly", priority: 1 },
+    { url: absoluteUrl("/"), lastModified, changeFrequency: "daily", priority: 1 },
+    { url: absoluteUrl(HOLIDAY_FAIRS_HREF), lastModified, changeFrequency: "daily", priority: 0.9 },
+    ...markets.map((market) => ({
+      url: absoluteUrl(market.href),
+      lastModified,
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    })),
+    ...vendors
+      .filter((vendor) => vendor.sourceUrl && vendor.href)
+      .map((vendor) => ({
+        url: absoluteUrl(vendor.href as string),
+        lastModified,
+        changeFrequency: "weekly" as const,
+        priority: 0.7,
+      })),
     ...CAPTURE_SLUGS.map((slug) => ({
       url: absoluteUrl(`/oahu/lei/${slug}`),
       lastModified,

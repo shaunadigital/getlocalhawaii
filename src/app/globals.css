@@ -22,6 +22,28 @@
   --color-glass: rgba(21, 24, 27, 0.7);
 
   --container-page: 1160px;
+
+  /* Roadside sign, dusty plum (docs/BRAND_VOICE.md, Oct 30). New pages use
+     these gl- tokens; the tokens above stay for the older lei pages. */
+  --color-gl-ground: #4a3354;
+  --color-gl-band: #3f2a48;
+  --color-gl-shade: #2a1c30;
+  --color-gl-cream: #fbf7f0;
+  --color-gl-cream2: #efe7da;
+  --color-gl-ink: #221a26;
+  --color-gl-muted: #5f5766;
+  --color-gl-purple: #6b3a7d;
+  --color-gl-logo: #7a4a8c;
+  --color-gl-soft: #dccfe1;
+  --color-gl-footnote: #b5a9bb;
+  --color-gl-marigold: #f2c14e;
+  --color-gl-open: #2e6248;
+  --color-gl-dash: #8a8190;
+  --color-gl-rule: #d6ccbd;
+  --color-gl-nail: #a79fad;
+
+  --shadow-gl-board: 0 4px 0 #2a1c30;
+  --shadow-gl-tab: 0 3px 0 #2a1c30;
 }
 
 /* Inline so the next/font variables, which live on <html>, resolve where the
@@ -29,6 +51,28 @@
 @theme inline {
   --font-sans: var(--font-sans-face), ui-sans-serif, system-ui, sans-serif;
   --font-script: var(--font-playwrite), cursive;
+  --font-display: var(--font-bungee), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Sign shapes. An arrow board points right; a price tag points left. */
+@utility gl-arrowboard {
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 50%, calc(100% - 20px) 100%, 0 100%);
+}
+
+@utility gl-tagshape {
+  clip-path: polygon(18px 0, 100% 0, 100% 100%, 18px 100%, 0 50%);
+}
+
+/* Nudges an arrow right when its link is hovered. */
+@utility gl-lift {
+  transition: transform 0.15s ease;
+  a:hover &,
+  button:hover & {
+    transform: translateX(4px);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
 }
 
 @layer base {

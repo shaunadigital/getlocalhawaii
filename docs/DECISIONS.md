@@ -158,19 +158,15 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-30: docs/BRAND_VOICE.md is the voice and copy rulebook (honesty rules, chip wording, vocabulary, visual quick reference), from a copywriter review - the first copy pass read as generic AI writing.
 2026-10-30: Airport stands keep showing the airports page's 6a to 10p row hours on each stand with the caveat printed, as decided Aug 19; the stricter "row hours once, hours not posted per stand" option is parked - Shauna's call for now.
 2026-10-30: vendors gain aliases (other spellings, including Japanese) and brand (a slug shared by multi-location businesses) - Search Console shows "Maguro Bros", "Blue Sea Food" and Tamura's Maui stores.
-
-## 2026-10-31: Research round 2 (social links, markets, new listing types)
-- Social links: web search rarely surfaces Instagram, so enrichment finds websites with the API and `npm run research:socials` reads each website for the Instagram and Facebook links it publishes (free). Links found that way are marked "from their website".
-- Enrichment runs use batches of 15 vendors (14 searches per run). Batches of 30 left most vendors unsearched.
-- New listing types researched with `--events`: festivals, plant and orchid sales, roadside and farm stands, CSAs and farm boxes, flea markets and swap meets. CSAs are a way to buy from a farm, so they import as a `csa` channel on the farm's listing, not as a market.
-- `npm run research:merge` now writes three review files: review-vendors, review-enrichment and review-events. Nothing imports until rows are approved.
-- Spend for the round: about $36 of the promo credit.
-- Cleaning: `npm run research:clean` turns the review files into data/research/clean/*.json with a tier per row (Ready, Needs a look, Low confidence, May be closed). A website that does not load is a flag to check, never a reason to mark a business closed; only a source saying it closed does that.
-- Second look: `--verify vendors|events|existing:OFFSET:COUNT` re-checks rows queued by the cleaner. Its answers replace the first pass instead of only filling blanks.
-- Approvals happen on the Research Review page (an artifact with a saved decisions store), not in CSVs. Ready rows count as approved unless skipped.
-- Total research spend Oct 30 to 31: about $41 of the $58.25 promo credit.
-
-## 2026-10-31: Category names
-- Approved: Food trucks, Prepared food, Snacks and pantry (renamed from Local food makers, slug food-producers kept), Farms, Produce, Fish, Poi, Lei, Flowers, Plants, Makers, Clothing and jewelry, Bath and body, Pets.
-- "Other" stays as an internal holding category with no public page. A vendor there stays unpublished until a source says what it sells.
-- Gladys' Lei Stand story corrected: the family opened a stand on Lagoon Drive in 1948; the stands have been on Rodgers Blvd since the 1990s.
+2026-10-31: Social links come from the vendor's own website (npm run research:socials, free) after the API finds the site - web search rarely surfaces Instagram.
+2026-10-31: Enrichment runs use batches of 15 vendors - batches of 30 left most vendors unsearched.
+2026-10-31: CSAs import as a csa channel on the farm's listing, not as a market - they are a way to buy from a farm.
+2026-10-31: research:merge writes review-vendors, review-enrichment and review-events; research:clean tiers each row; --verify re-checks queued rows and its answers replace the first pass - nothing imports unreviewed, and second looks must be able to correct.
+2026-10-31: A website that does not load is a flag, never a reason to mark a business closed; only a source saying it closed does that - the second look found most such businesses open.
+2026-10-31: Approvals happen on the Research Review artifact (saved decisions store), Ready rows approved unless skipped - faster than CSVs and readable back for the import.
+2026-10-31: Categories are Food trucks, Prepared food, Snacks and pantry (slug food-producers kept), Farms, Produce, Fish, Poi, Lei, Flowers, Plants, Makers, Clothing and jewelry, Bath and body, Pets; "other" is an internal holding category with no public page - named for what people search.
+2026-10-31: Never narrate behind-the-scenes process in copy (called, visited, "I check it against") - Shauna dislikes it; added to BRAND_VOICE.
+2026-10-31: Coming-soon home retired; new pages read Supabase through src/lib/directory - the redesign launches with live data.
+2026-10-31: Markets live at /markets/[slug] for every kind, reversing the Aug 27 /farmers-markets/[slug] shape, which now redirects - markets span 15 kinds and a market's kind can change; the slugs carry the name.
+2026-10-31: Directory status comes from posted hours and dates without the 30-day freshness cutoff; the CHECKED date shows beside it - most checks are from August, and the cutoff would mark every listing unconfirmed.
+2026-10-31: A Vercel build without the Supabase env vars fails - an empty directory must never replace a working deploy.
