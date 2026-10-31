@@ -169,3 +169,8 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 - Second look: `--verify vendors|events|existing:OFFSET:COUNT` re-checks rows queued by the cleaner. Its answers replace the first pass instead of only filling blanks.
 - Approvals happen on the Research Review page (an artifact with a saved decisions store), not in CSVs. Ready rows count as approved unless skipped.
 - Total research spend Oct 30 to 31: about $41 of the $58.25 promo credit.
+
+## 2026-10-31: Category names
+- Approved: Food trucks, Prepared food, Snacks and pantry (renamed from Local food makers, slug food-producers kept), Farms, Produce, Fish, Poi, Lei, Flowers, Plants, Makers, Clothing and jewelry, Bath and body, Pets.
+- "Other" stays as an internal holding category with no public page. A vendor there stays unpublished until a source says what it sells.
+- Gladys' Lei Stand story corrected: the family opened a stand on Lagoon Drive in 1948; the stands have been on Rodgers Blvd since the 1990s.
