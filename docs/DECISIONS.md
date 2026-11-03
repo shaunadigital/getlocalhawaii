@@ -171,3 +171,4 @@ Append-only. One line per entry: date, decision, one-phrase reason.
 2026-10-31: Directory status comes from posted hours and dates without the 30-day freshness cutoff; the CHECKED date shows beside it - most checks are from August, and the cutoff would mark every listing unconfirmed.
 2026-10-31: A Vercel build without the Supabase env vars fails - an empty directory must never replace a working deploy.
 2026-10-31: The database moved to its own Supabase account (project clckgomykxqrziefyfyn), rebuilt from the migrations before launch - one key swap now instead of a data move later.
+2026-11-02: Home headline is HAPPENING ON OʻAHU with only "See if it's open before you go." under it; page copy, footer and meta descriptions never say how listings are gathered or when they were last checked - Shauna's call, it reads as behind-the-scenes narration; the per-listing CHECKED date still shows.

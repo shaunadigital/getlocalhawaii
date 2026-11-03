@@ -22,7 +22,7 @@ Read this before writing any page, email, social post, asset or UI label for the
 - No invented prices, counts, dates or promises. Use [PLACEHOLDER] in drafts.
 
 ## Patterns
-- Home hero: WHAT'S OPEN ON OʻAHU / See if it's open before you go. Each listing shows the day I last checked its source.
+- Home hero: HAPPENING ON OʻAHU / See if it's open before you go.
 - Headings say what is under them: WHERE TO FIND THEM, WHAT THEY SELL, WHO SELLS HERE. No mood headings (Good to know, At the markets).
 - Status chips, caps: OPEN TIL 6P, STARTS 4P, NEXT: SUN NOV 1, HOURS NOT POSTED.
 - Times: caps on chips (7:30A), lowercase in body (7:30a to 11a). Ranges use "to", never a dash.
@@ -30,7 +30,7 @@ Read this before writing any page, email, social post, asset or UI label for the
 - Claim prompts name two benefits, not three: "Claim Local Iʻa to post your market days and keep your hours current."
 - Empty states say what is missing and offer "Tell me". Hide empty "more nearby" blocks.
 - Photo captions name where the tile leads ("Farmers markets"), not a mood.
-- Footer: I list what organizers and businesses post, plus other public sources. Each listing shows the day I last checked its source.
+- Footer: SOMETHING CHANGED? TELL ME and the site links. No line about how listings are gathered or checked.
 
 ## Words
 - Use: CHECKED [DATE], NEXT, NOT POSTED, WHERE TO FIND THEM, TELL ME, side names (Town, East, Windward, North Shore, Central, Leeward and ʻEwa).

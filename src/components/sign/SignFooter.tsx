@@ -4,10 +4,6 @@ import { mailto } from "@/lib/site";
 
 import { FOOTER_LINKS } from "./nav";
 
-/** From docs/BRAND_VOICE.md, Patterns. */
-export const FOOTER_LINE =
-  "I list what organizers and businesses post, plus other public sources.";
-
 /**
  * The footer, with the page's one "Something changed? Tell me" link. Pass
  * `subject` to name the listing in the email subject line.
@@ -23,7 +19,6 @@ export function SignFooter({ subject = "Something changed" }: { subject?: string
           >
             SOMETHING CHANGED? TELL ME
           </a>
-          <p className="m-0 hidden max-w-[520px] text-gl-footnote md:block">{FOOTER_LINE}</p>
         </div>
         <nav aria-label="Site" className="flex flex-wrap content-start gap-x-[18px] gap-y-2 md:gap-x-[22px]">
           {FOOTER_LINKS.map((link) => (
@@ -32,7 +27,6 @@ export function SignFooter({ subject = "Something changed" }: { subject?: string
             </Link>
           ))}
         </nav>
-        <p className="m-0 text-gl-footnote md:hidden">{FOOTER_LINE}</p>
       </div>
     </footer>
   );
