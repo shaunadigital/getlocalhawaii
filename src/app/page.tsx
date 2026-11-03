@@ -27,9 +27,9 @@ import { dayName, hawaiiClock, monthAbbr } from "@/lib/time";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: { absolute: "What’s open on Oahu: markets, makers and local vendors | Get Local Hawaii" },
+  title: { absolute: "Happening on Oʻahu: markets, makers and local vendors | Get Local Hawaiʻi" },
   description:
-    "See if Oʻahu farmers markets, craft fairs, lei stands and fish markets are open before you go. Each listing shows the day I last checked its source.",
+    "See if Oʻahu farmers markets, craft fairs, lei stands and fish markets are open before you go.",
   alternates: { canonical: "/" },
 };
 

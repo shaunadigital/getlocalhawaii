@@ -6,7 +6,7 @@ import { FOOTER_LINKS } from "./nav";
 
 /** From docs/BRAND_VOICE.md, Patterns. */
 export const FOOTER_LINE =
-  "I list what organizers and businesses post, plus other public sources. Each listing shows the day I last checked its source.";
+  "I list what organizers and businesses post, plus other public sources.";
 
 /**
  * The footer, with the page's one "Something changed? Tell me" link. Pass

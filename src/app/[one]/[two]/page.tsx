@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const title = plain(`${vendor.name}: ${kind ? `${kind} in ` : ""}${where}`);
   const description = [
     vendor.description ? `${vendor.description}.` : null,
-    "Hours, address and where to find them. Each listing shows the day I last checked its source.",
+    "Hours, address and where to find them.",
   ]
     .filter(Boolean)
     .join(" ")
