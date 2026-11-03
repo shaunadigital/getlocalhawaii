@@ -202,22 +202,20 @@ export default async function Home({ searchParams }: { searchParams: SearchParam
                 <span className="-rotate-[1.5deg] self-start bg-gl-cream px-3 py-1.5 font-display text-[14px] tracking-[0.02em] text-gl-ink shadow-gl-tab md:px-3.5 md:py-[7px] md:text-[15px]">
                   <time dateTime={clock.date}>{todayChip}</time>
                 </span>
-                <h1 className="m-0 font-display text-[50px] leading-[0.95] font-normal tracking-[-0.01em] text-gl-cream [text-shadow:0_2px_0_#2a1c30] md:text-[clamp(44px,5.4vw,72px)] md:leading-[0.92]">
+                <h1 className="m-0 font-display text-[min(50px,12.8vw)] leading-[0.95] font-normal tracking-[-0.01em] text-gl-cream [text-shadow:0_2px_0_#2a1c30] md:text-[clamp(44px,5.4vw,72px)] md:leading-[0.92]">
                   <span className="md:hidden">
-                    WHAT’S
+                    HAPPENING
                     <br />
-                    OPEN ON
-                    <br />
-                    OʻAHU
+                    ON OʻAHU
                   </span>
                   <span className="hidden md:inline">
-                    WHAT’S OPEN
+                    HAPPENING
                     <br />
                     ON OʻAHU
                   </span>
                 </h1>
                 <p className="m-0 max-w-[560px] text-[18px] leading-[1.45] text-gl-soft md:text-[20px]">
-                  See if it’s open before you go. Each listing shows the day I last checked its source.
+                  See if it’s open before you go.
                 </p>
               </section>
 
