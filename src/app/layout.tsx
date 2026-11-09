@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Bungee, Figtree, Playwrite_NG_Modern } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 
 import { SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en" className={`${sans.variable} ${playwrite.variable} ${bungee.variable}`}>
       <body className="flex min-h-dvh flex-col antialiased">
         {children}
+        <Analytics />
         <Script
           src="https://static.cloudflareinsights.com/beacon.min.js"
           data-cf-beacon='{"token": "bf9222c4bc4d4197abf725adc59d6002"}'
